@@ -1,12 +1,15 @@
 """Reuse cached evidence and prepare only v0.6 geometric corrections."""
 from pathlib import Path
-import json,math,copy,hashlib
+import json,math,copy,hashlib,shutil
 from shapely.geometry import Polygon,Point
 from shapely.geometry.polygon import orient
 from shapely.ops import unary_union
 from shapely import constrained_delaunay_triangles
 ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'.campus-cache/v06';OUT.mkdir(parents=True,exist_ok=True)
-spec=json.loads((ROOT/'assets/henan_campus/project/scene_specification.json').read_text());cfg=json.loads((ROOT/'configs/v06-scene.json').read_text())
+baseline=OUT/'baseline';baseline.mkdir(exist_ok=True)
+for source,name in [('assets/henan_campus/project/HenanCampus.blend','HenanCampus.blend'),('assets/henan_campus/project/scene_specification.json','scene_specification.json'),('assets/henan_campus/character/output/CampusExplorer.blend','CampusExplorer.blend')]:
+ if not (baseline/name).exists():shutil.copy2(ROOT/source,baseline/name)
+spec=json.loads((baseline/'scene_specification.json').read_text());cfg=json.loads((ROOT/'configs/v06-scene.json').read_text())
 assert spec.get('version')=='0.5','Requires the verified v0.5 baseline; do not apply transforms twice'
 def pack(poly):
  poly=orient(poly,sign=1)

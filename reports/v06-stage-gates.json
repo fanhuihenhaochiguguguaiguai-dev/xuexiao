@@ -48,5 +48,5 @@
     ],
     "scope": "Geometry, buffers, finiteness and embedded texture signatures; not a likeness, survey, render or full glTF schema certification."
   },
-  "status": "MODEL_AND_PHYSICS_STAGE_PASSED_RENDERING_INTEGRATION_PENDING"
+  "status": "MODELS_AND_PHYSICS_PROMOTED_BROWSER_QA_REQUIRED"
 }

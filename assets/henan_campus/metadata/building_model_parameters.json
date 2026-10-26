@@ -323,9 +323,9 @@
     "osm_way_id": 574483825,
     "label": "图书馆",
     "role_classification": "PHOTO_GUIDED_INFERENCE_NOT_SOURCE_BUILDING_NAME",
-    "height_m": 24,
-    "height_status": "USER_RULE_NOT_SURVEY",
-    "floor_count": 8,
+    "height_m": 27,
+    "height_status": "DOCUMENTED_FLOOR_COUNT_USER_3M_HEIGHT_RULE",
+    "floor_count": 9,
     "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
     "xy_status": "OSM_FOOTPRINT_RETAINED_EXCEPT_ESTIMATED_OFFICE_PASSAGE",
     "source_url": "https://www.openstreetmap.org/way/574483825",
@@ -344,7 +344,8 @@
     "scale_status": "MAP_XY_METERS_AND_USER_RULE_HEIGHT_NOT_SURVEY_1_TO_1",
     "oriented_length_m": 82.4,
     "oriented_width_m": 80.353,
-    "xy_dimension_source": "OSM_FOOTPRINT_NOT_MEASURED"
+    "xy_dimension_source": "OSM_FOOTPRINT_NOT_MEASURED",
+    "floor_count_source": "2025 public procurement, ninth floor; corroborating lake article"
   },
   {
     "map_index": 14,

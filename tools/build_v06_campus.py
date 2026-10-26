@@ -3,7 +3,7 @@ import bpy,bmesh,json,math,sys
 from pathlib import Path
 from mathutils import Vector
 ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'.campus-cache/v06';A=OUT/'assets';P=ROOT/'assets/henan_campus/project'
-spec=json.loads((OUT/'scene_specification.json').read_text());cfg=spec['v06_policy'];bpy.ops.wm.open_mainfile(filepath=str(P/'HenanCampus.blend'));scene=bpy.context.scene;bpy.context.preferences.filepaths.save_version=0
+spec=json.loads((OUT/'scene_specification.json').read_text());cfg=spec['v06_policy'];baseline=OUT/'baseline';bpy.ops.wm.open_mainfile(filepath=str(baseline/'HenanCampus.blend' if (baseline/'HenanCampus.blend').exists() else P/'HenanCampus.blend'));scene=bpy.context.scene;bpy.context.preferences.filepaths.save_version=0
 scene.unit_settings.system='METRIC';scene.unit_settings.scale_length=1
 def material(name,color,rough=.8,metal=0):
  m=bpy.data.materials.get(name) or bpy.data.materials.new(name);m.use_nodes=True;p=m.node_tree.nodes.get('Principled BSDF');p.inputs['Base Color'].default_value=(*[c/12.92 if c<=.04045 else ((c+.055)/1.055)**2.4 for c in color],1);p.inputs['Roughness'].default_value=rough;p.inputs['Metallic'].default_value=metal;return m
@@ -36,7 +36,7 @@ def extrude(o,mats):
   if (b[0]-a[0])*(c[1]-a[1])-(b[1]-a[1])*(c[0]-a[0])<0:tri=list(reversed(tri))
   faces.append([v(*p,o['z']+o['height']) for p in tri]);faces.append([v(*p,o['z']) for p in reversed(tri)])
  ob=object_mesh(o['name'],vertices,faces,mats,extras={k:o[k] for k in ['building_index','confidence','source'] if k in o});bm=bmesh.new();bm.from_mesh(ob.data);bmesh.ops.remove_doubles(bm,verts=bm.verts,dist=1e-4);bm.to_mesh(ob.data);bm.free();return ob
-oldspec=json.loads((P/'scene_specification.json').read_text());newnames={o['name'] for o in spec['objects']}
+oldspec=json.loads((baseline/'scene_specification.json' if (baseline/'scene_specification.json').exists() else P/'scene_specification.json').read_text());assert oldspec['version']=='0.5';newnames={o['name'] for o in spec['objects']}
 for ob in list(bpy.data.objects):
  if ob.name.startswith(('Library_stair_','Library_entry_terrace','Grandstand_seat_row_','B20_grandstand_parapet')) or ob.name=='Library_refined_details':bpy.data.objects.remove(ob,do_unlink=True)
 ground_meta=json.loads((P/'assets/lighting-water.json').read_text());xmin,ymin,xmax,ymax=ground_meta['ground_blender_bounds']

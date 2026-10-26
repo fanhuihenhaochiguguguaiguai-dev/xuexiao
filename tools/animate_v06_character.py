@@ -3,7 +3,7 @@ import bpy,json,math
 from pathlib import Path
 from mathutils import Quaternion,Vector
 ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'.campus-cache/v06/character';OUT.mkdir(exist_ok=True)
-bpy.ops.wm.open_mainfile(filepath=str(ROOT/'assets/henan_campus/character/output/CampusExplorer.blend'));scene=bpy.context.scene;scene.render.fps=30;bpy.context.preferences.filepaths.save_version=0;rig=next(o for o in scene.objects if o.type=='ARMATURE');rig.animation_data_create()
+baseline=ROOT/'.campus-cache/v06/baseline/CampusExplorer.blend';bpy.ops.wm.open_mainfile(filepath=str(baseline if baseline.exists() else ROOT/'assets/henan_campus/character/output/CampusExplorer.blend'));scene=bpy.context.scene;scene.render.fps=30;bpy.context.preferences.filepaths.save_version=0;rig=next(o for o in scene.objects if o.type=='ARMATURE');rig.animation_data_create()
 for tr in rig.animation_data.nla_tracks:tr.mute=True
 rig.animation_data.action=None
 for name,length in [('Swim',36),('Tread',60)]:
