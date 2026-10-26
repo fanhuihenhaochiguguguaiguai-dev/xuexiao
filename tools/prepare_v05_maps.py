@@ -22,7 +22,7 @@ shadows=[]
 for o in spec['objects']:
  if o['group'] not in ['Buildings','Gate','Roof_details']:continue
  p=Polygon(o['polygon']['rings'][0],o['polygon']['rings'][1:]);idx=o.get('building_index');z=o['z']+o['height']
- if idx in policy:
+ if idx in policy and o.get('height_rule')!='USER_3M_FLOOR_RULE':
   q=policy[idx];old=q['old_body_height_m'];new=q['body_height_m'];z=(.16+(z-.16)*new/old) if z<=.16+old else z+new-old
  dx=z*.6308;dy=z*.8679
  shifted=affinity.translate(p,dx,dy);sweep=[p,shifted]

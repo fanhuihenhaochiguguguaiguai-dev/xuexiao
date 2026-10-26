@@ -2,16 +2,16 @@
   "passed": true,
   "deviceContext": "Chromium software rendering with mobile viewport; NOT physical Android or hardware WebGPU",
   "sourceHashes": {
-    "game/game.js": "05cb5b6c618f607fb88664dff8e46d89358b5abcc86e0182d04f265a2d4db677",
+    "game/game.js": "bbb1b1bf778501045ebdb35a65d7289a237210a367bb8579e2ed6a94b5d255af",
     "game/diagnostics.js": "30376a827ab95a452949a1c9a550bbce6fb21716bef9d0a7ef06e6e3b2f4d4cd",
-    "game/performance-core.js": "224d980c57774a3321af4d2b1431ef55aff3ac241f88ac38f6a02e3a6b8f61a5",
-    "game/water.js": "b71ad045f28e0bda6dca707856038d1528ca7104336a203ca59695922cbe5b24",
-    "game/dist/game.js": "abddd2d9b37b8c7455b59ed3a2f874faf14ea821cd0324dcb12ef84b352620c9"
+    "game/performance-core.js": "53da9eca468f8dc687946fb24b5734619a831797782b341125139bcbeb8f1296",
+    "game/water.js": "f9b050ed0a948613bafd8c8966e5429820856e4a7905dfcc12dccce1e2a77698",
+    "game/dist/game.js": "421435312837924d888e6952a8f8c2dbc9f650ab1bb67106c3920bf1b154acf5"
   },
   "report": {
     "schemaVersion": 1,
-    "buildId": "campus-gpu-water-20261026-1",
-    "createdUtc": "2026-10-26T13:54:57.063Z",
+    "buildId": "campus-v05-20261026-1",
+    "createdUtc": "2026-10-26T16:48:02.621Z",
     "status": "completed",
     "reason": "",
     "environment": {
@@ -33,6 +33,7 @@
       "deviceLost": false
     },
     "settings": {
+      "version": "0.5",
       "quality": "low",
       "renderScale": 1,
       "viewport": [
@@ -44,7 +45,13 @@
         412
       ],
       "devicePixelRatio": 1,
-      "shadows": false,
+      "shadows": true,
+      "shadowMapSize": 1024,
+      "effects": {
+        "ssao": false,
+        "bloom": false
+      },
+      "speedMultiplier": 5,
       "antiAlias": true
     },
     "routeVersion": "fixed-campus-route-v1",
@@ -56,12 +63,12 @@
         "id": "library",
         "name": "图书馆广场",
         "metrics": {
-          "frames": 10,
-          "sampledMs": 8186,
-          "averageFps": 1.22,
-          "p95FrameMs": 870.3,
-          "p99FrameMs": 870.3,
-          "onePercentLowFps": 1.15,
+          "frames": 8,
+          "sampledMs": 8628,
+          "averageFps": 0.93,
+          "p95FrameMs": 1192.7,
+          "p99FrameMs": 1192.7,
+          "onePercentLowFps": 0.84,
           "over50msPercent": 100
         }
       },
@@ -69,12 +76,12 @@
         "id": "road",
         "name": "校园道路与楼群",
         "metrics": {
-          "frames": 11,
-          "sampledMs": 8109,
-          "averageFps": 1.36,
-          "p95FrameMs": 847.8,
-          "p99FrameMs": 847.8,
-          "onePercentLowFps": 1.18,
+          "frames": 8,
+          "sampledMs": 7568,
+          "averageFps": 1.06,
+          "p95FrameMs": 1062.9,
+          "p99FrameMs": 1062.9,
+          "onePercentLowFps": 0.94,
           "over50msPercent": 100
         }
       },
@@ -82,12 +89,12 @@
         "id": "water",
         "name": "湖面与岸边",
         "metrics": {
-          "frames": 5,
-          "sampledMs": 7792,
-          "averageFps": 0.64,
-          "p95FrameMs": 2100.9,
-          "p99FrameMs": 2100.9,
-          "onePercentLowFps": 0.48,
+          "frames": 7,
+          "sampledMs": 7683,
+          "averageFps": 0.91,
+          "p95FrameMs": 1233.4,
+          "p99FrameMs": 1233.4,
+          "onePercentLowFps": 0.81,
           "over50msPercent": 100
         }
       },
@@ -95,12 +102,12 @@
         "id": "stadium",
         "name": "操场与远景",
         "metrics": {
-          "frames": 6,
-          "sampledMs": 8035,
-          "averageFps": 0.75,
-          "p95FrameMs": 1508,
-          "p99FrameMs": 1508,
-          "onePercentLowFps": 0.66,
+          "frames": 8,
+          "sampledMs": 7881,
+          "averageFps": 1.02,
+          "p95FrameMs": 1058.4,
+          "p99FrameMs": 1058.4,
+          "onePercentLowFps": 0.94,
           "over50msPercent": 100
         }
       }

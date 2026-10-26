@@ -2,7 +2,12 @@
 from pathlib import Path
 import json,shutil,hashlib,sys
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT));from automation.quality import glb_gate
-A=ROOT/'assets/henan_campus';P=A/'project';stage=ROOT/'.campus-cache/v05';final=stage/'final';character=stage/'character';backup=stage/'rollback';backup.mkdir(exist_ok=True)
+A=ROOT/'assets/henan_campus';P=A/'project';stage=ROOT/'.campus-cache/v05';final=stage/'final';character=stage/'character';backup=stage/'rollback'
+current=json.loads((P/'scene_specification.json').read_text())
+if current.get('version')=='0.5':
+ assert current.get('v05_floor_policy')==json.loads((ROOT/'configs/v05-buildings.json').read_text()),'Changed floor policy requires a new explicit revision; refusing to rescale promoted geometry'
+ print('V05_ALREADY_PROMOTED: reuse verified assets without rescaling');raise SystemExit(0)
+backup.mkdir(exist_ok=True)
 assert glb_gate(final/'HenanCampus.glb',10)['passed'];assert glb_gate(character/'CampusExplorer.glb',1,True)['passed']
 assert json.loads((character/'animation-report.json').read_text())['passed'];geo=json.loads((final/'geometry-report.json').read_text());assert geo['facade_buildings']==[15,16,17,18,19]
 for src in [P/'HenanCampus.blend',P/'HenanCampus.fbx',P/'scene_specification.json',A/'character/output/CampusExplorer.blend',A/'character/output/CampusExplorer.fbx',A/'character/output/CampusExplorer.glb']:
