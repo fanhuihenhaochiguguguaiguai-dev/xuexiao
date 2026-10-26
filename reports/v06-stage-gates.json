@@ -1,0 +1,52 @@
+{
+  "campus": {
+    "passed": true,
+    "sha256": "a759ca131d9f32138bb7d3ab61f6ef937176c0d39dc267d6e305180f570165a9",
+    "triangles": 105613,
+    "vertices": 152320,
+    "position_extent_m": [
+      722.0218811035156,
+      57.242999792099,
+      749.9226379394531
+    ],
+    "embedded_images": 14,
+    "animations": [],
+    "scope": "Geometry, buffers, finiteness and embedded texture signatures; not a likeness, survey, render or full glTF schema certification."
+  },
+  "base": {
+    "passed": true,
+    "sha256": "adc4ea214a6153ece0ecbc606604cb9ae931a624c69d6e57d6c75f586d1c8727",
+    "triangles": 72311,
+    "vertices": 88845,
+    "position_extent_m": [
+      722.0218811035156,
+      55.242999792099,
+      749.9226379394531
+    ],
+    "embedded_images": 14,
+    "animations": [],
+    "scope": "Geometry, buffers, finiteness and embedded texture signatures; not a likeness, survey, render or full glTF schema certification."
+  },
+  "character": {
+    "passed": true,
+    "sha256": "c9f8d3301c7d419227977be969398a76550c8a1684d87c2eb2ca4956aead7031",
+    "triangles": 44569,
+    "vertices": 23890,
+    "position_extent_m": [
+      0.466394379734993,
+      1.701112256385386,
+      0.4898500442504883
+    ],
+    "embedded_images": 3,
+    "animations": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Jump",
+      "Swim",
+      "Tread"
+    ],
+    "scope": "Geometry, buffers, finiteness and embedded texture signatures; not a likeness, survey, render or full glTF schema certification."
+  },
+  "status": "MODEL_AND_PHYSICS_STAGE_PASSED_RENDERING_INTEGRATION_PENDING"
+}

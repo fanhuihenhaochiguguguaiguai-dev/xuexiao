@@ -1,0 +1,177 @@
+{
+  "version": "0.6",
+  "floor_height_m": 3,
+  "library_floor_count": 9,
+  "library_body_height_m": 27,
+  "stairs": {
+    "count": 12,
+    "riser_m": 0.15,
+    "top_m": 1.96
+  },
+  "bridge": {
+    "center_blender_xy": [
+      -147,
+      13
+    ],
+    "length_m": 20,
+    "width_m": 7,
+    "angle_degrees": 125,
+    "deck_top_m": 0.3,
+    "railing_height_m": 1.05,
+    "source_scene": "scene_9c55ae29d225b8b9",
+    "placement_status": "APPROXIMATE_WITHIN_EXISTING_ESTIMATED_POND_NOT_SURVEYED"
+  },
+  "grandstand_floating_rows_fixed": true,
+  "pbr_source_resolution": 4096,
+  "runtime_embedded_resolution": 1024,
+  "source_xy_retained": true,
+  "buildings": [
+    {
+      "id": 1,
+      "mesh": "B01_tower",
+      "height_m": 53.99999985098839,
+      "expected_height_m": 54.0,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": 2,
+      "mesh": "B02_tower",
+      "height_m": 53.99999985098839,
+      "expected_height_m": 54.0,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": 3,
+      "mesh": "B03_tower",
+      "height_m": 53.99999985098839,
+      "expected_height_m": 54.0,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": 4,
+      "mesh": "B04_tower",
+      "height_m": 53.99999985098839,
+      "expected_height_m": 54.0,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": 5,
+      "mesh": "B05_dorm",
+      "height_m": 17.999999850988388,
+      "expected_height_m": 18.0,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": 6,
+      "mesh": "B06_dorm",
+      "height_m": 17.999999850988388,
+      "expected_height_m": 18.0,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": 7,
+      "mesh": "B07_dorm",
+      "height_m": 17.999999850988388,
+      "expected_height_m": 18.0,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": 8,
+      "mesh": "B08_dorm",
+      "height_m": 17.999999850988388,
+      "expected_height_m": 18.0,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": 9,
+      "mesh": "B09_dorm",
+      "height_m": 17.999999850988388,
+      "expected_height_m": 18.0,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": 10,
+      "mesh": "B10_dorm",
+      "height_m": 17.999999850988388,
+      "expected_height_m": 18.0,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": 11,
+      "mesh": "B11_dorm",
+      "height_m": 17.999999850988388,
+      "expected_height_m": 18.0,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": 12,
+      "mesh": "B12_arcade",
+      "height_m": 8.999999850988388,
+      "expected_height_m": 9.0,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": 13,
+      "mesh": "B13_library",
+      "height_m": 26.999999850988388,
+      "expected_height_m": 27,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": 14,
+      "mesh": "B14_admin",
+      "height_m": 14.999999850988388,
+      "expected_height_m": 15.0,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": 14,
+      "mesh": "B14_admin_1",
+      "height_m": 14.999999850988388,
+      "expected_height_m": 15.0,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": 15,
+      "mesh": "B15_teaching",
+      "height_m": 17.999999850988388,
+      "expected_height_m": 18.0,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": 16,
+      "mesh": "B16_teaching",
+      "height_m": 17.999999850988388,
+      "expected_height_m": 18.0,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": 17,
+      "mesh": "B17_teaching",
+      "height_m": 17.999999850988388,
+      "expected_height_m": 18.0,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": 18,
+      "mesh": "B18_teaching",
+      "height_m": 17.999999850988388,
+      "expected_height_m": 18.0,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": 19,
+      "mesh": "B19_teaching",
+      "height_m": 17.999999850988388,
+      "expected_height_m": 18.0,
+      "non_manifold_edges": 0
+    },
+    {
+      "id": 20,
+      "mesh": "B20_grandstand",
+      "height_m": 3.000000089406967,
+      "expected_height_m": 3.0,
+      "non_manifold_edges": 0
+    }
+  ]
+}

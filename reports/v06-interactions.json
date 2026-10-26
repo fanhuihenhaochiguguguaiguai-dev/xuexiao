@@ -1,0 +1,71 @@
+{
+  "Garden_pond_north": {
+    "water": {
+      "zone": "Garden_pond_north",
+      "depth": 1.3,
+      "surface": 0.217,
+      "bottom": -1.083,
+      "bankDistance": 7.0985712561052265,
+      "mode": "swimming",
+      "depthStatus": "ESTIMATED_NOT_MEASURED"
+    },
+    "feet": {
+      "x": -126.4427719116211,
+      "y": -0.3940762066841126,
+      "z": -22.284143447875977
+    },
+    "verticalVelocity": -0.00025385037798134297,
+    "passed": true
+  },
+  "Garden_pond_south": {
+    "water": {
+      "zone": "Garden_pond_south",
+      "depth": 0.13820333385094044,
+      "surface": 0.217,
+      "bottom": 0.07879666614905956,
+      "bankDistance": 0.2303388897515674,
+      "mode": "wading",
+      "depthStatus": "ESTIMATED_NOT_MEASURED"
+    },
+    "feet": {
+      "x": 89.3613510131836,
+      "y": 0.10379668235778805,
+      "z": -38.95555877685547
+    },
+    "verticalVelocity": 0,
+    "passed": true
+  },
+  "Garden_pond_south_1": {
+    "water": {
+      "zone": "Garden_pond_south_1",
+      "depth": 1.3,
+      "surface": 0.217,
+      "bottom": -1.083,
+      "bankDistance": 5.778908546513139,
+      "mode": "swimming",
+      "depthStatus": "ESTIMATED_NOT_MEASURED"
+    },
+    "feet": {
+      "x": 59.64710235595703,
+      "y": -0.3940762066841126,
+      "z": -6.971130847930908
+    },
+    "verticalVelocity": -0.00025385037798134297,
+    "passed": true
+  },
+  "bridge": {
+    "crossed": true,
+    "along": 13.14105142032156,
+    "peak": 0.32978423595428463,
+    "passed": true
+  },
+  "podium": {
+    "peak": 0.7859645700454712,
+    "passed": true
+  },
+  "grandstandAisle": {
+    "peak": 3.1867699241638183,
+    "passed": true
+  },
+  "passed": true
+}
