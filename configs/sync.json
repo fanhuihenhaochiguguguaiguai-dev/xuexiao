@@ -1,0 +1,14 @@
+{
+ "remote":"origin",
+ "main_branch":"main",
+ "max_push_attempts":3,
+ "retry_delay_seconds":1,
+ "validation_timeout_seconds":180,
+ "validation_commands":[
+  ["python","-m","unittest","discover","-s","tests","-v"],
+  ["npm","run","check:movement","--prefix","game"],
+  ["npm","run","check:performance","--prefix","game"],
+  ["python","-m","automation.pipeline","--targets","gate.campus","gate.avatar","gate.physics","game.build","gate.pwa","proof.prior_browser","--no-promote","--report",".campus-cache/sync-gates.json"]
+ ],
+ "policy":"Only validated checkpoints are auto-committed. Fetch before phases. Clean merges are revalidated; conflicts are preserved on separate branches. No force-push, reset, clean or automatic stash."
+}

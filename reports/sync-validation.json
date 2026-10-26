@@ -1,0 +1,8 @@
+{
+  "result": "PASSED",
+  "test_command": "python -m unittest discover -s tests -p test_sync.py -v",
+  "tests_passed": 11,
+  "test_remotes": "isolated temporary local bare repositories; not production GitHub",
+  "coverage": ["remote fast-forward", "dirty-overlap preservation", "incremental checkpoint", "clean divergent merge", "conflict backup branch", "validation rejection", "network recovery", "retry without committing active edits", "long-lived state refresh", "independent worktrees", "exclusive lock recovery"],
+  "remaining_limits": ["watcher requires the cloud environment to remain alive", "authentication can expire", "semantic conflicts require reviewed fixes", "Git gates do not establish Android hardware performance"]
+}
