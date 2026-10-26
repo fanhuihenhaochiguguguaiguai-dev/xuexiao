@@ -1,0 +1,201 @@
+{
+  "method": "Single bounded 3D-to-image affine fit; no model generated",
+  "control_points": [
+    {
+      "id": 5,
+      "world_roof": [
+        63.34306529307805,
+        217.03804733471944,
+        18
+      ],
+      "image_pixel": [
+        295,
+        169
+      ],
+      "annotation_source": "AI_APPROXIMATE_ROOF_CENTRE_FROM_508PX_REFERENCE_NOT_SURVEY"
+    },
+    {
+      "id": 6,
+      "world_roof": [
+        89.90221934482508,
+        180.39736448501853,
+        18
+      ],
+      "image_pixel": [
+        309,
+        181
+      ],
+      "annotation_source": "AI_APPROXIMATE_ROOF_CENTRE_FROM_508PX_REFERENCE_NOT_SURVEY"
+    },
+    {
+      "id": 7,
+      "world_roof": [
+        109.5363184655388,
+        142.28175436700212,
+        18
+      ],
+      "image_pixel": [
+        324,
+        194
+      ],
+      "annotation_source": "AI_APPROXIMATE_ROOF_CENTRE_FROM_508PX_REFERENCE_NOT_SURVEY"
+    },
+    {
+      "id": 8,
+      "world_roof": [
+        133.34276150461608,
+        102.94421623703346,
+        18
+      ],
+      "image_pixel": [
+        338,
+        205
+      ],
+      "annotation_source": "AI_APPROXIMATE_ROOF_CENTRE_FROM_508PX_REFERENCE_NOT_SURVEY"
+    },
+    {
+      "id": 9,
+      "world_roof": [
+        156.4204011824382,
+        67.51933973366681,
+        18
+      ],
+      "image_pixel": [
+        350,
+        218
+      ],
+      "annotation_source": "AI_APPROXIMATE_ROOF_CENTRE_FROM_508PX_REFERENCE_NOT_SURVEY"
+    },
+    {
+      "id": 10,
+      "world_roof": [
+        185.6427404609722,
+        31.303173902268778,
+        18
+      ],
+      "image_pixel": [
+        366,
+        229
+      ],
+      "annotation_source": "AI_APPROXIMATE_ROOF_CENTRE_FROM_508PX_REFERENCE_NOT_SURVEY"
+    },
+    {
+      "id": 11,
+      "world_roof": [
+        209.2021524124369,
+        -7.422719171779081,
+        18
+      ],
+      "image_pixel": [
+        382,
+        243
+      ],
+      "annotation_source": "AI_APPROXIMATE_ROOF_CENTRE_FROM_508PX_REFERENCE_NOT_SURVEY"
+    },
+    {
+      "id": 15,
+      "world_roof": [
+        -162.92147126457579,
+        -29.67052149182285,
+        18
+      ],
+      "image_pixel": [
+        166,
+        243
+      ],
+      "annotation_source": "AI_APPROXIMATE_ROOF_CENTRE_FROM_508PX_REFERENCE_NOT_SURVEY"
+    },
+    {
+      "id": 16,
+      "world_roof": [
+        -136.6958786887476,
+        -71.33337535771086,
+        18
+      ],
+      "image_pixel": [
+        181,
+        258
+      ],
+      "annotation_source": "AI_APPROXIMATE_ROOF_CENTRE_FROM_508PX_REFERENCE_NOT_SURVEY"
+    },
+    {
+      "id": 17,
+      "world_roof": [
+        -105.81122577595987,
+        -109.10664411060031,
+        18
+      ],
+      "image_pixel": [
+        195,
+        273
+      ],
+      "annotation_source": "AI_APPROXIMATE_ROOF_CENTRE_FROM_508PX_REFERENCE_NOT_SURVEY"
+    },
+    {
+      "id": 18,
+      "world_roof": [
+        -74.56349301440746,
+        -150.95702560497844,
+        18
+      ],
+      "image_pixel": [
+        209,
+        288
+      ],
+      "annotation_source": "AI_APPROXIMATE_ROOF_CENTRE_FROM_508PX_REFERENCE_NOT_SURVEY"
+    },
+    {
+      "id": 19,
+      "world_roof": [
+        -49.266740105368925,
+        -185.4004269442967,
+        18
+      ],
+      "image_pixel": [
+        225,
+        302
+      ],
+      "annotation_source": "AI_APPROXIMATE_ROOF_CENTRE_FROM_508PX_REFERENCE_NOT_SURVEY"
+    },
+    {
+      "id": "stadium_field",
+      "world_roof": [
+        -247.19754,
+        76.46949,
+        0
+      ],
+      "image_pixel": [
+        125,
+        218
+      ],
+      "annotation_source": "AI_APPROXIMATE_FIELD_CENTRE"
+    }
+  ],
+  "coefficients": [
+    [
+      0.5807731882219072,
+      0.01564728230680967
+    ],
+    [
+      0.011003445395203648,
+      -0.33131485596859656
+    ],
+    [
+      -0.5444197449828642,
+      -0.4992202593877015
+    ],
+    [
+      267.72427556879825,
+      247.2034477592709
+    ]
+  ],
+  "rms_pixels": 2.7201211904775375,
+  "height_projection_pixels_per_meter": [
+    -0.5444197449828642,
+    -0.4992202593877015
+  ],
+  "geometric_gate_passed": false,
+  "independent_landmark_validation_passed": false,
+  "approved_for_active_building_placement": false,
+  "reason": "Low-resolution artist overview and approximate roof-centre correspondences cannot certify footprint position or dimensions. More reliable landmark/ground correspondence is required; no neighboring or fabricated building was inserted."
+}

@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "sha256": "a05628d17f802b9ca9ef87f35499e317bf2b0fa1d0161a2cc5229cbf3824de6b",
+  "triangles": 77966,
+  "vertices": 124363,
+  "position_extent_m": [
+    722.0218811035156,
+    56.80999982357025,
+    749.9226379394531
+  ],
+  "embedded_images": 13,
+  "animations": [],
+  "scope": "Geometry, buffers, finiteness and embedded texture signatures; not a likeness, survey, render or full glTF schema certification."
+}

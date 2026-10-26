@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "method": "Existing mesh and rig reused; analytic two-bone sagittal gait, support/swing phases, toe roll and opposite arm swing",
+  "bones": 17,
+  "animations": [
+    "Idle",
+    "Walk",
+    "Run",
+    "Jump"
+  ],
+  "max_planted_ankle_vertical_error_m": 9.685754776000977e-08,
+  "fast_exploration_caveat": "5x spatial travel is intentionally beyond human walking speed; runtime cadence is capped rather than pretending a physically exact 13.25m/s walk."
+}

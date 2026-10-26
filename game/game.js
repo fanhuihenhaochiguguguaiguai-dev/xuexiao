@@ -15,11 +15,12 @@ window.addEventListener('unhandledrejection',e=>meta.errors.push(String(e.reason
 function progress(n,text){$('progress').style.width=n+'%';$('load-message').textContent=text;}
 const input={x:0,y:0,run:false,jump:false},keys=new Set();let active=false,simulation,worldData,character,app,camera,sun;
 let cameraYaw=.55,cameraPitch=.06,cameraZoom=5.6,heading=-2.59,animName='Idle',verticalFrames=0;
-let quality=params.get('quality')||(matchMedia('(pointer:coarse)').matches?'low':'balanced');
+let quality=params.get('quality')||'balanced';
 let toastTimer,nearby=null,mapArrows=[],accumulator=0,position,smoothedCamera=new pc.Vec3(),cameraInitial=true,blob;
-let renderScale=1,fpsWindow=performance.now(),fpsFrames=0,water,qaView=null;
+let renderScale=1,fpsWindow=performance.now(),fpsFrames=0,water,qaView=null,v05Config,postFrame,smoothedSpeed=0,startupReflections=true;
+const effects={ssao:false,bloom:false};
 const diagnostics=createDiagnostics({meta,toast,
- context:()=>({quality,renderScale,viewport:[innerWidth,innerHeight],canvas:app?[app.graphicsDevice.width,app.graphicsDevice.height]:null,devicePixelRatio,shadows:!!sun?.light.castShadows,antiAlias:true}),
+ context:()=>({version:'0.5',quality,renderScale,viewport:[innerWidth,innerHeight],canvas:app?[app.graphicsDevice.width,app.graphicsDevice.height]:null,devicePixelRatio,shadows:!!sun?.light.castShadows,shadowMapSize:1024,effects:{...effects},speedMultiplier:simulation?.state().speedMultiplier,antiAlias:true}),
  onStart:()=>{
   const saved={quality,renderScale,cameraYaw,cameraPitch,cameraZoom,heading,feet:{...simulation.state().feet},active,boot:$('boot').hidden,hud:$('hud').hidden};
   keys.clear();input.x=input.y=0;input.jump=false;$('stick').style.transform='';quality='low';changeQuality();
@@ -42,10 +43,21 @@ const paused=()=>!active||diagnostics.running||!!document.querySelector('dialog[
 function toast(text){$('toast').hidden=false;$('toast').textContent=text;clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('toast').hidden=true,2600);}
 function loadContainer(url){return new Promise((resolve,reject)=>app.assets.loadFromUrl(url,'container',(err,asset)=>err?reject(new Error(String(err))):resolve(asset)));}
 function changeQuality(notify=false){
- const low=quality==='low';renderScale=Math.min(devicePixelRatio,low?1:1.5);app.graphicsDevice.maxPixelRatio=renderScale;
- if(sun)sun.light.castShadows=!low;resize();
- $('quality').title=low?'当前：流畅画质，点击切换':'当前：均衡画质，点击切换';
- meta.quality=quality;if(notify)toast(low?'已切换到流畅画质':'已切换到均衡画质');
+ const standard=quality==='low';renderScale=standard?1:1.25;app.graphicsDevice.maxPixelRatio=renderScale;
+ if(sun)sun.light.castShadows=!startupReflections;resize();
+ $('quality').title=standard?'当前：标准清晰':'当前：高清';$('quality-preset').value=quality;
+ meta.quality=quality;meta.renderScale=renderScale;if(notify)toast(standard?'已切换到标准清晰画质':'已切换到高清画质');
+}
+function applyEffects(){
+ try{
+  if(effects.ssao||effects.bloom){
+   postFrame??=new pc.CameraFrame(app,camera.camera);postFrame.enabled=true;
+   postFrame.rendering.toneMapping=pc.TONEMAP_ACES;postFrame.rendering.renderFormats=[pc.PIXELFORMAT_RGBA16F,pc.PIXELFORMAT_RGBA8];
+   postFrame.ssao.type=effects.ssao?pc.SSAOTYPE_COMBINE:pc.SSAOTYPE_NONE;postFrame.ssao.samples=8;postFrame.ssao.scale=.5;postFrame.ssao.radius=12;postFrame.ssao.power=1.2;postFrame.ssao.intensity=.25;
+   postFrame.bloom.intensity=effects.bloom?.035:0;postFrame.bloom.threshold=1;postFrame.bloom.blurLevel=4;postFrame.update();
+  }else if(postFrame)postFrame.enabled=false;
+  meta.effects={...effects,active:!!postFrame?.enabled};
+ }catch(e){effects.ssao=effects.bloom=false;postFrame?.destroy();postFrame=null;$('effect-ssao').checked=$('effect-bloom').checked=false;meta.effects={ssao:false,bloom:false,error:String(e)};toast('这台设备暂未启用附加效果');}
 }
 function resize(){if(app)app.resizeCanvas(innerWidth,innerHeight);}
 function setAnimation(name){
@@ -68,11 +80,14 @@ function createMap(){
  for(const p of worldData.pois){const b=document.createElement('button');b.textContent=p.name;const s=document.createElement('span');s.textContent='切换出发点 →';b.appendChild(s);b.onclick=()=>{reset(p);$('map-dialog').close();};$('poi-list').appendChild(b);}
 }
 function openDialog(id){keys.clear();input.x=input.y=0;$('stick').style.transform='';$(id).showModal();}
-function showPlace(){if(!nearby)return;$('place-title').textContent=nearby.name;$('place-content').textContent=`当前模型索引 B${String(nearby.id).padStart(2,'0')}。平面位置来自公开校园地图；楼体高度约 ${nearby.height.toFixed(1)} 米，为本版本估算值。室内尚未开放。`;openDialog('place-dialog');}
+function showPlace(){if(!nearby)return;$('place-title').textContent=nearby.name;$('place-content').textContent=`模型索引 B${String(nearby.id).padStart(2,'0')}。主体高 ${nearby.height.toFixed(1)} 米（${nearby.floorCount}层×3米）；地图轮廓长约 ${nearby.lengthMeters.toFixed(1)} 米、宽约 ${nearby.widthMeters.toFixed(1)} 米。楼层数及平面尺寸尚未实测，屋顶构件另计，室内尚未开放。`;openDialog('place-dialog');}
 function bindControls(){
  $('start').onclick=async()=>{if(!meta.ready)return;active=true;meta.started=true;$('boot').hidden=true;$('hud').hidden=false;if(matchMedia('(pointer:coarse)').matches&&!qa)await enterLandscape();toast('左侧移动，右侧滑动看向四周');if(!qa)diagnostics.afterStart();};
  $('reset').onclick=()=>reset();$('info').onclick=()=>openDialog('info-dialog');$('map-toggle').onclick=()=>openDialog('map-dialog');
- $('quality').onclick=()=>{quality=quality==='low'?'balanced':'low';changeQuality(true);};
+ $('quality').onclick=()=>openDialog('settings-dialog');
+ $('quality-preset').onchange=e=>{quality=e.target.value;changeQuality(true);};
+ $('speed-multiplier').onchange=e=>{simulation.setSpeedMultiplier(Number(e.target.value));toast(e.target.value==='5'?'快速漫游：原速度5倍':'已切换到标准速度');};
+ $('effect-ssao').onchange=e=>{effects.ssao=e.target.checked;applyEffects();};$('effect-bloom').onchange=e=>{effects.bloom=e.target.checked;applyEffects();};
  $('run').onclick=()=>{input.run=!input.run;$('run').setAttribute('aria-pressed',String(input.run));};
  $('jump').addEventListener('pointerdown',e=>{e.preventDefault();input.jump=true;});
  $('view-toggle').onclick=()=>{cameraYaw+=Math.PI;toast('滑动画面可继续调整视角');};
@@ -110,7 +125,7 @@ function update(dt){
  fpsFrames++;const now=performance.now();
  if(now-fpsWindow>3500){
   const fps=fpsFrames*1000/(now-fpsWindow);meta.observedFps=fps;
-  if(!diagnostics.running&&quality==='low'&&fps<23&&renderScale>.57){renderScale=Math.max(.55,renderScale*.8);app.graphicsDevice.maxPixelRatio=renderScale;resize();}
+  if(!diagnostics.running&&fps<23&&renderScale>1){renderScale=1;app.graphicsDevice.maxPixelRatio=renderScale;resize();}
   meta.renderScale=renderScale;fpsFrames=0;fpsWindow=now;
  }
  let x=0,y=0,run=false;
@@ -121,17 +136,20 @@ function update(dt){
  }
  const len=Math.hypot(x,y);if(len>1){x/=len;y/=len;}
  const wx=x*Math.cos(cameraYaw)-y*Math.sin(cameraYaw),wz=-x*Math.sin(cameraYaw)-y*Math.cos(cameraYaw);
- accumulator=Math.min(accumulator+dt,.12);let jumped=false;
- while(accumulator>=1/60){simulation.step(wx,wz,1/60,run,input.jump&&!paused()&&!jumped);jumped=true;accumulator-=1/60;}
+ accumulator=Math.min(accumulator+dt,.25);let jumped=false;
+ while(accumulator>=1/120){simulation.step(wx,wz,1/120,run,input.jump&&!paused()&&!jumped);jumped=true;accumulator-=1/120;}
  if(jumped)input.jump=false;
  const state=simulation.state(),p=state.feet;position=p;
- if(len>.08&&!paused()){
+ if(state.horizontalSpeed>.1&&len>.08&&!paused()){
   const goal=Math.atan2(wx,wz);let diff=Math.atan2(Math.sin(goal-heading),Math.cos(goal-heading));heading+=diff*Math.min(1,dt*12);
  }
- character.setPosition(p.x,p.y,p.z);character.setEulerAngles(0,heading*180/Math.PI,0);
- if(blob){blob.setPosition(p.x,Math.min(p.y+.006,.20),p.z);blob.enabled=p.y<.45;}
+ character.setPosition(p.x,p.y-.025,p.z);character.setEulerAngles(0,heading*180/Math.PI,0);
+ if(blob){blob.setPosition(p.x,p.y-.023,p.z);blob.enabled=p.y<.45;}
  const jumping=!state.grounded&&Math.abs(state.verticalVelocity)>1;
- const action=jumping?'Jump':len>.08&&!paused()?(run?'Run':'Walk'):'Idle';setAnimation(action);
+ smoothedSpeed+=(state.horizontalSpeed-smoothedSpeed)*(1-Math.exp(-dt*10));
+ const action=jumping?'Jump':smoothedSpeed>.15&&!paused()?(smoothedSpeed>3.4||run?'Run':'Walk'):'Idle';setAnimation(action);
+ if(character.anim)character.anim.speed=action==='Walk'?Math.max(.75,Math.min(1.8,smoothedSpeed/1.45)):action==='Run'?Math.max(.85,Math.min(1.8,smoothedSpeed/4.2)):1;
+ meta.speedMetersPerSecond=state.horizontalSpeed;meta.speedMultiplier=state.speedMultiplier;meta.animationRate=character.anim.speed;
  $('motion').textContent={Idle:'待机',Walk:'行走',Run:'奔跑',Jump:'跳跃'}[action];$('session-distance').textContent=`已探索 ${Math.floor(state.distanceTravelled)} 米`;
  target.set(p.x,p.y+1.13,p.z);
  const cp=Math.cos(cameraPitch);scratch.set(target.x+Math.sin(cameraYaw)*cameraZoom*cp,target.y+Math.sin(cameraPitch)*cameraZoom,target.z+Math.cos(cameraYaw)*cameraZoom*cp);
@@ -144,6 +162,7 @@ function update(dt){
  if(safeSmooth<smoothDistance)smoothedCamera.lerp(target,smoothedCamera,safeSmooth/Math.max(smoothDistance,.001));
  camera.setPosition(smoothedCamera);camera.lookAt(target);
  water?.update(dt);diagnostics.pose();
+ if(postFrame?.enabled)postFrame.update();
  if(qaView&&!diagnostics.running){camera.setPosition(...qaView.eye);camera.lookAt(...qaView.look);}
  if(meta.frames%10===0){
   for(const g of mapArrows)g.setAttribute('transform',`translate(${p.x} ${p.z}) rotate(${heading*180/Math.PI+180})`);
@@ -160,21 +179,27 @@ async function main(){
  const gpuOptions={deviceTypes:[pc.DEVICETYPE_WEBGPU,pc.DEVICETYPE_WEBGL2],antialias:true,alpha:false,
   glslangUrl:'/assets/engine/glslang.js',twgslUrl:'/assets/engine/twgsl.js'};
  if(params.get('renderer')==='webgl2')gpuOptions.deviceTypes=[pc.DEVICETYPE_WEBGL2];
- const [device,world,benchmarkRoute]=await Promise.all([pc.createGraphicsDevice(canvas,gpuOptions),fetch('/assets/world.json').then(r=>{if(!r.ok)throw Error('校园配置读取失败');return r.json();}),fetch('/assets/benchmark-route.json').then(r=>{if(!r.ok)throw Error('设备检测路线读取失败');return r.json();}),RAPIER.init()]);
+ const [device,world,benchmarkRoute,renderConfig,waterMetadata]=await Promise.all([pc.createGraphicsDevice(canvas,gpuOptions),fetch('/assets/world.json').then(r=>{if(!r.ok)throw Error('校园配置读取失败');return r.json();}),fetch('/assets/benchmark-route.json').then(r=>{if(!r.ok)throw Error('设备检测路线读取失败');return r.json();}),fetch('/assets/v05-config.json').then(r=>r.json()),fetch('/assets/v05/lighting-water.json').then(r=>r.json()),RAPIER.init()]);
+ v05Config=renderConfig;meta.version='0.5';meta.renderConfig=renderConfig;meta.effects={...effects,active:false};
  worldData=world;simulation=createSimulation(RAPIER,worldData);meta.colliderCount=world.colliders.length;meta.actualRenderer=device.deviceType;
  device.wgpu?.addEventListener('uncapturederror',e=>diagnostics.graphicsFailure('WebGPU: '+String(e.error?.message||e.error).slice(0,350)));
  app=new pc.Application(canvas,{graphicsDevice:device});
+ app.maxDeltaTime=.25;
  app.setCanvasFillMode(pc.FILLMODE_NONE);app.setCanvasResolution(pc.RESOLUTION_AUTO);resize();
  app.scene.ambientLight=new pc.Color(.57,.64,.67);
  app.scene.fog.type=pc.FOG_LINEAR;app.scene.fog.color=new pc.Color(.72,.80,.80);app.scene.fog.start=210;app.scene.fog.end=750;
  camera=new pc.Entity('Follow_camera');camera.addComponent('camera',{clearColor:new pc.Color(.68,.79,.82),fov:58,nearClip:.07,farClip:1100});app.root.addChild(camera);
  camera.camera.toneMapping=pc.TONEMAP_ACES;
- sun=new pc.Entity('Daylight');sun.addComponent('light',{type:'directional',color:new pc.Color(1,.94,.81),intensity:1.9,castShadows:false,shadowDistance:55,shadowResolution:1024,normalOffsetBias:.035,shadowBias:.15});sun.setEulerAngles(-43,-36,0);app.root.addChild(sun);
+ sun=new pc.Entity('Daylight');sun.addComponent('light',{type:'directional',color:new pc.Color(1,.94,.81),intensity:1.9,castShadows:true,shadowDistance:22,shadowResolution:1024,numCascades:1,normalOffsetBias:.025,shadowBias:.1,shadowType:pc.SHADOW_PCF3});sun.setEulerAngles(-43,-36,0);app.root.addChild(sun);
  const fill=new pc.Entity('Sky_fill');fill.addComponent('light',{type:'directional',color:new pc.Color(.72,.84,1),intensity:.35});fill.setEulerAngles(35,135,0);app.root.addChild(fill);
  progress(29,'正在载入校园建筑和人物…');
  const [campusAsset,characterAsset]=await Promise.all([loadContainer('/assets/campus.glb'),loadContainer('/assets/character.glb')]);
  const campus=campusAsset.resource.instantiateRenderEntity();campus.name='Existing_campus_draft';app.root.addChild(campus);
- water=enhanceWater(app,campus,camera);meta.water={surfaces:water.surfaces,reflection:water.reflection};
+ for(const render of campus.findComponents('render')){
+  render.castShadows=false;
+  for(const mesh of render.meshInstances)if(mesh.material.name.startsWith('V05_terrain_')){mesh.material.occludeDirect=true;mesh.material.update();}
+ }
+ water=enhanceWater(app,campus,camera,waterMetadata);meta.water={surfaces:water.surfaces,reflection:water.reflection};
  character=characterAsset.resource.instantiateRenderEntity();character.name='Reference_character';app.root.addChild(character);
  // A cheap contact shadow keeps the character grounded on mobile low quality.
  const shadowCanvas=document.createElement('canvas');shadowCanvas.width=shadowCanvas.height=64;
@@ -196,7 +221,7 @@ async function main(){
  app.batcher.generate([batch.id]);
  createMap();bindControls();changeQuality();
  app.on('update',update);app.start();
- progress(92,'正在准备湖面与校园远景…');await water.ready;meta.water={...meta.water,...water.state()};
+ progress(92,'正在准备湖面与校园远景…');await water.ready;startupReflections=false;sun.light.castShadows=true;meta.water={...meta.water,...water.state()};
  meta.ready=true;progress(100,'校园与人物已就绪');$('start').disabled=false;$('start').innerHTML='开始探索 <span>→</span>';
  diagnostics.attach(app,benchmarkRoute);
  if(qa)window.__campusTest={
@@ -208,6 +233,8 @@ async function main(){
   input,
   camera:()=>({yaw:cameraYaw,pitch:cameraPitch}),
   water:()=>water.state(),
+  settings:()=>({quality,renderScale,shadowMapSize:sun.light.shadowResolution,localShadows:sun.light.castShadows,effects:meta.effects,config:v05Config}),
+  lightingProof:()=>({terrainAoMaterials:campus.findComponents('render').flatMap(r=>r.meshInstances).filter(m=>m.material.aoMap&&m.material.occludeDirect).map(m=>({name:m.material.name,uv:m.material.aoMapUv,width:m.material.aoMap.width})),staticCampusCasters:campus.findComponents('render').filter(r=>r.castShadows).length,characterCasters:character.findComponents('render').filter(r=>r.castShadows).length}),
   inspectView:(eye,look)=>{qaView=eye?{eye,look}:null;},
   pose:()=>['Thigh_L','Shin_L','UpperArm_L'].map(n=>{const b=character.findByName(n);return {name:n,rotation:b?.getLocalRotation().toString()};}),
   worldSummary:()=>({colliders:worldData.colliders.map(c=>({name:c.name,kind:c.kind})),spawn:worldData.spawn})

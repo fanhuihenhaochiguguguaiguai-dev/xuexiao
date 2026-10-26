@@ -1,0 +1,204 @@
+{
+  "version": "0.5",
+  "units": "METERS",
+  "floor_height_m": 3.0,
+  "floor_height_source": "USER_RULE_NOT_SURVEY",
+  "xy_policy": "KEEP_SOURCE_METER_FOOTPRINTS",
+  "facade_profile": {
+    "id": "orange_stone_curtain_v1",
+    "building_ids": [
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "floor_m": 3.0,
+    "preferred_bay_m": 3.2,
+    "window_width_m": 1.75,
+    "window_height_m": 1.65,
+    "window_sill_m": 0.8,
+    "photo_reference_ids": [
+      "2022081153",
+      "2022081154",
+      "2022081155",
+      "2022081156"
+    ],
+    "status": "PHOTO_TYPE_APPROXIMATION_BUILDING_ID_MATCH_UNVERIFIED",
+    "long_face_threshold": 0.55,
+    "palette": {
+      "short_wall": [
+        0.65,
+        0.32,
+        0.23
+      ],
+      "long_wall": [
+        0.77,
+        0.76,
+        0.69
+      ]
+    }
+  },
+  "buildings": [
+    {
+      "id": 1,
+      "floor_count": 18,
+      "old_body_height_m": 55.800000000000004,
+      "body_height_m": 54,
+      "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
+      "osm_way_id": 574483813
+    },
+    {
+      "id": 2,
+      "floor_count": 18,
+      "old_body_height_m": 55.800000000000004,
+      "body_height_m": 54,
+      "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
+      "osm_way_id": 574483814
+    },
+    {
+      "id": 3,
+      "floor_count": 18,
+      "old_body_height_m": 55.800000000000004,
+      "body_height_m": 54,
+      "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
+      "osm_way_id": 574483815
+    },
+    {
+      "id": 4,
+      "floor_count": 18,
+      "old_body_height_m": 55.800000000000004,
+      "body_height_m": 54,
+      "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
+      "osm_way_id": 574483816
+    },
+    {
+      "id": 5,
+      "floor_count": 6,
+      "old_body_height_m": 19.5,
+      "body_height_m": 18,
+      "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
+      "osm_way_id": 574483817
+    },
+    {
+      "id": 6,
+      "floor_count": 6,
+      "old_body_height_m": 19.5,
+      "body_height_m": 18,
+      "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
+      "osm_way_id": 574483818
+    },
+    {
+      "id": 7,
+      "floor_count": 6,
+      "old_body_height_m": 19.5,
+      "body_height_m": 18,
+      "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
+      "osm_way_id": 574483819
+    },
+    {
+      "id": 8,
+      "floor_count": 6,
+      "old_body_height_m": 19.5,
+      "body_height_m": 18,
+      "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
+      "osm_way_id": 574483820
+    },
+    {
+      "id": 9,
+      "floor_count": 6,
+      "old_body_height_m": 19.5,
+      "body_height_m": 18,
+      "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
+      "osm_way_id": 574483821
+    },
+    {
+      "id": 10,
+      "floor_count": 6,
+      "old_body_height_m": 19.5,
+      "body_height_m": 18,
+      "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
+      "osm_way_id": 574483822
+    },
+    {
+      "id": 11,
+      "floor_count": 6,
+      "old_body_height_m": 19.5,
+      "body_height_m": 18,
+      "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
+      "osm_way_id": 574483823
+    },
+    {
+      "id": 12,
+      "floor_count": 3,
+      "old_body_height_m": 11.100000000000001,
+      "body_height_m": 9,
+      "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
+      "osm_way_id": 574483824
+    },
+    {
+      "id": 13,
+      "floor_count": 8,
+      "old_body_height_m": 28.8,
+      "body_height_m": 24,
+      "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
+      "osm_way_id": 574483825
+    },
+    {
+      "id": 14,
+      "floor_count": 5,
+      "old_body_height_m": 19.0,
+      "body_height_m": 15,
+      "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
+      "osm_way_id": 574483826
+    },
+    {
+      "id": 15,
+      "floor_count": 6,
+      "old_body_height_m": 22.200000000000003,
+      "body_height_m": 18,
+      "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
+      "osm_way_id": 574483827
+    },
+    {
+      "id": 16,
+      "floor_count": 6,
+      "old_body_height_m": 22.200000000000003,
+      "body_height_m": 18,
+      "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
+      "osm_way_id": 574483828
+    },
+    {
+      "id": 17,
+      "floor_count": 6,
+      "old_body_height_m": 22.200000000000003,
+      "body_height_m": 18,
+      "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
+      "osm_way_id": 574483829
+    },
+    {
+      "id": 18,
+      "floor_count": 6,
+      "old_body_height_m": 22.200000000000003,
+      "body_height_m": 18,
+      "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
+      "osm_way_id": 574483830
+    },
+    {
+      "id": 19,
+      "floor_count": 6,
+      "old_body_height_m": 22.200000000000003,
+      "body_height_m": 18,
+      "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
+      "osm_way_id": 574483831
+    },
+    {
+      "id": 20,
+      "floor_count": 1,
+      "old_body_height_m": 6.0,
+      "body_height_m": 3,
+      "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
+      "osm_way_id": 1029883032
+    }
+  ]
+}

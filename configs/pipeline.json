@@ -183,7 +183,9 @@
         "bundle": "game/dist/game.js",
         "icon192": "game/dist/assets/app-icon-192.png",
         "icon512": "game/dist/assets/app-icon-512.png",
-        "benchmark_route": "game/dist/assets/benchmark-route.json"
+        "benchmark_route": "game/dist/assets/benchmark-route.json",
+        "v05_config": "game/dist/assets/v05-config.json",
+        "v05_water": "game/dist/assets/v05/lighting-water.json"
       },
       "outputs": [
         "quality.json"

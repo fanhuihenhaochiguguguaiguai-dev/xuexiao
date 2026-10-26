@@ -19,7 +19,7 @@ let normal=[-(e.b[1]-e.a[1])/e.length,(e.b[0]-e.a[0])/e.length];
 function inside(x,z){let b=false;for(let i=0,j=ring.length-1;i<ring.length;j=i++){const a=ring[i],c=ring[j];if((a[1]>z)!=(c[1]>z)&&x<(c[0]-a[0])*(z-a[1])/(c[1]-a[1])+a[0])b=!b;}return b;}
 if(inside(midpoint[0]+normal[0],midpoint[1]+normal[1]))normal=normal.map(a=>-a);
 sim.setFeet(midpoint[0]+normal[0]*4,.6,midpoint[1]+normal[1]*4);advance(90);p=sim.state();advance(180,-normal[0],-normal[1],true);r=sim.state();
-results.buildingCollision={start:p.feet,end:r.feet,lastCollision:r.lastCollision,desiredTravel:15.9,actualTravel:Math.hypot(r.feet.x-p.feet.x,r.feet.z-p.feet.z),passed:r.lastCollision?.building===13&&Math.hypot(r.feet.x-p.feet.x,r.feet.z-p.feet.z)<10};
+results.buildingCollision={start:p.feet,end:r.feet,lastCollision:r.lastCollision,desiredTravel:26.5*3,actualTravel:Math.hypot(r.feet.x-p.feet.x,r.feet.z-p.feet.z),passed:r.lastCollision?.building===13&&Math.hypot(r.feet.x-p.feet.x,r.feet.z-p.feet.z)<10};
 results.pois=data.pois.map(poi=>{const state=settle(poi);return {id:poi.id,feet:state.feet,grounded:state.grounded,passed:state.grounded&&state.feet.y>-.1&&state.feet.y<.6};});
 const before=sim.state().respawns;sim.setFeet(data.spawn.x,-6,data.spawn.z);advance(2);r=sim.state();results.fallRecovery={respawns:r.respawns,passed:r.respawns>before&&r.feet.y>-.1};
 const stairs=data.colliders.filter(c=>c.name.startsWith('Library_stair_')).sort((a,b)=>a.name.localeCompare(b.name));

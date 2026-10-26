@@ -23,6 +23,8 @@ jobs:
         working-directory: game
       - run: npm run check:performance
         working-directory: game
+      - run: npm run check:movement
+        working-directory: game
       - uses: actions/cache@v4
         with:
           path: .campus-cache/objects

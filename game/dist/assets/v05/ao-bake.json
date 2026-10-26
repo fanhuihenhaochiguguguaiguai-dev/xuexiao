@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "method": "ACTUAL_BLENDER_CYCLES_AMBIENT_OCCLUSION_SHADER_TO_EMISSION_BAKE",
+  "ground_resolution": 1024,
+  "facade_cell_resolution": 256,
+  "cycles_samples": 8,
+  "ao_distance_ground_m": 6,
+  "ao_distance_facade_m": 0.45,
+  "ground_scope": "Flat base with covering roads/sport slabs hidden while baking; reused on nearby flat surfaces.",
+  "ground_ao_range": [
+    0,
+    255
+  ],
+  "ground_shadow_range": [
+    82,
+    255
+  ],
+  "combined_occlusion": "ground-occlusion.png"
+}

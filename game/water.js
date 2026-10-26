@@ -1,7 +1,7 @@
 import * as pc from 'playcanvas';
 // Shared StandardMaterial is compiled by PlayCanvas for both WebGPU and WebGL 2.
 // Static scene cubemaps are captured once; the procedural sky is a fallback.
-export function enhanceWater(app,campus,mainCamera){
+export function enhanceWater(app,campus,mainCamera,metadata={water:[]}){
  const device=app.graphicsDevice,size=128,canvas=document.createElement('canvas');canvas.width=canvas.height=size;
  const ctx=canvas.getContext('2d'),image=ctx.createImageData(size,size),colorCanvas=document.createElement('canvas');colorCanvas.width=colorCanvas.height=size;
  const colorCtx=colorCanvas.getContext('2d'),colors=colorCtx.createImageData(size,size);
@@ -32,12 +32,25 @@ export function enhanceWater(app,campus,mainCamera){
  // low-intensity legacy specular path suppressed it at the water horizon.
  mat.clearCoat=1;mat.clearCoatGloss=.97;mat.clearCoatNormalMap=normal;mat.clearCoatNormalMapTiling=new pc.Vec2(.55,.55);mat.clearCoatBumpiness=.1;
  mat.cull=pc.CULLFACE_BACK;mat.update();let surfaces=0;
- const south=mat.clone();south.name='Campus_water_ripples_south';const materials=[mat,south];
- const waterLayer=new pc.Layer({name:'Water_excluded_from_reflection_capture'});app.scene.layers.push(waterLayer);
+ const materials=[],pondIndices=[],materialByObject=new Map();let depthMapped=0;
+ const isWater=m=>m.name==='water'||m.name.startsWith('V05_water_');
+ const waterLayer=new pc.Layer({name:'Water_excluded_from_reflection_capture'});app.scene.layers.insert(waterLayer,1);
  mainCamera.camera.layers=[...mainCamera.camera.layers,waterLayer.id];
  for(const render of campus.findComponents('render')){
-  if(render.meshInstances.every(m=>m.material.name==='water'))render.layers=[waterLayer.id];
-  for(const m of render.meshInstances)if(m.material.name==='water'){m.material=/north/.test(render.entity.name)?mat:south;surfaces++;}
+  if(render.meshInstances.every(m=>isWater(m.material)))render.layers=[waterLayer.id];
+  for(const mesh of render.meshInstances)if(isWater(mesh.material)){
+   const key=render.entity.name;
+   if(!materialByObject.has(key)){
+    const m=mat.clone();m.name='Runtime_water_'+key;const info=metadata.water.find(w=>key===w.object)||metadata.water.find(w=>key.endsWith(w.object));
+    if(info&&mesh.material.diffuseMap){
+     m.diffuseMap=mesh.material.diffuseMap;m.diffuse.set(.8,.8,.8);m.diffuseMapTiling.set(1,1);m.campusDepthAnchored=true;
+     const width=info.blender_bounds[2]-info.blender_bounds[0],depth=info.blender_bounds[3]-info.blender_bounds[1];
+     m.normalMapTiling.set(width/14,depth/14);m.clearCoatNormalMapTiling.copy(m.normalMapTiling);m.normalDetailMapTiling.set(width/8,depth/8);depthMapped++;
+    }
+    m.update();materialByObject.set(key,m);materials.push(m);pondIndices.push(/north/.test(key)?0:1);
+   }
+   mesh.material=materialByObject.get(key);surfaces++;
+  }
  }
  // Capture the existing scene once per pond. This gives actual draft-building
  // reflections without paying for a second scene render on every phone frame.
@@ -56,12 +69,12 @@ export function enhanceWater(app,campus,mainCamera){
   if(current>=0){queue[current].enabled=false;capturedFaces++;}
   current++;
   if(current<queue.length)queue[current].enabled=true;
-  else{app.off('postrender',capture);clearTimeout(timeout);materials.forEach((m,i)=>{m.cubeMap=cubes[i];m.update();});captureSucceeded=true;resolveCapture();}
+  else{app.off('postrender',capture);clearTimeout(timeout);materials.forEach((m,i)=>{m.cubeMap=cubes[pondIndices[i]];m.update();});captureSucceeded=true;resolveCapture();}
  };
  const timeout=setTimeout(()=>{app.off('postrender',capture);for(const c of queue)c.enabled=false;resolveCapture();},30000);
  app.on('postrender',capture);
  let time=0;const started=performance.now();
  return {surfaces,ready,reflection:'ONCE_CAPTURED_SCENE_CUBEMAPS_WITH_SKY_FALLBACK_NOT_PLANAR',
-  update(){time=(performance.now()-started)/1000;for(const m of materials){m.normalMapOffset.set((time*.009)%1,(time*.004)%1);m.clearCoatNormalMapOffset.copy(m.normalMapOffset);m.normalDetailMapOffset.set((-time*.006)%1,(time*.008)%1);m.diffuseMapOffset.set((time*.004)%1,(time*.002)%1);m.update();}},
-  state:()=>({surfaces,time,normalOffset:[mat.normalMapOffset.x,mat.normalMapOffset.y],capturedFaces,captureSucceeded,reflection:captureSucceeded?'static_scene_cubemaps_2x128':'procedural_sky_fallback'})};
+  update(){time=(performance.now()-started)/1000;for(const m of materials){m.normalMapOffset.set((time*.009)%1,(time*.004)%1);m.clearCoatNormalMapOffset.copy(m.normalMapOffset);m.normalDetailMapOffset.set((-time*.006)%1,(time*.008)%1);if(!m.campusDepthAnchored)m.diffuseMapOffset.set((time*.004)%1,(time*.002)%1);m.update();}},
+  state:()=>({surfaces,time,normalOffset:materials[0]?[materials[0].normalMapOffset.x,materials[0].normalMapOffset.y]:[],capturedFaces,captureSucceeded,depthMappedPonds:depthMapped,depthSource:'ESTIMATED_SHORE_DISTANCE_NOT_SURVEYED',shoreFoam:depthMapped>0,reflection:captureSucceeded?'static_scene_cubemaps_2x128':'procedural_sky_fallback'})};
 }

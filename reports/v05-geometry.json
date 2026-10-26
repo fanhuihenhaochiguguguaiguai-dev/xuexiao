@@ -1,0 +1,340 @@
+{
+  "version": "0.5",
+  "floor_height_m": 3,
+  "units": "METERS",
+  "facade_buildings": [
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "buildings": [
+    {
+      "id": 1,
+      "floor_count": 18,
+      "old_body_height_m": 55.800000000000004,
+      "body_height_m": 54,
+      "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
+      "osm_way_id": 574483813,
+      "mesh": "B01_tower",
+      "axis_aligned_dimensions_m": [
+        51.74565410614014,
+        43.265472412109375,
+        53.99999985098839
+      ],
+      "non_manifold_edges": 0,
+      "source_xy_retained": true
+    },
+    {
+      "id": 2,
+      "floor_count": 18,
+      "old_body_height_m": 55.800000000000004,
+      "body_height_m": 54,
+      "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
+      "osm_way_id": 574483814,
+      "mesh": "B02_tower",
+      "axis_aligned_dimensions_m": [
+        51.75504684448242,
+        43.2545166015625,
+        53.99999985098839
+      ],
+      "non_manifold_edges": 0,
+      "source_xy_retained": true
+    },
+    {
+      "id": 3,
+      "floor_count": 18,
+      "old_body_height_m": 55.800000000000004,
+      "body_height_m": 54,
+      "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
+      "osm_way_id": 574483815,
+      "mesh": "B03_tower",
+      "axis_aligned_dimensions_m": [
+        66.40520095825195,
+        52.151153564453125,
+        53.99999985098839
+      ],
+      "non_manifold_edges": 0,
+      "source_xy_retained": true
+    },
+    {
+      "id": 4,
+      "floor_count": 18,
+      "old_body_height_m": 55.800000000000004,
+      "body_height_m": 54,
+      "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
+      "osm_way_id": 574483816,
+      "mesh": "B04_tower",
+      "axis_aligned_dimensions_m": [
+        71.72195053100586,
+        57.132476806640625,
+        53.99999985098839
+      ],
+      "non_manifold_edges": 0,
+      "source_xy_retained": true
+    },
+    {
+      "id": 5,
+      "floor_count": 6,
+      "old_body_height_m": 19.5,
+      "body_height_m": 18,
+      "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
+      "osm_way_id": 574483817,
+      "mesh": "B05_dorm",
+      "axis_aligned_dimensions_m": [
+        120.15589570999146,
+        77.37919616699219,
+        17.999999850988388
+      ],
+      "non_manifold_edges": 0,
+      "source_xy_retained": true
+    },
+    {
+      "id": 6,
+      "floor_count": 6,
+      "old_body_height_m": 19.5,
+      "body_height_m": 18,
+      "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
+      "osm_way_id": 574483818,
+      "mesh": "B06_dorm",
+      "axis_aligned_dimensions_m": [
+        120.14705467224121,
+        77.37945556640625,
+        17.999999850988388
+      ],
+      "non_manifold_edges": 0,
+      "source_xy_retained": true
+    },
+    {
+      "id": 7,
+      "floor_count": 6,
+      "old_body_height_m": 19.5,
+      "body_height_m": 18,
+      "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
+      "osm_way_id": 574483819,
+      "mesh": "B07_dorm",
+      "axis_aligned_dimensions_m": [
+        120.14742660522461,
+        77.3685302734375,
+        17.999999850988388
+      ],
+      "non_manifold_edges": 0,
+      "source_xy_retained": true
+    },
+    {
+      "id": 8,
+      "floor_count": 6,
+      "old_body_height_m": 19.5,
+      "body_height_m": 18,
+      "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
+      "osm_way_id": 574483820,
+      "mesh": "B08_dorm",
+      "axis_aligned_dimensions_m": [
+        120.15694427490234,
+        77.36875915527344,
+        17.999999850988388
+      ],
+      "non_manifold_edges": 0,
+      "source_xy_retained": true
+    },
+    {
+      "id": 9,
+      "floor_count": 6,
+      "old_body_height_m": 19.5,
+      "body_height_m": 18,
+      "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
+      "osm_way_id": 574483821,
+      "mesh": "B09_dorm",
+      "axis_aligned_dimensions_m": [
+        120.14811706542969,
+        77.38008117675781,
+        17.999999850988388
+      ],
+      "non_manifold_edges": 0,
+      "source_xy_retained": true
+    },
+    {
+      "id": 10,
+      "floor_count": 6,
+      "old_body_height_m": 19.5,
+      "body_height_m": 18,
+      "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
+      "osm_way_id": 574483822,
+      "mesh": "B10_dorm",
+      "axis_aligned_dimensions_m": [
+        112.79136657714844,
+        71.75578188896179,
+        17.999999850988388
+      ],
+      "non_manifold_edges": 0,
+      "source_xy_retained": true
+    },
+    {
+      "id": 11,
+      "floor_count": 6,
+      "old_body_height_m": 19.5,
+      "body_height_m": 18,
+      "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
+      "osm_way_id": 574483823,
+      "mesh": "B11_dorm",
+      "axis_aligned_dimensions_m": [
+        112.79173278808594,
+        71.75600814819336,
+        17.999999850988388
+      ],
+      "non_manifold_edges": 0,
+      "source_xy_retained": true
+    },
+    {
+      "id": 12,
+      "floor_count": 3,
+      "old_body_height_m": 11.100000000000001,
+      "body_height_m": 9,
+      "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
+      "osm_way_id": 574483824,
+      "mesh": "B12_arcade",
+      "axis_aligned_dimensions_m": [
+        187.20736694335938,
+        260.27935791015625,
+        8.999999850988388
+      ],
+      "non_manifold_edges": 0,
+      "source_xy_retained": true
+    },
+    {
+      "id": 13,
+      "floor_count": 8,
+      "old_body_height_m": 28.8,
+      "body_height_m": 24,
+      "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
+      "osm_way_id": 574483825,
+      "mesh": "B13_library",
+      "axis_aligned_dimensions_m": [
+        112.7194709777832,
+        112.2126693725586,
+        23.999999850988388
+      ],
+      "non_manifold_edges": 0,
+      "source_xy_retained": true
+    },
+    {
+      "id": 14,
+      "floor_count": 5,
+      "old_body_height_m": 19.0,
+      "body_height_m": 15,
+      "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
+      "osm_way_id": 574483826,
+      "mesh": "B14_admin",
+      "axis_aligned_dimensions_m": [
+        76.62389135360718,
+        64.36419677734375,
+        14.999999850988388
+      ],
+      "non_manifold_edges": 0,
+      "source_xy_retained": true
+    },
+    {
+      "id": 15,
+      "floor_count": 6,
+      "old_body_height_m": 22.200000000000003,
+      "body_height_m": 18,
+      "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
+      "osm_way_id": 574483827,
+      "mesh": "B15_teaching",
+      "axis_aligned_dimensions_m": [
+        94.86735534667969,
+        79.61829471588135,
+        17.999999850988388
+      ],
+      "non_manifold_edges": 0,
+      "source_xy_retained": true
+    },
+    {
+      "id": 16,
+      "floor_count": 6,
+      "old_body_height_m": 22.200000000000003,
+      "body_height_m": 18,
+      "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
+      "osm_way_id": 574483828,
+      "mesh": "B16_teaching",
+      "axis_aligned_dimensions_m": [
+        94.86767578125,
+        79.62956237792969,
+        17.999999850988388
+      ],
+      "non_manifold_edges": 0,
+      "source_xy_retained": true
+    },
+    {
+      "id": 17,
+      "floor_count": 6,
+      "old_body_height_m": 22.200000000000003,
+      "body_height_m": 18,
+      "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
+      "osm_way_id": 574483829,
+      "mesh": "B17_teaching",
+      "axis_aligned_dimensions_m": [
+        94.867919921875,
+        79.62977600097656,
+        17.999999850988388
+      ],
+      "non_manifold_edges": 0,
+      "source_xy_retained": true
+    },
+    {
+      "id": 18,
+      "floor_count": 6,
+      "old_body_height_m": 22.200000000000003,
+      "body_height_m": 18,
+      "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
+      "osm_way_id": 574483830,
+      "mesh": "B18_teaching",
+      "axis_aligned_dimensions_m": [
+        94.86822128295898,
+        79.61890411376953,
+        17.999999850988388
+      ],
+      "non_manifold_edges": 0,
+      "source_xy_retained": true
+    },
+    {
+      "id": 19,
+      "floor_count": 6,
+      "old_body_height_m": 22.200000000000003,
+      "body_height_m": 18,
+      "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
+      "osm_way_id": 574483831,
+      "mesh": "B19_teaching",
+      "axis_aligned_dimensions_m": [
+        94.86846077442169,
+        79.63015747070312,
+        17.999999850988388
+      ],
+      "non_manifold_edges": 0,
+      "source_xy_retained": true
+    },
+    {
+      "id": 20,
+      "floor_count": 1,
+      "old_body_height_m": 6.0,
+      "body_height_m": 3,
+      "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
+      "osm_way_id": 1029883032,
+      "mesh": "B20_grandstand",
+      "axis_aligned_dimensions_m": [
+        87.33146667480469,
+        119.47019004821777,
+        2.999999850988388
+      ],
+      "non_manifold_edges": 0,
+      "source_xy_retained": true
+    }
+  ],
+  "ground_atlas_blender_bounds": [
+    -386.9632263183594,
+    -315.8150939941406,
+    335.05865478515625,
+    434.1075439453125
+  ]
+}

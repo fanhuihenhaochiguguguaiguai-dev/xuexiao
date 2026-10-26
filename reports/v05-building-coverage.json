@@ -1,0 +1,116 @@
+{
+  "source": "Cached ivrpano campus overview, original 32 OSM footprints; no repeated panoramic download",
+  "reference_map_sha256": "0e110f6e4f6ea80d4ff8aff39cb8526feca607a7c846ddc12a953338a7a03ea3",
+  "reference_pixel_boxes_are_image_observations_not_georeferenced_coordinates": true,
+  "mapped_footprints_total": 32,
+  "inside_current_boundary_and_modelled": 20,
+  "outside_current_boundary_excluded": [
+    {
+      "osm_way_id": 570581277,
+      "distance_from_current_campus_polygon_m": 239.67,
+      "overlap_area_m2": 0.0,
+      "action": "EXCLUDED_FROM_SCHOOL_SCENE"
+    },
+    {
+      "osm_way_id": 570581278,
+      "distance_from_current_campus_polygon_m": 214.29,
+      "overlap_area_m2": 0.0,
+      "action": "EXCLUDED_FROM_SCHOOL_SCENE"
+    },
+    {
+      "osm_way_id": 570581419,
+      "distance_from_current_campus_polygon_m": 188.31,
+      "overlap_area_m2": 0.0,
+      "action": "EXCLUDED_FROM_SCHOOL_SCENE"
+    },
+    {
+      "osm_way_id": 570582283,
+      "distance_from_current_campus_polygon_m": 97.87,
+      "overlap_area_m2": 0.0,
+      "action": "EXCLUDED_FROM_SCHOOL_SCENE"
+    },
+    {
+      "osm_way_id": 570582288,
+      "distance_from_current_campus_polygon_m": 93.99,
+      "overlap_area_m2": 0.0,
+      "action": "EXCLUDED_FROM_SCHOOL_SCENE"
+    },
+    {
+      "osm_way_id": 574392528,
+      "distance_from_current_campus_polygon_m": 58.16,
+      "overlap_area_m2": 0.0,
+      "action": "EXCLUDED_FROM_SCHOOL_SCENE"
+    },
+    {
+      "osm_way_id": 574392530,
+      "distance_from_current_campus_polygon_m": 58.01,
+      "overlap_area_m2": 0.0,
+      "action": "EXCLUDED_FROM_SCHOOL_SCENE"
+    },
+    {
+      "osm_way_id": 574392532,
+      "distance_from_current_campus_polygon_m": 58.35,
+      "overlap_area_m2": 0.0,
+      "action": "EXCLUDED_FROM_SCHOOL_SCENE"
+    },
+    {
+      "osm_way_id": 574392534,
+      "distance_from_current_campus_polygon_m": 58.47,
+      "overlap_area_m2": 0.0,
+      "action": "EXCLUDED_FROM_SCHOOL_SCENE"
+    },
+    {
+      "osm_way_id": 1340477086,
+      "distance_from_current_campus_polygon_m": 75.45,
+      "overlap_area_m2": 0.0,
+      "action": "EXCLUDED_FROM_SCHOOL_SCENE"
+    },
+    {
+      "osm_way_id": 1340477087,
+      "distance_from_current_campus_polygon_m": 112.73,
+      "overlap_area_m2": 0.0,
+      "action": "EXCLUDED_FROM_SCHOOL_SCENE"
+    },
+    {
+      "osm_way_id": 1340477088,
+      "distance_from_current_campus_polygon_m": 115.33,
+      "overlap_area_m2": 0.0,
+      "action": "EXCLUDED_FROM_SCHOOL_SCENE"
+    }
+  ],
+  "reference_map_structures_not_yet_integrated": [
+    {
+      "id": "map_north_low_hall",
+      "reference_pixel_box": [
+        132,
+        145,
+        214,
+        184
+      ],
+      "description": "总图北侧长条低层建筑，具体用途、位置和层数未确定"
+    },
+    {
+      "id": "map_east_light_roof_hall",
+      "reference_pixel_box": [
+        363,
+        233,
+        422,
+        283
+      ],
+      "description": "总图东侧浅顶低层建筑，尚未可靠匹配地图轮廓"
+    },
+    {
+      "id": "map_south_small_hall",
+      "reference_pixel_box": [
+        225,
+        316,
+        283,
+        356
+      ],
+      "description": "总图南侧小型低层建筑，需要场景照片与平面位置对应"
+    }
+  ],
+  "whole_school_building_coverage_verified": false,
+  "remaining_unmapped_building_count": null,
+  "next_step": "Register image landmarks to map coordinates and verify footprint/height before adding these structures. Do not place neighboring-school buildings or invent precise dimensions."
+}

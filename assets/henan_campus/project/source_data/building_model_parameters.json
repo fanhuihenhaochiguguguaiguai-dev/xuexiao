@@ -4,8 +4,8 @@
     "osm_way_id": 574483813,
     "label": "高层楼体",
     "role_classification": "PHOTO_GUIDED_INFERENCE_NOT_SOURCE_BUILDING_NAME",
-    "height_m": 55.800000000000004,
-    "height_status": "ESTIMATED_NOT_SURVEYED",
+    "height_m": 54,
+    "height_status": "USER_RULE_NOT_SURVEY",
     "floor_count": 18,
     "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
     "xy_status": "OSM_FOOTPRINT_RETAINED_EXCEPT_ESTIMATED_OFFICE_PASSAGE",
@@ -17,15 +17,21 @@
       12.403370036189518,
       370.3187517810261
     ],
-    "mesh_name": "B01_tower"
+    "mesh_name": "B01_tower",
+    "floor_height_m": 3,
+    "model_units": "METERS",
+    "scale_status": "MAP_XY_METERS_AND_USER_RULE_HEIGHT_NOT_SURVEY_1_TO_1",
+    "oriented_length_m": 53.411,
+    "oriented_width_m": 14.627,
+    "xy_dimension_source": "OSM_FOOTPRINT_NOT_MEASURED"
   },
   {
     "map_index": 2,
     "osm_way_id": 574483814,
     "label": "高层楼体",
     "role_classification": "PHOTO_GUIDED_INFERENCE_NOT_SOURCE_BUILDING_NAME",
-    "height_m": 55.800000000000004,
-    "height_status": "ESTIMATED_NOT_SURVEYED",
+    "height_m": 54,
+    "height_status": "USER_RULE_NOT_SURVEY",
     "floor_count": 18,
     "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
     "xy_status": "OSM_FOOTPRINT_RETAINED_EXCEPT_ESTIMATED_OFFICE_PASSAGE",
@@ -37,15 +43,21 @@
       45.75238625736782,
       315.2774636460852
     ],
-    "mesh_name": "B02_tower"
+    "mesh_name": "B02_tower",
+    "floor_height_m": 3,
+    "model_units": "METERS",
+    "scale_status": "MAP_XY_METERS_AND_USER_RULE_HEIGHT_NOT_SURVEY_1_TO_1",
+    "oriented_length_m": 53.416,
+    "oriented_width_m": 14.627,
+    "xy_dimension_source": "OSM_FOOTPRINT_NOT_MEASURED"
   },
   {
     "map_index": 3,
     "osm_way_id": 574483815,
     "label": "高层楼体",
     "role_classification": "PHOTO_GUIDED_INFERENCE_NOT_SOURCE_BUILDING_NAME",
-    "height_m": 55.800000000000004,
-    "height_status": "ESTIMATED_NOT_SURVEYED",
+    "height_m": 54,
+    "height_status": "USER_RULE_NOT_SURVEY",
     "floor_count": 18,
     "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
     "xy_status": "OSM_FOOTPRINT_RETAINED_EXCEPT_ESTIMATED_OFFICE_PASSAGE",
@@ -57,15 +69,21 @@
       -58.91212258465755,
       324.2409289255646
     ],
-    "mesh_name": "B03_tower"
+    "mesh_name": "B03_tower",
+    "floor_height_m": 3,
+    "model_units": "METERS",
+    "scale_status": "MAP_XY_METERS_AND_USER_RULE_HEIGHT_NOT_SURVEY_1_TO_1",
+    "oriented_length_m": 71.861,
+    "oriented_width_m": 13.278,
+    "xy_dimension_source": "OSM_FOOTPRINT_NOT_MEASURED"
   },
   {
     "map_index": 4,
     "osm_way_id": 574483816,
     "label": "高层楼体",
     "role_classification": "PHOTO_GUIDED_INFERENCE_NOT_SOURCE_BUILDING_NAME",
-    "height_m": 55.800000000000004,
-    "height_status": "ESTIMATED_NOT_SURVEYED",
+    "height_m": 54,
+    "height_status": "USER_RULE_NOT_SURVEY",
     "floor_count": 18,
     "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
     "xy_status": "OSM_FOOTPRINT_RETAINED_EXCEPT_ESTIMATED_OFFICE_PASSAGE",
@@ -77,15 +95,21 @@
       -11.355896798685821,
       262.93176176151644
     ],
-    "mesh_name": "B04_tower"
+    "mesh_name": "B04_tower",
+    "floor_height_m": 3,
+    "model_units": "METERS",
+    "scale_status": "MAP_XY_METERS_AND_USER_RULE_HEIGHT_NOT_SURVEY_1_TO_1",
+    "oriented_length_m": 76.89,
+    "oriented_width_m": 15.585,
+    "xy_dimension_source": "OSM_FOOTPRINT_NOT_MEASURED"
   },
   {
     "map_index": 5,
     "osm_way_id": 574483817,
     "label": "宿舍楼群",
     "role_classification": "PHOTO_GUIDED_INFERENCE_NOT_SOURCE_BUILDING_NAME",
-    "height_m": 19.5,
-    "height_status": "ESTIMATED_NOT_SURVEYED",
+    "height_m": 18,
+    "height_status": "USER_RULE_NOT_SURVEY",
     "floor_count": 6,
     "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
     "xy_status": "OSM_FOOTPRINT_RETAINED_EXCEPT_ESTIMATED_OFFICE_PASSAGE",
@@ -98,15 +122,21 @@
       63.34306529307805,
       217.03804733471944
     ],
-    "mesh_name": "B05_dorm"
+    "mesh_name": "B05_dorm",
+    "floor_height_m": 3,
+    "model_units": "METERS",
+    "scale_status": "MAP_XY_METERS_AND_USER_RULE_HEIGHT_NOT_SURVEY_1_TO_1",
+    "oriented_length_m": 133.303,
+    "oriented_width_m": 26.165,
+    "xy_dimension_source": "OSM_FOOTPRINT_NOT_MEASURED"
   },
   {
     "map_index": 6,
     "osm_way_id": 574483818,
     "label": "宿舍楼群",
     "role_classification": "PHOTO_GUIDED_INFERENCE_NOT_SOURCE_BUILDING_NAME",
-    "height_m": 19.5,
-    "height_status": "ESTIMATED_NOT_SURVEYED",
+    "height_m": 18,
+    "height_status": "USER_RULE_NOT_SURVEY",
     "floor_count": 6,
     "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
     "xy_status": "OSM_FOOTPRINT_RETAINED_EXCEPT_ESTIMATED_OFFICE_PASSAGE",
@@ -119,15 +149,21 @@
       89.90221934482508,
       180.39736448501853
     ],
-    "mesh_name": "B06_dorm"
+    "mesh_name": "B06_dorm",
+    "floor_height_m": 3,
+    "model_units": "METERS",
+    "scale_status": "MAP_XY_METERS_AND_USER_RULE_HEIGHT_NOT_SURVEY_1_TO_1",
+    "oriented_length_m": 133.296,
+    "oriented_width_m": 26.165,
+    "xy_dimension_source": "OSM_FOOTPRINT_NOT_MEASURED"
   },
   {
     "map_index": 7,
     "osm_way_id": 574483819,
     "label": "宿舍楼群",
     "role_classification": "PHOTO_GUIDED_INFERENCE_NOT_SOURCE_BUILDING_NAME",
-    "height_m": 19.5,
-    "height_status": "ESTIMATED_NOT_SURVEYED",
+    "height_m": 18,
+    "height_status": "USER_RULE_NOT_SURVEY",
     "floor_count": 6,
     "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
     "xy_status": "OSM_FOOTPRINT_RETAINED_EXCEPT_ESTIMATED_OFFICE_PASSAGE",
@@ -140,15 +176,21 @@
       109.5363184655388,
       142.28175436700212
     ],
-    "mesh_name": "B07_dorm"
+    "mesh_name": "B07_dorm",
+    "floor_height_m": 3,
+    "model_units": "METERS",
+    "scale_status": "MAP_XY_METERS_AND_USER_RULE_HEIGHT_NOT_SURVEY_1_TO_1",
+    "oriented_length_m": 133.296,
+    "oriented_width_m": 26.163,
+    "xy_dimension_source": "OSM_FOOTPRINT_NOT_MEASURED"
   },
   {
     "map_index": 8,
     "osm_way_id": 574483820,
     "label": "宿舍楼群",
     "role_classification": "PHOTO_GUIDED_INFERENCE_NOT_SOURCE_BUILDING_NAME",
-    "height_m": 19.5,
-    "height_status": "ESTIMATED_NOT_SURVEYED",
+    "height_m": 18,
+    "height_status": "USER_RULE_NOT_SURVEY",
     "floor_count": 6,
     "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
     "xy_status": "OSM_FOOTPRINT_RETAINED_EXCEPT_ESTIMATED_OFFICE_PASSAGE",
@@ -161,15 +203,21 @@
       133.34276150461608,
       102.94421623703346
     ],
-    "mesh_name": "B08_dorm"
+    "mesh_name": "B08_dorm",
+    "floor_height_m": 3,
+    "model_units": "METERS",
+    "scale_status": "MAP_XY_METERS_AND_USER_RULE_HEIGHT_NOT_SURVEY_1_TO_1",
+    "oriented_length_m": 133.305,
+    "oriented_width_m": 26.165,
+    "xy_dimension_source": "OSM_FOOTPRINT_NOT_MEASURED"
   },
   {
     "map_index": 9,
     "osm_way_id": 574483821,
     "label": "宿舍楼群",
     "role_classification": "PHOTO_GUIDED_INFERENCE_NOT_SOURCE_BUILDING_NAME",
-    "height_m": 19.5,
-    "height_status": "ESTIMATED_NOT_SURVEYED",
+    "height_m": 18,
+    "height_status": "USER_RULE_NOT_SURVEY",
     "floor_count": 6,
     "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
     "xy_status": "OSM_FOOTPRINT_RETAINED_EXCEPT_ESTIMATED_OFFICE_PASSAGE",
@@ -182,15 +230,21 @@
       156.4204011824382,
       67.51933973366681
     ],
-    "mesh_name": "B09_dorm"
+    "mesh_name": "B09_dorm",
+    "floor_height_m": 3,
+    "model_units": "METERS",
+    "scale_status": "MAP_XY_METERS_AND_USER_RULE_HEIGHT_NOT_SURVEY_1_TO_1",
+    "oriented_length_m": 133.297,
+    "oriented_width_m": 26.163,
+    "xy_dimension_source": "OSM_FOOTPRINT_NOT_MEASURED"
   },
   {
     "map_index": 10,
     "osm_way_id": 574483822,
     "label": "宿舍楼群",
     "role_classification": "PHOTO_GUIDED_INFERENCE_NOT_SOURCE_BUILDING_NAME",
-    "height_m": 19.5,
-    "height_status": "ESTIMATED_NOT_SURVEYED",
+    "height_m": 18,
+    "height_status": "USER_RULE_NOT_SURVEY",
     "floor_count": 6,
     "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
     "xy_status": "OSM_FOOTPRINT_RETAINED_EXCEPT_ESTIMATED_OFFICE_PASSAGE",
@@ -203,15 +257,21 @@
       185.6427404609722,
       31.303173902268778
     ],
-    "mesh_name": "B10_dorm"
+    "mesh_name": "B10_dorm",
+    "floor_height_m": 3,
+    "model_units": "METERS",
+    "scale_status": "MAP_XY_METERS_AND_USER_RULE_HEIGHT_NOT_SURVEY_1_TO_1",
+    "oriented_length_m": 121.372,
+    "oriented_width_m": 26.165,
+    "xy_dimension_source": "OSM_FOOTPRINT_NOT_MEASURED"
   },
   {
     "map_index": 11,
     "osm_way_id": 574483823,
     "label": "宿舍楼群",
     "role_classification": "PHOTO_GUIDED_INFERENCE_NOT_SOURCE_BUILDING_NAME",
-    "height_m": 19.5,
-    "height_status": "ESTIMATED_NOT_SURVEYED",
+    "height_m": 18,
+    "height_status": "USER_RULE_NOT_SURVEY",
     "floor_count": 6,
     "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
     "xy_status": "OSM_FOOTPRINT_RETAINED_EXCEPT_ESTIMATED_OFFICE_PASSAGE",
@@ -224,15 +284,21 @@
       209.2021524124369,
       -7.422719171779081
     ],
-    "mesh_name": "B11_dorm"
+    "mesh_name": "B11_dorm",
+    "floor_height_m": 3,
+    "model_units": "METERS",
+    "scale_status": "MAP_XY_METERS_AND_USER_RULE_HEIGHT_NOT_SURVEY_1_TO_1",
+    "oriented_length_m": 121.373,
+    "oriented_width_m": 26.165,
+    "xy_dimension_source": "OSM_FOOTPRINT_NOT_MEASURED"
   },
   {
     "map_index": 12,
     "osm_way_id": 574483824,
     "label": "弧形商业连廊",
     "role_classification": "PHOTO_GUIDED_INFERENCE_NOT_SOURCE_BUILDING_NAME",
-    "height_m": 11.100000000000001,
-    "height_status": "ESTIMATED_NOT_SURVEYED",
+    "height_m": 9,
+    "height_status": "USER_RULE_NOT_SURVEY",
     "floor_count": 3,
     "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
     "xy_status": "OSM_FOOTPRINT_RETAINED_EXCEPT_ESTIMATED_OFFICE_PASSAGE",
@@ -244,16 +310,22 @@
       61.79651016846128,
       66.60200435391975
     ],
-    "mesh_name": "B12_arcade"
+    "mesh_name": "B12_arcade",
+    "floor_height_m": 3,
+    "model_units": "METERS",
+    "scale_status": "MAP_XY_METERS_AND_USER_RULE_HEIGHT_NOT_SURVEY_1_TO_1",
+    "oriented_length_m": 316.363,
+    "oriented_width_m": 41.329,
+    "xy_dimension_source": "OSM_FOOTPRINT_NOT_MEASURED"
   },
   {
     "map_index": 13,
     "osm_way_id": 574483825,
     "label": "图书馆",
     "role_classification": "PHOTO_GUIDED_INFERENCE_NOT_SOURCE_BUILDING_NAME",
-    "height_m": 36.0,
-    "height_status": "ESTIMATED_NOT_SURVEYED",
-    "floor_count": 10,
+    "height_m": 24,
+    "height_status": "USER_RULE_NOT_SURVEY",
+    "floor_count": 8,
     "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
     "xy_status": "OSM_FOOTPRINT_RETAINED_EXCEPT_ESTIMATED_OFFICE_PASSAGE",
     "source_url": "https://www.openstreetmap.org/way/574483825",
@@ -265,15 +337,22 @@
       -25.051592063754956,
       1.3111244825701152
     ],
-    "mesh_name": "B13_library"
+    "mesh_name": "B13_library",
+    "visual_revision": "Horizontal blue bands, stone piers, curved eaves, signed entrance and broad stairs from cached 2017 photographs",
+    "floor_height_m": 3,
+    "model_units": "METERS",
+    "scale_status": "MAP_XY_METERS_AND_USER_RULE_HEIGHT_NOT_SURVEY_1_TO_1",
+    "oriented_length_m": 82.4,
+    "oriented_width_m": 80.353,
+    "xy_dimension_source": "OSM_FOOTPRINT_NOT_MEASURED"
   },
   {
     "map_index": 14,
     "osm_way_id": 574483826,
     "label": "南侧办公楼群",
     "role_classification": "PHOTO_GUIDED_INFERENCE_NOT_SOURCE_BUILDING_NAME",
-    "height_m": 19.0,
-    "height_status": "ESTIMATED_NOT_SURVEYED",
+    "height_m": 15,
+    "height_status": "USER_RULE_NOT_SURVEY",
     "floor_count": 5,
     "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
     "xy_status": "OSM_FOOTPRINT_RETAINED_EXCEPT_ESTIMATED_OFFICE_PASSAGE",
@@ -285,15 +364,21 @@
       81.89439146594718,
       -158.4433275580132
     ],
-    "mesh_name": "B14_admin"
+    "mesh_name": "B14_admin",
+    "floor_height_m": 3,
+    "model_units": "METERS",
+    "scale_status": "MAP_XY_METERS_AND_USER_RULE_HEIGHT_NOT_SURVEY_1_TO_1",
+    "oriented_length_m": 16.414,
+    "oriented_width_m": 11.5,
+    "xy_dimension_source": "OSM_FOOTPRINT_NOT_MEASURED"
   },
   {
     "map_index": 15,
     "osm_way_id": 574483827,
     "label": "教学楼群",
     "role_classification": "PHOTO_GUIDED_INFERENCE_NOT_SOURCE_BUILDING_NAME",
-    "height_m": 22.200000000000003,
-    "height_status": "ESTIMATED_NOT_SURVEYED",
+    "height_m": 18,
+    "height_status": "USER_RULE_NOT_SURVEY",
     "floor_count": 6,
     "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
     "xy_status": "OSM_FOOTPRINT_RETAINED_EXCEPT_ESTIMATED_OFFICE_PASSAGE",
@@ -306,15 +391,22 @@
       -162.92147126457579,
       -29.67052149182285
     ],
-    "mesh_name": "B15_teaching"
+    "mesh_name": "B15_teaching",
+    "floor_height_m": 3,
+    "model_units": "METERS",
+    "scale_status": "MAP_XY_METERS_AND_USER_RULE_HEIGHT_NOT_SURVEY_1_TO_1",
+    "oriented_length_m": 100.28,
+    "oriented_width_m": 25.07,
+    "xy_dimension_source": "OSM_FOOTPRINT_NOT_MEASURED",
+    "visual_revision": "V05_ORANGE_STONE_CURTAIN_TYPE_APPROXIMATION"
   },
   {
     "map_index": 16,
     "osm_way_id": 574483828,
     "label": "教学楼群",
     "role_classification": "PHOTO_GUIDED_INFERENCE_NOT_SOURCE_BUILDING_NAME",
-    "height_m": 22.200000000000003,
-    "height_status": "ESTIMATED_NOT_SURVEYED",
+    "height_m": 18,
+    "height_status": "USER_RULE_NOT_SURVEY",
     "floor_count": 6,
     "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
     "xy_status": "OSM_FOOTPRINT_RETAINED_EXCEPT_ESTIMATED_OFFICE_PASSAGE",
@@ -327,15 +419,22 @@
       -136.6958786887476,
       -71.33337535771086
     ],
-    "mesh_name": "B16_teaching"
+    "mesh_name": "B16_teaching",
+    "floor_height_m": 3,
+    "model_units": "METERS",
+    "scale_status": "MAP_XY_METERS_AND_USER_RULE_HEIGHT_NOT_SURVEY_1_TO_1",
+    "oriented_length_m": 100.28,
+    "oriented_width_m": 25.079,
+    "xy_dimension_source": "OSM_FOOTPRINT_NOT_MEASURED",
+    "visual_revision": "V05_ORANGE_STONE_CURTAIN_TYPE_APPROXIMATION"
   },
   {
     "map_index": 17,
     "osm_way_id": 574483829,
     "label": "教学楼群",
     "role_classification": "PHOTO_GUIDED_INFERENCE_NOT_SOURCE_BUILDING_NAME",
-    "height_m": 22.200000000000003,
-    "height_status": "ESTIMATED_NOT_SURVEYED",
+    "height_m": 18,
+    "height_status": "USER_RULE_NOT_SURVEY",
     "floor_count": 6,
     "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
     "xy_status": "OSM_FOOTPRINT_RETAINED_EXCEPT_ESTIMATED_OFFICE_PASSAGE",
@@ -348,15 +447,22 @@
       -105.81122577595987,
       -109.10664411060031
     ],
-    "mesh_name": "B17_teaching"
+    "mesh_name": "B17_teaching",
+    "floor_height_m": 3,
+    "model_units": "METERS",
+    "scale_status": "MAP_XY_METERS_AND_USER_RULE_HEIGHT_NOT_SURVEY_1_TO_1",
+    "oriented_length_m": 100.288,
+    "oriented_width_m": 25.085,
+    "xy_dimension_source": "OSM_FOOTPRINT_NOT_MEASURED",
+    "visual_revision": "V05_ORANGE_STONE_CURTAIN_TYPE_APPROXIMATION"
   },
   {
     "map_index": 18,
     "osm_way_id": 574483830,
     "label": "教学楼群",
     "role_classification": "PHOTO_GUIDED_INFERENCE_NOT_SOURCE_BUILDING_NAME",
-    "height_m": 22.200000000000003,
-    "height_status": "ESTIMATED_NOT_SURVEYED",
+    "height_m": 18,
+    "height_status": "USER_RULE_NOT_SURVEY",
     "floor_count": 6,
     "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
     "xy_status": "OSM_FOOTPRINT_RETAINED_EXCEPT_ESTIMATED_OFFICE_PASSAGE",
@@ -369,15 +475,22 @@
       -74.56349301440746,
       -150.95702560497844
     ],
-    "mesh_name": "B18_teaching"
+    "mesh_name": "B18_teaching",
+    "floor_height_m": 3,
+    "model_units": "METERS",
+    "scale_status": "MAP_XY_METERS_AND_USER_RULE_HEIGHT_NOT_SURVEY_1_TO_1",
+    "oriented_length_m": 100.288,
+    "oriented_width_m": 25.076,
+    "xy_dimension_source": "OSM_FOOTPRINT_NOT_MEASURED",
+    "visual_revision": "V05_ORANGE_STONE_CURTAIN_TYPE_APPROXIMATION"
   },
   {
     "map_index": 19,
     "osm_way_id": 574483831,
     "label": "教学楼群",
     "role_classification": "PHOTO_GUIDED_INFERENCE_NOT_SOURCE_BUILDING_NAME",
-    "height_m": 22.200000000000003,
-    "height_status": "ESTIMATED_NOT_SURVEYED",
+    "height_m": 18,
+    "height_status": "USER_RULE_NOT_SURVEY",
     "floor_count": 6,
     "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
     "xy_status": "OSM_FOOTPRINT_RETAINED_EXCEPT_ESTIMATED_OFFICE_PASSAGE",
@@ -390,15 +503,22 @@
       -49.266740105368925,
       -185.4004269442967
     ],
-    "mesh_name": "B19_teaching"
+    "mesh_name": "B19_teaching",
+    "floor_height_m": 3,
+    "model_units": "METERS",
+    "scale_status": "MAP_XY_METERS_AND_USER_RULE_HEIGHT_NOT_SURVEY_1_TO_1",
+    "oriented_length_m": 100.281,
+    "oriented_width_m": 25.079,
+    "xy_dimension_source": "OSM_FOOTPRINT_NOT_MEASURED",
+    "visual_revision": "V05_ORANGE_STONE_CURTAIN_TYPE_APPROXIMATION"
   },
   {
     "map_index": 20,
     "osm_way_id": 1029883032,
     "label": "体育场看台",
     "role_classification": "PHOTO_GUIDED_INFERENCE_NOT_SOURCE_BUILDING_NAME",
-    "height_m": 6.0,
-    "height_status": "ESTIMATED_NOT_SURVEYED",
+    "height_m": 3,
+    "height_status": "USER_RULE_NOT_SURVEY",
     "floor_count": 1,
     "floor_count_status": "VISUAL_APPROXIMATION_NOT_VERIFIED_MEASUREMENT",
     "xy_status": "OSM_FOOTPRINT_RETAINED_EXCEPT_ESTIMATED_OFFICE_PASSAGE",
@@ -410,6 +530,12 @@
       -291.76047294785496,
       38.0219857454539
     ],
-    "mesh_name": "B20_grandstand"
+    "mesh_name": "B20_grandstand",
+    "floor_height_m": 3,
+    "model_units": "METERS",
+    "scale_status": "MAP_XY_METERS_AND_USER_RULE_HEIGHT_NOT_SURVEY_1_TO_1",
+    "oriented_length_m": 137.485,
+    "oriented_width_m": 11.249,
+    "xy_dimension_source": "OSM_FOOTPRINT_NOT_MEASURED"
   }
 ]

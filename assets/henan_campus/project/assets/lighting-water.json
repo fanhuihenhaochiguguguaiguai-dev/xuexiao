@@ -1,0 +1,57 @@
+{
+  "static_shadow_method": "CPU_GEOMETRIC_DIRECTIONAL_PRISM_PROJECTION_ON_FLAT_GROUND",
+  "atlas_size": 2048,
+  "ground_blender_bounds": [
+    -386.9632263183594,
+    -315.8150939941406,
+    335.05865478515625,
+    434.1075439453125
+  ],
+  "light_ray_dx_dh": 0.6308,
+  "light_ray_dy_dh": 0.8679,
+  "water": [
+    {
+      "object": "Garden_pond_north",
+      "blender_bounds": [
+        -157.26602029747272,
+        0.9394333586880863,
+        -101.1224687979914,
+        45.36341170328268
+      ],
+      "color_image": "Garden_pond_north-depth-color.png",
+      "depth_foam_image": "Garden_pond_north-depth-foam.png",
+      "max_depth_m": 1.3,
+      "depth_source": "ESTIMATED_DISTANCE_FROM_EXISTING_SHORE_NOT_MEASURED",
+      "shore_foam_width_m": 0.22
+    },
+    {
+      "object": "Garden_pond_south",
+      "blender_bounds": [
+        87.82118530578536,
+        38.40568921357776,
+        89.89811552674895,
+        39.521572490725475
+      ],
+      "color_image": "Garden_pond_south-depth-color.png",
+      "depth_foam_image": "Garden_pond_south-depth-foam.png",
+      "max_depth_m": 1.3,
+      "depth_source": "ESTIMATED_DISTANCE_FROM_EXISTING_SHORE_NOT_MEASURED",
+      "shore_foam_width_m": 0.22
+    },
+    {
+      "object": "Garden_pond_south_1",
+      "blender_bounds": [
+        48.675909586086235,
+        -5.798627487414835,
+        84.356205541581,
+        19.67642115011595
+      ],
+      "color_image": "Garden_pond_south_1-depth-color.png",
+      "depth_foam_image": "Garden_pond_south_1-depth-foam.png",
+      "max_depth_m": 1.3,
+      "depth_source": "ESTIMATED_DISTANCE_FROM_EXISTING_SHORE_NOT_MEASURED",
+      "shore_foam_width_m": 0.22
+    }
+  ],
+  "geometry_accuracy": "Existing footprints and heights policy; no measured bathymetry"
+}

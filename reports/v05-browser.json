@@ -1,0 +1,640 @@
+{
+  "passed": true,
+  "verificationContext": "Real Chromium software WebGL2 with touch viewport; not Android hardware performance",
+  "version": "0.5",
+  "travelled": 5.122629512872497,
+  "movingAnimation": "Run",
+  "animationRate": 1.8,
+  "lighting": {
+    "terrainAoMaterials": [
+      {
+        "name": "V05_terrain_grass",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_paving",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_paving",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_track",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_track",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_grass_sport",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_grass_sport",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_grass_sport",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_grass_sport",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_line_white",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_line_white",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_line_white",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_line_white",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_line_white",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_line_white",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_line_white",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_line_white",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_line_white",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_line_white",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_line_white",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_line_white",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_line_white",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_line_white",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_line_white",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_line_white",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_line_white",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_line_white",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_grass_light",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_grass_light",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_grass_sport",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_grass_sport",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_grass_light",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_grass_light",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_grass_sport",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_grass_sport",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_grass_light",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_grass_light",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_grass_sport",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_grass_sport",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_grass_light",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_grass_light",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_grass_sport",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_grass_sport",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_grass_light",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_grass_light",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_grass_sport",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_grass_sport",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_line_white",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_line_white",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_line_white",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_line_white",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_line_white",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_line_white",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_line_white",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_line_white",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_line_white",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_line_white",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_seat_red",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_seat_red",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_seat_blue",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_seat_blue",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_seat_blue",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_seat_blue",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_seat_red",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_seat_red",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_seat_blue",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_seat_blue",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_seat_blue",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_seat_blue",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_seat_red",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_seat_red",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_track",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_track",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_court",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_court",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_court",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_court",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_court",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_court",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_court",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_court",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_court",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_court",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_court",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_court",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_asphalt",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_asphalt",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_Library_granite_steps",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_Library_granite_steps",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_Library_granite_steps",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_Library_granite_steps",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_Library_granite_steps",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_Library_granite_steps",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_Library_granite_steps",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_Library_granite_steps",
+        "uv": 1,
+        "width": 2048
+      },
+      {
+        "name": "V05_terrain_Library_granite_steps",
+        "uv": 1,
+        "width": 2048
+      }
+    ],
+    "staticCampusCasters": 0,
+    "characterCasters": 6
+  },
+  "settingsBefore": {
+    "quality": "low",
+    "renderScale": 1,
+    "shadowMapSize": 1024,
+    "localShadows": true,
+    "effects": {
+      "ssao": false,
+      "bloom": false,
+      "active": false
+    },
+    "config": {
+      "version": "0.5",
+      "engine": "PlayCanvas 2.23.3",
+      "units": "1 world unit = 1 metre",
+      "floorHeightMeters": 3,
+      "floorHeightSource": "USER_RULE_NOT_SURVEY",
+      "movement": {
+        "multiplier": 5,
+        "walkMetersPerSecond": 13.25,
+        "runMetersPerSecond": 26.5,
+        "mode": "FAST_EXPLORATION_NOT_HUMAN_WALKING_SPEED"
+      },
+      "renderer": {
+        "priority": [
+          "webgpu",
+          "webgl2"
+        ],
+        "minimumRenderScale": 1,
+        "maximumRenderScale": 1.25
+      },
+      "profiles": {
+        "low": {
+          "label": "标准清晰",
+          "renderScale": 1
+        },
+        "balanced": {
+          "label": "高清",
+          "renderScale": 1.25
+        }
+      },
+      "shadows": {
+        "staticBake": "CPU_DIRECTIONAL_GEOMETRY_BAKE",
+        "localRealtime": true,
+        "mapSize": 1024,
+        "distanceMeters": 22
+      },
+      "water": {
+        "doubleNormals": true,
+        "depth": "ESTIMATED_SHORE_DISTANCE_NOT_MEASURED_BATHYMETRY",
+        "shoreFoam": true,
+        "staticCubemapSize": 128,
+        "localReflectionOptional": "NOT_ENABLED_NOT_VERIFIED"
+      },
+      "ao": {
+        "baked": "BLENDER_CYCLES_AO",
+        "ssaoOptional": true,
+        "ssaoDefault": false
+      },
+      "bloom": {
+        "optional": true,
+        "default": false,
+        "intensity": 0.035
+      }
+    }
+  },
+  "optionalEffects": {
+    "quality": "balanced",
+    "renderScale": 1,
+    "shadowMapSize": 1024,
+    "localShadows": true,
+    "effects": {
+      "ssao": true,
+      "bloom": true,
+      "active": true
+    },
+    "config": {
+      "version": "0.5",
+      "engine": "PlayCanvas 2.23.3",
+      "units": "1 world unit = 1 metre",
+      "floorHeightMeters": 3,
+      "floorHeightSource": "USER_RULE_NOT_SURVEY",
+      "movement": {
+        "multiplier": 5,
+        "walkMetersPerSecond": 13.25,
+        "runMetersPerSecond": 26.5,
+        "mode": "FAST_EXPLORATION_NOT_HUMAN_WALKING_SPEED"
+      },
+      "renderer": {
+        "priority": [
+          "webgpu",
+          "webgl2"
+        ],
+        "minimumRenderScale": 1,
+        "maximumRenderScale": 1.25
+      },
+      "profiles": {
+        "low": {
+          "label": "标准清晰",
+          "renderScale": 1
+        },
+        "balanced": {
+          "label": "高清",
+          "renderScale": 1.25
+        }
+      },
+      "shadows": {
+        "staticBake": "CPU_DIRECTIONAL_GEOMETRY_BAKE",
+        "localRealtime": true,
+        "mapSize": 1024,
+        "distanceMeters": 22
+      },
+      "water": {
+        "doubleNormals": true,
+        "depth": "ESTIMATED_SHORE_DISTANCE_NOT_MEASURED_BATHYMETRY",
+        "shoreFoam": true,
+        "staticCubemapSize": 128,
+        "localReflectionOptional": "NOT_ENABLED_NOT_VERIFIED"
+      },
+      "ao": {
+        "baked": "BLENDER_CYCLES_AO",
+        "ssaoOptional": true,
+        "ssaoDefault": false
+      },
+      "bloom": {
+        "optional": true,
+        "default": false,
+        "intensity": 0.035
+      }
+    }
+  },
+  "water": {
+    "surfaces": 6,
+    "reflection": "static_scene_cubemaps_2x128",
+    "time": 18.1925,
+    "normalOffset": [
+      0.16373249999999998,
+      0.07277
+    ],
+    "capturedFaces": 12,
+    "captureSucceeded": true,
+    "depthMappedPonds": 3,
+    "depthSource": "ESTIMATED_SHORE_DISTANCE_NOT_SURVEYED",
+    "shoreFoam": true
+  },
+  "errors": [],
+  "consoleErrors": []
+}

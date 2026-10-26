@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "change": "Palette only; existing geometry, UVs, AO bakes and animations reused",
+  "runtime": "webgl2",
+  "campusModelSha256": "a05628d17f802b9ca9ef87f35499e317bf2b0fa1d0161a2cc5229cbf3824de6b",
+  "errors": [],
+  "hardwareVerified": false
+}
