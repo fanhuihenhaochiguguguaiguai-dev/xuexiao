@@ -1,0 +1,114 @@
+{
+  "normal_non_incognito_profile": true,
+  "installability": {
+    "installabilityErrors": []
+  },
+  "manifest": {
+    "id": "/",
+    "name": "河南经贸3D数字校园",
+    "short_name": "经贸校园",
+    "description": "河南经贸校园第三人称探索原型，支持横屏触控。",
+    "lang": "zh-CN",
+    "start_url": "/?source=installed",
+    "scope": "/",
+    "display": "standalone",
+    "display_override": [
+      "standalone",
+      "fullscreen"
+    ],
+    "orientation": "landscape",
+    "background_color": "#193e35",
+    "theme_color": "#193e35",
+    "categories": [
+      "games",
+      "education"
+    ],
+    "icons": [
+      {
+        "src": "/assets/app-icon-192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/assets/app-icon-512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ]
+  },
+  "installedBefore": false,
+  "fullscreenRequestGranted": true,
+  "installedAfterFullscreen": false,
+  "installDialog": true,
+  "state": {
+    "ready": true,
+    "started": true,
+    "engine": "2.23.3",
+    "requestedRenderer": "webgpu",
+    "errors": [],
+    "frames": 24,
+    "colliderCount": 44,
+    "actualRenderer": "webgl2",
+    "animations": [
+      {
+        "asset": "character.glb/animation/0",
+        "clip": "Idle",
+        "duration": 2.0333333015441895
+      },
+      {
+        "asset": "character.glb/animation/1",
+        "clip": "Walk",
+        "duration": 1.0333333015441895
+      },
+      {
+        "asset": "character.glb/animation/2",
+        "clip": "Run",
+        "duration": 0.699999988079071
+      },
+      {
+        "asset": "character.glb/animation/3",
+        "clip": "Jump",
+        "duration": 1.0333333015441895
+      }
+    ],
+    "animation": "Idle",
+    "quality": "low",
+    "position": {
+      "x": 31.9999942779541,
+      "y": 0.18509866952896115,
+      "z": 78
+    },
+    "grounded": true,
+    "travel": 0.0000057220458984375,
+    "camera": {
+      "x": 34.921775817871094,
+      "y": 1.6508971452713013,
+      "z": 82.76554870605469,
+      "yaw": 0.55,
+      "pitch": 0.06
+    },
+    "drawCalls": 80,
+    "observedFps": 2.125963327132607,
+    "renderScale": 0.55,
+    "feet": {
+      "x": 31.9999942779541,
+      "y": 0.18509866952896115,
+      "z": 78
+    },
+    "verticalVelocity": -0.8,
+    "respawns": 1,
+    "distanceTravelled": 0.0000057220458984375,
+    "lastCollision": {
+      "name": "Library_south_plaza",
+      "kind": "Landscape",
+      "building": null
+    },
+    "jumpCount": 0,
+    "colliders": 44
+  },
+  "pageErrors": [],
+  "passed": true,
+  "limitation": "Desktop Chromium normal profile verifies web installability requirements, not physical Android installation, orientation lock or hardware WebGPU."
+}

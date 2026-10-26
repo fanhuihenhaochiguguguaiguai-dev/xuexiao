@@ -1,0 +1,35 @@
+name: Campus quality gates
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: game/package-lock.json
+      - run: python -m unittest discover -s tests -v
+      - run: npm ci --no-audit --no-fund
+        working-directory: game
+      - uses: actions/cache@v4
+        with:
+          path: .campus-cache/objects
+          key: campus-${{ runner.os }}-${{ hashFiles('automation/**', 'configs/**', 'game/*.js', 'game/*.mjs', 'game/package-lock.json', 'game/dist/**', 'game/qa/**') }}
+          restore-keys: campus-${{ runner.os }}-
+      - name: Validate current meshes, physics, app and build
+        run: python -m automation.pipeline --targets gate.campus gate.avatar gate.physics game.build gate.pwa proof.prior_browser --no-promote --report reports/ci-validation.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: campus-quality-report
+          path: reports/ci-validation.json

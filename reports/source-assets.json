@@ -1,0 +1,205 @@
+{
+  "description": "Tracked editable models, sources, textures and runtime assets; rights described in docs/sources-and-rights.md",
+  "files": [
+    {
+      "path": "assets/henan_campus/project/HenanCampus.blend",
+      "bytes": 1289410,
+      "sha256": "82dfe2d717346ac063b8046b7726818b0dc0bed97ee86a9d4d34d89aba5a66db"
+    },
+    {
+      "path": "assets/henan_campus/project/HenanCampus.fbx",
+      "bytes": 1943372,
+      "sha256": "42543be04eb5c69f8757ceaec0fe57fb48510402d2de657c1a3c990cd6322ae4"
+    },
+    {
+      "path": "assets/henan_campus/project/assets/admin_facade.png",
+      "bytes": 1868,
+      "sha256": "5edcd6aaa77be43be5ebe9f379be337e69263032baa32f33b9d150d92c3f744d"
+    },
+    {
+      "path": "assets/henan_campus/project/assets/arcade_facade.png",
+      "bytes": 1899,
+      "sha256": "1df2723e0194c4fcd91b63cff4885bcd9e11cea8860654c358df14a1784e992e"
+    },
+    {
+      "path": "assets/henan_campus/project/assets/court.png",
+      "bytes": 5329,
+      "sha256": "606c34a5b69531a9209330d8c889dad58d242ccefc9a0c395238f124d262c9e3"
+    },
+    {
+      "path": "assets/henan_campus/project/assets/dorm_facade.png",
+      "bytes": 1889,
+      "sha256": "885080ee72db113a02151e08a8fffc7b346d9d635a63415ad0c698dc89279830"
+    },
+    {
+      "path": "assets/henan_campus/project/assets/grandstand_facade.png",
+      "bytes": 1872,
+      "sha256": "88b19a2a9c31ec6d58ccca473a86172de446222bb7d93c6e99d157a2397d33a3"
+    },
+    {
+      "path": "assets/henan_campus/project/assets/library_facade.png",
+      "bytes": 1921,
+      "sha256": "0460a372e0a58b1606238553f1dbef5c7e17ee0ebe2ad9a098409a1f4efc7028"
+    },
+    {
+      "path": "assets/henan_campus/project/assets/library_paving.png",
+      "bytes": 215127,
+      "sha256": "2fd738bffe04137db8b206399bcbcfcfde5821eb0f546f199835a52753b72d41"
+    },
+    {
+      "path": "assets/henan_campus/project/assets/library_stone.png",
+      "bytes": 236866,
+      "sha256": "7d7001037659a21c95242bbb21c4c2c60fd91c2895a9b80135a2104ffc78a1ee"
+    },
+    {
+      "path": "assets/henan_campus/project/assets/teaching_facade.png",
+      "bytes": 1892,
+      "sha256": "712997f1764a582c2124e2ef747aaebc2991f75276fc0318e8aac8c9c5d801f4"
+    },
+    {
+      "path": "assets/henan_campus/project/assets/tower_facade.png",
+      "bytes": 1890,
+      "sha256": "89ecf777463cdab79ca9bccdcf4c41d10354017a995138c5cd2dcfb279cd9c5b"
+    },
+    {
+      "path": "assets/henan_campus/project/scene_specification.json",
+      "bytes": 3054315,
+      "sha256": "64dcf246b764d23afe0fc730a29dfb7ed2150ebcd94ce4bf4d2bdf686c9953b3"
+    },
+    {
+      "path": "assets/henan_campus/project/source_data/building_model_parameters.json",
+      "bytes": 13722,
+      "sha256": "63f9cdd7019dbbb9db553bd794ccd5629139ba9209978ab93db0cc9ffd464d74"
+    },
+    {
+      "path": "assets/henan_campus/project/source_data/campus_building_coordinates.csv",
+      "bytes": 3449,
+      "sha256": "80a7e5dc2615fa46c5973f7ccb0af18eaa6db806b3f2697fd235955021cdbaa7"
+    },
+    {
+      "path": "assets/henan_campus/project/source_data/campus_building_footprints.geojson",
+      "bytes": 34079,
+      "sha256": "29bd7f84aff2e8b6f25c10951ad57131631dd9a7ebe8cfe44d4f3243e0ccc766"
+    },
+    {
+      "path": "assets/henan_campus/project/source_data/campus_map_features.geojson",
+      "bytes": 68555,
+      "sha256": "0e087f1d06a6aad7a9cb6c675eca1cd781c1aa0f230f39065dc8d015b5f68ab9"
+    },
+    {
+      "path": "assets/henan_campus/project/source_data/osm_campus_map.osm",
+      "bytes": 169249,
+      "sha256": "8c77b0f348fdea6579fc7f9afd5b4814fd4a5f9d74670388a587e800c8c202ed"
+    },
+    {
+      "path": "assets/henan_campus/character/output/CampusExplorer.blend",
+      "bytes": 1681964,
+      "sha256": "70a31e9a13a0f1a51ca852ae0b3d7e4115b44c5b348b7cb48bee291b436fdf3e"
+    },
+    {
+      "path": "assets/henan_campus/character/output/CampusExplorer.fbx",
+      "bytes": 2432588,
+      "sha256": "b6629fa59dbc967e3cd29e406afc86a403bbac27b443d277c6dd6c7b0564b56e"
+    },
+    {
+      "path": "assets/henan_campus/character/output/CampusExplorer.glb",
+      "bytes": 1677032,
+      "sha256": "2bb2cab82f1688c5fcb24fbe90b6c0c91e8d149e8ee6e57336ea62bd9a87069f"
+    },
+    {
+      "path": "assets/henan_campus/character/output/character_report.json",
+      "bytes": 739,
+      "sha256": "652a6a15248d2ce8ddbcb614f90d2f40283ad9b87c485911073fa82a957afe42"
+    },
+    {
+      "path": "assets/henan_campus/character/source/LICENSE.ASSETS.md",
+      "bytes": 6962,
+      "sha256": "f6089cba01cb570a24712b41ab8a586ccd3cc5ef53dc266ca50b95c288956d2c"
+    },
+    {
+      "path": "assets/henan_campus/character/source/asian-female-young.target",
+      "bytes": 435553,
+      "sha256": "095fe79694fa19e1fe98d93009ec116199bd524e081c640351a10eccf2cca1eb"
+    },
+    {
+      "path": "assets/henan_campus/character/source/asset_acquisition.json",
+      "bytes": 1154,
+      "sha256": "0a8a32290fe9cdbf9c4a70efd9db3a9f9e0499b92f2d332b8f940ac8735dc7ba"
+    },
+    {
+      "path": "assets/henan_campus/character/source/base.obj",
+      "bytes": 1749303,
+      "sha256": "8e761e6624b8f54536409135d1636da63b32486a90d4897f84e121d144f6fb4c"
+    },
+    {
+      "path": "assets/henan_campus/character/source/universal-female-young-averagemuscle-averageweight.target",
+      "bytes": 604,
+      "sha256": "4ba5396ddabda448ece15650a566fbebfbb10239256ccb201e8f883429e12249"
+    },
+    {
+      "path": "game/dist/assets/PlayCanvas-MIT.txt",
+      "bytes": 1064,
+      "sha256": "42fa51ddd556be151a29f381fb97ee975825dcc454e805ea3ea9c079cca04d34"
+    },
+    {
+      "path": "game/dist/assets/Rapier-LICENSE.txt",
+      "bytes": 11343,
+      "sha256": "4c05555705e3efde601fb1252ae48f1d63992af8a8fb8947745b7fa834e8f519"
+    },
+    {
+      "path": "game/dist/assets/app-icon-192.png",
+      "bytes": 4027,
+      "sha256": "2c83d9ad588ce76269781122e6484d0a3227cae23feda585b519173a6b085d52"
+    },
+    {
+      "path": "game/dist/assets/app-icon-512.png",
+      "bytes": 11145,
+      "sha256": "8ade558c05d3a4602bc2d49503d81729ba4cbe98e26bedd8ce374832f05dd319"
+    },
+    {
+      "path": "game/dist/assets/asset-manifest.json",
+      "bytes": 2072,
+      "sha256": "d8fe18c8b8d2a7c00bd0dec024431fff3c2cee82baa107db86452ad9952d7df7"
+    },
+    {
+      "path": "game/dist/assets/campus.glb",
+      "bytes": 3096868,
+      "sha256": "7467ace5e66154394bfe439dd35f1c591f6d95180020898e990acbcb4a3c8c20"
+    },
+    {
+      "path": "game/dist/assets/character-base-CC0.txt",
+      "bytes": 6962,
+      "sha256": "f6089cba01cb570a24712b41ab8a586ccd3cc5ef53dc266ca50b95c288956d2c"
+    },
+    {
+      "path": "game/dist/assets/character.glb",
+      "bytes": 1677032,
+      "sha256": "2bb2cab82f1688c5fcb24fbe90b6c0c91e8d149e8ee6e57336ea62bd9a87069f"
+    },
+    {
+      "path": "game/dist/assets/engine/glslang.js",
+      "bytes": 14904,
+      "sha256": "c4d874b63615e4ed03a739eb01506282c25e03954d97f13dfd9a2c9e06138120"
+    },
+    {
+      "path": "game/dist/assets/engine/glslang.wasm",
+      "bytes": 943680,
+      "sha256": "d79453e0803ebcdf3753c6b1d8d51543b52fed96f7f0d4aec94acd847e225169"
+    },
+    {
+      "path": "game/dist/assets/engine/twgsl.js",
+      "bytes": 74555,
+      "sha256": "b4f1f66263b801210f955f74aa71f1939be647ce0fd80ea5befd12a78499d5ff"
+    },
+    {
+      "path": "game/dist/assets/engine/twgsl.wasm",
+      "bytes": 1702916,
+      "sha256": "a434c2decdbb38caadf5f486d806384a1543554828c983c77922b2d92579914c"
+    },
+    {
+      "path": "game/dist/assets/world.json",
+      "bytes": 506701,
+      "sha256": "2f812bcdcef4e8478ddb8e5c38511a72a1c032d5b77139dffbb7662dfc2f67b9"
+    }
+  ]
+}

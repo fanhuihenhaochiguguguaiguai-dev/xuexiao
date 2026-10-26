@@ -1,0 +1,28 @@
+{
+  "front_profile_uv": [
+    [
+      -59.94833606709413,
+      -25.81940189066206
+    ],
+    [
+      -38.944502015916264,
+      -12.03222076088997
+    ],
+    [
+      4.091923633720387,
+      -14.146423038780952
+    ],
+    [
+      19.909152960497455,
+      -26.575998860550307
+    ]
+  ],
+  "method": "PHOTO_GUIDED_LOCAL_GEOMETRY_CORRECTION",
+  "references": [
+    "scene_ef8a1b1d35eefd7f/b.jpg",
+    "scene_ef8a1b1d35eefd7f/l.jpg",
+    "scene_c5fd9763ca141592/l.jpg"
+  ],
+  "source_date": "2017-08-11",
+  "measurement_status": "ALL_NEW_DIMENSIONS_ESTIMATED"
+}

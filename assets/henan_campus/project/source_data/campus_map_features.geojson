@@ -1,0 +1,3350 @@
+{
+  "type": "FeatureCollection",
+  "name": "Henan Economics and Trade campus bounding-box public map features",
+  "license": "ODbL 1.0",
+  "attribution": "© OpenStreetMap contributors",
+  "source_url": "https://api.openstreetmap.org/api/0.6/map?bbox=113.7884582,34.7987313,113.7963485,34.8054912",
+  "coordinate_reference_system": "WGS84 longitude latitude",
+  "scope": "Bounding box includes nearby features; not all features are within the campus polygon. No heights are invented.",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "way/151771431",
+      "properties": {
+        "osm_id": 151771431,
+        "osm_type": "way",
+        "highway": "tertiary",
+        "lit": "yes",
+        "name": "龙子湖北路",
+        "name:en": "Longzihu North Road",
+        "name:zh": "龙子湖北路",
+        "oneway": "yes",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.8092473,
+            34.7998476
+          ],
+          [
+            113.8087003,
+            34.8002462
+          ],
+          [
+            113.8079522,
+            34.8005884
+          ],
+          [
+            113.8068593,
+            34.8010274
+          ],
+          [
+            113.805895,
+            34.8013853
+          ],
+          [
+            113.8052453,
+            34.8015402
+          ],
+          [
+            113.8047946,
+            34.8015939
+          ],
+          [
+            113.804632,
+            34.8016159
+          ],
+          [
+            113.8027063,
+            34.8016154
+          ],
+          [
+            113.8023791,
+            34.8016153
+          ],
+          [
+            113.8003669,
+            34.8015993
+          ],
+          [
+            113.7990816,
+            34.8015734
+          ],
+          [
+            113.7984134,
+            34.8014979
+          ],
+          [
+            113.7977155,
+            34.8013424
+          ],
+          [
+            113.7969182,
+            34.8010655
+          ],
+          [
+            113.7954732,
+            34.8002778
+          ],
+          [
+            113.7921394,
+            34.7983625
+          ],
+          [
+            113.7919511,
+            34.7982498
+          ],
+          [
+            113.7896246,
+            34.796877
+          ],
+          [
+            113.7886931,
+            34.7962972
+          ],
+          [
+            113.78818,
+            34.7956633
+          ],
+          [
+            113.7878859,
+            34.7950338
+          ],
+          [
+            113.787776,
+            34.794381
+          ],
+          [
+            113.7877617,
+            34.7939117
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/182722924",
+      "properties": {
+        "osm_id": 182722924,
+        "osm_type": "way",
+        "amenity": "university",
+        "education": "university",
+        "name": "河南经贸职业学院",
+        "name:en": "Henan Institute of Economics and Trade",
+        "name:zh": "河南经贸职业学院",
+        "wikidata": "Q11148845",
+        "wikipedia": "zh:浙江经贸职业技术学院",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7929836,
+              34.8054912
+            ],
+            [
+              113.7905435,
+              34.80412
+            ],
+            [
+              113.7901372,
+              34.8038647
+            ],
+            [
+              113.7884582,
+              34.8028129
+            ],
+            [
+              113.7889267,
+              34.8021116
+            ],
+            [
+              113.7914472,
+              34.799436
+            ],
+            [
+              113.7921769,
+              34.7987313
+            ],
+            [
+              113.7955804,
+              34.8006206
+            ],
+            [
+              113.7963485,
+              34.8010445
+            ],
+            [
+              113.7929836,
+              34.8054912
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/182730533",
+      "properties": {
+        "osm_id": 182730533,
+        "osm_type": "way",
+        "highway": "service",
+        "lit": "yes",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.7921088,
+            34.8018805
+          ],
+          [
+            113.7929387,
+            34.8023359
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/182730546",
+      "properties": {
+        "osm_id": 182730546,
+        "osm_type": "way",
+        "highway": "service",
+        "lit": "yes",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.7957299,
+            34.801673
+          ],
+          [
+            113.7940053,
+            34.8006698
+          ],
+          [
+            113.7938525,
+            34.8006774
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/182730551",
+      "properties": {
+        "osm_id": 182730551,
+        "osm_type": "way",
+        "highway": "service",
+        "lit": "yes",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.7894194,
+            34.8008271
+          ],
+          [
+            113.7896083,
+            34.8009442
+          ],
+          [
+            113.7901192,
+            34.8011973
+          ],
+          [
+            113.7909207,
+            34.8017059
+          ],
+          [
+            113.79098,
+            34.8017802
+          ],
+          [
+            113.7910143,
+            34.8018954
+          ],
+          [
+            113.7909675,
+            34.8020004
+          ],
+          [
+            113.7906899,
+            34.8023257
+          ],
+          [
+            113.790665,
+            34.8024153
+          ],
+          [
+            113.7906806,
+            34.8025075
+          ],
+          [
+            113.7907305,
+            34.8026048
+          ],
+          [
+            113.7912529,
+            34.8029106
+          ],
+          [
+            113.7915445,
+            34.8030812
+          ],
+          [
+            113.7917285,
+            34.8031401
+          ],
+          [
+            113.7919437,
+            34.8031529
+          ],
+          [
+            113.7921776,
+            34.8031324
+          ],
+          [
+            113.7923585,
+            34.8030786
+          ],
+          [
+            113.7925769,
+            34.8029582
+          ],
+          [
+            113.7927234,
+            34.8028353
+          ],
+          [
+            113.7928108,
+            34.8027278
+          ],
+          [
+            113.7928856,
+            34.8026023
+          ],
+          [
+            113.7929137,
+            34.8025024
+          ],
+          [
+            113.7929387,
+            34.8023359
+          ],
+          [
+            113.7929667,
+            34.8022207
+          ],
+          [
+            113.7930447,
+            34.8020312
+          ],
+          [
+            113.7931975,
+            34.8018621
+          ],
+          [
+            113.793341,
+            34.8017597
+          ],
+          [
+            113.7935001,
+            34.8016777
+          ],
+          [
+            113.7936997,
+            34.8016035
+          ],
+          [
+            113.7938338,
+            34.8015394
+          ],
+          [
+            113.7939679,
+            34.8014012
+          ],
+          [
+            113.7940147,
+            34.8012654
+          ],
+          [
+            113.7940427,
+            34.8011553
+          ],
+          [
+            113.7940459,
+            34.8010667
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/182730566",
+      "properties": {
+        "osm_id": 182730566,
+        "osm_type": "way",
+        "highway": "service",
+        "lit": "yes",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.7902695,
+            34.804094
+          ],
+          [
+            113.7912529,
+            34.8029106
+          ],
+          [
+            113.7921088,
+            34.8018805
+          ],
+          [
+            113.7933483,
+            34.8003888
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/182730580",
+      "properties": {
+        "osm_id": 182730580,
+        "osm_type": "way",
+        "highway": "service",
+        "lit": "yes",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.7940459,
+            34.8010667
+          ],
+          [
+            113.7940147,
+            34.8009335
+          ],
+          [
+            113.7939367,
+            34.800785
+          ],
+          [
+            113.7938525,
+            34.8006774
+          ],
+          [
+            113.7933483,
+            34.8003888
+          ],
+          [
+            113.7917004,
+            34.7994456
+          ],
+          [
+            113.7916162,
+            34.7994456
+          ],
+          [
+            113.7901192,
+            34.8011973
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/182734224",
+      "properties": {
+        "osm_id": 182734224,
+        "osm_type": "way",
+        "leisure": "pitch",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7892986,
+              34.798087
+            ],
+            [
+              113.7894185,
+              34.7980842
+            ],
+            [
+              113.789504,
+              34.7980139
+            ],
+            [
+              113.7896512,
+              34.7979409
+            ],
+            [
+              113.7898292,
+              34.7979071
+            ],
+            [
+              113.7900004,
+              34.7979071
+            ],
+            [
+              113.7901544,
+              34.7979605
+            ],
+            [
+              113.7902502,
+              34.798028
+            ],
+            [
+              113.7903598,
+              34.7981545
+            ],
+            [
+              113.7903948,
+              34.7982299
+            ],
+            [
+              113.7904145,
+              34.7982725
+            ],
+            [
+              113.7904488,
+              34.7991579
+            ],
+            [
+              113.7904111,
+              34.7992676
+            ],
+            [
+              113.790305,
+              34.7993744
+            ],
+            [
+              113.7901955,
+              34.799439
+            ],
+            [
+              113.7900106,
+              34.7994868
+            ],
+            [
+              113.7898908,
+              34.7994868
+            ],
+            [
+              113.7897265,
+              34.7994503
+            ],
+            [
+              113.7895793,
+              34.7993884
+            ],
+            [
+              113.7895451,
+              34.799335
+            ],
+            [
+              113.7894321,
+              34.7993378
+            ],
+            [
+              113.7892986,
+              34.798087
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/182735500",
+      "properties": {
+        "osm_id": 182735500,
+        "osm_type": "way",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7887037,
+              34.7985247
+            ],
+            [
+              113.7892701,
+              34.7984933
+            ],
+            [
+              113.7893601,
+              34.7995884
+            ],
+            [
+              113.7887937,
+              34.7996198
+            ],
+            [
+              113.7887037,
+              34.7985247
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/182735502",
+      "properties": {
+        "osm_id": 182735502,
+        "osm_type": "way",
+        "leisure": "pitch",
+        "sport": "tennis",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7963264,
+              34.8045352
+            ],
+            [
+              113.7965284,
+              34.8045371
+            ],
+            [
+              113.7965337,
+              34.8041711
+            ],
+            [
+              113.7963317,
+              34.8041691
+            ],
+            [
+              113.7963264,
+              34.8045352
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/182735508",
+      "properties": {
+        "osm_id": 182735508,
+        "osm_type": "way",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.795854,
+              34.8059061
+            ],
+            [
+              113.796524,
+              34.8059075
+            ],
+            [
+              113.796529,
+              34.8050454
+            ],
+            [
+              113.7958568,
+              34.8050427
+            ],
+            [
+              113.795854,
+              34.8059061
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/182735511",
+      "properties": {
+        "osm_id": 182735511,
+        "osm_type": "way",
+        "leisure": "pitch",
+        "sport": "badminton",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7958568,
+              34.8050427
+            ],
+            [
+              113.7958595,
+              34.8045888
+            ],
+            [
+              113.7965317,
+              34.8045915
+            ],
+            [
+              113.796529,
+              34.8050454
+            ],
+            [
+              113.7958568,
+              34.8050427
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/182735518",
+      "properties": {
+        "osm_id": 182735518,
+        "osm_type": "way",
+        "leisure": "pitch",
+        "sport": "tennis",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7958618,
+              34.8045203
+            ],
+            [
+              113.7960638,
+              34.8045223
+            ],
+            [
+              113.7960691,
+              34.8041562
+            ],
+            [
+              113.7958671,
+              34.8041542
+            ],
+            [
+              113.7958618,
+              34.8045203
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/182735523",
+      "properties": {
+        "osm_id": 182735523,
+        "osm_type": "way",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7915687,
+              34.8038943
+            ],
+            [
+              113.7910574,
+              34.803602
+            ],
+            [
+              113.7906759,
+              34.804052
+            ],
+            [
+              113.7910139,
+              34.8042452
+            ],
+            [
+              113.7910502,
+              34.8042024
+            ],
+            [
+              113.7912234,
+              34.8043015
+            ],
+            [
+              113.7915687,
+              34.8038943
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/298873807",
+      "properties": {
+        "osm_id": 298873807,
+        "osm_type": "way",
+        "highway": "secondary",
+        "lit": "yes",
+        "name": "文苑北路",
+        "name:en": "Wenyuan North Road",
+        "name:zh": "文苑北路",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.776509,
+            34.794549
+          ],
+          [
+            113.7765218,
+            34.7965296
+          ],
+          [
+            113.776605,
+            34.7969041
+          ],
+          [
+            113.776741,
+            34.7972836
+          ],
+          [
+            113.7771688,
+            34.7978663
+          ],
+          [
+            113.7779201,
+            34.7984318
+          ],
+          [
+            113.7784105,
+            34.7986289
+          ],
+          [
+            113.7792661,
+            34.7988088
+          ],
+          [
+            113.7812278,
+            34.7992287
+          ],
+          [
+            113.7824466,
+            34.7996835
+          ],
+          [
+            113.7827304,
+            34.7997856
+          ],
+          [
+            113.7845982,
+            34.8009081
+          ],
+          [
+            113.7878241,
+            34.8028526
+          ],
+          [
+            113.7880224,
+            34.8029771
+          ],
+          [
+            113.7921424,
+            34.8054834
+          ],
+          [
+            113.7944171,
+            34.8068285
+          ],
+          [
+            113.7968874,
+            34.8083245
+          ],
+          [
+            113.7983461,
+            34.8092315
+          ],
+          [
+            113.7989119,
+            34.8095456
+          ],
+          [
+            113.7994737,
+            34.8098288
+          ],
+          [
+            113.8000209,
+            34.8100134
+          ],
+          [
+            113.800836,
+            34.8102798
+          ],
+          [
+            113.8014538,
+            34.8103971
+          ],
+          [
+            113.8021085,
+            34.8104571
+          ],
+          [
+            113.8022681,
+            34.8104717
+          ],
+          [
+            113.8024536,
+            34.8104839
+          ],
+          [
+            113.802887,
+            34.8105034
+          ],
+          [
+            113.8035828,
+            34.8104984
+          ],
+          [
+            113.8042634,
+            34.810427
+          ],
+          [
+            113.804896,
+            34.8102987
+          ],
+          [
+            113.805566,
+            34.8101119
+          ],
+          [
+            113.8060637,
+            34.809934
+          ],
+          [
+            113.8062765,
+            34.8098551
+          ],
+          [
+            113.8089084,
+            34.8087933
+          ],
+          [
+            113.8092342,
+            34.8086619
+          ],
+          [
+            113.8142982,
+            34.8064925
+          ],
+          [
+            113.817203,
+            34.8052751
+          ],
+          [
+            113.8173147,
+            34.8052274
+          ],
+          [
+            113.817859,
+            34.8049922
+          ],
+          [
+            113.8181421,
+            34.8048625
+          ],
+          [
+            113.8186731,
+            34.8045862
+          ],
+          [
+            113.819401,
+            34.8041736
+          ],
+          [
+            113.8199944,
+            34.8037794
+          ],
+          [
+            113.8231756,
+            34.8016579
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/477078729",
+      "properties": {
+        "osm_id": 477078729,
+        "osm_type": "way",
+        "highway": "tertiary",
+        "name": "龙子湖北路",
+        "name:en": "Longzihu North Road",
+        "name:zh": "龙子湖北路",
+        "oneway": "yes",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.7880143,
+            34.7939077
+          ],
+          [
+            113.7880192,
+            34.7945298
+          ],
+          [
+            113.7881876,
+            34.7952597
+          ],
+          [
+            113.7885899,
+            34.7959128
+          ],
+          [
+            113.78917,
+            34.7964045
+          ],
+          [
+            113.791453,
+            34.7977107
+          ],
+          [
+            113.7921347,
+            34.7980491
+          ],
+          [
+            113.7923004,
+            34.7981699
+          ],
+          [
+            113.7931933,
+            34.7987402
+          ],
+          [
+            113.7969639,
+            34.8009145
+          ],
+          [
+            113.7979651,
+            34.8012526
+          ],
+          [
+            113.7989849,
+            34.8014293
+          ],
+          [
+            113.7998644,
+            34.8014677
+          ],
+          [
+            113.8003819,
+            34.8014698
+          ],
+          [
+            113.8017825,
+            34.8014754
+          ],
+          [
+            113.8040561,
+            34.8014907
+          ],
+          [
+            113.8045138,
+            34.8014485
+          ],
+          [
+            113.8046016,
+            34.8014389
+          ],
+          [
+            113.80477,
+            34.801422
+          ],
+          [
+            113.8050377,
+            34.8013966
+          ],
+          [
+            113.8056511,
+            34.8012841
+          ],
+          [
+            113.8061005,
+            34.8011412
+          ],
+          [
+            113.8069051,
+            34.8008415
+          ],
+          [
+            113.8078682,
+            34.8004346
+          ],
+          [
+            113.8084587,
+            34.8001455
+          ],
+          [
+            113.8090258,
+            34.7997688
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/567600832",
+      "properties": {
+        "osm_id": 567600832,
+        "osm_type": "way",
+        "highway": "living_street",
+        "surface": "concrete",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.7869235,
+            34.7992998
+          ],
+          [
+            113.7894194,
+            34.8008271
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/570581277",
+      "properties": {
+        "osm_id": 570581277,
+        "osm_type": "way",
+        "building": "university",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7872826,
+              34.7989929
+            ],
+            [
+              113.7886184,
+              34.7989179
+            ],
+            [
+              113.7886027,
+              34.7987285
+            ],
+            [
+              113.7872669,
+              34.7988035
+            ],
+            [
+              113.7872826,
+              34.7989929
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/570581278",
+      "properties": {
+        "osm_id": 570581278,
+        "osm_type": "way",
+        "building": "university",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7873127,
+              34.7993337
+            ],
+            [
+              113.7886486,
+              34.7992587
+            ],
+            [
+              113.7886328,
+              34.7990693
+            ],
+            [
+              113.787297,
+              34.7991443
+            ],
+            [
+              113.7873127,
+              34.7993337
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/570581419",
+      "properties": {
+        "osm_id": 570581419,
+        "osm_type": "way",
+        "building": "university",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7877969,
+              34.7996752
+            ],
+            [
+              113.7886561,
+              34.7996324
+            ],
+            [
+              113.7886423,
+              34.7994469
+            ],
+            [
+              113.7877831,
+              34.7994898
+            ],
+            [
+              113.7877969,
+              34.7996752
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/570582283",
+      "properties": {
+        "osm_id": 570582283,
+        "osm_type": "way",
+        "building": "residential",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7876808,
+              34.8007473
+            ],
+            [
+              113.7888902,
+              34.8007125
+            ],
+            [
+              113.7888847,
+              34.8005831
+            ],
+            [
+              113.7876753,
+              34.8006179
+            ],
+            [
+              113.7876808,
+              34.8007473
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/570582288",
+      "properties": {
+        "osm_id": 570582288,
+        "osm_type": "way",
+        "building": "residential",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7877278,
+              34.8010786
+            ],
+            [
+              113.7877218,
+              34.8009683
+            ],
+            [
+              113.7886246,
+              34.800935
+            ],
+            [
+              113.7886306,
+              34.8010452
+            ],
+            [
+              113.7877278,
+              34.8010786
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/574392528",
+      "properties": {
+        "osm_id": 574392528,
+        "osm_type": "way",
+        "building": "university",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.796322,
+              34.8020696
+            ],
+            [
+              113.7973471,
+              34.8020735
+            ],
+            [
+              113.7973517,
+              34.8018971
+            ],
+            [
+              113.7964621,
+              34.8018971
+            ],
+            [
+              113.796322,
+              34.8020696
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/574392530",
+      "properties": {
+        "osm_id": 574392530,
+        "osm_type": "way",
+        "building": "university",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7956962,
+              34.8028941
+            ],
+            [
+              113.7970775,
+              34.8028913
+            ],
+            [
+              113.797077,
+              34.8027151
+            ],
+            [
+              113.795841,
+              34.8027177
+            ],
+            [
+              113.7956962,
+              34.8028941
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/574392532",
+      "properties": {
+        "osm_id": 574392532,
+        "osm_type": "way",
+        "building": "university",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7953553,
+              34.8033504
+            ],
+            [
+              113.7967374,
+              34.8033597
+            ],
+            [
+              113.7967392,
+              34.8031746
+            ],
+            [
+              113.7955094,
+              34.8031663
+            ],
+            [
+              113.7953553,
+              34.8033504
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/574392534",
+      "properties": {
+        "osm_id": 574392534,
+        "osm_type": "way",
+        "building": "university",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7950798,
+              34.8037166
+            ],
+            [
+              113.7966647,
+              34.8037433
+            ],
+            [
+              113.7966695,
+              34.8035543
+            ],
+            [
+              113.7952666,
+              34.8035306
+            ],
+            [
+              113.7950798,
+              34.8037166
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/574483813",
+      "properties": {
+        "osm_id": 574483813,
+        "osm_type": "way",
+        "building": "university",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7930104,
+              34.8051112
+            ],
+            [
+              113.7931053,
+              34.8050051
+            ],
+            [
+              113.7926347,
+              34.8047212
+            ],
+            [
+              113.7925398,
+              34.8048273
+            ],
+            [
+              113.7930104,
+              34.8051112
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/574483814",
+      "properties": {
+        "osm_id": 574483814,
+        "osm_type": "way",
+        "building": "university",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7933749,
+              34.804615
+            ],
+            [
+              113.7934698,
+              34.8045089
+            ],
+            [
+              113.7929991,
+              34.8042251
+            ],
+            [
+              113.7929042,
+              34.8043312
+            ],
+            [
+              113.7933749,
+              34.804615
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/574483815",
+      "properties": {
+        "osm_id": 574483815,
+        "osm_type": "way",
+        "building": "university",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.792322,
+              34.8047359
+            ],
+            [
+              113.792406,
+              34.8046383
+            ],
+            [
+              113.7917643,
+              34.8042658
+            ],
+            [
+              113.7916803,
+              34.8043633
+            ],
+            [
+              113.792322,
+              34.8047359
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/574483816",
+      "properties": {
+        "osm_id": 574483816,
+        "osm_type": "way",
+        "building": "university",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.792171,
+              34.8038049
+            ],
+            [
+              113.7928556,
+              34.8042057
+            ],
+            [
+              113.7929548,
+              34.8040915
+            ],
+            [
+              113.7922702,
+              34.8036907
+            ],
+            [
+              113.792171,
+              34.8038049
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/574483817",
+      "properties": {
+        "osm_id": 574483817,
+        "osm_type": "way",
+        "building": "university",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7938887,
+              34.8038955
+            ],
+            [
+              113.7940303,
+              34.8038025
+            ],
+            [
+              113.7938745,
+              34.803634
+            ],
+            [
+              113.7936091,
+              34.8035032
+            ],
+            [
+              113.7933861,
+              34.8034451
+            ],
+            [
+              113.793149,
+              34.8033637
+            ],
+            [
+              113.7929862,
+              34.8032707
+            ],
+            [
+              113.7928977,
+              34.803198
+            ],
+            [
+              113.7927172,
+              34.8032794
+            ],
+            [
+              113.7928907,
+              34.8034422
+            ],
+            [
+              113.7931242,
+              34.8035555
+            ],
+            [
+              113.7934605,
+              34.8036369
+            ],
+            [
+              113.7937401,
+              34.8037647
+            ],
+            [
+              113.7938887,
+              34.8038955
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/574483818",
+      "properties": {
+        "osm_id": 574483818,
+        "osm_type": "way",
+        "building": "university",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7941789,
+              34.8035652
+            ],
+            [
+              113.7943204,
+              34.8034722
+            ],
+            [
+              113.7941647,
+              34.8033036
+            ],
+            [
+              113.7938993,
+              34.8031729
+            ],
+            [
+              113.7936763,
+              34.8031148
+            ],
+            [
+              113.7934392,
+              34.8030334
+            ],
+            [
+              113.7932764,
+              34.8029404
+            ],
+            [
+              113.7931879,
+              34.8028677
+            ],
+            [
+              113.7930074,
+              34.8029491
+            ],
+            [
+              113.7931808,
+              34.8031118
+            ],
+            [
+              113.7934144,
+              34.8032252
+            ],
+            [
+              113.7937506,
+              34.8033066
+            ],
+            [
+              113.7940302,
+              34.8034344
+            ],
+            [
+              113.7941789,
+              34.8035652
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/574483819",
+      "properties": {
+        "osm_id": 574483819,
+        "osm_type": "way",
+        "building": "university",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7943934,
+              34.8032216
+            ],
+            [
+              113.794535,
+              34.8031286
+            ],
+            [
+              113.7943793,
+              34.8029601
+            ],
+            [
+              113.7941138,
+              34.8028293
+            ],
+            [
+              113.7938909,
+              34.8027712
+            ],
+            [
+              113.7936537,
+              34.8026898
+            ],
+            [
+              113.7934909,
+              34.8025968
+            ],
+            [
+              113.7934025,
+              34.8025242
+            ],
+            [
+              113.793222,
+              34.8026055
+            ],
+            [
+              113.7933954,
+              34.8027683
+            ],
+            [
+              113.793629,
+              34.8028816
+            ],
+            [
+              113.7939652,
+              34.802963
+            ],
+            [
+              113.7942448,
+              34.8030908
+            ],
+            [
+              113.7943934,
+              34.8032216
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/574483820",
+      "properties": {
+        "osm_id": 574483820,
+        "osm_type": "way",
+        "building": "university",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7946536,
+              34.802867
+            ],
+            [
+              113.7947952,
+              34.802774
+            ],
+            [
+              113.7946394,
+              34.8026055
+            ],
+            [
+              113.794374,
+              34.8024747
+            ],
+            [
+              113.794151,
+              34.8024166
+            ],
+            [
+              113.7939139,
+              34.8023352
+            ],
+            [
+              113.7937511,
+              34.8022422
+            ],
+            [
+              113.7936626,
+              34.8021696
+            ],
+            [
+              113.7934821,
+              34.8022509
+            ],
+            [
+              113.7936556,
+              34.8024137
+            ],
+            [
+              113.7938891,
+              34.802527
+            ],
+            [
+              113.7942254,
+              34.8026084
+            ],
+            [
+              113.794505,
+              34.8027363
+            ],
+            [
+              113.7946536,
+              34.802867
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/574483821",
+      "properties": {
+        "osm_id": 574483821,
+        "osm_type": "way",
+        "building": "university",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7949057,
+              34.8025477
+            ],
+            [
+              113.7950473,
+              34.8024547
+            ],
+            [
+              113.7948916,
+              34.8022861
+            ],
+            [
+              113.7946261,
+              34.8021554
+            ],
+            [
+              113.7944032,
+              34.8020972
+            ],
+            [
+              113.794166,
+              34.8020159
+            ],
+            [
+              113.7940032,
+              34.8019229
+            ],
+            [
+              113.7939148,
+              34.8018502
+            ],
+            [
+              113.7937343,
+              34.8019316
+            ],
+            [
+              113.7939077,
+              34.8020943
+            ],
+            [
+              113.7941413,
+              34.8022077
+            ],
+            [
+              113.7944775,
+              34.802289
+            ],
+            [
+              113.7947571,
+              34.8024169
+            ],
+            [
+              113.7949057,
+              34.8025477
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/574483822",
+      "properties": {
+        "osm_id": 574483822,
+        "osm_type": "way",
+        "building": "university",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.795182,
+              34.8021997
+            ],
+            [
+              113.7953236,
+              34.8021067
+            ],
+            [
+              113.7951678,
+              34.8019381
+            ],
+            [
+              113.7949024,
+              34.8018074
+            ],
+            [
+              113.7946794,
+              34.8017492
+            ],
+            [
+              113.7944423,
+              34.8016679
+            ],
+            [
+              113.7943519,
+              34.8016255
+            ],
+            [
+              113.7942205,
+              34.8015529
+            ],
+            [
+              113.794091,
+              34.8016871
+            ],
+            [
+              113.7941839,
+              34.8017463
+            ],
+            [
+              113.7944175,
+              34.8018597
+            ],
+            [
+              113.7947538,
+              34.8019411
+            ],
+            [
+              113.7950334,
+              34.8020689
+            ],
+            [
+              113.795182,
+              34.8021997
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/574483823",
+      "properties": {
+        "osm_id": 574483823,
+        "osm_type": "way",
+        "building": "university",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7954395,
+              34.8018506
+            ],
+            [
+              113.7955811,
+              34.8017576
+            ],
+            [
+              113.7954253,
+              34.8015891
+            ],
+            [
+              113.7951599,
+              34.8014583
+            ],
+            [
+              113.7949369,
+              34.8014002
+            ],
+            [
+              113.7946998,
+              34.8013188
+            ],
+            [
+              113.7946094,
+              34.8012764
+            ],
+            [
+              113.794478,
+              34.8012038
+            ],
+            [
+              113.7943485,
+              34.801338
+            ],
+            [
+              113.7944414,
+              34.8013973
+            ],
+            [
+              113.794675,
+              34.8015106
+            ],
+            [
+              113.7950112,
+              34.801592
+            ],
+            [
+              113.7952908,
+              34.8017198
+            ],
+            [
+              113.7954395,
+              34.8018506
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/574483824",
+      "properties": {
+        "osm_id": 574483824,
+        "osm_type": "way",
+        "building": "university",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.792337,
+              34.8033194
+            ],
+            [
+              113.7927106,
+              34.8031603
+            ],
+            [
+              113.7929395,
+              34.8029513
+            ],
+            [
+              113.7931169,
+              34.8026848
+            ],
+            [
+              113.7932009,
+              34.8024586
+            ],
+            [
+              113.7933188,
+              34.80227
+            ],
+            [
+              113.7934651,
+              34.8021482
+            ],
+            [
+              113.7935912,
+              34.8020798
+            ],
+            [
+              113.7934943,
+              34.8019405
+            ],
+            [
+              113.7936976,
+              34.8018504
+            ],
+            [
+              113.7938887,
+              34.8017669
+            ],
+            [
+              113.7940655,
+              34.8016451
+            ],
+            [
+              113.7941791,
+              34.8015133
+            ],
+            [
+              113.7942584,
+              34.8013514
+            ],
+            [
+              113.7942909,
+              34.8011595
+            ],
+            [
+              113.7943113,
+              34.8009782
+            ],
+            [
+              113.7941609,
+              34.8009732
+            ],
+            [
+              113.7941426,
+              34.8011751
+            ],
+            [
+              113.7940715,
+              34.8014005
+            ],
+            [
+              113.7939698,
+              34.8015207
+            ],
+            [
+              113.7937889,
+              34.8016709
+            ],
+            [
+              113.793543,
+              34.801766
+            ],
+            [
+              113.7933631,
+              34.8018633
+            ],
+            [
+              113.7931578,
+              34.8020552
+            ],
+            [
+              113.7930541,
+              34.8022488
+            ],
+            [
+              113.793024,
+              34.8024409
+            ],
+            [
+              113.7929773,
+              34.8026245
+            ],
+            [
+              113.7928916,
+              34.8027874
+            ],
+            [
+              113.7927371,
+              34.8029476
+            ],
+            [
+              113.7924972,
+              34.8031029
+            ],
+            [
+              113.7922655,
+              34.8031846
+            ],
+            [
+              113.792337,
+              34.8033194
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/574483825",
+      "properties": {
+        "osm_id": 574483825,
+        "osm_type": "way",
+        "building": "university",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7918,
+              34.8016884
+            ],
+            [
+              113.7920479,
+              34.8016985
+            ],
+            [
+              113.7924179,
+              34.8019054
+            ],
+            [
+              113.7925317,
+              34.802089
+            ],
+            [
+              113.7930318,
+              34.8014848
+            ],
+            [
+              113.7928123,
+              34.8014948
+            ],
+            [
+              113.7924138,
+              34.8012879
+            ],
+            [
+              113.7923122,
+              34.8010775
+            ],
+            [
+              113.7918,
+              34.8016884
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/574483826",
+      "properties": {
+        "osm_id": 574483826,
+        "osm_type": "way",
+        "building": "university",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7927228,
+              34.7997889
+            ],
+            [
+              113.7943205,
+              34.8006836
+            ],
+            [
+              113.7943897,
+              34.8003898
+            ],
+            [
+              113.7939221,
+              34.800273
+            ],
+            [
+              113.7934139,
+              34.8000093
+            ],
+            [
+              113.793048,
+              34.799622
+            ],
+            [
+              113.7927228,
+              34.7997889
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/574483827",
+      "properties": {
+        "osm_id": 574483827,
+        "osm_type": "way",
+        "building": "university",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7912552,
+              34.8016684
+            ],
+            [
+              113.7903892,
+              34.8011276
+            ],
+            [
+              113.7905478,
+              34.8009507
+            ],
+            [
+              113.7914259,
+              34.8014915
+            ],
+            [
+              113.7912552,
+              34.8016684
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/574483828",
+      "properties": {
+        "osm_id": 574483828,
+        "osm_type": "way",
+        "building": "university",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7915418,
+              34.8012929
+            ],
+            [
+              113.7906758,
+              34.8007521
+            ],
+            [
+              113.7908344,
+              34.8005751
+            ],
+            [
+              113.7917125,
+              34.8011159
+            ],
+            [
+              113.7915418,
+              34.8012929
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/574483829",
+      "properties": {
+        "osm_id": 574483829,
+        "osm_type": "way",
+        "building": "university",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7918792,
+              34.8009524
+            ],
+            [
+              113.7910133,
+              34.8004115
+            ],
+            [
+              113.7911718,
+              34.8002346
+            ],
+            [
+              113.79205,
+              34.8007754
+            ],
+            [
+              113.7918792,
+              34.8009524
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/574483830",
+      "properties": {
+        "osm_id": 574483830,
+        "osm_type": "way",
+        "building": "university",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7922207,
+              34.8005751
+            ],
+            [
+              113.7913548,
+              34.8000343
+            ],
+            [
+              113.7915133,
+              34.7998574
+            ],
+            [
+              113.7923915,
+              34.8003982
+            ],
+            [
+              113.7922207,
+              34.8005751
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/574483831",
+      "properties": {
+        "osm_id": 574483831,
+        "osm_type": "way",
+        "building": "university",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7924972,
+              34.8002647
+            ],
+            [
+              113.7916312,
+              34.7997238
+            ],
+            [
+              113.7917898,
+              34.7995469
+            ],
+            [
+              113.7926679,
+              34.8000877
+            ],
+            [
+              113.7924972,
+              34.8002647
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/660478739",
+      "properties": {
+        "osm_id": 660478739,
+        "osm_type": "way",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "博学路",
+        "name:en": "Boxue Road",
+        "name:zh": "博学路",
+        "oneway": "yes",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.7927201,
+            34.797751
+          ],
+          [
+            113.7923004,
+            34.7981699
+          ],
+          [
+            113.7921394,
+            34.7983625
+          ],
+          [
+            113.7896083,
+            34.8009442
+          ],
+          [
+            113.7886164,
+            34.8020035
+          ],
+          [
+            113.788211,
+            34.8025259
+          ],
+          [
+            113.7880224,
+            34.8029771
+          ],
+          [
+            113.7879387,
+            34.8031775
+          ],
+          [
+            113.7877929,
+            34.8036949
+          ],
+          [
+            113.787742,
+            34.8040011
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/660478749",
+      "properties": {
+        "osm_id": 660478749,
+        "osm_type": "way",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "博学路",
+        "name:en": "Boxue Road",
+        "name:zh": "博学路",
+        "oneway": "yes",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.7875354,
+            34.8039009
+          ],
+          [
+            113.7875824,
+            34.803652
+          ],
+          [
+            113.7877159,
+            34.8031118
+          ],
+          [
+            113.7877426,
+            34.8030479
+          ],
+          [
+            113.7877985,
+            34.802914
+          ],
+          [
+            113.7878241,
+            34.8028526
+          ],
+          [
+            113.7879962,
+            34.802441
+          ],
+          [
+            113.7884224,
+            34.8018918
+          ],
+          [
+            113.7894194,
+            34.8008271
+          ],
+          [
+            113.7919511,
+            34.7982498
+          ],
+          [
+            113.7921347,
+            34.7980491
+          ],
+          [
+            113.7925328,
+            34.7976402
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/899422937",
+      "properties": {
+        "osm_id": 899422937,
+        "osm_type": "way",
+        "natural": "water",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7963654,
+              34.8012048
+            ],
+            [
+              113.7964728,
+              34.8012546
+            ],
+            [
+              113.7931991,
+              34.8055149
+            ],
+            [
+              113.7930777,
+              34.8054382
+            ],
+            [
+              113.7963654,
+              34.8012048
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1029883032",
+      "properties": {
+        "osm_id": 1029883032,
+        "osm_type": "way",
+        "building": "grandstand",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7898743,
+              34.8013824
+            ],
+            [
+              113.7890214,
+              34.8024021
+            ],
+            [
+              113.7891228,
+              34.8024593
+            ],
+            [
+              113.7899758,
+              34.8014396
+            ],
+            [
+              113.7898743,
+              34.8013824
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1029883033",
+      "properties": {
+        "osm_id": 1029883033,
+        "osm_type": "way",
+        "leisure": "pitch",
+        "sport": "soccer",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7900192,
+              34.8017062
+            ],
+            [
+              113.7893486,
+              34.8024726
+            ],
+            [
+              113.789952,
+              34.8028286
+            ],
+            [
+              113.7906226,
+              34.8020621
+            ],
+            [
+              113.7900192,
+              34.8017062
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1029883034",
+      "properties": {
+        "osm_id": 1029883034,
+        "osm_type": "way",
+        "leisure": "pitch",
+        "sport": "soccer",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7950135,
+              34.8045427
+            ],
+            [
+              113.795004,
+              34.8054662
+            ],
+            [
+              113.7957007,
+              34.805471
+            ],
+            [
+              113.7957102,
+              34.8045476
+            ],
+            [
+              113.7950135,
+              34.8045427
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1340477086",
+      "properties": {
+        "osm_id": 1340477086,
+        "osm_type": "way",
+        "building": "yes",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.790466,
+              34.7992343
+            ],
+            [
+              113.7903948,
+              34.7982299
+            ],
+            [
+              113.7906113,
+              34.7982797
+            ],
+            [
+              113.7906589,
+              34.7991644
+            ],
+            [
+              113.790466,
+              34.7992343
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1340477087",
+      "properties": {
+        "osm_id": 1340477087,
+        "osm_type": "way",
+        "building": "yes",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7891062,
+              34.8002185
+            ],
+            [
+              113.7887267,
+              34.7999158
+            ],
+            [
+              113.7888576,
+              34.7997904
+            ],
+            [
+              113.7892698,
+              34.8000913
+            ],
+            [
+              113.7891062,
+              34.8002185
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1340477088",
+      "properties": {
+        "osm_id": 1340477088,
+        "osm_type": "way",
+        "building": "yes",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7888968,
+              34.8004316
+            ],
+            [
+              113.7884846,
+              34.8001934
+            ],
+            [
+              113.7886525,
+              34.8000519
+            ],
+            [
+              113.7890364,
+              34.8003009
+            ],
+            [
+              113.7888968,
+              34.8004316
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1372990571",
+      "properties": {
+        "osm_id": 1372990571,
+        "osm_type": "way",
+        "highway": "footway",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            113.7924765,
+            34.797489
+          ],
+          [
+            113.7929842,
+            34.7978176
+          ],
+          [
+            113.7929842,
+            34.7979743
+          ],
+          [
+            113.793033,
+            34.798111
+          ],
+          [
+            113.7931385,
+            34.798186
+          ],
+          [
+            113.7938632,
+            34.7983844
+          ],
+          [
+            113.7941312,
+            34.7985361
+          ],
+          [
+            113.7942083,
+            34.7986544
+          ],
+          [
+            113.7943626,
+            34.7990045
+          ],
+          [
+            113.7944195,
+            34.7991995
+          ],
+          [
+            113.7946184,
+            34.7993362
+          ],
+          [
+            113.7947849,
+            34.7994196
+          ],
+          [
+            113.7950427,
+            34.7993846
+          ],
+          [
+            113.7952335,
+            34.7993146
+          ],
+          [
+            113.7953837,
+            34.7993212
+          ],
+          [
+            113.7956923,
+            34.7994646
+          ],
+          [
+            113.7959034,
+            34.7995996
+          ],
+          [
+            113.796216,
+            34.8001614
+          ],
+          [
+            113.7963865,
+            34.8003797
+          ],
+          [
+            113.79662,
+            34.8005698
+          ],
+          [
+            113.796888,
+            34.8006148
+          ],
+          [
+            113.7972026,
+            34.8005881
+          ],
+          [
+            113.7977058,
+            34.8007093
+          ],
+          [
+            113.7977426,
+            34.8007181
+          ],
+          [
+            113.7979476,
+            34.8007231
+          ],
+          [
+            113.7981364,
+            34.8008231
+          ],
+          [
+            113.7982481,
+            34.8009515
+          ],
+          [
+            113.7985627,
+            34.8009515
+          ],
+          [
+            113.7986947,
+            34.8009982
+          ],
+          [
+            113.7989342,
+            34.8011915
+          ],
+          [
+            113.7991778,
+            34.8013199
+          ],
+          [
+            113.7994295,
+            34.8013416
+          ],
+          [
+            113.7996183,
+            34.8013432
+          ],
+          [
+            113.7998721,
+            34.8011915
+          ],
+          [
+            113.8002334,
+            34.8010415
+          ],
+          [
+            113.8006049,
+            34.8009898
+          ],
+          [
+            113.8014332,
+            34.8009848
+          ],
+          [
+            113.8016484,
+            34.8010448
+          ],
+          [
+            113.8020483,
+            34.8012082
+          ],
+          [
+            113.8021762,
+            34.8012899
+          ],
+          [
+            113.8022858,
+            34.8013099
+          ],
+          [
+            113.8025964,
+            34.8012832
+          ],
+          [
+            113.8026979,
+            34.8012032
+          ],
+          [
+            113.8029313,
+            34.8010448
+          ],
+          [
+            113.8031222,
+            34.8009798
+          ],
+          [
+            113.8034043,
+            34.8009782
+          ],
+          [
+            113.8036804,
+            34.8009698
+          ],
+          [
+            113.803855,
+            34.8008832
+          ],
+          [
+            113.80406,
+            34.8008215
+          ],
+          [
+            113.8042042,
+            34.8007898
+          ],
+          [
+            113.8049634,
+            34.8007231
+          ],
+          [
+            113.8055927,
+            34.8006681
+          ],
+          [
+            113.8056227,
+            34.8006626
+          ],
+          [
+            113.8059743,
+            34.8005981
+          ],
+          [
+            113.8063194,
+            34.8004314
+          ],
+          [
+            113.8066404,
+            34.8002762
+          ],
+          [
+            113.8066503,
+            34.8002714
+          ],
+          [
+            113.8069914,
+            34.7999597
+          ],
+          [
+            113.8071883,
+            34.7998613
+          ],
+          [
+            113.8075131,
+            34.7997896
+          ],
+          [
+            113.8078359,
+            34.7997396
+          ],
+          [
+            113.8080041,
+            34.7996238
+          ],
+          [
+            113.8081119,
+            34.7995496
+          ],
+          [
+            113.8083413,
+            34.7993446
+          ],
+          [
+            113.8083677,
+            34.7992362
+          ],
+          [
+            113.808451,
+            34.7989412
+          ],
+          [
+            113.8086905,
+            34.7986928
+          ],
+          [
+            113.8089239,
+            34.7984561
+          ],
+          [
+            113.809131,
+            34.7981193
+          ],
+          [
+            113.8092102,
+            34.7977309
+          ],
+          [
+            113.8092061,
+            34.7972158
+          ],
+          [
+            113.8091655,
+            34.7969024
+          ],
+          [
+            113.8091736,
+            34.7967574
+          ],
+          [
+            113.8092264,
+            34.7966274
+          ],
+          [
+            113.8094781,
+            34.7964023
+          ],
+          [
+            113.8095695,
+            34.7962406
+          ],
+          [
+            113.8095979,
+            34.7960939
+          ],
+          [
+            113.8095857,
+            34.7960139
+          ]
+        ]
+      }
+    }
+  ]
+}

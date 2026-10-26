@@ -1,0 +1,88 @@
+{
+  "test_cases_passed": 21,
+  "all_existing_building_models": 20,
+  "stages": {
+    "pilot": {
+      "passed": true,
+      "counts": {
+        "BLOCKED": 0,
+        "CACHED": 0,
+        "FAILED": 0,
+        "SUCCESS": 3
+      },
+      "seconds": 1.948,
+      "promoted": false
+    },
+    "small": {
+      "passed": true,
+      "counts": {
+        "BLOCKED": 0,
+        "CACHED": 3,
+        "FAILED": 0,
+        "SUCCESS": 4
+      },
+      "seconds": 3.437,
+      "promoted": false
+    },
+    "trial": {
+      "passed": true,
+      "counts": {
+        "BLOCKED": 0,
+        "CACHED": 7,
+        "FAILED": 0,
+        "SUCCESS": 6
+      },
+      "seconds": 5.638,
+      "promoted": false
+    },
+    "full-batch": {
+      "passed": true,
+      "counts": {
+        "BLOCKED": 0,
+        "CACHED": 13,
+        "FAILED": 0,
+        "SUCCESS": 36
+      },
+      "seconds": 25.029,
+      "promoted": true
+    },
+    "warm-cache": {
+      "passed": true,
+      "counts": {
+        "BLOCKED": 0,
+        "CACHED": 49,
+        "FAILED": 0,
+        "SUCCESS": 0
+      },
+      "seconds": 0.557,
+      "promoted": true
+    }
+  },
+  "rollback_actual_checked": true,
+  "source_download_network_used": false,
+  "source_download_result": "EXISTING_HASH_VERIFIED_CC0_COPY",
+  "warm_run_executes_no_driver_commands": true,
+  "pending_visual_refinement_buildings": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "physical_android_tested": false,
+  "hardware_webgpu_tested": false
+}

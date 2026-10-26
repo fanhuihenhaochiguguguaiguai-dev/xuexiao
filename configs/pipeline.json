@@ -1,0 +1,378 @@
+{
+  "schema_version": 1,
+  "cache_dir": ".campus-cache",
+  "policy": {
+    "max_attempts": 2,
+    "retryable_codes": [
+      "TIMEOUT",
+      "IO_BUSY"
+    ],
+    "halt_group_on_failure": true
+  },
+  "release_targets": [
+    "model.13",
+    "model.01",
+    "model.02",
+    "model.03",
+    "model.04",
+    "model.05",
+    "model.06",
+    "model.07",
+    "model.08",
+    "model.09",
+    "model.10",
+    "model.11",
+    "model.12",
+    "model.14",
+    "model.15",
+    "model.16",
+    "model.17",
+    "model.18",
+    "model.19",
+    "model.20",
+    "gate.physics",
+    "gate.pwa",
+    "proof.prior_browser",
+    "source.cc0_base"
+  ],
+  "campaigns": {
+    "pilot": [
+      "model.13"
+    ],
+    "small": [
+      "model.13",
+      "model.01",
+      "model.02"
+    ],
+    "trial": [
+      "model.13",
+      "model.01",
+      "model.02",
+      "model.05",
+      "model.06",
+      "model.15"
+    ],
+    "all": [
+      "model.13",
+      "model.01",
+      "model.02",
+      "model.03",
+      "model.04",
+      "model.05",
+      "model.06",
+      "model.07",
+      "model.08",
+      "model.09",
+      "model.10",
+      "model.11",
+      "model.12",
+      "model.14",
+      "model.15",
+      "model.16",
+      "model.17",
+      "model.18",
+      "model.19",
+      "model.20",
+      "gate.physics",
+      "gate.pwa",
+      "proof.prior_browser",
+      "source.cc0_base"
+    ]
+  },
+  "tasks": [
+    {
+      "id": "tool.blender",
+      "driver": "tool",
+      "params": {
+        "name": "blender"
+      },
+      "outputs": [
+        "tool.json"
+      ]
+    },
+    {
+      "id": "tool.node",
+      "driver": "tool",
+      "params": {
+        "name": "node"
+      },
+      "outputs": [
+        "tool.json"
+      ]
+    },
+    {
+      "id": "gate.campus",
+      "driver": "glb_gate",
+      "inputs": {
+        "model": "game/dist/assets/campus.glb"
+      },
+      "params": {
+        "min_height": 10
+      },
+      "outputs": [
+        "quality.json"
+      ]
+    },
+    {
+      "id": "gate.avatar",
+      "driver": "glb_gate",
+      "inputs": {
+        "model": "game/dist/assets/character.glb"
+      },
+      "params": {
+        "require_skin": true,
+        "min_height": 1
+      },
+      "outputs": [
+        "quality.json"
+      ]
+    },
+    {
+      "id": "gate.physics",
+      "driver": "physics",
+      "needs": [
+        "tool.node",
+        "gate.campus"
+      ],
+      "inputs": {
+        "script": "game/physics-check.mjs",
+        "simulation": "game/simulation.js",
+        "world": "game/dist/assets/world.json",
+        "lock": "game/package-lock.json"
+      },
+      "outputs": [
+        "physics.json"
+      ]
+    },
+    {
+      "id": "game.build",
+      "driver": "build",
+      "needs": [
+        "tool.node",
+        "gate.campus",
+        "gate.avatar"
+      ],
+      "inputs": {
+        "entry": "game/game.js",
+        "simulation": "game/simulation.js",
+        "pwa": "game/dist/pwa.js",
+        "lock": "game/package-lock.json"
+      },
+      "outputs": [
+        "game.js"
+      ]
+    },
+    {
+      "id": "gate.pwa",
+      "driver": "pwa_gate",
+      "needs": [
+        "game.build"
+      ],
+      "inputs": {
+        "manifest": "game/dist/manifest.webmanifest",
+        "html": "game/dist/index.html",
+        "css": "game/dist/style.css",
+        "pwa": "game/dist/pwa.js",
+        "sw": "game/dist/sw.js",
+        "world": "game/dist/assets/world.json",
+        "campus": "game/dist/assets/campus.glb",
+        "avatar": "game/dist/assets/character.glb",
+        "bundle": "game/dist/game.js",
+        "icon192": "game/dist/assets/app-icon-192.png",
+        "icon512": "game/dist/assets/app-icon-512.png"
+      },
+      "outputs": [
+        "quality.json"
+      ]
+    },
+    {
+      "id": "proof.prior_browser",
+      "driver": "published_proof",
+      "inputs": {
+        "browser": "game/qa/playcanvas_browser_validation.json",
+        "install": "game/qa/pwa_normal_profile_validation.json"
+      },
+      "params": {
+        "source_commit": "2bca4c44553ef7a9cd98d9353c2c7c741994e60a"
+      },
+      "outputs": [
+        "prior-proof.json"
+      ]
+    },
+    {
+      "id": "source.cc0_base",
+      "driver": "fetch_asset",
+      "inputs": {
+        "existing": {
+          "path": "assets/henan_campus/character/source/base.obj",
+          "optional": true
+        }
+      },
+      "params": {
+        "url": "https://raw.githubusercontent.com/makehumancommunity/makehuman/master/makehuman/data/3dobjs/base.obj",
+        "sha256": "8e761e6624b8f54536409135d1636da63b32486a90d4897f84e121d144f6fb4c",
+        "license": "CC0 1.0",
+        "allowed_hosts": [
+          "raw.githubusercontent.com"
+        ]
+      },
+      "outputs": [
+        "asset.bin",
+        "provenance.json"
+      ]
+    }
+  ],
+  "task_templates": {
+    "reuse_building": [
+      {
+        "id": "route.${id}",
+        "driver": "route",
+        "group": "buildings",
+        "inputs": {
+          "model": "assets/henan_campus/project/HenanCampus.blend",
+          "photos": {
+            "path": "configs/local-photos/building-${id}.json",
+            "optional": true
+          }
+        },
+        "params": {
+          "building_id": "${building_id}"
+        },
+        "outputs": [
+          "route.json"
+        ]
+      },
+      {
+        "id": "model.${id}",
+        "driver": "building_export",
+        "group": "buildings",
+        "needs": [
+          "tool.blender",
+          "route.${id}"
+        ],
+        "inputs": {
+          "source": "assets/henan_campus/project/HenanCampus.blend"
+        },
+        "params": {
+          "building_id": "${building_id}",
+          "min_height": 2,
+          "include_objects": "${include_objects}"
+        },
+        "outputs": [
+          "model.glb",
+          "export.json",
+          "quality.json"
+        ]
+      }
+    ]
+  },
+  "batches": [
+    {
+      "template": "reuse_building",
+      "items": [
+        {
+          "id": "13",
+          "building_id": 13,
+          "include_objects": []
+        },
+        {
+          "id": "01",
+          "building_id": 1,
+          "include_objects": []
+        },
+        {
+          "id": "02",
+          "building_id": 2,
+          "include_objects": []
+        },
+        {
+          "id": "03",
+          "building_id": 3,
+          "include_objects": []
+        },
+        {
+          "id": "04",
+          "building_id": 4,
+          "include_objects": []
+        },
+        {
+          "id": "05",
+          "building_id": 5,
+          "include_objects": []
+        },
+        {
+          "id": "06",
+          "building_id": 6,
+          "include_objects": []
+        },
+        {
+          "id": "07",
+          "building_id": 7,
+          "include_objects": []
+        },
+        {
+          "id": "08",
+          "building_id": 8,
+          "include_objects": []
+        },
+        {
+          "id": "09",
+          "building_id": 9,
+          "include_objects": []
+        },
+        {
+          "id": "10",
+          "building_id": 10,
+          "include_objects": []
+        },
+        {
+          "id": "11",
+          "building_id": 11,
+          "include_objects": []
+        },
+        {
+          "id": "12",
+          "building_id": 12,
+          "include_objects": []
+        },
+        {
+          "id": "14",
+          "building_id": 14,
+          "include_objects": []
+        },
+        {
+          "id": "15",
+          "building_id": 15,
+          "include_objects": []
+        },
+        {
+          "id": "16",
+          "building_id": 16,
+          "include_objects": []
+        },
+        {
+          "id": "17",
+          "building_id": 17,
+          "include_objects": []
+        },
+        {
+          "id": "18",
+          "building_id": 18,
+          "include_objects": []
+        },
+        {
+          "id": "19",
+          "building_id": 19,
+          "include_objects": []
+        },
+        {
+          "id": "20",
+          "building_id": 20,
+          "include_objects": [
+            "Grandstand_canopy_estimated"
+          ]
+        }
+      ]
+    }
+  ]
+}

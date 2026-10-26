@@ -1,0 +1,23 @@
+{
+  "method": "CC0 MakeHuman base + supplied photo appearance/texture reference + procedural clothing/hair/rig/animation",
+  "reference_files": [
+    "/workspace/henan_campus/character/reference/body_views.jpg",
+    "/workspace/henan_campus/character/reference/face_details.jpg"
+  ],
+  "height_m": 1.68,
+  "bones": 17,
+  "animations": [
+    "Idle",
+    "Walk",
+    "Run",
+    "Jump"
+  ],
+  "face_likeness": "APPROXIMATE_NOT_VERIFIED",
+  "photogrammetry": false,
+  "clothing_construction": "Separate skinned top, long sleeves, straight jeans and sneaker meshes",
+  "base_license": "CC0 1.0",
+  "body_vertices": 7255,
+  "source_asset_records": "../source/asset_acquisition.json",
+  "mesh_triangles_total": 44569,
+  "pants_triangles": 9557
+}

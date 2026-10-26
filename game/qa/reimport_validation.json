@@ -1,0 +1,1460 @@
+{
+  "baseline": {
+    "mesh_objects": 130,
+    "building_bounds": {
+      "1": {
+        "min": [
+          -13.469447135925293,
+          348.6860046386719,
+          0.1599999964237213
+        ],
+        "max": [
+          38.276206970214844,
+          391.95147705078125,
+          57.959999084472656
+        ]
+      },
+      "2": {
+        "min": [
+          19.874874114990234,
+          293.65020751953125,
+          0.1599999964237213
+        ],
+        "max": [
+          71.62992095947266,
+          336.90472412109375,
+          57.959999084472656
+        ]
+      },
+      "3": {
+        "min": [
+          -92.11799621582031,
+          298.1656799316406,
+          0.1599999964237213
+        ],
+        "max": [
+          -25.71279525756836,
+          350.31683349609375,
+          57.959999084472656
+        ]
+      },
+      "4": {
+        "min": [
+          -47.216854095458984,
+          234.36550903320312,
+          0.1599999964237213
+        ],
+        "max": [
+          24.505096435546875,
+          291.49798583984375,
+          57.959999084472656
+        ]
+      },
+      "5": {
+        "min": [
+          2.763484477996826,
+          179.70680236816406,
+          0.1599999964237213
+        ],
+        "max": [
+          122.91938018798828,
+          257.08599853515625,
+          21.65999984741211
+        ]
+      },
+      "6": {
+        "min": [
+          29.318674087524414,
+          143.0644073486328,
+          0.1599999964237213
+        ],
+        "max": [
+          149.46572875976562,
+          220.44386291503906,
+          21.65999984741211
+        ]
+      },
+      "7": {
+        "min": [
+          48.9561653137207,
+          104.95768737792969,
+          0.1599999964237213
+        ],
+        "max": [
+          169.1035919189453,
+          182.3262176513672,
+          21.65999984741211
+        ]
+      },
+      "8": {
+        "min": [
+          72.75740814208984,
+          65.61964416503906,
+          0.1599999964237213
+        ],
+        "max": [
+          192.9143524169922,
+          142.9884033203125,
+          21.65999984741211
+        ]
+      },
+      "9": {
+        "min": [
+          95.83590698242188,
+          30.186630249023438,
+          0.1599999964237213
+        ],
+        "max": [
+          215.98402404785156,
+          107.56671142578125,
+          21.65999984741211
+        ]
+      },
+      "10": {
+        "min": [
+          128.47705078125,
+          -2.794539213180542,
+          0.1599999964237213
+        ],
+        "max": [
+          241.26841735839844,
+          68.96124267578125,
+          21.65999984741211
+        ]
+      },
+      "11": {
+        "min": [
+          152.0409698486328,
+          -41.52223587036133,
+          0.1599999964237213
+        ],
+        "max": [
+          264.83270263671875,
+          30.23377227783203,
+          21.65999984741211
+        ]
+      },
+      "12": {
+        "min": [
+          -38.56986999511719,
+          -67.10476684570312,
+          0.1599999964237213
+        ],
+        "max": [
+          148.6374969482422,
+          193.17459106445312,
+          12.279999732971191
+        ]
+      },
+      "13": {
+        "min": [
+          -81.16748046875,
+          -57.951637268066406,
+          0.1599999964237213
+        ],
+        "max": [
+          33.66168975830078,
+          56.67770004272461,
+          32.188720703125
+        ]
+      },
+      "14": {
+        "min": [
+          3.2760567665100098,
+          -217.003662109375,
+          0.1599999964237213
+        ],
+        "max": [
+          155.81288146972656,
+          -99.23187255859375,
+          19.959999084472656
+        ]
+      },
+      "15": {
+        "min": [
+          -210.26820373535156,
+          -69.5997543334961,
+          0.1599999964237213
+        ],
+        "max": [
+          -115.40084838867188,
+          10.018540382385254,
+          24.360000610351562
+        ]
+      },
+      "16": {
+        "min": [
+          -184.04270935058594,
+          -111.26818084716797,
+          0.1599999964237213
+        ],
+        "max": [
+          -89.17503356933594,
+          -31.63861846923828,
+          24.360000610351562
+        ]
+      },
+      "17": {
+        "min": [
+          -153.15907287597656,
+          -149.042724609375,
+          0.1599999964237213
+        ],
+        "max": [
+          -58.29115295410156,
+          -69.41294860839844,
+          24.360000610351562
+        ]
+      },
+      "18": {
+        "min": [
+          -121.90921783447266,
+          -190.8885498046875,
+          0.1599999964237213
+        ],
+        "max": [
+          -27.040996551513672,
+          -111.26964569091797,
+          24.360000610351562
+        ]
+      },
+      "19": {
+        "min": [
+          -96.61629486083984,
+          -225.334716796875,
+          0.1599999964237213
+        ],
+        "max": [
+          -1.7478340864181519,
+          -145.70455932617188,
+          24.360000610351562
+        ]
+      },
+      "20": {
+        "min": [
+          -335.4283447265625,
+          -21.706754684448242,
+          0.1599999964237213
+        ],
+        "max": [
+          -248.0968780517578,
+          97.76343536376953,
+          6.960000038146973
+        ]
+      }
+    },
+    "temporary_uv_seam_weld_tolerance_m": 0.0001,
+    "triangles": 51326,
+    "invalid_coordinate_objects": [],
+    "building_geometry_checks": [
+      {
+        "object": "B01_tower",
+        "building_index": 1,
+        "non_manifold_edges_after_seam_weld": 0,
+        "volume_m3": 43543.62270543089
+      },
+      {
+        "object": "B02_tower",
+        "building_index": 2,
+        "non_manifold_edges_after_seam_weld": 0,
+        "volume_m3": 43544.53071907886
+      },
+      {
+        "object": "B03_tower",
+        "building_index": 3,
+        "non_manifold_edges_after_seam_weld": 0,
+        "volume_m3": 53184.273607118805
+      },
+      {
+        "object": "B04_tower",
+        "building_index": 4,
+        "non_manifold_edges_after_seam_weld": 0,
+        "volume_m3": 66806.81243467878
+      },
+      {
+        "object": "B05_dorm",
+        "building_index": 5,
+        "non_manifold_edges_after_seam_weld": 0,
+        "volume_m3": 47350.753584952676
+      },
+      {
+        "object": "B06_dorm",
+        "building_index": 6,
+        "non_manifold_edges_after_seam_weld": 0,
+        "volume_m3": 47355.854448978236
+      },
+      {
+        "object": "B07_dorm",
+        "building_index": 7,
+        "non_manifold_edges_after_seam_weld": 0,
+        "volume_m3": 47348.398415689546
+      },
+      {
+        "object": "B08_dorm",
+        "building_index": 8,
+        "non_manifold_edges_after_seam_weld": 0,
+        "volume_m3": 47352.91474901479
+      },
+      {
+        "object": "B09_dorm",
+        "building_index": 9,
+        "non_manifold_edges_after_seam_weld": 0,
+        "volume_m3": 47350.03274488085
+      },
+      {
+        "object": "B10_dorm",
+        "building_index": 10,
+        "non_manifold_edges_after_seam_weld": 0,
+        "volume_m3": 43781.18700677649
+      },
+      {
+        "object": "B11_dorm",
+        "building_index": 11,
+        "non_manifold_edges_after_seam_weld": 0,
+        "volume_m3": 43780.51357518778
+      },
+      {
+        "object": "B12_arcade",
+        "building_index": 12,
+        "non_manifold_edges_after_seam_weld": 0,
+        "volume_m3": 60026.75050542211
+      },
+      {
+        "object": "B13_library",
+        "building_index": 13,
+        "non_manifold_edges_after_seam_weld": 0,
+        "volume_m3": 145441.93134637177
+      },
+      {
+        "object": "B14_admin",
+        "building_index": 14,
+        "non_manifold_edges_after_seam_weld": 0,
+        "volume_m3": 32272.459220527697
+      },
+      {
+        "object": "B14_admin_1",
+        "building_index": 14,
+        "non_manifold_edges_after_seam_weld": 0,
+        "volume_m3": 31952.01158647807
+      },
+      {
+        "object": "B15_teaching",
+        "building_index": 15,
+        "non_manifold_edges_after_seam_weld": 0,
+        "volume_m3": 54833.58273611825
+      },
+      {
+        "object": "B16_teaching",
+        "building_index": 16,
+        "non_manifold_edges_after_seam_weld": 0,
+        "volume_m3": 54853.47948397291
+      },
+      {
+        "object": "B17_teaching",
+        "building_index": 17,
+        "non_manifold_edges_after_seam_weld": 0,
+        "volume_m3": 54845.72239747512
+      },
+      {
+        "object": "B18_teaching",
+        "building_index": 18,
+        "non_manifold_edges_after_seam_weld": 0,
+        "volume_m3": 54834.30182336858
+      },
+      {
+        "object": "B19_teaching",
+        "building_index": 19,
+        "non_manifold_edges_after_seam_weld": 0,
+        "volume_m3": 54846.16706472313
+      },
+      {
+        "object": "B20_grandstand",
+        "building_index": 20,
+        "non_manifold_edges_after_seam_weld": 0,
+        "volume_m3": 9272.693725768235
+      }
+    ],
+    "images": [
+      {
+        "name": "admin_facade.png",
+        "has_pixels": true,
+        "size": [
+          1024,
+          256
+        ],
+        "packed": true,
+        "path": "//assets/admin_facade.png"
+      },
+      {
+        "name": "arcade_facade.png",
+        "has_pixels": true,
+        "size": [
+          1024,
+          256
+        ],
+        "packed": true,
+        "path": "//assets/arcade_facade.png"
+      },
+      {
+        "name": "court.png",
+        "has_pixels": true,
+        "size": [
+          512,
+          768
+        ],
+        "packed": true,
+        "path": "//assets/court.png"
+      },
+      {
+        "name": "dorm_facade.png",
+        "has_pixels": true,
+        "size": [
+          1024,
+          256
+        ],
+        "packed": true,
+        "path": "//assets/dorm_facade.png"
+      },
+      {
+        "name": "grandstand_facade.png",
+        "has_pixels": true,
+        "size": [
+          1024,
+          256
+        ],
+        "packed": true,
+        "path": "//assets/grandstand_facade.png"
+      },
+      {
+        "name": "library_paving.png",
+        "has_pixels": true,
+        "size": [
+          512,
+          512
+        ],
+        "packed": true,
+        "path": "/workspace/henan_campus/project/assets/library_paving.png"
+      },
+      {
+        "name": "library_paving.png.001",
+        "has_pixels": true,
+        "size": [
+          512,
+          512
+        ],
+        "packed": true,
+        "path": "/workspace/henan_campus/project/assets/library_paving.png"
+      },
+      {
+        "name": "library_paving.png.002",
+        "has_pixels": true,
+        "size": [
+          512,
+          512
+        ],
+        "packed": true,
+        "path": "/workspace/henan_campus/project/assets/library_paving.png"
+      },
+      {
+        "name": "library_stone.png",
+        "has_pixels": true,
+        "size": [
+          512,
+          512
+        ],
+        "packed": true,
+        "path": "/workspace/henan_campus/project/assets/library_stone.png"
+      },
+      {
+        "name": "library_stone.png.001",
+        "has_pixels": true,
+        "size": [
+          512,
+          512
+        ],
+        "packed": true,
+        "path": "/workspace/henan_campus/project/assets/library_stone.png"
+      },
+      {
+        "name": "library_stone.png.002",
+        "has_pixels": true,
+        "size": [
+          512,
+          512
+        ],
+        "packed": true,
+        "path": "/workspace/henan_campus/project/assets/library_stone.png"
+      },
+      {
+        "name": "teaching_facade.png",
+        "has_pixels": true,
+        "size": [
+          1024,
+          256
+        ],
+        "packed": true,
+        "path": "//assets/teaching_facade.png"
+      },
+      {
+        "name": "tower_facade.png",
+        "has_pixels": true,
+        "size": [
+          1024,
+          256
+        ],
+        "packed": true,
+        "path": "//assets/tower_facade.png"
+      }
+    ],
+    "all_images_loaded": true,
+    "all_building_solids_closed": true
+  },
+  "formats": {
+    "glb": {
+      "mesh_objects": 130,
+      "building_bounds": {
+        "1": {
+          "min": [
+            -13.469447135925293,
+            348.6860046386719,
+            0.1599999964237213
+          ],
+          "max": [
+            38.276206970214844,
+            391.95147705078125,
+            57.959999084472656
+          ]
+        },
+        "2": {
+          "min": [
+            19.874874114990234,
+            293.65020751953125,
+            0.1599999964237213
+          ],
+          "max": [
+            71.62992095947266,
+            336.90472412109375,
+            57.959999084472656
+          ]
+        },
+        "3": {
+          "min": [
+            -92.11799621582031,
+            298.1656799316406,
+            0.1599999964237213
+          ],
+          "max": [
+            -25.71279525756836,
+            350.31683349609375,
+            57.959999084472656
+          ]
+        },
+        "4": {
+          "min": [
+            -47.216854095458984,
+            234.36550903320312,
+            0.1599999964237213
+          ],
+          "max": [
+            24.505096435546875,
+            291.49798583984375,
+            57.959999084472656
+          ]
+        },
+        "5": {
+          "min": [
+            2.763484477996826,
+            179.70680236816406,
+            0.1599999964237213
+          ],
+          "max": [
+            122.91938018798828,
+            257.08599853515625,
+            21.65999984741211
+          ]
+        },
+        "6": {
+          "min": [
+            29.318674087524414,
+            143.0644073486328,
+            0.1599999964237213
+          ],
+          "max": [
+            149.46572875976562,
+            220.44386291503906,
+            21.65999984741211
+          ]
+        },
+        "7": {
+          "min": [
+            48.9561653137207,
+            104.95768737792969,
+            0.1599999964237213
+          ],
+          "max": [
+            169.1035919189453,
+            182.3262176513672,
+            21.65999984741211
+          ]
+        },
+        "8": {
+          "min": [
+            72.75740814208984,
+            65.61964416503906,
+            0.1599999964237213
+          ],
+          "max": [
+            192.9143524169922,
+            142.9884033203125,
+            21.65999984741211
+          ]
+        },
+        "9": {
+          "min": [
+            95.83590698242188,
+            30.186630249023438,
+            0.1599999964237213
+          ],
+          "max": [
+            215.98402404785156,
+            107.56671142578125,
+            21.65999984741211
+          ]
+        },
+        "10": {
+          "min": [
+            128.47705078125,
+            -2.794539213180542,
+            0.1599999964237213
+          ],
+          "max": [
+            241.26841735839844,
+            68.96124267578125,
+            21.65999984741211
+          ]
+        },
+        "11": {
+          "min": [
+            152.0409698486328,
+            -41.52223587036133,
+            0.1599999964237213
+          ],
+          "max": [
+            264.83270263671875,
+            30.23377227783203,
+            21.65999984741211
+          ]
+        },
+        "12": {
+          "min": [
+            -38.56986999511719,
+            -67.10476684570312,
+            0.1599999964237213
+          ],
+          "max": [
+            148.6374969482422,
+            193.17459106445312,
+            12.279999732971191
+          ]
+        },
+        "13": {
+          "min": [
+            -81.16748046875,
+            -57.951637268066406,
+            0.1599999964237213
+          ],
+          "max": [
+            33.66168975830078,
+            56.67770004272461,
+            32.188720703125
+          ]
+        },
+        "14": {
+          "min": [
+            3.2760567665100098,
+            -217.003662109375,
+            0.1599999964237213
+          ],
+          "max": [
+            155.81288146972656,
+            -99.23187255859375,
+            19.959999084472656
+          ]
+        },
+        "15": {
+          "min": [
+            -210.26820373535156,
+            -69.5997543334961,
+            0.1599999964237213
+          ],
+          "max": [
+            -115.40084838867188,
+            10.018540382385254,
+            24.360000610351562
+          ]
+        },
+        "16": {
+          "min": [
+            -184.04270935058594,
+            -111.26818084716797,
+            0.1599999964237213
+          ],
+          "max": [
+            -89.17503356933594,
+            -31.63861846923828,
+            24.360000610351562
+          ]
+        },
+        "17": {
+          "min": [
+            -153.15907287597656,
+            -149.042724609375,
+            0.1599999964237213
+          ],
+          "max": [
+            -58.29115295410156,
+            -69.41294860839844,
+            24.360000610351562
+          ]
+        },
+        "18": {
+          "min": [
+            -121.90921783447266,
+            -190.8885498046875,
+            0.1599999964237213
+          ],
+          "max": [
+            -27.040996551513672,
+            -111.26964569091797,
+            24.360000610351562
+          ]
+        },
+        "19": {
+          "min": [
+            -96.61629486083984,
+            -225.334716796875,
+            0.1599999964237213
+          ],
+          "max": [
+            -1.7478340864181519,
+            -145.70455932617188,
+            24.360000610351562
+          ]
+        },
+        "20": {
+          "min": [
+            -335.4283447265625,
+            -21.706754684448242,
+            0.1599999964237213
+          ],
+          "max": [
+            -248.0968780517578,
+            97.76343536376953,
+            6.960000038146973
+          ]
+        }
+      },
+      "temporary_uv_seam_weld_tolerance_m": 0.0001,
+      "triangles": 51326,
+      "invalid_coordinate_objects": [],
+      "building_geometry_checks": [
+        {
+          "object": "B01_tower",
+          "building_index": 1,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 43543.622705430906
+        },
+        {
+          "object": "B02_tower",
+          "building_index": 2,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 43544.5307190788
+        },
+        {
+          "object": "B03_tower",
+          "building_index": 3,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 53184.273607118936
+        },
+        {
+          "object": "B04_tower",
+          "building_index": 4,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 66806.81243467872
+        },
+        {
+          "object": "B05_dorm",
+          "building_index": 5,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 47350.75358495272
+        },
+        {
+          "object": "B06_dorm",
+          "building_index": 6,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 47355.854448978236
+        },
+        {
+          "object": "B07_dorm",
+          "building_index": 7,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 47348.39841568959
+        },
+        {
+          "object": "B08_dorm",
+          "building_index": 8,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 47352.91474901479
+        },
+        {
+          "object": "B09_dorm",
+          "building_index": 9,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 47350.032744880846
+        },
+        {
+          "object": "B10_dorm",
+          "building_index": 10,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 43781.1870067765
+        },
+        {
+          "object": "B11_dorm",
+          "building_index": 11,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 43780.51357518782
+        },
+        {
+          "object": "B12_arcade",
+          "building_index": 12,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 60026.750505422155
+        },
+        {
+          "object": "B13_library",
+          "building_index": 13,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 145441.93134637177
+        },
+        {
+          "object": "B14_admin",
+          "building_index": 14,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 32272.459220527704
+        },
+        {
+          "object": "B14_admin_1",
+          "building_index": 14,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 31952.01158647807
+        },
+        {
+          "object": "B15_teaching",
+          "building_index": 15,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 54833.58273611826
+        },
+        {
+          "object": "B16_teaching",
+          "building_index": 16,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 54853.47948397289
+        },
+        {
+          "object": "B17_teaching",
+          "building_index": 17,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 54845.722397475125
+        },
+        {
+          "object": "B18_teaching",
+          "building_index": 18,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 54834.30182336858
+        },
+        {
+          "object": "B19_teaching",
+          "building_index": 19,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 54846.167064723144
+        },
+        {
+          "object": "B20_grandstand",
+          "building_index": 20,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 9272.69372576826
+        }
+      ],
+      "images": [
+        {
+          "name": "admin_facade",
+          "has_pixels": true,
+          "size": [
+            1024,
+            256
+          ],
+          "packed": true,
+          "path": ""
+        },
+        {
+          "name": "arcade_facade",
+          "has_pixels": true,
+          "size": [
+            1024,
+            256
+          ],
+          "packed": true,
+          "path": ""
+        },
+        {
+          "name": "court",
+          "has_pixels": true,
+          "size": [
+            512,
+            768
+          ],
+          "packed": true,
+          "path": ""
+        },
+        {
+          "name": "dorm_facade",
+          "has_pixels": true,
+          "size": [
+            1024,
+            256
+          ],
+          "packed": true,
+          "path": ""
+        },
+        {
+          "name": "grandstand_facade",
+          "has_pixels": true,
+          "size": [
+            1024,
+            256
+          ],
+          "packed": true,
+          "path": ""
+        },
+        {
+          "name": "library_paving",
+          "has_pixels": true,
+          "size": [
+            512,
+            512
+          ],
+          "packed": true,
+          "path": ""
+        },
+        {
+          "name": "library_stone",
+          "has_pixels": true,
+          "size": [
+            512,
+            512
+          ],
+          "packed": true,
+          "path": ""
+        },
+        {
+          "name": "teaching_facade",
+          "has_pixels": true,
+          "size": [
+            1024,
+            256
+          ],
+          "packed": true,
+          "path": ""
+        },
+        {
+          "name": "tower_facade",
+          "has_pixels": true,
+          "size": [
+            1024,
+            256
+          ],
+          "packed": true,
+          "path": ""
+        }
+      ],
+      "all_images_loaded": true,
+      "all_building_solids_closed": true,
+      "bounds_deviations_over_1mm": [],
+      "passed": true
+    },
+    "fbx": {
+      "mesh_objects": 130,
+      "building_bounds": {
+        "1": {
+          "min": [
+            -13.469478607177734,
+            348.6860046386719,
+            0.1599999964237213
+          ],
+          "max": [
+            38.27617263793945,
+            391.95147705078125,
+            57.959999084472656
+          ]
+        },
+        "2": {
+          "min": [
+            19.874847412109375,
+            293.65020751953125,
+            0.1599999964237213
+          ],
+          "max": [
+            71.62989044189453,
+            336.90472412109375,
+            57.959999084472656
+          ]
+        },
+        "3": {
+          "min": [
+            -92.11802673339844,
+            298.1656799316406,
+            0.1599999964237213
+          ],
+          "max": [
+            -25.712825775146484,
+            350.31683349609375,
+            57.959999084472656
+          ]
+        },
+        "4": {
+          "min": [
+            -47.21687698364258,
+            234.36550903320312,
+            0.1599999964237213
+          ],
+          "max": [
+            24.50507164001465,
+            291.49798583984375,
+            57.959999084472656
+          ]
+        },
+        "5": {
+          "min": [
+            2.763468027114868,
+            179.70680236816406,
+            0.1599999964237213
+          ],
+          "max": [
+            122.91935729980469,
+            257.08599853515625,
+            21.65999984741211
+          ]
+        },
+        "6": {
+          "min": [
+            29.318660736083984,
+            143.0644073486328,
+            0.1599999964237213
+          ],
+          "max": [
+            149.46571350097656,
+            220.44387817382812,
+            21.65999984741211
+          ]
+        },
+        "7": {
+          "min": [
+            48.956153869628906,
+            104.95769500732422,
+            0.1599999964237213
+          ],
+          "max": [
+            169.10357666015625,
+            182.32623291015625,
+            21.65999984741211
+          ]
+        },
+        "8": {
+          "min": [
+            72.75740051269531,
+            65.6196517944336,
+            0.1599999964237213
+          ],
+          "max": [
+            192.91433715820312,
+            142.98841857910156,
+            21.65999984741211
+          ]
+        },
+        "9": {
+          "min": [
+            95.83590698242188,
+            30.1866397857666,
+            0.1599999964237213
+          ],
+          "max": [
+            215.9840087890625,
+            107.56672668457031,
+            21.65999984741211
+          ]
+        },
+        "10": {
+          "min": [
+            128.47705078125,
+            -2.794527053833008,
+            0.1599999964237213
+          ],
+          "max": [
+            241.26841735839844,
+            68.96126556396484,
+            21.65999984741211
+          ]
+        },
+        "11": {
+          "min": [
+            152.0409698486328,
+            -41.522220611572266,
+            0.1599999964237213
+          ],
+          "max": [
+            264.83270263671875,
+            30.233795166015625,
+            21.65999984741211
+          ]
+        },
+        "12": {
+          "min": [
+            -38.56988525390625,
+            -67.10475158691406,
+            0.1599999964237213
+          ],
+          "max": [
+            148.6374969482422,
+            193.17459106445312,
+            12.279999732971191
+          ]
+        },
+        "13": {
+          "min": [
+            -81.16748046875,
+            -57.95164108276367,
+            0.1599999964237213
+          ],
+          "max": [
+            33.66168975830078,
+            56.67770004272461,
+            32.188720703125
+          ]
+        },
+        "14": {
+          "min": [
+            3.276074171066284,
+            -217.003662109375,
+            0.1599999964237213
+          ],
+          "max": [
+            155.81289672851562,
+            -99.23185729980469,
+            19.959999084472656
+          ]
+        },
+        "15": {
+          "min": [
+            -210.26820373535156,
+            -69.59976959228516,
+            0.1599999964237213
+          ],
+          "max": [
+            -115.40084838867188,
+            10.018528938293457,
+            24.360000610351562
+          ]
+        },
+        "16": {
+          "min": [
+            -184.04269409179688,
+            -111.26819610595703,
+            0.1599999964237213
+          ],
+          "max": [
+            -89.1750259399414,
+            -31.638628005981445,
+            24.360000610351562
+          ]
+        },
+        "17": {
+          "min": [
+            -153.1590576171875,
+            -149.04273986816406,
+            0.1599999964237213
+          ],
+          "max": [
+            -58.29114532470703,
+            -69.41295623779297,
+            24.360000610351562
+          ]
+        },
+        "18": {
+          "min": [
+            -121.9092025756836,
+            -190.88856506347656,
+            0.1599999964237213
+          ],
+          "max": [
+            -27.040985107421875,
+            -111.26964569091797,
+            24.360000610351562
+          ]
+        },
+        "19": {
+          "min": [
+            -96.61627960205078,
+            -225.334716796875,
+            0.1599999964237213
+          ],
+          "max": [
+            -1.7478196620941162,
+            -145.70455932617188,
+            24.360000610351562
+          ]
+        },
+        "20": {
+          "min": [
+            -335.4283447265625,
+            -21.706777572631836,
+            0.1599999964237213
+          ],
+          "max": [
+            -248.0968780517578,
+            97.7634048461914,
+            6.960000038146973
+          ]
+        }
+      },
+      "temporary_uv_seam_weld_tolerance_m": 0.0001,
+      "triangles": 51326,
+      "invalid_coordinate_objects": [],
+      "building_geometry_checks": [
+        {
+          "object": "B01_tower",
+          "building_index": 1,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 43543.62270543089
+        },
+        {
+          "object": "B02_tower",
+          "building_index": 2,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 43544.53071907886
+        },
+        {
+          "object": "B03_tower",
+          "building_index": 3,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 53184.273607118805
+        },
+        {
+          "object": "B04_tower",
+          "building_index": 4,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 66806.81243467878
+        },
+        {
+          "object": "B05_dorm",
+          "building_index": 5,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 47350.753584952676
+        },
+        {
+          "object": "B06_dorm",
+          "building_index": 6,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 47355.854448978236
+        },
+        {
+          "object": "B07_dorm",
+          "building_index": 7,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 47348.398415689546
+        },
+        {
+          "object": "B08_dorm",
+          "building_index": 8,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 47352.91474901479
+        },
+        {
+          "object": "B09_dorm",
+          "building_index": 9,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 47350.03274488085
+        },
+        {
+          "object": "B10_dorm",
+          "building_index": 10,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 43781.18700677649
+        },
+        {
+          "object": "B11_dorm",
+          "building_index": 11,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 43780.51357518778
+        },
+        {
+          "object": "B12_arcade",
+          "building_index": 12,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 60026.75050542211
+        },
+        {
+          "object": "B13_library",
+          "building_index": 13,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 145441.93134637177
+        },
+        {
+          "object": "B14_admin",
+          "building_index": 14,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 32272.459220527697
+        },
+        {
+          "object": "B14_admin_1",
+          "building_index": 14,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 31952.01158647807
+        },
+        {
+          "object": "B15_teaching",
+          "building_index": 15,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 54833.58273611825
+        },
+        {
+          "object": "B16_teaching",
+          "building_index": 16,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 54853.47948397291
+        },
+        {
+          "object": "B17_teaching",
+          "building_index": 17,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 54845.72239747512
+        },
+        {
+          "object": "B18_teaching",
+          "building_index": 18,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 54834.30182336858
+        },
+        {
+          "object": "B19_teaching",
+          "building_index": 19,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 54846.16706472313
+        },
+        {
+          "object": "B20_grandstand",
+          "building_index": 20,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 9272.693725768235
+        }
+      ],
+      "images": [
+        {
+          "name": "admin_facade.png",
+          "has_pixels": true,
+          "size": [
+            1024,
+            256
+          ],
+          "packed": true,
+          "path": "/workspace/henan_campus/project/assets/admin_facade.png"
+        },
+        {
+          "name": "arcade_facade.png",
+          "has_pixels": true,
+          "size": [
+            1024,
+            256
+          ],
+          "packed": true,
+          "path": "/workspace/henan_campus/project/assets/arcade_facade.png"
+        },
+        {
+          "name": "court.png",
+          "has_pixels": true,
+          "size": [
+            512,
+            768
+          ],
+          "packed": true,
+          "path": "/workspace/henan_campus/project/assets/court.png"
+        },
+        {
+          "name": "dorm_facade.png",
+          "has_pixels": true,
+          "size": [
+            1024,
+            256
+          ],
+          "packed": true,
+          "path": "/workspace/henan_campus/project/assets/dorm_facade.png"
+        },
+        {
+          "name": "grandstand_facade.png",
+          "has_pixels": true,
+          "size": [
+            1024,
+            256
+          ],
+          "packed": true,
+          "path": "/workspace/henan_campus/project/assets/grandstand_facade.png"
+        },
+        {
+          "name": "library_paving.png.002",
+          "has_pixels": true,
+          "size": [
+            512,
+            512
+          ],
+          "packed": true,
+          "path": "/workspace/henan_campus/project/assets/library_paving.png"
+        },
+        {
+          "name": "library_stone.png.002",
+          "has_pixels": true,
+          "size": [
+            512,
+            512
+          ],
+          "packed": true,
+          "path": "/workspace/henan_campus/project/assets/library_stone.png"
+        },
+        {
+          "name": "teaching_facade.png",
+          "has_pixels": true,
+          "size": [
+            1024,
+            256
+          ],
+          "packed": true,
+          "path": "/workspace/henan_campus/project/assets/teaching_facade.png"
+        },
+        {
+          "name": "tower_facade.png",
+          "has_pixels": true,
+          "size": [
+            1024,
+            256
+          ],
+          "packed": true,
+          "path": "/workspace/henan_campus/project/assets/tower_facade.png"
+        }
+      ],
+      "all_images_loaded": true,
+      "all_building_solids_closed": true,
+      "bounds_deviations_over_1mm": [],
+      "passed": true
+    }
+  },
+  "note": "Checks mesh geometry, units, placement and loaded images; not proof of surveyed accuracy or UE runtime behaviour.",
+  "passed": true
+}

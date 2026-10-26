@@ -1,0 +1,42 @@
+{
+  "template_id": "library_south_plaza_v2",
+  "supported_building_id": 13,
+  "status": "VERIFIED_LOCAL_TEMPLATE_NOT_A_GENERIC_FACADE_FOR_ALL_BUILDINGS",
+  "input_model": "assets/henan_campus/project/HenanCampus.blend",
+  "source_photo_date": "2017-08-11",
+  "reference_images_external": [
+    "scene_ef8a1b1d35eefd7f/b.jpg",
+    "scene_ef8a1b1d35eefd7f/l.jpg",
+    "scene_c5fd9763ca141592/l.jpg"
+  ],
+  "parameters": {
+    "approximate_levels": 8,
+    "floor_height_m": 3.6,
+    "front_axis_degrees": 35,
+    "window_bays": 12,
+    "stairs": 8,
+    "step_height_m": 0.15,
+    "step_depth_m": 0.55
+  },
+  "steps": [
+    "reuse mapped source footprint",
+    "derive the front profile from the declared footprint chain",
+    "build photo-observed window bands/piers/eaves/entrance/sign",
+    "replace the conflicting plaza asphalt",
+    "export GLB and FBX",
+    "reimport and validate dimensions/textures/structural geometry",
+    "run actual capsule walking, wall collision and stairs checks",
+    "run browser landscape/touch and PWA checks"
+  ],
+  "success_conditions": {
+    "model_mesh_present": true,
+    "format_errors": 0,
+    "source_footprint_preserved": true,
+    "reimport_max_deviation_m": 0.001,
+    "walkable_stairs_feet_min_m": 1.1,
+    "physical_android_tested": false,
+    "hardware_webgpu_tested": false,
+    "survey_accuracy_claimed": false
+  },
+  "adaptation_boundary": "Other facade types require their own profile/reference correspondence; do not copy this visual preset onto dormitories."
+}

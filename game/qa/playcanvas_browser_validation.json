@@ -1,0 +1,335 @@
+{
+  "desktop": {
+    "state": {
+      "ready": true,
+      "started": true,
+      "engine": "2.23.3",
+      "requestedRenderer": "webgpu",
+      "errors": [],
+      "frames": 95,
+      "colliderCount": 44,
+      "actualRenderer": "webgl2",
+      "animations": [
+        {
+          "asset": "character.glb/animation/0",
+          "clip": "Idle",
+          "duration": 2.0333333015441895
+        },
+        {
+          "asset": "character.glb/animation/1",
+          "clip": "Walk",
+          "duration": 1.0333333015441895
+        },
+        {
+          "asset": "character.glb/animation/2",
+          "clip": "Run",
+          "duration": 0.699999988079071
+        },
+        {
+          "asset": "character.glb/animation/3",
+          "clip": "Jump",
+          "duration": 1.0333333015441895
+        }
+      ],
+      "animation": "Idle",
+      "quality": "low",
+      "position": {
+        "x": 31.9999942779541,
+        "y": 0.18509866952896115,
+        "z": 78
+      },
+      "grounded": true,
+      "travel": 1.0158401261819319,
+      "camera": {
+        "x": 30.72039031982422,
+        "y": 3.3775460720062256,
+        "z": 83.04629516601562,
+        "yaw": -0.25000000000000006,
+        "pitch": 0.3774999999999999
+      },
+      "drawCalls": 64,
+      "observedFps": 1.5902886373867438,
+      "renderScale": 0.55,
+      "feet": {
+        "x": 31.9999942779541,
+        "y": 0.18509866952896115,
+        "z": 78
+      },
+      "verticalVelocity": -0.8,
+      "respawns": 3,
+      "distanceTravelled": 1.0158401261819319,
+      "lastCollision": {
+        "name": "Library_south_plaza",
+        "kind": "Landscape",
+        "building": null
+      },
+      "jumpCount": 0,
+      "colliders": 44
+    },
+    "keyboardDisplacement": 1.0155717260649602,
+    "movingAnimation": "Walk",
+    "poseBefore": [
+      {
+        "name": "Thigh_L",
+        "rotation": "[0.9968806182289053, 0.05368941051838483, 0.05680914751372788, 0.0109179190557409]"
+      },
+      {
+        "name": "Shin_L",
+        "rotation": "[0.06252636698003007, -0.016175301583926112, 0.021629476703669614, 0.9976777930717278]"
+      },
+      {
+        "name": "UpperArm_L",
+        "rotation": "[-0.9949060480419899, -0.058961244795942086, -0.06572019571700696, 0.04864548341317329]"
+      }
+    ],
+    "poseMoving": [
+      {
+        "name": "Thigh_L",
+        "rotation": "[0.9808178154141027, 0.06350043895552399, 0.04558115656509342, -0.17856781732706328]"
+      },
+      {
+        "name": "Shin_L",
+        "rotation": "[0.06252637440713439, -0.016175295989917026, 0.02162947669554903, 0.9976777926971283]"
+      },
+      {
+        "name": "UpperArm_L",
+        "rotation": "[-0.9932704453229755, -0.050367444274487465, -0.07251689491019249, -0.07495493951527621]"
+      }
+    ],
+    "skeletalPoseChanges": true,
+    "mapWorks": true,
+    "poiState": {
+      "x": -169.99978637695312,
+      "y": 0.024999997615814173,
+      "z": -95.0000228881836
+    },
+    "resetState": {
+      "x": 31.9999942779541,
+      "y": 0.18509866952896115,
+      "z": 78
+    },
+    "cameraBefore": {
+      "yaw": 0.55,
+      "pitch": 0.22
+    },
+    "cameraAfter": {
+      "yaw": -0.25000000000000006,
+      "pitch": 0.3774999999999999
+    },
+    "pageErrors": [],
+    "consoleMessages": [
+      "Failed to load resource: the server responded with a status of 404 (File not found)",
+      "No available adapters.",
+      "[.WebGL-0x5140199fc00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+      "[.WebGL-0x5140199fc00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+      "[.WebGL-0x5140199fc00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+      "[.WebGL-0x5140199fc00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+    ],
+    "verificationLimit": "Chromium software renderer; phone viewport/touch emulation is not a physical Android or hardware WebGPU performance test."
+  },
+  "mobile_touch": {
+    "joystick_forward_value": 1,
+    "afterRelease": {
+      "x": 0,
+      "y": 0,
+      "run": false,
+      "jump": false
+    },
+    "cameraBefore": {
+      "yaw": 0.55,
+      "pitch": 0.22
+    },
+    "cameraAfter": {
+      "yaw": 0.25000000000000006,
+      "pitch": 0.29000000000000004
+    }
+  },
+  "mobile": {
+    "state": {
+      "ready": true,
+      "started": true,
+      "engine": "2.23.3",
+      "requestedRenderer": "webgpu",
+      "errors": [],
+      "frames": 89,
+      "colliderCount": 44,
+      "actualRenderer": "webgl2",
+      "animations": [
+        {
+          "asset": "character.glb/animation/0",
+          "clip": "Idle",
+          "duration": 2.0333333015441895
+        },
+        {
+          "asset": "character.glb/animation/1",
+          "clip": "Walk",
+          "duration": 1.0333333015441895
+        },
+        {
+          "asset": "character.glb/animation/2",
+          "clip": "Run",
+          "duration": 0.699999988079071
+        },
+        {
+          "asset": "character.glb/animation/3",
+          "clip": "Jump",
+          "duration": 1.0333333015441895
+        }
+      ],
+      "animation": "Idle",
+      "quality": "low",
+      "position": {
+        "x": 30.973939895629883,
+        "y": 0.18509843111038204,
+        "z": 76.05902099609375
+      },
+      "grounded": true,
+      "travel": 3.228772486958756,
+      "camera": {
+        "x": 32.30231475830078,
+        "y": 2.9162750244140625,
+        "z": 81.25865173339844,
+        "yaw": 0.25000000000000006,
+        "pitch": 0.29000000000000004
+      },
+      "drawCalls": 78,
+      "observedFps": 1.8884722259695705,
+      "renderScale": 0.55,
+      "feet": {
+        "x": 30.973939895629883,
+        "y": 0.18509843111038204,
+        "z": 76.05902099609375
+      },
+      "verticalVelocity": -0.8,
+      "respawns": 3,
+      "distanceTravelled": 3.228772486958756,
+      "lastCollision": {
+        "name": "Library_south_plaza",
+        "kind": "Landscape",
+        "building": null
+      },
+      "jumpCount": 0,
+      "colliders": 44
+    },
+    "keyboardDisplacement": 1.0155717260649602,
+    "movingAnimation": "Walk",
+    "poseBefore": [
+      {
+        "name": "Thigh_L",
+        "rotation": "[0.9968806182289053, 0.05368941051838483, 0.05680914751372788, 0.0109179190557409]"
+      },
+      {
+        "name": "Shin_L",
+        "rotation": "[0.06252636698003007, -0.016175301583926112, 0.021629476703669614, 0.9976777930717278]"
+      },
+      {
+        "name": "UpperArm_L",
+        "rotation": "[-0.9949060480419899, -0.058961244795942086, -0.06572019571700696, 0.04864548341317329]"
+      }
+    ],
+    "poseMoving": [
+      {
+        "name": "Thigh_L",
+        "rotation": "[0.9808178154141027, 0.06350043895552399, 0.04558115656509342, -0.17856781732706328]"
+      },
+      {
+        "name": "Shin_L",
+        "rotation": "[0.06252637440713439, -0.016175295989917026, 0.02162947669554903, 0.9976777926971283]"
+      },
+      {
+        "name": "UpperArm_L",
+        "rotation": "[-0.9932704453229755, -0.050367444274487465, -0.07251689491019249, -0.07495493951527621]"
+      }
+    ],
+    "skeletalPoseChanges": true,
+    "mapWorks": true,
+    "poiState": {
+      "x": -169.99978637695312,
+      "y": 0.024999997615814173,
+      "z": -95.0000228881836
+    },
+    "resetState": {
+      "x": 31.9999942779541,
+      "y": 0.18509866952896115,
+      "z": 78
+    },
+    "cameraBefore": {
+      "yaw": 0.55,
+      "pitch": 0.22
+    },
+    "cameraAfter": {
+      "yaw": 0.25000000000000006,
+      "pitch": 0.29000000000000004
+    },
+    "pageErrors": [],
+    "consoleMessages": [
+      "No available adapters.",
+      "No available adapters."
+    ],
+    "verificationLimit": "Chromium software renderer; phone viewport/touch emulation is not a physical Android or hardware WebGPU performance test."
+  },
+  "pwa": {
+    "installDialogOpens": true,
+    "installability": {
+      "installabilityErrors": [
+        {
+          "errorId": "in-incognito",
+          "errorArguments": []
+        }
+      ]
+    },
+    "manifest": {
+      "id": "/",
+      "name": "河南经贸3D数字校园",
+      "short_name": "经贸校园",
+      "description": "河南经贸校园第三人称探索原型，支持横屏触控。",
+      "lang": "zh-CN",
+      "start_url": "/?source=installed",
+      "scope": "/",
+      "display": "standalone",
+      "display_override": [
+        "fullscreen",
+        "standalone"
+      ],
+      "orientation": "landscape",
+      "background_color": "#193e35",
+      "theme_color": "#193e35",
+      "categories": [
+        "games",
+        "education"
+      ],
+      "icons": [
+        {
+          "src": "/assets/app-icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png",
+          "purpose": "any"
+        },
+        {
+          "src": "/assets/app-icon-512.png",
+          "sizes": "512x512",
+          "type": "image/png",
+          "purpose": "any maskable"
+        }
+      ]
+    },
+    "cachedPaths": [
+      "/style.css",
+      "/",
+      "/pwa.js",
+      "/assets/app-icon-512.png",
+      "/game.js",
+      "/assets/character.glb",
+      "/assets/campus.glb",
+      "/assets/world.json",
+      "/assets/engine/glslang.js",
+      "/assets/engine/twgsl.js",
+      "/assets/engine/glslang.wasm",
+      "/assets/engine/twgsl.wasm",
+      "/assets/app-icon-192.png",
+      "/manifest.webmanifest"
+    ],
+    "portraitGateVisible": true,
+    "offlineLoadsGame": true
+  }
+}

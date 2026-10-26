@@ -1,0 +1,304 @@
+{
+  "models": [
+    {
+      "building_id": 1,
+      "cache_key": "d5e56b05ad865b46034643f687c4b3575c8cdb74a4032efebf675beb521ec4ed",
+      "model_sha256": "2b9c136ddd6a983a015757d55a1eb2e90020e6ff14425cf6adfd674c31e948d1",
+      "triangles": 56,
+      "position_extent_m": [
+        51.74565410614014,
+        57.799999088048935,
+        43.265472412109375
+      ],
+      "source_main_bodies_closed": true,
+      "source_texture_decode_passed": true,
+      "visual_refinement": "NOT_VISUALLY_REFINED",
+      "surveyed_accuracy": false
+    },
+    {
+      "building_id": 2,
+      "cache_key": "332a7d1900a83a6ebc71775db0d07d177c990fae6413eed8ca947b82eb8ee890",
+      "model_sha256": "b4729dc5e6ad47aa1999c3cc2aafbc9b0ba9b784a7fcea8a397f7a885a9cad76",
+      "triangles": 56,
+      "position_extent_m": [
+        51.75504684448242,
+        57.799999088048935,
+        43.2545166015625
+      ],
+      "source_main_bodies_closed": true,
+      "source_texture_decode_passed": true,
+      "visual_refinement": "NOT_VISUALLY_REFINED",
+      "surveyed_accuracy": false
+    },
+    {
+      "building_id": 3,
+      "cache_key": "19bc14c75ed136af72c1580134790ed0cb756bea620cd9a2132c0f257fa55af5",
+      "model_sha256": "a19c0459219a5ab71db9c47ad61c90f76cfdb509386a64c8072be40b57c6776e",
+      "triangles": 56,
+      "position_extent_m": [
+        66.40520095825195,
+        57.799999088048935,
+        52.151153564453125
+      ],
+      "source_main_bodies_closed": true,
+      "source_texture_decode_passed": true,
+      "visual_refinement": "NOT_VISUALLY_REFINED",
+      "surveyed_accuracy": false
+    },
+    {
+      "building_id": 4,
+      "cache_key": "80fd389baa60680c53c1ee528a9dd6c68e9183547777265014634754c659c439",
+      "model_sha256": "2a9438ac9ab21ecf10390fef3e5767067ef829b0399b178fb3a8165069e6c5e3",
+      "triangles": 56,
+      "position_extent_m": [
+        71.72195053100586,
+        57.799999088048935,
+        57.132476806640625
+      ],
+      "source_main_bodies_closed": true,
+      "source_texture_decode_passed": true,
+      "visual_refinement": "NOT_VISUALLY_REFINED",
+      "surveyed_accuracy": false
+    },
+    {
+      "building_id": 5,
+      "cache_key": "eb8703be700ef6d95e9e08c74c316d243db9920b848046ec70376c0d5cdec9bf",
+      "model_sha256": "ab8b59ad71df27e0d4ed57f64fbf557757cf5c1cce0f29e84d94d25bf9e08b88",
+      "triangles": 204,
+      "position_extent_m": [
+        120.15589570999146,
+        21.499999850988388,
+        77.37919616699219
+      ],
+      "source_main_bodies_closed": true,
+      "source_texture_decode_passed": true,
+      "visual_refinement": "NOT_VISUALLY_REFINED",
+      "surveyed_accuracy": false
+    },
+    {
+      "building_id": 6,
+      "cache_key": "72d1bcb4726034dc766737c7a14d25d753cce876f81bffe35df2da71e8653cce",
+      "model_sha256": "28afc1379bf1c51949cb597c589ff3ccf53931db36adfa819ed9f67f85c03610",
+      "triangles": 204,
+      "position_extent_m": [
+        120.14705467224121,
+        21.499999850988388,
+        77.37945556640625
+      ],
+      "source_main_bodies_closed": true,
+      "source_texture_decode_passed": true,
+      "visual_refinement": "NOT_VISUALLY_REFINED",
+      "surveyed_accuracy": false
+    },
+    {
+      "building_id": 7,
+      "cache_key": "525ed5c55da9644bbc5ed5d002af6420333d2b741589e730eba5d2fe7b281d31",
+      "model_sha256": "3ec8a5f2cba5e823d82f3133ed198e92c2e8691bbd22d97ec38fffc6f6800893",
+      "triangles": 204,
+      "position_extent_m": [
+        120.14742660522461,
+        21.499999850988388,
+        77.3685302734375
+      ],
+      "source_main_bodies_closed": true,
+      "source_texture_decode_passed": true,
+      "visual_refinement": "NOT_VISUALLY_REFINED",
+      "surveyed_accuracy": false
+    },
+    {
+      "building_id": 8,
+      "cache_key": "d73ff6040c2bc5fb422716849fd117d84b5ebec088cfd9e8454197ff75d4ddaa",
+      "model_sha256": "9d9d7df67339f51d9ff2d2167c078ac97c0d552af2e4591cb6581d6371ce9174",
+      "triangles": 204,
+      "position_extent_m": [
+        120.15694427490234,
+        21.499999850988388,
+        77.36875915527344
+      ],
+      "source_main_bodies_closed": true,
+      "source_texture_decode_passed": true,
+      "visual_refinement": "NOT_VISUALLY_REFINED",
+      "surveyed_accuracy": false
+    },
+    {
+      "building_id": 9,
+      "cache_key": "049120811a24737c537cb123255a1e190c46bb5e686c2116f87f13172031ce48",
+      "model_sha256": "6128de4734f283ab85fec6d2739386e77d79b750d026089be9d2dfdc7d0ec7f0",
+      "triangles": 204,
+      "position_extent_m": [
+        120.14811706542969,
+        21.499999850988388,
+        77.38008117675781
+      ],
+      "source_main_bodies_closed": true,
+      "source_texture_decode_passed": true,
+      "visual_refinement": "NOT_VISUALLY_REFINED",
+      "surveyed_accuracy": false
+    },
+    {
+      "building_id": 10,
+      "cache_key": "b26be0cd0a8f35f258b3de738aab10c93c3214a9ab78914739b66e9eef5204c5",
+      "model_sha256": "1d0a91a85ead731310225ee101eb5e65a53f84f9d1f343a1cbfce1a24cf33fe1",
+      "triangles": 196,
+      "position_extent_m": [
+        112.79136657714844,
+        21.499999850988388,
+        71.75578188896179
+      ],
+      "source_main_bodies_closed": true,
+      "source_texture_decode_passed": true,
+      "visual_refinement": "NOT_VISUALLY_REFINED",
+      "surveyed_accuracy": false
+    },
+    {
+      "building_id": 11,
+      "cache_key": "4efb6b586ee4a4c1f9829b971170304e2081c3cbeb13e98df90a9475d0f0a970",
+      "model_sha256": "93ee6f283b15168de4fa9a4cd32440ce178eb43e64946239aa3cbfa5ee925a55",
+      "triangles": 196,
+      "position_extent_m": [
+        112.79173278808594,
+        21.499999850988388,
+        71.75600814819336
+      ],
+      "source_main_bodies_closed": true,
+      "source_texture_decode_passed": true,
+      "visual_refinement": "NOT_VISUALLY_REFINED",
+      "surveyed_accuracy": false
+    },
+    {
+      "building_id": 12,
+      "cache_key": "36c5e8ffc32f334be5feedd0f2b2cf80870519041a156300bb8aeb8c5faa96ff",
+      "model_sha256": "216272edf13815dd001a753b78d1f7eedb8028df925ea75483107b384efe7824",
+      "triangles": 864,
+      "position_extent_m": [
+        187.20736694335938,
+        12.11999973654747,
+        260.27935791015625
+      ],
+      "source_main_bodies_closed": true,
+      "source_texture_decode_passed": true,
+      "visual_refinement": "NOT_VISUALLY_REFINED",
+      "surveyed_accuracy": false
+    },
+    {
+      "building_id": 13,
+      "cache_key": "e74e7e8def66bceea8144d85ba0d4ad83d8ab941d638d31ba26d72a8a72e182c",
+      "model_sha256": "aa24935a0e1f19d046d96bd7f0e32d4665e9e6e82679330b2b71be56e94790e3",
+      "triangles": 4586,
+      "position_extent_m": [
+        114.82917022705078,
+        32.02872070670128,
+        114.62933731079102
+      ],
+      "source_main_bodies_closed": true,
+      "source_texture_decode_passed": true,
+      "visual_refinement": "PHOTO_GUIDED_LOCAL_REFINEMENT",
+      "surveyed_accuracy": false
+    },
+    {
+      "building_id": 14,
+      "cache_key": "dbb36e7fbee54f2dbe9348dc8c2b1824a639bb7f6510685b4caea7a57bab5d70",
+      "model_sha256": "7ead12fae2ece4f2114f859514f5f7fedb6e2ab4a15e5daf695e91fb18ab0c76",
+      "triangles": 152,
+      "position_extent_m": [
+        152.53682470321655,
+        19.799999088048935,
+        117.77178955078125
+      ],
+      "source_main_bodies_closed": true,
+      "source_texture_decode_passed": true,
+      "visual_refinement": "NOT_VISUALLY_REFINED",
+      "surveyed_accuracy": false
+    },
+    {
+      "building_id": 15,
+      "cache_key": "1d999802468b9eb6bdd9c132eeefbc932e4534b609c9e1bc14677040508a4dce",
+      "model_sha256": "22cdc11b356fe3de35518597fb15a5f0aad6d9b5f9449236a9bd41b38d057865",
+      "triangles": 56,
+      "position_extent_m": [
+        94.86735534667969,
+        24.20000061392784,
+        79.61829471588135
+      ],
+      "source_main_bodies_closed": true,
+      "source_texture_decode_passed": true,
+      "visual_refinement": "NOT_VISUALLY_REFINED",
+      "surveyed_accuracy": false
+    },
+    {
+      "building_id": 16,
+      "cache_key": "898c3553cac575cb6967bd0ae3882b41cbb2f1008b3dced7c6fc4128c98a2366",
+      "model_sha256": "e780b41c5bb964fcecef498fad65659987a6a03f061f8cc9fb304ff70069cfd0",
+      "triangles": 56,
+      "position_extent_m": [
+        94.86767578125,
+        24.20000061392784,
+        79.62956237792969
+      ],
+      "source_main_bodies_closed": true,
+      "source_texture_decode_passed": true,
+      "visual_refinement": "NOT_VISUALLY_REFINED",
+      "surveyed_accuracy": false
+    },
+    {
+      "building_id": 17,
+      "cache_key": "f144423ed09741a050d347a358d2cde7ac04c81e29caec95a762026b610be3c5",
+      "model_sha256": "768a1a053236ac2360a2de3fa9b4a8ebd5e80d91a73ed28d0634f115c31dff3f",
+      "triangles": 56,
+      "position_extent_m": [
+        94.867919921875,
+        24.20000061392784,
+        79.62977600097656
+      ],
+      "source_main_bodies_closed": true,
+      "source_texture_decode_passed": true,
+      "visual_refinement": "NOT_VISUALLY_REFINED",
+      "surveyed_accuracy": false
+    },
+    {
+      "building_id": 18,
+      "cache_key": "e75b0489e1696f6c6c0657b495a7ac091e53ff8cad7162c8302c156abcfaada6",
+      "model_sha256": "5fa36964ce1d61ff2d2284cfdb1f055f4f8f666114b929cf9b5751f7e8e13e15",
+      "triangles": 56,
+      "position_extent_m": [
+        94.86822128295898,
+        24.20000061392784,
+        79.61890411376953
+      ],
+      "source_main_bodies_closed": true,
+      "source_texture_decode_passed": true,
+      "visual_refinement": "NOT_VISUALLY_REFINED",
+      "surveyed_accuracy": false
+    },
+    {
+      "building_id": 19,
+      "cache_key": "e84581a6ad4240df4ac279349bf8217ef62636895457132513af9ec5af2b4554",
+      "model_sha256": "e8962575dde6a1a685faf281806140416b798ce8c999192fdf9ccc1898dfec2e",
+      "triangles": 56,
+      "position_extent_m": [
+        94.86846077442169,
+        24.20000061392784,
+        79.63015747070312
+      ],
+      "source_main_bodies_closed": true,
+      "source_texture_decode_passed": true,
+      "visual_refinement": "NOT_VISUALLY_REFINED",
+      "surveyed_accuracy": false
+    },
+    {
+      "building_id": 20,
+      "cache_key": "587f84e60bfac1ff5eedf33754e57ade38e01e09c5f989b7d61a9a55c9e5786b",
+      "model_sha256": "15664238113cb12d0aedda1ca33b5e6365a6a47e88e85ebea7aa4baf1905c68e",
+      "triangles": 56,
+      "position_extent_m": [
+        87.33146667480469,
+        13.239999622106552,
+        119.47019004821777
+      ],
+      "source_main_bodies_closed": true,
+      "source_texture_decode_passed": true,
+      "visual_refinement": "NOT_VISUALLY_REFINED",
+      "surveyed_accuracy": false
+    }
+  ]
+}

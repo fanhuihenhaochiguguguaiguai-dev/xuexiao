@@ -1,0 +1,1399 @@
+{
+  "type": "FeatureCollection",
+  "license": "ODbL 1.0",
+  "attribution": "© OpenStreetMap contributors",
+  "license_url": "https://www.openstreetmap.org/copyright",
+  "coordinate_reference_system": "WGS84 longitude latitude",
+  "classification": "SOURCE_MAPPED_2D_FOOTPRINTS_NOT_3D_MODELS",
+  "campus_identity": {
+    "osm_way_id": 182722924,
+    "name": "河南经贸职业学院"
+  },
+  "selection_rule": "Footprint vertex-average center lies in OSM campus boundary; not independently survey validated",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "way/574483813",
+      "properties": {
+        "osm_id": 574483813,
+        "osm_type": "way",
+        "building": "university",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false,
+        "name": "",
+        "building_type": "university",
+        "center_lon": 113.79282255,
+        "center_lat": 34.8049162,
+        "center_definition": "ARITHMETIC_MEAN_OF_FOOTPRINT_VERTICES",
+        "center_inside_source_campus_polygon": true,
+        "all_vertices_inside_campus": true,
+        "height_m": null,
+        "building_levels": null,
+        "license": "ODbL 1.0",
+        "source_url": "https://www.openstreetmap.org/way/574483813",
+        "map_index": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7930104,
+              34.8051112
+            ],
+            [
+              113.7931053,
+              34.8050051
+            ],
+            [
+              113.7926347,
+              34.8047212
+            ],
+            [
+              113.7925398,
+              34.8048273
+            ],
+            [
+              113.7930104,
+              34.8051112
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/574483814",
+      "properties": {
+        "osm_id": 574483814,
+        "osm_type": "way",
+        "building": "university",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false,
+        "name": "",
+        "building_type": "university",
+        "center_lon": 113.793187,
+        "center_lat": 34.80442005,
+        "center_definition": "ARITHMETIC_MEAN_OF_FOOTPRINT_VERTICES",
+        "center_inside_source_campus_polygon": true,
+        "all_vertices_inside_campus": true,
+        "height_m": null,
+        "building_levels": null,
+        "license": "ODbL 1.0",
+        "source_url": "https://www.openstreetmap.org/way/574483814",
+        "map_index": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7933749,
+              34.804615
+            ],
+            [
+              113.7934698,
+              34.8045089
+            ],
+            [
+              113.7929991,
+              34.8042251
+            ],
+            [
+              113.7929042,
+              34.8043312
+            ],
+            [
+              113.7933749,
+              34.804615
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/574483815",
+      "properties": {
+        "osm_id": 574483815,
+        "osm_type": "way",
+        "building": "university",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false,
+        "name": "",
+        "building_type": "university",
+        "center_lon": 113.79204315,
+        "center_lat": 34.804500825,
+        "center_definition": "ARITHMETIC_MEAN_OF_FOOTPRINT_VERTICES",
+        "center_inside_source_campus_polygon": true,
+        "all_vertices_inside_campus": true,
+        "height_m": null,
+        "building_levels": null,
+        "license": "ODbL 1.0",
+        "source_url": "https://www.openstreetmap.org/way/574483815",
+        "map_index": 3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.792322,
+              34.8047359
+            ],
+            [
+              113.792406,
+              34.8046383
+            ],
+            [
+              113.7917643,
+              34.8042658
+            ],
+            [
+              113.7916803,
+              34.8043633
+            ],
+            [
+              113.792322,
+              34.8047359
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/574483816",
+      "properties": {
+        "osm_id": 574483816,
+        "osm_type": "way",
+        "building": "university",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false,
+        "name": "",
+        "building_type": "university",
+        "center_lon": 113.79256290000001,
+        "center_lat": 34.8039482,
+        "center_definition": "ARITHMETIC_MEAN_OF_FOOTPRINT_VERTICES",
+        "center_inside_source_campus_polygon": true,
+        "all_vertices_inside_campus": true,
+        "height_m": null,
+        "building_levels": null,
+        "license": "ODbL 1.0",
+        "source_url": "https://www.openstreetmap.org/way/574483816",
+        "map_index": 4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.792171,
+              34.8038049
+            ],
+            [
+              113.7928556,
+              34.8042057
+            ],
+            [
+              113.7929548,
+              34.8040915
+            ],
+            [
+              113.7922702,
+              34.8036907
+            ],
+            [
+              113.792171,
+              34.8038049
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/574483817",
+      "properties": {
+        "osm_id": 574483817,
+        "osm_type": "way",
+        "building": "university",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false,
+        "name": "",
+        "building_type": "university",
+        "center_lon": 113.79336571538462,
+        "center_lat": 34.80352241538462,
+        "center_definition": "ARITHMETIC_MEAN_OF_FOOTPRINT_VERTICES",
+        "center_inside_source_campus_polygon": true,
+        "all_vertices_inside_campus": true,
+        "height_m": null,
+        "building_levels": null,
+        "license": "ODbL 1.0",
+        "source_url": "https://www.openstreetmap.org/way/574483817",
+        "map_index": 5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7938887,
+              34.8038955
+            ],
+            [
+              113.7940303,
+              34.8038025
+            ],
+            [
+              113.7938745,
+              34.803634
+            ],
+            [
+              113.7936091,
+              34.8035032
+            ],
+            [
+              113.7933861,
+              34.8034451
+            ],
+            [
+              113.793149,
+              34.8033637
+            ],
+            [
+              113.7929862,
+              34.8032707
+            ],
+            [
+              113.7928977,
+              34.803198
+            ],
+            [
+              113.7927172,
+              34.8032794
+            ],
+            [
+              113.7928907,
+              34.8034422
+            ],
+            [
+              113.7931242,
+              34.8035555
+            ],
+            [
+              113.7934605,
+              34.8036369
+            ],
+            [
+              113.7937401,
+              34.8037647
+            ],
+            [
+              113.7938887,
+              34.8038955
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/574483818",
+      "properties": {
+        "osm_id": 574483818,
+        "osm_type": "way",
+        "building": "university",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false,
+        "name": "",
+        "building_type": "university",
+        "center_lon": 113.79365588461539,
+        "center_lat": 34.8031921,
+        "center_definition": "ARITHMETIC_MEAN_OF_FOOTPRINT_VERTICES",
+        "center_inside_source_campus_polygon": true,
+        "all_vertices_inside_campus": true,
+        "height_m": null,
+        "building_levels": null,
+        "license": "ODbL 1.0",
+        "source_url": "https://www.openstreetmap.org/way/574483818",
+        "map_index": 6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7941789,
+              34.8035652
+            ],
+            [
+              113.7943204,
+              34.8034722
+            ],
+            [
+              113.7941647,
+              34.8033036
+            ],
+            [
+              113.7938993,
+              34.8031729
+            ],
+            [
+              113.7936763,
+              34.8031148
+            ],
+            [
+              113.7934392,
+              34.8030334
+            ],
+            [
+              113.7932764,
+              34.8029404
+            ],
+            [
+              113.7931879,
+              34.8028677
+            ],
+            [
+              113.7930074,
+              34.8029491
+            ],
+            [
+              113.7931808,
+              34.8031118
+            ],
+            [
+              113.7934144,
+              34.8032252
+            ],
+            [
+              113.7937506,
+              34.8033066
+            ],
+            [
+              113.7940302,
+              34.8034344
+            ],
+            [
+              113.7941789,
+              34.8035652
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/574483819",
+      "properties": {
+        "osm_id": 574483819,
+        "osm_type": "way",
+        "building": "university",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false,
+        "name": "",
+        "building_type": "university",
+        "center_lon": 113.79387045384615,
+        "center_lat": 34.802848523076925,
+        "center_definition": "ARITHMETIC_MEAN_OF_FOOTPRINT_VERTICES",
+        "center_inside_source_campus_polygon": true,
+        "all_vertices_inside_campus": true,
+        "height_m": null,
+        "building_levels": null,
+        "license": "ODbL 1.0",
+        "source_url": "https://www.openstreetmap.org/way/574483819",
+        "map_index": 7
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7943934,
+              34.8032216
+            ],
+            [
+              113.794535,
+              34.8031286
+            ],
+            [
+              113.7943793,
+              34.8029601
+            ],
+            [
+              113.7941138,
+              34.8028293
+            ],
+            [
+              113.7938909,
+              34.8027712
+            ],
+            [
+              113.7936537,
+              34.8026898
+            ],
+            [
+              113.7934909,
+              34.8025968
+            ],
+            [
+              113.7934025,
+              34.8025242
+            ],
+            [
+              113.793222,
+              34.8026055
+            ],
+            [
+              113.7933954,
+              34.8027683
+            ],
+            [
+              113.793629,
+              34.8028816
+            ],
+            [
+              113.7939652,
+              34.802963
+            ],
+            [
+              113.7942448,
+              34.8030908
+            ],
+            [
+              113.7943934,
+              34.8032216
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/574483820",
+      "properties": {
+        "osm_id": 574483820,
+        "osm_type": "way",
+        "building": "university",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false,
+        "name": "",
+        "building_type": "university",
+        "center_lon": 113.7941306153846,
+        "center_lat": 34.80249393076923,
+        "center_definition": "ARITHMETIC_MEAN_OF_FOOTPRINT_VERTICES",
+        "center_inside_source_campus_polygon": true,
+        "all_vertices_inside_campus": true,
+        "height_m": null,
+        "building_levels": null,
+        "license": "ODbL 1.0",
+        "source_url": "https://www.openstreetmap.org/way/574483820",
+        "map_index": 8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7946536,
+              34.802867
+            ],
+            [
+              113.7947952,
+              34.802774
+            ],
+            [
+              113.7946394,
+              34.8026055
+            ],
+            [
+              113.794374,
+              34.8024747
+            ],
+            [
+              113.794151,
+              34.8024166
+            ],
+            [
+              113.7939139,
+              34.8023352
+            ],
+            [
+              113.7937511,
+              34.8022422
+            ],
+            [
+              113.7936626,
+              34.8021696
+            ],
+            [
+              113.7934821,
+              34.8022509
+            ],
+            [
+              113.7936556,
+              34.8024137
+            ],
+            [
+              113.7938891,
+              34.802527
+            ],
+            [
+              113.7942254,
+              34.8026084
+            ],
+            [
+              113.794505,
+              34.8027363
+            ],
+            [
+              113.7946536,
+              34.802867
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/574483821",
+      "properties": {
+        "osm_id": 574483821,
+        "osm_type": "way",
+        "building": "university",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false,
+        "name": "",
+        "building_type": "university",
+        "center_lon": 113.79438275384616,
+        "center_lat": 34.802174584615386,
+        "center_definition": "ARITHMETIC_MEAN_OF_FOOTPRINT_VERTICES",
+        "center_inside_source_campus_polygon": true,
+        "all_vertices_inside_campus": true,
+        "height_m": null,
+        "building_levels": null,
+        "license": "ODbL 1.0",
+        "source_url": "https://www.openstreetmap.org/way/574483821",
+        "map_index": 9
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7949057,
+              34.8025477
+            ],
+            [
+              113.7950473,
+              34.8024547
+            ],
+            [
+              113.7948916,
+              34.8022861
+            ],
+            [
+              113.7946261,
+              34.8021554
+            ],
+            [
+              113.7944032,
+              34.8020972
+            ],
+            [
+              113.794166,
+              34.8020159
+            ],
+            [
+              113.7940032,
+              34.8019229
+            ],
+            [
+              113.7939148,
+              34.8018502
+            ],
+            [
+              113.7937343,
+              34.8019316
+            ],
+            [
+              113.7939077,
+              34.8020943
+            ],
+            [
+              113.7941413,
+              34.8022077
+            ],
+            [
+              113.7944775,
+              34.802289
+            ],
+            [
+              113.7947571,
+              34.8024169
+            ],
+            [
+              113.7949057,
+              34.8025477
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/574483822",
+      "properties": {
+        "osm_id": 574483822,
+        "osm_type": "way",
+        "building": "university",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false,
+        "name": "",
+        "building_type": "university",
+        "center_lon": 113.79467303846153,
+        "center_lat": 34.80184234615385,
+        "center_definition": "ARITHMETIC_MEAN_OF_FOOTPRINT_VERTICES",
+        "center_inside_source_campus_polygon": true,
+        "all_vertices_inside_campus": true,
+        "height_m": null,
+        "building_levels": null,
+        "license": "ODbL 1.0",
+        "source_url": "https://www.openstreetmap.org/way/574483822",
+        "map_index": 10
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.795182,
+              34.8021997
+            ],
+            [
+              113.7953236,
+              34.8021067
+            ],
+            [
+              113.7951678,
+              34.8019381
+            ],
+            [
+              113.7949024,
+              34.8018074
+            ],
+            [
+              113.7946794,
+              34.8017492
+            ],
+            [
+              113.7944423,
+              34.8016679
+            ],
+            [
+              113.7943519,
+              34.8016255
+            ],
+            [
+              113.7942205,
+              34.8015529
+            ],
+            [
+              113.794091,
+              34.8016871
+            ],
+            [
+              113.7941839,
+              34.8017463
+            ],
+            [
+              113.7944175,
+              34.8018597
+            ],
+            [
+              113.7947538,
+              34.8019411
+            ],
+            [
+              113.7950334,
+              34.8020689
+            ],
+            [
+              113.795182,
+              34.8021997
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/574483823",
+      "properties": {
+        "osm_id": 574483823,
+        "osm_type": "way",
+        "building": "university",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false,
+        "name": "",
+        "building_type": "university",
+        "center_lon": 113.79493052307693,
+        "center_lat": 34.80149326923077,
+        "center_definition": "ARITHMETIC_MEAN_OF_FOOTPRINT_VERTICES",
+        "center_inside_source_campus_polygon": true,
+        "all_vertices_inside_campus": true,
+        "height_m": null,
+        "building_levels": null,
+        "license": "ODbL 1.0",
+        "source_url": "https://www.openstreetmap.org/way/574483823",
+        "map_index": 11
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7954395,
+              34.8018506
+            ],
+            [
+              113.7955811,
+              34.8017576
+            ],
+            [
+              113.7954253,
+              34.8015891
+            ],
+            [
+              113.7951599,
+              34.8014583
+            ],
+            [
+              113.7949369,
+              34.8014002
+            ],
+            [
+              113.7946998,
+              34.8013188
+            ],
+            [
+              113.7946094,
+              34.8012764
+            ],
+            [
+              113.794478,
+              34.8012038
+            ],
+            [
+              113.7943485,
+              34.801338
+            ],
+            [
+              113.7944414,
+              34.8013973
+            ],
+            [
+              113.794675,
+              34.8015106
+            ],
+            [
+              113.7950112,
+              34.801592
+            ],
+            [
+              113.7952908,
+              34.8017198
+            ],
+            [
+              113.7954395,
+              34.8018506
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/574483824",
+      "properties": {
+        "osm_id": 574483824,
+        "osm_type": "way",
+        "building": "university",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false,
+        "name": "",
+        "building_type": "university",
+        "center_lon": 113.79343581290323,
+        "center_lat": 34.80209804193549,
+        "center_definition": "ARITHMETIC_MEAN_OF_FOOTPRINT_VERTICES",
+        "center_inside_source_campus_polygon": true,
+        "all_vertices_inside_campus": true,
+        "height_m": null,
+        "building_levels": null,
+        "license": "ODbL 1.0",
+        "source_url": "https://www.openstreetmap.org/way/574483824",
+        "map_index": 12
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.792337,
+              34.8033194
+            ],
+            [
+              113.7927106,
+              34.8031603
+            ],
+            [
+              113.7929395,
+              34.8029513
+            ],
+            [
+              113.7931169,
+              34.8026848
+            ],
+            [
+              113.7932009,
+              34.8024586
+            ],
+            [
+              113.7933188,
+              34.80227
+            ],
+            [
+              113.7934651,
+              34.8021482
+            ],
+            [
+              113.7935912,
+              34.8020798
+            ],
+            [
+              113.7934943,
+              34.8019405
+            ],
+            [
+              113.7936976,
+              34.8018504
+            ],
+            [
+              113.7938887,
+              34.8017669
+            ],
+            [
+              113.7940655,
+              34.8016451
+            ],
+            [
+              113.7941791,
+              34.8015133
+            ],
+            [
+              113.7942584,
+              34.8013514
+            ],
+            [
+              113.7942909,
+              34.8011595
+            ],
+            [
+              113.7943113,
+              34.8009782
+            ],
+            [
+              113.7941609,
+              34.8009732
+            ],
+            [
+              113.7941426,
+              34.8011751
+            ],
+            [
+              113.7940715,
+              34.8014005
+            ],
+            [
+              113.7939698,
+              34.8015207
+            ],
+            [
+              113.7937889,
+              34.8016709
+            ],
+            [
+              113.793543,
+              34.801766
+            ],
+            [
+              113.7933631,
+              34.8018633
+            ],
+            [
+              113.7931578,
+              34.8020552
+            ],
+            [
+              113.7930541,
+              34.8022488
+            ],
+            [
+              113.793024,
+              34.8024409
+            ],
+            [
+              113.7929773,
+              34.8026245
+            ],
+            [
+              113.7928916,
+              34.8027874
+            ],
+            [
+              113.7927371,
+              34.8029476
+            ],
+            [
+              113.7924972,
+              34.8031029
+            ],
+            [
+              113.7922655,
+              34.8031846
+            ],
+            [
+              113.792337,
+              34.8033194
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/574483825",
+      "properties": {
+        "osm_id": 574483825,
+        "osm_type": "way",
+        "building": "university",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false,
+        "name": "",
+        "building_type": "university",
+        "center_lon": 113.79242095,
+        "center_lat": 34.801590787500004,
+        "center_definition": "ARITHMETIC_MEAN_OF_FOOTPRINT_VERTICES",
+        "center_inside_source_campus_polygon": true,
+        "all_vertices_inside_campus": true,
+        "height_m": null,
+        "building_levels": null,
+        "license": "ODbL 1.0",
+        "source_url": "https://www.openstreetmap.org/way/574483825",
+        "map_index": 13
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7918,
+              34.8016884
+            ],
+            [
+              113.7920479,
+              34.8016985
+            ],
+            [
+              113.7924179,
+              34.8019054
+            ],
+            [
+              113.7925317,
+              34.802089
+            ],
+            [
+              113.7930318,
+              34.8014848
+            ],
+            [
+              113.7928123,
+              34.8014948
+            ],
+            [
+              113.7924138,
+              34.8012879
+            ],
+            [
+              113.7923122,
+              34.8010775
+            ],
+            [
+              113.7918,
+              34.8016884
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/574483826",
+      "properties": {
+        "osm_id": 574483826,
+        "osm_type": "way",
+        "building": "university",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false,
+        "name": "",
+        "building_type": "university",
+        "center_lon": 113.79363616666667,
+        "center_lat": 34.80012776666667,
+        "center_definition": "ARITHMETIC_MEAN_OF_FOOTPRINT_VERTICES",
+        "center_inside_source_campus_polygon": true,
+        "all_vertices_inside_campus": true,
+        "height_m": null,
+        "building_levels": null,
+        "license": "ODbL 1.0",
+        "source_url": "https://www.openstreetmap.org/way/574483826",
+        "map_index": 14
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7927228,
+              34.7997889
+            ],
+            [
+              113.7943205,
+              34.8006836
+            ],
+            [
+              113.7943897,
+              34.8003898
+            ],
+            [
+              113.7939221,
+              34.800273
+            ],
+            [
+              113.7934139,
+              34.8000093
+            ],
+            [
+              113.793048,
+              34.799622
+            ],
+            [
+              113.7927228,
+              34.7997889
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/574483827",
+      "properties": {
+        "osm_id": 574483827,
+        "osm_type": "way",
+        "building": "university",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false,
+        "name": "",
+        "building_type": "university",
+        "center_lon": 113.790904525,
+        "center_lat": 34.80130955,
+        "center_definition": "ARITHMETIC_MEAN_OF_FOOTPRINT_VERTICES",
+        "center_inside_source_campus_polygon": true,
+        "all_vertices_inside_campus": true,
+        "height_m": null,
+        "building_levels": null,
+        "license": "ODbL 1.0",
+        "source_url": "https://www.openstreetmap.org/way/574483827",
+        "map_index": 15
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7912552,
+              34.8016684
+            ],
+            [
+              113.7903892,
+              34.8011276
+            ],
+            [
+              113.7905478,
+              34.8009507
+            ],
+            [
+              113.7914259,
+              34.8014915
+            ],
+            [
+              113.7912552,
+              34.8016684
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/574483828",
+      "properties": {
+        "osm_id": 574483828,
+        "osm_type": "way",
+        "building": "university",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false,
+        "name": "",
+        "building_type": "university",
+        "center_lon": 113.791191125,
+        "center_lat": 34.800934,
+        "center_definition": "ARITHMETIC_MEAN_OF_FOOTPRINT_VERTICES",
+        "center_inside_source_campus_polygon": true,
+        "all_vertices_inside_campus": true,
+        "height_m": null,
+        "building_levels": null,
+        "license": "ODbL 1.0",
+        "source_url": "https://www.openstreetmap.org/way/574483828",
+        "map_index": 16
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7915418,
+              34.8012929
+            ],
+            [
+              113.7906758,
+              34.8007521
+            ],
+            [
+              113.7908344,
+              34.8005751
+            ],
+            [
+              113.7917125,
+              34.8011159
+            ],
+            [
+              113.7915418,
+              34.8012929
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/574483829",
+      "properties": {
+        "osm_id": 574483829,
+        "osm_type": "way",
+        "building": "university",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false,
+        "name": "",
+        "building_type": "university",
+        "center_lon": 113.791528575,
+        "center_lat": 34.800593475,
+        "center_definition": "ARITHMETIC_MEAN_OF_FOOTPRINT_VERTICES",
+        "center_inside_source_campus_polygon": true,
+        "all_vertices_inside_campus": true,
+        "height_m": null,
+        "building_levels": null,
+        "license": "ODbL 1.0",
+        "source_url": "https://www.openstreetmap.org/way/574483829",
+        "map_index": 17
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7918792,
+              34.8009524
+            ],
+            [
+              113.7910133,
+              34.8004115
+            ],
+            [
+              113.7911718,
+              34.8002346
+            ],
+            [
+              113.79205,
+              34.8007754
+            ],
+            [
+              113.7918792,
+              34.8009524
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/574483830",
+      "properties": {
+        "osm_id": 574483830,
+        "osm_type": "way",
+        "building": "university",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false,
+        "name": "",
+        "building_type": "university",
+        "center_lon": 113.79187007499999,
+        "center_lat": 34.80021625,
+        "center_definition": "ARITHMETIC_MEAN_OF_FOOTPRINT_VERTICES",
+        "center_inside_source_campus_polygon": true,
+        "all_vertices_inside_campus": true,
+        "height_m": null,
+        "building_levels": null,
+        "license": "ODbL 1.0",
+        "source_url": "https://www.openstreetmap.org/way/574483830",
+        "map_index": 18
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7922207,
+              34.8005751
+            ],
+            [
+              113.7913548,
+              34.8000343
+            ],
+            [
+              113.7915133,
+              34.7998574
+            ],
+            [
+              113.7923915,
+              34.8003982
+            ],
+            [
+              113.7922207,
+              34.8005751
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/574483831",
+      "properties": {
+        "osm_id": 574483831,
+        "osm_type": "way",
+        "building": "university",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false,
+        "name": "",
+        "building_type": "university",
+        "center_lon": 113.79214652499999,
+        "center_lat": 34.799905775,
+        "center_definition": "ARITHMETIC_MEAN_OF_FOOTPRINT_VERTICES",
+        "center_inside_source_campus_polygon": true,
+        "all_vertices_inside_campus": true,
+        "height_m": null,
+        "building_levels": null,
+        "license": "ODbL 1.0",
+        "source_url": "https://www.openstreetmap.org/way/574483831",
+        "map_index": 19
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7924972,
+              34.8002647
+            ],
+            [
+              113.7916312,
+              34.7997238
+            ],
+            [
+              113.7917898,
+              34.7995469
+            ],
+            [
+              113.7926679,
+              34.8000877
+            ],
+            [
+              113.7924972,
+              34.8002647
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1029883032",
+      "properties": {
+        "osm_id": 1029883032,
+        "osm_type": "way",
+        "building": "grandstand",
+        "geometry_source": "OSM_COMMUNITY_MAPPED_2D",
+        "vertical_geometry_verified": false,
+        "name": "",
+        "building_type": "grandstand",
+        "center_lon": 113.789498575,
+        "center_lat": 34.80192085,
+        "center_definition": "ARITHMETIC_MEAN_OF_FOOTPRINT_VERTICES",
+        "center_inside_source_campus_polygon": true,
+        "all_vertices_inside_campus": true,
+        "height_m": null,
+        "building_levels": null,
+        "license": "ODbL 1.0",
+        "source_url": "https://www.openstreetmap.org/way/1029883032",
+        "map_index": 20
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.7898743,
+              34.8013824
+            ],
+            [
+              113.7890214,
+              34.8024021
+            ],
+            [
+              113.7891228,
+              34.8024593
+            ],
+            [
+              113.7899758,
+              34.8014396
+            ],
+            [
+              113.7898743,
+              34.8013824
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

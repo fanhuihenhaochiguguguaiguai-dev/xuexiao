@@ -1,0 +1,110 @@
+{
+  "spawn": {
+    "feet": {
+      "x": 31.9999942779541,
+      "y": 0.18509866952896115,
+      "z": 78
+    },
+    "grounded": true,
+    "verticalVelocity": -0.8,
+    "respawns": 2,
+    "distanceTravelled": 0.0000057220458984375,
+    "lastCollision": {
+      "name": "Library_south_plaza",
+      "kind": "Landscape",
+      "building": null
+    },
+    "jumpCount": 0,
+    "colliders": 44,
+    "passed": true
+  },
+  "walk": {
+    "distance": 5.165020656631574,
+    "passed": true
+  },
+  "run": {
+    "distance": 5.296225460209625,
+    "passed": true
+  },
+  "jump": {
+    "rise": 0.8800000548362732,
+    "landed": true,
+    "passed": true
+  },
+  "buildingCollision": {
+    "start": {
+      "x": -61.02230453491211,
+      "y": 0.025099895000457728,
+      "z": 23.92437171936035
+    },
+    "end": {
+      "x": -57.981082916259766,
+      "y": 0.02225073337554928,
+      "z": 21.80829620361328
+    },
+    "lastCollision": {
+      "name": "B13_library",
+      "kind": "Buildings",
+      "building": 13
+    },
+    "desiredTravel": 15.9,
+    "actualTravel": 3.7049702457783127,
+    "passed": true
+  },
+  "pois": [
+    {
+      "id": "library",
+      "feet": {
+        "x": 31.9999942779541,
+        "y": 0.18509866952896115,
+        "z": 78
+      },
+      "grounded": true,
+      "passed": true
+    },
+    {
+      "id": "stadium",
+      "feet": {
+        "x": -169.99978637695312,
+        "y": 0.024999997615814173,
+        "z": -95.0000228881836
+      },
+      "grounded": true,
+      "passed": true
+    },
+    {
+      "id": "dorm",
+      "feet": {
+        "x": 38.00000762939453,
+        "y": 0.0250994777679443,
+        "z": -137.99966430664062
+      },
+      "grounded": true,
+      "passed": true
+    },
+    {
+      "id": "gate",
+      "feet": {
+        "x": 100,
+        "y": 0.0250992393493652,
+        "z": 195
+      },
+      "grounded": true,
+      "passed": true
+    }
+  ],
+  "fallRecovery": {
+    "respawns": 9,
+    "passed": true
+  },
+  "librarySteps": {
+    "highestFeet": 1.3882336235046386,
+    "finalFeet": {
+      "x": -8.842663764953613,
+      "y": 1.3849961376190185,
+      "z": 22.37259292602539
+    },
+    "passed": true
+  },
+  "passed": true
+}

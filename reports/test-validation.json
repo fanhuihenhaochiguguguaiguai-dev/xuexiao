@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "count": 21,
+  "runner": "python -m unittest discover -s tests -v",
+  "cases": [
+    "test_nan_indices_and_truncation_are_rejected",
+    "test_real_position_buffer_is_used_instead_of_claimed_json_bounds",
+    "test_batch_template_preserves_typed_numbers_and_arrays",
+    "test_cycle_rejected_before_execution",
+    "test_download_requires_known_hash_and_allowed_public_host",
+    "test_image_bytes_are_required_and_only_route_to_a_candidate",
+    "test_input_digest_and_cache_hit",
+    "test_integrity_batch_block_is_grouped_under_the_same_root_cause",
+    "test_known_source_copy_avoids_network",
+    "test_partial_pilot_cannot_replace_full_release",
+    "test_quality_failure_halts_batch_without_replacing_last_release",
+    "test_rollback_cannot_bypass_partial_release_gate",
+    "test_rollback_refuses_corrupt_prior_artifact",
+    "test_same_dependency_output_avoids_unnecessary_downstream_recompute",
+    "test_shared_root_cause_blocks_only_dependants",
+    "test_single_panorama_station_is_not_multiview_input",
+    "test_source_mutation_is_rejected",
+    "test_tampered_cache_is_quarantined_and_rebuilt",
+    "test_timeout_retries_are_bounded",
+    "test_tool_version_invalidates_dependants",
+    "test_unbound_template_parameter_fails_before_execution"
+  ],
+  "test_source_sha256": "d68c2023e3a8633dfb9e0279e7a14c6e14e053d11a70143b5e9554aae081961f"
+}

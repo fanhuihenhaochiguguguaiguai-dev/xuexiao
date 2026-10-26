@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@dimforge/rapier3d-compat": "0.21.0",
+    "esbuild": "0.25.11",
+    "playcanvas": "2.23.3"
+  },
+  "name": "henan-campus-game",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "esbuild game.js --bundle --minify --format=esm --target=es2022 --legal-comments=inline --outfile=dist/game.js",
+    "check:physics": "node physics-check.mjs"
+  }
+}

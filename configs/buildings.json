@@ -1,0 +1,162 @@
+[
+  {
+    "building_id": 1,
+    "model_available": true,
+    "geometry_source": "EXISTING_ESTIMATED_CAMPUS_MODEL",
+    "visual_refinement": "PENDING_RELIABLE_FACADE_PROFILE",
+    "bulk_action": "REUSE_AND_VALIDATE",
+    "raw_photogrammetry_input_qualified": false
+  },
+  {
+    "building_id": 2,
+    "model_available": true,
+    "geometry_source": "EXISTING_ESTIMATED_CAMPUS_MODEL",
+    "visual_refinement": "PENDING_RELIABLE_FACADE_PROFILE",
+    "bulk_action": "REUSE_AND_VALIDATE",
+    "raw_photogrammetry_input_qualified": false
+  },
+  {
+    "building_id": 3,
+    "model_available": true,
+    "geometry_source": "EXISTING_ESTIMATED_CAMPUS_MODEL",
+    "visual_refinement": "PENDING_RELIABLE_FACADE_PROFILE",
+    "bulk_action": "REUSE_AND_VALIDATE",
+    "raw_photogrammetry_input_qualified": false
+  },
+  {
+    "building_id": 4,
+    "model_available": true,
+    "geometry_source": "EXISTING_ESTIMATED_CAMPUS_MODEL",
+    "visual_refinement": "PENDING_RELIABLE_FACADE_PROFILE",
+    "bulk_action": "REUSE_AND_VALIDATE",
+    "raw_photogrammetry_input_qualified": false
+  },
+  {
+    "building_id": 5,
+    "model_available": true,
+    "geometry_source": "EXISTING_ESTIMATED_CAMPUS_MODEL",
+    "visual_refinement": "PENDING_RELIABLE_FACADE_PROFILE",
+    "bulk_action": "REUSE_AND_VALIDATE",
+    "raw_photogrammetry_input_qualified": false
+  },
+  {
+    "building_id": 6,
+    "model_available": true,
+    "geometry_source": "EXISTING_ESTIMATED_CAMPUS_MODEL",
+    "visual_refinement": "PENDING_RELIABLE_FACADE_PROFILE",
+    "bulk_action": "REUSE_AND_VALIDATE",
+    "raw_photogrammetry_input_qualified": false
+  },
+  {
+    "building_id": 7,
+    "model_available": true,
+    "geometry_source": "EXISTING_ESTIMATED_CAMPUS_MODEL",
+    "visual_refinement": "PENDING_RELIABLE_FACADE_PROFILE",
+    "bulk_action": "REUSE_AND_VALIDATE",
+    "raw_photogrammetry_input_qualified": false
+  },
+  {
+    "building_id": 8,
+    "model_available": true,
+    "geometry_source": "EXISTING_ESTIMATED_CAMPUS_MODEL",
+    "visual_refinement": "PENDING_RELIABLE_FACADE_PROFILE",
+    "bulk_action": "REUSE_AND_VALIDATE",
+    "raw_photogrammetry_input_qualified": false
+  },
+  {
+    "building_id": 9,
+    "model_available": true,
+    "geometry_source": "EXISTING_ESTIMATED_CAMPUS_MODEL",
+    "visual_refinement": "PENDING_RELIABLE_FACADE_PROFILE",
+    "bulk_action": "REUSE_AND_VALIDATE",
+    "raw_photogrammetry_input_qualified": false
+  },
+  {
+    "building_id": 10,
+    "model_available": true,
+    "geometry_source": "EXISTING_ESTIMATED_CAMPUS_MODEL",
+    "visual_refinement": "PENDING_RELIABLE_FACADE_PROFILE",
+    "bulk_action": "REUSE_AND_VALIDATE",
+    "raw_photogrammetry_input_qualified": false
+  },
+  {
+    "building_id": 11,
+    "model_available": true,
+    "geometry_source": "EXISTING_ESTIMATED_CAMPUS_MODEL",
+    "visual_refinement": "PENDING_RELIABLE_FACADE_PROFILE",
+    "bulk_action": "REUSE_AND_VALIDATE",
+    "raw_photogrammetry_input_qualified": false
+  },
+  {
+    "building_id": 12,
+    "model_available": true,
+    "geometry_source": "EXISTING_ESTIMATED_CAMPUS_MODEL",
+    "visual_refinement": "PENDING_RELIABLE_FACADE_PROFILE",
+    "bulk_action": "REUSE_AND_VALIDATE",
+    "raw_photogrammetry_input_qualified": false
+  },
+  {
+    "building_id": 13,
+    "model_available": true,
+    "geometry_source": "EXISTING_ESTIMATED_CAMPUS_MODEL",
+    "visual_refinement": "PHOTO_GUIDED_LOCAL_REFINEMENT",
+    "bulk_action": "REUSE_AND_VALIDATE",
+    "raw_photogrammetry_input_qualified": false
+  },
+  {
+    "building_id": 14,
+    "model_available": true,
+    "geometry_source": "EXISTING_ESTIMATED_CAMPUS_MODEL",
+    "visual_refinement": "PENDING_RELIABLE_FACADE_PROFILE",
+    "bulk_action": "REUSE_AND_VALIDATE",
+    "raw_photogrammetry_input_qualified": false
+  },
+  {
+    "building_id": 15,
+    "model_available": true,
+    "geometry_source": "EXISTING_ESTIMATED_CAMPUS_MODEL",
+    "visual_refinement": "PENDING_RELIABLE_FACADE_PROFILE",
+    "bulk_action": "REUSE_AND_VALIDATE",
+    "raw_photogrammetry_input_qualified": false
+  },
+  {
+    "building_id": 16,
+    "model_available": true,
+    "geometry_source": "EXISTING_ESTIMATED_CAMPUS_MODEL",
+    "visual_refinement": "PENDING_RELIABLE_FACADE_PROFILE",
+    "bulk_action": "REUSE_AND_VALIDATE",
+    "raw_photogrammetry_input_qualified": false
+  },
+  {
+    "building_id": 17,
+    "model_available": true,
+    "geometry_source": "EXISTING_ESTIMATED_CAMPUS_MODEL",
+    "visual_refinement": "PENDING_RELIABLE_FACADE_PROFILE",
+    "bulk_action": "REUSE_AND_VALIDATE",
+    "raw_photogrammetry_input_qualified": false
+  },
+  {
+    "building_id": 18,
+    "model_available": true,
+    "geometry_source": "EXISTING_ESTIMATED_CAMPUS_MODEL",
+    "visual_refinement": "PENDING_RELIABLE_FACADE_PROFILE",
+    "bulk_action": "REUSE_AND_VALIDATE",
+    "raw_photogrammetry_input_qualified": false
+  },
+  {
+    "building_id": 19,
+    "model_available": true,
+    "geometry_source": "EXISTING_ESTIMATED_CAMPUS_MODEL",
+    "visual_refinement": "PENDING_RELIABLE_FACADE_PROFILE",
+    "bulk_action": "REUSE_AND_VALIDATE",
+    "raw_photogrammetry_input_qualified": false
+  },
+  {
+    "building_id": 20,
+    "model_available": true,
+    "geometry_source": "EXISTING_ESTIMATED_CAMPUS_MODEL",
+    "visual_refinement": "PENDING_RELIABLE_FACADE_PROFILE",
+    "bulk_action": "REUSE_AND_VALIDATE",
+    "raw_photogrammetry_input_qualified": false
+  }
+]

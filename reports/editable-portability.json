@@ -1,0 +1,106 @@
+{
+  "passed": true,
+  "method": "Blender actual pixel decode; every image embedded in editable blend",
+  "models": [
+    {
+      "file": "assets/henan_campus/project/HenanCampus.blend",
+      "images": [
+        {
+          "name": "admin_facade.png",
+          "packed": true,
+          "decoded": true,
+          "path": "//assets/admin_facade.png"
+        },
+        {
+          "name": "arcade_facade.png",
+          "packed": true,
+          "decoded": true,
+          "path": "//assets/arcade_facade.png"
+        },
+        {
+          "name": "court.png",
+          "packed": true,
+          "decoded": true,
+          "path": "//assets/court.png"
+        },
+        {
+          "name": "dorm_facade.png",
+          "packed": true,
+          "decoded": true,
+          "path": "//assets/dorm_facade.png"
+        },
+        {
+          "name": "grandstand_facade.png",
+          "packed": true,
+          "decoded": true,
+          "path": "//assets/grandstand_facade.png"
+        },
+        {
+          "name": "library_paving.png",
+          "packed": true,
+          "decoded": true,
+          "path": "/workspace/henan_campus/project/assets/library_paving.png"
+        },
+        {
+          "name": "library_paving.png.001",
+          "packed": true,
+          "decoded": true,
+          "path": "/workspace/henan_campus/project/assets/library_paving.png"
+        },
+        {
+          "name": "library_paving.png.002",
+          "packed": true,
+          "decoded": true,
+          "path": "/workspace/henan_campus/project/assets/library_paving.png"
+        },
+        {
+          "name": "library_stone.png",
+          "packed": true,
+          "decoded": true,
+          "path": "/workspace/henan_campus/project/assets/library_stone.png"
+        },
+        {
+          "name": "library_stone.png.001",
+          "packed": true,
+          "decoded": true,
+          "path": "/workspace/henan_campus/project/assets/library_stone.png"
+        },
+        {
+          "name": "library_stone.png.002",
+          "packed": true,
+          "decoded": true,
+          "path": "/workspace/henan_campus/project/assets/library_stone.png"
+        },
+        {
+          "name": "teaching_facade.png",
+          "packed": true,
+          "decoded": true,
+          "path": "//assets/teaching_facade.png"
+        },
+        {
+          "name": "tower_facade.png",
+          "packed": true,
+          "decoded": true,
+          "path": "//assets/tower_facade.png"
+        }
+      ]
+    },
+    {
+      "file": "assets/henan_campus/character/output/CampusExplorer.blend",
+      "images": [
+        {
+          "name": "denim_game_weave",
+          "packed": true,
+          "decoded": true,
+          "path": "//denim_game_weave.png"
+        },
+        {
+          "name": "face_reference_projection",
+          "packed": true,
+          "decoded": true,
+          "path": "//face_reference_projection.png"
+        }
+      ]
+    }
+  ]
+}

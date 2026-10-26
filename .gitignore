@@ -1,0 +1,14 @@
+**/node_modules
+**/__pycache__/
+**/*.pyc
+.campus-cache/
+.venv/
+configs/*.local.json
+configs/local-photos/
+**/.env
+**/.env.*
+**/.openai/pushed-source.json
+*.log
+game/qa/current_physics_validation.json
+assets/henan_campus/character/reference/
+assets/henan_campus/tools/geometry_deps/
