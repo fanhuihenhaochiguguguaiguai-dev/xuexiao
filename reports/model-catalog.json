@@ -1,304 +1,490 @@
 {
+  "version": "0.6",
+  "source_model_sha256": "dc52dde8f1bdd456dd22a142b1e9ff26dac7027d8966dacbdcc31312b00ba737",
   "models": [
     {
-      "building_id": 1,
-      "cache_key": "d5e56b05ad865b46034643f687c4b3575c8cdb74a4032efebf675beb521ec4ed",
-      "model_sha256": "2b9c136ddd6a983a015757d55a1eb2e90020e6ff14425cf6adfd674c31e948d1",
-      "triangles": 56,
-      "position_extent_m": [
-        51.74565410614014,
-        57.799999088048935,
-        43.265472412109375
-      ],
-      "source_main_bodies_closed": true,
-      "source_texture_decode_passed": true,
-      "visual_refinement": "NOT_VISUALLY_REFINED",
-      "surveyed_accuracy": false
+      "id": 1,
+      "name": "高层楼体",
+      "height_m": 54,
+      "floor_height_m": 3,
+      "length_m": 53.411,
+      "width_m": 14.627,
+      "dimensions_source": "OSM footprint and documented/estimated floor count; not surveyed dimensions",
+      "runtime_detail_file": "game/dist/assets/zones/b01.glb",
+      "geometry_validation": {
+        "passed": true,
+        "sha256": "5cdd5a0db9001efd1a4cc6f3dc885858bd8dd2a5cad585d45e410740437dafc9",
+        "triangles": 56,
+        "vertices": 96,
+        "position_extent_m": [
+          51.74565410614014,
+          55.99999985098839,
+          43.265472412109375
+        ],
+        "embedded_images": 1,
+        "animations": [],
+        "scope": "Geometry, buffers, finiteness and embedded texture signatures; not a likeness, survey, render or full glTF schema certification."
+      }
     },
     {
-      "building_id": 2,
-      "cache_key": "332a7d1900a83a6ebc71775db0d07d177c990fae6413eed8ca947b82eb8ee890",
-      "model_sha256": "b4729dc5e6ad47aa1999c3cc2aafbc9b0ba9b784a7fcea8a397f7a885a9cad76",
-      "triangles": 56,
-      "position_extent_m": [
-        51.75504684448242,
-        57.799999088048935,
-        43.2545166015625
-      ],
-      "source_main_bodies_closed": true,
-      "source_texture_decode_passed": true,
-      "visual_refinement": "NOT_VISUALLY_REFINED",
-      "surveyed_accuracy": false
+      "id": 2,
+      "name": "高层楼体",
+      "height_m": 54,
+      "floor_height_m": 3,
+      "length_m": 53.416,
+      "width_m": 14.627,
+      "dimensions_source": "OSM footprint and documented/estimated floor count; not surveyed dimensions",
+      "runtime_detail_file": "game/dist/assets/zones/b02.glb",
+      "geometry_validation": {
+        "passed": true,
+        "sha256": "58c33c97fc2b07c2351dc30c94036aebd9cff2b5b0a891e94fe25abe0a608167",
+        "triangles": 56,
+        "vertices": 96,
+        "position_extent_m": [
+          51.75504684448242,
+          55.99999985098839,
+          43.2545166015625
+        ],
+        "embedded_images": 1,
+        "animations": [],
+        "scope": "Geometry, buffers, finiteness and embedded texture signatures; not a likeness, survey, render or full glTF schema certification."
+      }
     },
     {
-      "building_id": 3,
-      "cache_key": "19bc14c75ed136af72c1580134790ed0cb756bea620cd9a2132c0f257fa55af5",
-      "model_sha256": "a19c0459219a5ab71db9c47ad61c90f76cfdb509386a64c8072be40b57c6776e",
-      "triangles": 56,
-      "position_extent_m": [
-        66.40520095825195,
-        57.799999088048935,
-        52.151153564453125
-      ],
-      "source_main_bodies_closed": true,
-      "source_texture_decode_passed": true,
-      "visual_refinement": "NOT_VISUALLY_REFINED",
-      "surveyed_accuracy": false
+      "id": 3,
+      "name": "高层楼体",
+      "height_m": 54,
+      "floor_height_m": 3,
+      "length_m": 71.861,
+      "width_m": 13.278,
+      "dimensions_source": "OSM footprint and documented/estimated floor count; not surveyed dimensions",
+      "runtime_detail_file": "game/dist/assets/zones/b03.glb",
+      "geometry_validation": {
+        "passed": true,
+        "sha256": "3fbcb1bf758b5f10d2058f0498a9c3a77d4fe470059d45568879c392b0878320",
+        "triangles": 56,
+        "vertices": 96,
+        "position_extent_m": [
+          66.40520095825195,
+          55.99999985098839,
+          52.151153564453125
+        ],
+        "embedded_images": 1,
+        "animations": [],
+        "scope": "Geometry, buffers, finiteness and embedded texture signatures; not a likeness, survey, render or full glTF schema certification."
+      }
     },
     {
-      "building_id": 4,
-      "cache_key": "80fd389baa60680c53c1ee528a9dd6c68e9183547777265014634754c659c439",
-      "model_sha256": "2a9438ac9ab21ecf10390fef3e5767067ef829b0399b178fb3a8165069e6c5e3",
-      "triangles": 56,
-      "position_extent_m": [
-        71.72195053100586,
-        57.799999088048935,
-        57.132476806640625
-      ],
-      "source_main_bodies_closed": true,
-      "source_texture_decode_passed": true,
-      "visual_refinement": "NOT_VISUALLY_REFINED",
-      "surveyed_accuracy": false
+      "id": 4,
+      "name": "高层楼体",
+      "height_m": 54,
+      "floor_height_m": 3,
+      "length_m": 76.89,
+      "width_m": 15.585,
+      "dimensions_source": "OSM footprint and documented/estimated floor count; not surveyed dimensions",
+      "runtime_detail_file": "game/dist/assets/zones/b04.glb",
+      "geometry_validation": {
+        "passed": true,
+        "sha256": "bdaf1b52ffd63a7cc6e0e53560a6b2a872691cdf00c62c080f51b00758ff7f12",
+        "triangles": 56,
+        "vertices": 96,
+        "position_extent_m": [
+          71.72195053100586,
+          55.99999985098839,
+          57.132476806640625
+        ],
+        "embedded_images": 1,
+        "animations": [],
+        "scope": "Geometry, buffers, finiteness and embedded texture signatures; not a likeness, survey, render or full glTF schema certification."
+      }
     },
     {
-      "building_id": 5,
-      "cache_key": "eb8703be700ef6d95e9e08c74c316d243db9920b848046ec70376c0d5cdec9bf",
-      "model_sha256": "ab8b59ad71df27e0d4ed57f64fbf557757cf5c1cce0f29e84d94d25bf9e08b88",
-      "triangles": 204,
-      "position_extent_m": [
-        120.15589570999146,
-        21.499999850988388,
-        77.37919616699219
-      ],
-      "source_main_bodies_closed": true,
-      "source_texture_decode_passed": true,
-      "visual_refinement": "NOT_VISUALLY_REFINED",
-      "surveyed_accuracy": false
+      "id": 5,
+      "name": "宿舍楼群",
+      "height_m": 18,
+      "floor_height_m": 3,
+      "length_m": 133.303,
+      "width_m": 26.165,
+      "dimensions_source": "OSM footprint and documented/estimated floor count; not surveyed dimensions",
+      "runtime_detail_file": "game/dist/assets/zones/b05.glb",
+      "geometry_validation": {
+        "passed": true,
+        "sha256": "d014eff3ef4458df09ec56a1d06b683e0b29fb5998b933cde27ef99aa59e1dee",
+        "triangles": 204,
+        "vertices": 329,
+        "position_extent_m": [
+          120.15589570999146,
+          19.999999850988388,
+          77.37919616699219
+        ],
+        "embedded_images": 1,
+        "animations": [],
+        "scope": "Geometry, buffers, finiteness and embedded texture signatures; not a likeness, survey, render or full glTF schema certification."
+      }
     },
     {
-      "building_id": 6,
-      "cache_key": "72d1bcb4726034dc766737c7a14d25d753cce876f81bffe35df2da71e8653cce",
-      "model_sha256": "28afc1379bf1c51949cb597c589ff3ccf53931db36adfa819ed9f67f85c03610",
-      "triangles": 204,
-      "position_extent_m": [
-        120.14705467224121,
-        21.499999850988388,
-        77.37945556640625
-      ],
-      "source_main_bodies_closed": true,
-      "source_texture_decode_passed": true,
-      "visual_refinement": "NOT_VISUALLY_REFINED",
-      "surveyed_accuracy": false
+      "id": 6,
+      "name": "宿舍楼群",
+      "height_m": 18,
+      "floor_height_m": 3,
+      "length_m": 133.296,
+      "width_m": 26.165,
+      "dimensions_source": "OSM footprint and documented/estimated floor count; not surveyed dimensions",
+      "runtime_detail_file": "game/dist/assets/zones/b06.glb",
+      "geometry_validation": {
+        "passed": true,
+        "sha256": "459ac682b8deabce3c3f499f292de4f8b153ac22027734847d9a5efc16a1aa2a",
+        "triangles": 204,
+        "vertices": 329,
+        "position_extent_m": [
+          120.14705467224121,
+          19.999999850988388,
+          77.37945556640625
+        ],
+        "embedded_images": 1,
+        "animations": [],
+        "scope": "Geometry, buffers, finiteness and embedded texture signatures; not a likeness, survey, render or full glTF schema certification."
+      }
     },
     {
-      "building_id": 7,
-      "cache_key": "525ed5c55da9644bbc5ed5d002af6420333d2b741589e730eba5d2fe7b281d31",
-      "model_sha256": "3ec8a5f2cba5e823d82f3133ed198e92c2e8691bbd22d97ec38fffc6f6800893",
-      "triangles": 204,
-      "position_extent_m": [
-        120.14742660522461,
-        21.499999850988388,
-        77.3685302734375
-      ],
-      "source_main_bodies_closed": true,
-      "source_texture_decode_passed": true,
-      "visual_refinement": "NOT_VISUALLY_REFINED",
-      "surveyed_accuracy": false
+      "id": 7,
+      "name": "宿舍楼群",
+      "height_m": 18,
+      "floor_height_m": 3,
+      "length_m": 133.296,
+      "width_m": 26.163,
+      "dimensions_source": "OSM footprint and documented/estimated floor count; not surveyed dimensions",
+      "runtime_detail_file": "game/dist/assets/zones/b07.glb",
+      "geometry_validation": {
+        "passed": true,
+        "sha256": "2aa67afb373e10857eef23e047dbdb4ce4c5b5052b53986acf82df424ea8c45c",
+        "triangles": 204,
+        "vertices": 330,
+        "position_extent_m": [
+          120.14742660522461,
+          19.999999850988388,
+          77.3685302734375
+        ],
+        "embedded_images": 1,
+        "animations": [],
+        "scope": "Geometry, buffers, finiteness and embedded texture signatures; not a likeness, survey, render or full glTF schema certification."
+      }
     },
     {
-      "building_id": 8,
-      "cache_key": "d73ff6040c2bc5fb422716849fd117d84b5ebec088cfd9e8454197ff75d4ddaa",
-      "model_sha256": "9d9d7df67339f51d9ff2d2167c078ac97c0d552af2e4591cb6581d6371ce9174",
-      "triangles": 204,
-      "position_extent_m": [
-        120.15694427490234,
-        21.499999850988388,
-        77.36875915527344
-      ],
-      "source_main_bodies_closed": true,
-      "source_texture_decode_passed": true,
-      "visual_refinement": "NOT_VISUALLY_REFINED",
-      "surveyed_accuracy": false
+      "id": 8,
+      "name": "宿舍楼群",
+      "height_m": 18,
+      "floor_height_m": 3,
+      "length_m": 133.305,
+      "width_m": 26.165,
+      "dimensions_source": "OSM footprint and documented/estimated floor count; not surveyed dimensions",
+      "runtime_detail_file": "game/dist/assets/zones/b08.glb",
+      "geometry_validation": {
+        "passed": true,
+        "sha256": "db37df6683e71292bfc6c300c4c46e158b0c3375cfdc9fc3bf02b73a00043d1d",
+        "triangles": 204,
+        "vertices": 343,
+        "position_extent_m": [
+          120.15694427490234,
+          19.999999850988388,
+          77.36875915527344
+        ],
+        "embedded_images": 1,
+        "animations": [],
+        "scope": "Geometry, buffers, finiteness and embedded texture signatures; not a likeness, survey, render or full glTF schema certification."
+      }
     },
     {
-      "building_id": 9,
-      "cache_key": "049120811a24737c537cb123255a1e190c46bb5e686c2116f87f13172031ce48",
-      "model_sha256": "6128de4734f283ab85fec6d2739386e77d79b750d026089be9d2dfdc7d0ec7f0",
-      "triangles": 204,
-      "position_extent_m": [
-        120.14811706542969,
-        21.499999850988388,
-        77.38008117675781
-      ],
-      "source_main_bodies_closed": true,
-      "source_texture_decode_passed": true,
-      "visual_refinement": "NOT_VISUALLY_REFINED",
-      "surveyed_accuracy": false
+      "id": 9,
+      "name": "宿舍楼群",
+      "height_m": 18,
+      "floor_height_m": 3,
+      "length_m": 133.297,
+      "width_m": 26.163,
+      "dimensions_source": "OSM footprint and documented/estimated floor count; not surveyed dimensions",
+      "runtime_detail_file": "game/dist/assets/zones/b09.glb",
+      "geometry_validation": {
+        "passed": true,
+        "sha256": "05657ff57e84ea8f441d3218ce7e0a9182cdeb7e068658cc181480d85a97d94b",
+        "triangles": 204,
+        "vertices": 333,
+        "position_extent_m": [
+          120.14811706542969,
+          19.999999850988388,
+          77.38008117675781
+        ],
+        "embedded_images": 1,
+        "animations": [],
+        "scope": "Geometry, buffers, finiteness and embedded texture signatures; not a likeness, survey, render or full glTF schema certification."
+      }
     },
     {
-      "building_id": 10,
-      "cache_key": "b26be0cd0a8f35f258b3de738aab10c93c3214a9ab78914739b66e9eef5204c5",
-      "model_sha256": "1d0a91a85ead731310225ee101eb5e65a53f84f9d1f343a1cbfce1a24cf33fe1",
-      "triangles": 196,
-      "position_extent_m": [
-        112.79136657714844,
-        21.499999850988388,
-        71.75578188896179
-      ],
-      "source_main_bodies_closed": true,
-      "source_texture_decode_passed": true,
-      "visual_refinement": "NOT_VISUALLY_REFINED",
-      "surveyed_accuracy": false
+      "id": 10,
+      "name": "宿舍楼群",
+      "height_m": 18,
+      "floor_height_m": 3,
+      "length_m": 121.372,
+      "width_m": 26.165,
+      "dimensions_source": "OSM footprint and documented/estimated floor count; not surveyed dimensions",
+      "runtime_detail_file": "game/dist/assets/zones/b10.glb",
+      "geometry_validation": {
+        "passed": true,
+        "sha256": "de6697fe3a19583cad2797ef03766b5f710702c674a10c1193fc4b9774bed676",
+        "triangles": 196,
+        "vertices": 321,
+        "position_extent_m": [
+          112.79136657714844,
+          19.999999850988388,
+          71.75578188896179
+        ],
+        "embedded_images": 1,
+        "animations": [],
+        "scope": "Geometry, buffers, finiteness and embedded texture signatures; not a likeness, survey, render or full glTF schema certification."
+      }
     },
     {
-      "building_id": 11,
-      "cache_key": "4efb6b586ee4a4c1f9829b971170304e2081c3cbeb13e98df90a9475d0f0a970",
-      "model_sha256": "93ee6f283b15168de4fa9a4cd32440ce178eb43e64946239aa3cbfa5ee925a55",
-      "triangles": 196,
-      "position_extent_m": [
-        112.79173278808594,
-        21.499999850988388,
-        71.75600814819336
-      ],
-      "source_main_bodies_closed": true,
-      "source_texture_decode_passed": true,
-      "visual_refinement": "NOT_VISUALLY_REFINED",
-      "surveyed_accuracy": false
+      "id": 11,
+      "name": "宿舍楼群",
+      "height_m": 18,
+      "floor_height_m": 3,
+      "length_m": 121.373,
+      "width_m": 26.165,
+      "dimensions_source": "OSM footprint and documented/estimated floor count; not surveyed dimensions",
+      "runtime_detail_file": "game/dist/assets/zones/b11.glb",
+      "geometry_validation": {
+        "passed": true,
+        "sha256": "c452d0e4fe2b3b2d6303d97434bb867cc42b379c4001ecef11c66a0cf14ac94d",
+        "triangles": 196,
+        "vertices": 319,
+        "position_extent_m": [
+          112.79173278808594,
+          19.999999850988388,
+          71.75600814819336
+        ],
+        "embedded_images": 1,
+        "animations": [],
+        "scope": "Geometry, buffers, finiteness and embedded texture signatures; not a likeness, survey, render or full glTF schema certification."
+      }
     },
     {
-      "building_id": 12,
-      "cache_key": "36c5e8ffc32f334be5feedd0f2b2cf80870519041a156300bb8aeb8c5faa96ff",
-      "model_sha256": "216272edf13815dd001a753b78d1f7eedb8028df925ea75483107b384efe7824",
-      "triangles": 864,
-      "position_extent_m": [
-        187.20736694335938,
-        12.11999973654747,
-        260.27935791015625
-      ],
-      "source_main_bodies_closed": true,
-      "source_texture_decode_passed": true,
-      "visual_refinement": "NOT_VISUALLY_REFINED",
-      "surveyed_accuracy": false
+      "id": 12,
+      "name": "弧形商业连廊",
+      "height_m": 9,
+      "floor_height_m": 3,
+      "length_m": 316.363,
+      "width_m": 41.329,
+      "dimensions_source": "OSM footprint and documented/estimated floor count; not surveyed dimensions",
+      "runtime_detail_file": "game/dist/assets/zones/b12.glb",
+      "geometry_validation": {
+        "passed": true,
+        "sha256": "b014a717ec917268aa758e2f1312e9466001e131ed693a9591c8833f8b151bce",
+        "triangles": 864,
+        "vertices": 1333,
+        "position_extent_m": [
+          187.20736694335938,
+          10.019999355077744,
+          260.27935791015625
+        ],
+        "embedded_images": 1,
+        "animations": [],
+        "scope": "Geometry, buffers, finiteness and embedded texture signatures; not a likeness, survey, render or full glTF schema certification."
+      }
     },
     {
-      "building_id": 13,
-      "cache_key": "e74e7e8def66bceea8144d85ba0d4ad83d8ab941d638d31ba26d72a8a72e182c",
-      "model_sha256": "aa24935a0e1f19d046d96bd7f0e32d4665e9e6e82679330b2b71be56e94790e3",
-      "triangles": 4586,
-      "position_extent_m": [
-        114.82917022705078,
-        32.02872070670128,
-        114.62933731079102
-      ],
-      "source_main_bodies_closed": true,
-      "source_texture_decode_passed": true,
-      "visual_refinement": "PHOTO_GUIDED_LOCAL_REFINEMENT",
-      "surveyed_accuracy": false
+      "id": 13,
+      "name": "图书馆",
+      "height_m": 27,
+      "floor_height_m": 3,
+      "length_m": 82.4,
+      "width_m": 80.353,
+      "dimensions_source": "OSM footprint and documented/estimated floor count; not surveyed dimensions",
+      "runtime_detail_file": "game/dist/assets/zones/b13.glb",
+      "geometry_validation": {
+        "passed": true,
+        "sha256": "17bd20b468f93b0ead3372084b5af1b9cbea14a025ed8281c9270bd27eba9991",
+        "triangles": 4010,
+        "vertices": 5800,
+        "position_extent_m": [
+          114.82917022705078,
+          30.69167236238718,
+          114.62933731079102
+        ],
+        "embedded_images": 3,
+        "animations": [],
+        "scope": "Geometry, buffers, finiteness and embedded texture signatures; not a likeness, survey, render or full glTF schema certification."
+      },
+      "raised_plinth_m": 1.8,
+      "storey_grid_origin_m": 1.96
     },
     {
-      "building_id": 14,
-      "cache_key": "dbb36e7fbee54f2dbe9348dc8c2b1824a639bb7f6510685b4caea7a57bab5d70",
-      "model_sha256": "7ead12fae2ece4f2114f859514f5f7fedb6e2ab4a15e5daf695e91fb18ab0c76",
-      "triangles": 152,
-      "position_extent_m": [
-        152.53682470321655,
-        19.799999088048935,
-        117.77178955078125
-      ],
-      "source_main_bodies_closed": true,
-      "source_texture_decode_passed": true,
-      "visual_refinement": "NOT_VISUALLY_REFINED",
-      "surveyed_accuracy": false
+      "id": 14,
+      "name": "南侧办公楼群",
+      "height_m": 15,
+      "floor_height_m": 3,
+      "length_m": 16.414,
+      "width_m": 11.5,
+      "dimensions_source": "OSM footprint and documented/estimated floor count; not surveyed dimensions",
+      "runtime_detail_file": "game/dist/assets/zones/b14.glb",
+      "geometry_validation": {
+        "passed": true,
+        "sha256": "3e6d8f59eba34daba37b433e6e88fbb75391a74635d87961d09c5b631bd8ffea",
+        "triangles": 152,
+        "vertices": 254,
+        "position_extent_m": [
+          152.53682470321655,
+          15.799999088048935,
+          117.77178955078125
+        ],
+        "embedded_images": 1,
+        "animations": [],
+        "scope": "Geometry, buffers, finiteness and embedded texture signatures; not a likeness, survey, render or full glTF schema certification."
+      }
     },
     {
-      "building_id": 15,
-      "cache_key": "1d999802468b9eb6bdd9c132eeefbc932e4534b609c9e1bc14677040508a4dce",
-      "model_sha256": "22cdc11b356fe3de35518597fb15a5f0aad6d9b5f9449236a9bd41b38d057865",
-      "triangles": 56,
-      "position_extent_m": [
-        94.86735534667969,
-        24.20000061392784,
-        79.61829471588135
-      ],
-      "source_main_bodies_closed": true,
-      "source_texture_decode_passed": true,
-      "visual_refinement": "NOT_VISUALLY_REFINED",
-      "surveyed_accuracy": false
+      "id": 15,
+      "name": "教学楼群",
+      "height_m": 18,
+      "floor_height_m": 3,
+      "length_m": 100.28,
+      "width_m": 25.07,
+      "dimensions_source": "OSM footprint and documented/estimated floor count; not surveyed dimensions",
+      "runtime_detail_file": "game/dist/assets/zones/b15.glb",
+      "geometry_validation": {
+        "passed": true,
+        "sha256": "d70cbf593f71d0704ce8ae184c0f860ef099c0a037ead9a04a9610e855378065",
+        "triangles": 5384,
+        "vertices": 10752,
+        "position_extent_m": [
+          94.9942626953125,
+          19.999999850988388,
+          79.82611560821533
+        ],
+        "embedded_images": 4,
+        "animations": [],
+        "scope": "Geometry, buffers, finiteness and embedded texture signatures; not a likeness, survey, render or full glTF schema certification."
+      }
     },
     {
-      "building_id": 16,
-      "cache_key": "898c3553cac575cb6967bd0ae3882b41cbb2f1008b3dced7c6fc4128c98a2366",
-      "model_sha256": "e780b41c5bb964fcecef498fad65659987a6a03f061f8cc9fb304ff70069cfd0",
-      "triangles": 56,
-      "position_extent_m": [
-        94.86767578125,
-        24.20000061392784,
-        79.62956237792969
-      ],
-      "source_main_bodies_closed": true,
-      "source_texture_decode_passed": true,
-      "visual_refinement": "NOT_VISUALLY_REFINED",
-      "surveyed_accuracy": false
+      "id": 16,
+      "name": "教学楼群",
+      "height_m": 18,
+      "floor_height_m": 3,
+      "length_m": 100.28,
+      "width_m": 25.079,
+      "dimensions_source": "OSM footprint and documented/estimated floor count; not surveyed dimensions",
+      "runtime_detail_file": "game/dist/assets/zones/b16.glb",
+      "geometry_validation": {
+        "passed": true,
+        "sha256": "1f8e6645714f8c1fe67c08a9dffe1ac2dc57109531ec3294bf0c11227b521466",
+        "triangles": 5384,
+        "vertices": 10752,
+        "position_extent_m": [
+          94.99461364746094,
+          19.999999850988388,
+          79.83738327026367
+        ],
+        "embedded_images": 4,
+        "animations": [],
+        "scope": "Geometry, buffers, finiteness and embedded texture signatures; not a likeness, survey, render or full glTF schema certification."
+      }
     },
     {
-      "building_id": 17,
-      "cache_key": "f144423ed09741a050d347a358d2cde7ac04c81e29caec95a762026b610be3c5",
-      "model_sha256": "768a1a053236ac2360a2de3fa9b4a8ebd5e80d91a73ed28d0634f115c31dff3f",
-      "triangles": 56,
-      "position_extent_m": [
-        94.867919921875,
-        24.20000061392784,
-        79.62977600097656
-      ],
-      "source_main_bodies_closed": true,
-      "source_texture_decode_passed": true,
-      "visual_refinement": "NOT_VISUALLY_REFINED",
-      "surveyed_accuracy": false
+      "id": 17,
+      "name": "教学楼群",
+      "height_m": 18,
+      "floor_height_m": 3,
+      "length_m": 100.288,
+      "width_m": 25.085,
+      "dimensions_source": "OSM footprint and documented/estimated floor count; not surveyed dimensions",
+      "runtime_detail_file": "game/dist/assets/zones/b17.glb",
+      "geometry_validation": {
+        "passed": true,
+        "sha256": "d4eb022853edbbbbf5047371f708b3c9a9ada1beda6e13a20766f1cd26581a8d",
+        "triangles": 5384,
+        "vertices": 10752,
+        "position_extent_m": [
+          94.99484252929688,
+          19.999999850988388,
+          79.83758544921875
+        ],
+        "embedded_images": 4,
+        "animations": [],
+        "scope": "Geometry, buffers, finiteness and embedded texture signatures; not a likeness, survey, render or full glTF schema certification."
+      }
     },
     {
-      "building_id": 18,
-      "cache_key": "e75b0489e1696f6c6c0657b495a7ac091e53ff8cad7162c8302c156abcfaada6",
-      "model_sha256": "5fa36964ce1d61ff2d2284cfdb1f055f4f8f666114b929cf9b5751f7e8e13e15",
-      "triangles": 56,
-      "position_extent_m": [
-        94.86822128295898,
-        24.20000061392784,
-        79.61890411376953
-      ],
-      "source_main_bodies_closed": true,
-      "source_texture_decode_passed": true,
-      "visual_refinement": "NOT_VISUALLY_REFINED",
-      "surveyed_accuracy": false
+      "id": 18,
+      "name": "教学楼群",
+      "height_m": 18,
+      "floor_height_m": 3,
+      "length_m": 100.288,
+      "width_m": 25.076,
+      "dimensions_source": "OSM footprint and documented/estimated floor count; not surveyed dimensions",
+      "runtime_detail_file": "game/dist/assets/zones/b18.glb",
+      "geometry_validation": {
+        "passed": true,
+        "sha256": "34e251362acb95f42da870c2a0ca3ee2c45a3470b7045e84662a491eb38c1fb9",
+        "triangles": 5384,
+        "vertices": 10752,
+        "position_extent_m": [
+          94.99513816833496,
+          19.999999850988388,
+          79.82672119140625
+        ],
+        "embedded_images": 4,
+        "animations": [],
+        "scope": "Geometry, buffers, finiteness and embedded texture signatures; not a likeness, survey, render or full glTF schema certification."
+      }
     },
     {
-      "building_id": 19,
-      "cache_key": "e84581a6ad4240df4ac279349bf8217ef62636895457132513af9ec5af2b4554",
-      "model_sha256": "e8962575dde6a1a685faf281806140416b798ce8c999192fdf9ccc1898dfec2e",
-      "triangles": 56,
-      "position_extent_m": [
-        94.86846077442169,
-        24.20000061392784,
-        79.63015747070312
-      ],
-      "source_main_bodies_closed": true,
-      "source_texture_decode_passed": true,
-      "visual_refinement": "NOT_VISUALLY_REFINED",
-      "surveyed_accuracy": false
+      "id": 19,
+      "name": "教学楼群",
+      "height_m": 18,
+      "floor_height_m": 3,
+      "length_m": 100.281,
+      "width_m": 25.079,
+      "dimensions_source": "OSM footprint and documented/estimated floor count; not surveyed dimensions",
+      "runtime_detail_file": "game/dist/assets/zones/b19.glb",
+      "geometry_validation": {
+        "passed": true,
+        "sha256": "418f01b261ef58d76e36ab704e4f067edee07170995fe163cf7aedd045b84c96",
+        "triangles": 5384,
+        "vertices": 10752,
+        "position_extent_m": [
+          94.99539041519165,
+          19.999999850988388,
+          79.83796691894531
+        ],
+        "embedded_images": 4,
+        "animations": [],
+        "scope": "Geometry, buffers, finiteness and embedded texture signatures; not a likeness, survey, render or full glTF schema certification."
+      }
     },
     {
-      "building_id": 20,
-      "cache_key": "587f84e60bfac1ff5eedf33754e57ade38e01e09c5f989b7d61a9a55c9e5786b",
-      "model_sha256": "15664238113cb12d0aedda1ca33b5e6365a6a47e88e85ebea7aa4baf1905c68e",
-      "triangles": 56,
-      "position_extent_m": [
-        87.33146667480469,
-        13.239999622106552,
-        119.47019004821777
-      ],
-      "source_main_bodies_closed": true,
-      "source_texture_decode_passed": true,
-      "visual_refinement": "NOT_VISUALLY_REFINED",
-      "surveyed_accuracy": false
+      "id": 20,
+      "name": "体育场看台",
+      "height_m": 3,
+      "floor_height_m": 3,
+      "length_m": 137.485,
+      "width_m": 11.249,
+      "dimensions_source": "OSM footprint and documented/estimated floor count; not surveyed dimensions",
+      "runtime_detail_file": "game/dist/assets/zones/b20.glb",
+      "geometry_validation": {
+        "passed": true,
+        "sha256": "94f40b838631b4ebdca1d348ca781e5507d6b9ad790179f73a404de18c1530ce",
+        "triangles": 1184,
+        "vertices": 1426,
+        "position_extent_m": [
+          87.33775329589844,
+          6.799999713897705,
+          119.55166435241699
+        ],
+        "embedded_images": 3,
+        "animations": [],
+        "scope": "Geometry, buffers, finiteness and embedded texture signatures; not a likeness, survey, render or full glTF schema certification."
+      }
     }
-  ]
+  ],
+  "count": 20,
+  "scope": "Actual GLB buffers, triangles and embedded image signatures checked; full scene reimport checks recorded separately; no survey accuracy or complete school coverage claim"
 }

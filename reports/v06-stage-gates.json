@@ -1,9 +1,9 @@
 {
   "campus": {
     "passed": true,
-    "sha256": "a759ca131d9f32138bb7d3ab61f6ef937176c0d39dc267d6e305180f570165a9",
-    "triangles": 105613,
-    "vertices": 152320,
+    "sha256": "dc52dde8f1bdd456dd22a142b1e9ff26dac7027d8966dacbdcc31312b00ba737",
+    "triangles": 106217,
+    "vertices": 152678,
     "position_extent_m": [
       722.0218811035156,
       57.242999792099,
@@ -15,9 +15,9 @@
   },
   "base": {
     "passed": true,
-    "sha256": "adc4ea214a6153ece0ecbc606604cb9ae931a624c69d6e57d6c75f586d1c8727",
-    "triangles": 72311,
-    "vertices": 88845,
+    "sha256": "8eb276576a93623e58741f77651bd140b047f95207259413a1e0bcf4b1e06406",
+    "triangles": 72915,
+    "vertices": 89203,
     "position_extent_m": [
       722.0218811035156,
       55.242999792099,
@@ -48,5 +48,6 @@
     ],
     "scope": "Geometry, buffers, finiteness and embedded texture signatures; not a likeness, survey, render or full glTF schema certification."
   },
-  "status": "MODELS_AND_PHYSICS_PROMOTED_BROWSER_QA_REQUIRED"
+  "status": "CURRENT_SOURCE_BROWSER_AND_MODEL_STAGE_PASSED",
+  "browser_hashes_match": true
 }

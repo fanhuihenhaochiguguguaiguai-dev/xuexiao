@@ -137,7 +137,8 @@
       "id": 13,
       "url": "/assets/zones/b13.glb",
       "coarse_nodes": [
-        "B13_library"
+        "B13_library",
+        "B13_library_plinth"
       ],
       "x": -25.051592063754956,
       "z": -1.3111244825701152,

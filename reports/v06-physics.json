@@ -17,7 +17,7 @@
       "building": null
     },
     "jumpCount": 0,
-    "colliders": 48,
+    "colliders": 53,
     "water": null,
     "passed": true
   },
@@ -41,17 +41,17 @@
       "z": 23.92437171936035
     },
     "end": {
-      "x": -57.95677947998047,
-      "y": 0.024999938011169398,
-      "z": 21.843536376953125
+      "x": -57.935489654541016,
+      "y": 0.025099954605102504,
+      "z": 21.87420654296875
     },
     "lastCollision": {
-      "name": "B13_library",
-      "kind": "Buildings",
+      "name": "B13_library_plinth",
+      "kind": "Foundation",
       "building": 13
     },
     "desiredTravel": 79.5,
-    "actualTravel": 3.705049223567195,
+    "actualTravel": 3.7056273433638585,
     "passed": true
   },
   "pois": [
@@ -103,9 +103,9 @@
   "librarySteps": {
     "highestFeet": 1.9953844165802002,
     "finalFeet": {
-      "x": -10.02321720123291,
-      "y": 1.9850980854034423,
-      "z": 23.11564826965332
+      "x": -9.997599601745605,
+      "y": 1.9849991416931152,
+      "z": 23.099529266357422
     },
     "passed": true
   },

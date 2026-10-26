@@ -55,7 +55,7 @@ for o in spec['objects']:
   # Keep the already validated closed mesh and its footprint topology.
   ob=existing;inv=ob.matrix_world.inverted()
   for vert in ob.data.vertices:
-   p=ob.matrix_world@vert.co;p.z=.16+(p.z-.16)*27/24;vert.co=inv@p
+   p=ob.matrix_world@vert.co;p.z=o['z']+(p.z-.16)*27/24;vert.co=inv@p
   ob['floor_count']=9;ob['body_height_m']=27;ob['floor_height_m']=3
  if o['group']=='Bridge' and name!='Stone_bridge_deck':extrude(o,[stone])
  if o['group']=='Buildings' and o.get('building_index') not in [13,20] and existing:
@@ -112,6 +112,8 @@ except RuntimeError:pass
 sign=bpy.data.objects.new('Library_v06_name',cu);scene.collection.objects.link(sign);sign.location=point(uc,.9,5.1)
 from mathutils import Matrix
 sign.rotation_euler=Matrix(((u.x,0,-v.x),(u.y,0,-v.y),(0,1,0))).to_euler();cu.materials.append(gold);bpy.ops.object.select_all(action='DESELECT');sign.select_set(True);bpy.context.view_layer.objects.active=sign;bpy.ops.object.convert(target='MESH');sign['building_index']=13
+sys.path.insert(0,str(ROOT/'tools'));from metric_library import align_library
+align_library(scene,1.8,body_already_shifted=True)
 # Broad, flat stone bridge with open balustrades and collidable posts.
 b=cfg['bridge'];ang=math.radians(b['angle_degrees']);bu=Vector((math.cos(ang),math.sin(ang),0));bv=Vector((-bu.y,bu.x,0));bc=Vector((*b['center_blender_xy'],0));deck=extrude(next(o for o in spec['objects'] if o['name']=='Stone_bridge_deck'),[stone]);rail=Parts()
 for side in [-1,1]:
@@ -122,13 +124,8 @@ rail.finish('Stone_bridge_balustrades',collision_kind='BridgeRail',source_scene=
 o=next(o for o in spec['objects'] if o['name']=='B20_grandstand');ring=[Vector((*p,0)) for p in o['polygon']['rings'][0]];edges=[(a,ring[(i+1)%len(ring)]) for i,a in enumerate(ring)];a,b=max(edges,key=lambda e:(e[1]-e[0]).length);gu=(b-a).normalized();gv=Vector((-gu.y,gu.x,0));gc=sum(ring,Vector())/len(ring)
 if gv.x<0:gu=-gu;gv=-gv
 length=max((p-gc).dot(gu) for p in ring)-min((p-gc).dot(gu) for p in ring);width=max((p-gc).dot(gv) for p in ring)-min((p-gc).dot(gv) for p in ring)
-verts=[];faces=[]
-for left,right,count in [(-length/2,-1.4,7),(-1.4,1.4,14),(1.4,length/2,7)]:
- profile2=[(width/2,.16),(-width/2,.16),(-width/2,3.16)]
- for i in range(count):
-  d=-width/2+(i+1)*width/count;z=.16+(count-i)*3/count;profile2.append((d,z))
-  if i<count-1:profile2.append((d,z-3/count))
- k=len(verts);n=len(profile2);verts.extend(tuple(gc+gu*x+gv*d+Vector((0,0,z))) for x in [left,right] for d,z in profile2);faces.extend([tuple(k+i for i in reversed(range(n))),tuple(range(k+n,k+2*n))]+[(k+i,k+(i+1)%n,k+(i+1)%n+n,k+i+n) for i in range(n)])
+sys.path.insert(0,str(ROOT/'tools'));from metric_steps import stepped_stand
+verts,faces=stepped_stand(tuple(gc),tuple(gu),tuple(gv),length,width)
 stand=object_mesh('B20_grandstand',verts,faces,[stone],extras={'building_index':20,'body_height_m':3,'floor_height_m':3,'collision_kind':'Grandstand'});bm=bmesh.new();bm.from_mesh(stand.data);bmesh.ops.recalc_face_normals(bm,faces=bm.faces);bm.to_mesh(stand.data);bm.free()
 seats=Parts()
 for i in range(7):
@@ -179,7 +176,7 @@ zones=OUT/'zones';zones.mkdir(exist_ok=True);base=[o for o in all_meshes if not 
 for b in spec['buildings']:
  idx=b['map_index'];objects=[o for o in all_meshes if o.get('building_index')==idx];assert objects
  export(zones/f'b{idx:02d}.glb',objects)
- body_names={o['name'] for o in spec['objects'] if o.get('building_index')==idx and o['group']=='Buildings' and o.get('display_name')};bodies=[o for o in objects if o.name in body_names];assert bodies
+ body_names={o['name'] for o in spec['objects'] if o.get('building_index')==idx and ((o['group']=='Buildings' and o.get('display_name')) or o['group']=='Foundation')};bodies=[o for o in objects if o.name in body_names];assert bodies
  # Base retains low-cost mapped solids; facade/seat/detail meshes stream nearby.
  for body in bodies:body['lod_coarse_building']=idx;base.append(body)
  manifest.append({'id':idx,'url':f'/assets/zones/b{idx:02d}.glb','coarse_nodes':[o.name for o in bodies],'x':b['centroid_local_m'][0],'z':-b['centroid_local_m'][1],'load_distance_m':190,'unload_distance_m':250})

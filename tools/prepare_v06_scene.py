@@ -22,7 +22,7 @@ def add(name,poly,z,height,material,group,**extra):
  obj={'name':name,'polygon':pack(poly),'z':z,'height':height,'material':material,'group':group,'source':'Cached published panoramas; see configs/v06-scene.json','confidence':'PHOTO_GUIDED_ESTIMATED_DIMENSIONS',**extra};spec['objects'].append(obj);return obj
 spec['objects']=[o for o in spec['objects'] if not o['name'].startswith(('Library_stair_','Library_entry_terrace','Grandstand_seat_row_')) and o['name']!='B20_grandstand_parapet']
 for o in spec['objects']:
- if o['name']=='B13_library':o.update(height=27,levels_estimated=9,floor_height_estimated=3,facade_tile_height=3,confidence='DOCUMENTED_NINTH_FLOOR__USER_3M_RULE_NOT_SURVEY')
+ if o['name']=='B13_library':o.update(z=1.96,height=27,levels_estimated=9,floor_height_estimated=3,facade_tile_height=3,raised_plinth_height_m=1.8,confidence='DOCUMENTED_NINTH_FLOOR__USER_3M_RULE_NOT_SURVEY')
  if 'facade_tile_height' in o:o['facade_tile_height']=3
 for b in spec['buildings']:
  if b['map_index']==13:b.update(height_m=27,floor_count=9,floor_count_source='2025 public procurement, ninth floor; corroborating lake article',height_status='DOCUMENTED_FLOOR_COUNT_USER_3M_HEIGHT_RULE')
@@ -37,6 +37,7 @@ def point(x,offset):
 xs=[uc-25+i*50/48 for i in range(49)]
 def band(inner,outer):return Polygon([point(x,outer) for x in xs]+[point(x,inner) for x in reversed(xs)])
 l=cfg['library'];total=l['stairs']*l['riser_m']
+library_body=next(o for o in spec['objects'] if o['name']=='B13_library');add('B13_library_plinth',shape(library_body),.16,total,'stone','Foundation',building_index=13)
 for j in range(l['stairs']):
  inner=.7+(l['stairs']-1-j)*l['tread_m'];add('Library_stair_'+str(j),band(inner,inner+l['tread_m']),.16,(j+1)*l['riser_m'],'paving','Roads',riser_m=l['riser_m'])
 add('Library_entry_terrace',band(0,.7),.16,total,'paving','Roads')

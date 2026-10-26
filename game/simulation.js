@@ -53,8 +53,10 @@ export function createSimulation(R, data,options={}) {
   if(jump&&(grounded||swimming)){vy=immersed?2.6:6.1;grounded=false;jumpCount++;}
   if(immersed){
    // Displacement-based buoyancy plus drag; bathymetry is explicitly estimated.
-   const submerged=Math.max(0,Math.min(1,(wet.surface-before.y)/1.1));
-   vy+=(-20+36*submerged-4.5*vy)*dt;
+   const submerged=Math.max(0,Math.min(1,(wet.surface-before.y)/.64));
+   // A horizontal body-volume proxy, density 0.96 relative to water. The
+   // upright collision capsule remains conservative around hard obstacles.
+   vy+=(-20+(20/.96)*submerged-4.5*vy)*dt;
   }else if(grounded&&vy<0)vy=-.8;else vy=Math.max(vy-20*dt,-25);
   const entering=waterAtPosition(data.waterZones,before.x+dx,before.z+dz);
   controller.computeColliderMovement(collider,{x:dx,y:vy*dt,z:dz},undefined,undefined,c=>{

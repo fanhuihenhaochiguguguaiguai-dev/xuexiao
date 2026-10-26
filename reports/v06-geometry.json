@@ -173,5 +173,8 @@
       "expected_height_m": 3.0,
       "non_manifold_edges": 0
     }
-  ]
+  ],
+  "library_raised_plinth_m": 1.8,
+  "library_storey_grid_origin_m": 1.96,
+  "library_total_facade_height_including_plinth_m": 28.8
 }

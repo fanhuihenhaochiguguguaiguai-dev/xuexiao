@@ -1,8 +1,9 @@
 // Low-cost mapped solids remain visible while nearby facade zones stream in.
-export function createZoneStreaming(app,campus,manifest,loadContainer,onLoaded=()=>{}){
+export function createZoneStreaming(app,campus,manifest,loadContainer,onLoaded=()=>{},onUnloaded=()=>{}){
  const zones=manifest.zones.map(z=>({...z,asset:null,entity:null,loading:false,failed:false,lastFailure:null}));let loading=0,clock=0,disposed=0,lastPosition=null;
  const coarse=z=>z.coarse_nodes.map(name=>campus.findByName(name)).filter(Boolean);
  async function load(z){
+  if(navigator.onLine===false)return;
   z.loading=true;loading++;
   try{
    const asset=await loadContainer(z.url);z.asset=asset;z.entity=asset.resource.instantiateRenderEntity();z.entity.name='Detail_zone_'+z.id;campus.addChild(z.entity);
@@ -14,7 +15,7 @@ export function createZoneStreaming(app,campus,manifest,loadContainer,onLoaded=(
  function reconcile(position,initial=false){
   lastPosition={...position};const candidates=zones.map(z=>({z,d:Math.hypot(z.x-position.x,z.z-position.z)})).sort((a,b)=>a.d-b.d);
   for(const {z,d} of candidates){
-   if(z.entity&&d>z.unload_distance_m){z.entity.destroy();z.entity=null;app.assets.remove(z.asset);z.asset.unload();z.asset=null;for(const ob of coarse(z))ob.enabled=true;disposed++;}
+   if(z.entity&&d>z.unload_distance_m){const old=z.entity;old.destroy();onUnloaded(old);z.entity=null;app.assets.remove(z.asset);z.asset.unload();z.asset=null;for(const ob of coarse(z))ob.enabled=true;disposed++;}
    if(d<z.load_distance_m&&!z.asset&&!z.loading&&!z.failed&&loading<2)load(z);
   }
  }

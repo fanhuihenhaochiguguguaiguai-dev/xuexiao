@@ -185,7 +185,9 @@
         "icon512": "game/dist/assets/app-icon-512.png",
         "benchmark_route": "game/dist/assets/benchmark-route.json",
         "v05_config": "game/dist/assets/v05-config.json",
-        "v05_water": "game/dist/assets/v05/lighting-water.json"
+        "v05_water": "game/dist/assets/v05/lighting-water.json",
+        "v06_config": "game/dist/assets/v06-config.json",
+        "zones": "game/dist/assets/zones.json"
       },
       "outputs": [
         "quality.json"

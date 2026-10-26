@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "method": "ACTUAL_BLENDER_CYCLES_AO_SHADER_TO_EMISSION_BAKE",
+  "ground_resolution": 2048,
+  "cycles_samples": 16,
+  "ao_shader_samples": 16,
+  "distance_m": 6,
+  "scope": "Ground with flat covering road/sport slabs hidden; shared on nearby flat surfaces. Existing actual facade-cell AO retained. Not full indirect-light GI baking."
+}

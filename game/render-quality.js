@@ -5,26 +5,31 @@ import taaGLSL from './node_modules/playcanvas/build/playcanvas/src/scene/shader
 import taaWGSL from './node_modules/playcanvas/build/playcanvas/src/scene/shader-lib/wgsl/chunks/render-pass/frag/taaResolve.js';
 
 export function createHdrEnvironment(app){
- const size=128,faces=[];let maximum=0;
+ const size=256,faces=[];let maximum=0;
+ const bitsFloat=new Float32Array(1),bitsInt=new Uint32Array(bitsFloat.buffer);
+ const half=value=>{bitsFloat[0]=value;const bits=bitsInt[0];return ((bits>>>23)-112)<<10 | (bits>>>13)&1023;};
+ const hash=(x,y)=>{const n=Math.sin(x*127.1+y*311.7)*43758.5453;return n-Math.floor(n);};
+ const noise=(x,y)=>{const ix=Math.floor(x),iy=Math.floor(y);let a=x-ix,b=y-iy;a=a*a*(3-2*a);b=b*b*(3-2*b);return (hash(ix,iy)*(1-a)+hash(ix+1,iy)*a)*(1-b)+(hash(ix,iy+1)*(1-a)+hash(ix+1,iy+1)*a)*b;};
  const sun=new pc.Vec3(-.32,.78,-.45).normalize();
  for(let face=0;face<6;face++){
-  const pixels=new Float32Array(size*size*4);
+  const pixels=new Uint16Array(size*size*4);
   for(let y=0;y<size;y++)for(let x=0;x<size;x++){
    const u=2*(x+.5)/size-1,v=2*(y+.5)/size-1;
    const d=new pc.Vec3(...[[1,-v,-u],[-1,-v,u],[u,1,v],[u,-1,-v],[u,-v,1],[-u,-v,-1]][face]).normalize();
    const h=Math.max(0,d.y),haze=Math.exp(-h*5),sunlight=Math.pow(Math.max(0,d.dot(sun)),850)*11;
-   const noise=Math.sin(d.x*15+d.z*7)*Math.sin(d.z*19-d.y*9)+.35*Math.sin(d.x*37+d.y*23);
-   const cloud=Math.max(0,Math.min(1,(noise-.24)*1.8))*Math.max(0,Math.min(1,(d.y-.03)*3));
+   const cx=d.x/(Math.max(d.y,.08)+.2)*2,cz=d.z/(Math.max(d.y,.08)+.2)*2;
+   const density=noise(cx,cz)*.57+noise(cx*2.03+12,cz*2.03+8)*.29+noise(cx*4.1+31,cz*4.1-4)*.14;
+   const cloud=Math.max(0,Math.min(1,(density-.48)*4))*Math.max(0,Math.min(1,(d.y-.03)*3));
    const color=d.y<0?[.075,.095,.055]:[.13+.37*haze+cloud*.42+sunlight,.29+.30*haze+cloud*.35+sunlight*.92,.53+.15*haze+cloud*.2+sunlight*.76];
-   const i=(y*size+x)*4;pixels.set([...color,1],i);maximum=Math.max(maximum,...color);
+   const i=(y*size+x)*4;pixels.set([...color,1].map(half),i);maximum=Math.max(maximum,...color);
   }
   faces.push(pixels);
  }
- const source=new pc.Texture(app.graphicsDevice,{name:'Campus_authored_HDR_sky',cubemap:true,width:size,height:size,format:pc.PIXELFORMAT_RGBA32F,mipmaps:false,minFilter:pc.FILTER_NEAREST,magFilter:pc.FILTER_NEAREST,levels:[faces]});source.upload();
+ const source=new pc.Texture(app.graphicsDevice,{name:'Campus_authored_HDR_sky',cubemap:true,width:size,height:size,format:pc.PIXELFORMAT_RGBA16F,mipmaps:false,minFilter:pc.FILTER_LINEAR,magFilter:pc.FILTER_LINEAR,levels:[faces]});source.upload();
  app.scene.skybox=source;app.scene.skyboxIntensity=.85;
  const lighting=pc.EnvLighting.generateLightingSource(source,{size:64});
  const atlas=pc.EnvLighting.generateAtlas(lighting,{size:128,numReflectionSamples:32,numAmbientSamples:64});app.scene.envAtlas=atlas;app.scene.ambientLuminance=180;
- return {source,atlas,state:{hdr:true,maximumRadiance:maximum,ibl:true,atlasSize:128,source:'SELF_AUTHORED_ANALYTIC_SKY_NOT_A_PHOTO_OF_THE_SCHOOL',publicHdriAttempt:'Poly Haven API returned 403; no retry or bypass'}};
+ return {source,atlas,state:{hdr:true,format:'RGBA16F',maximumRadiance:maximum,ibl:true,atlasSize:128,source:'SELF_AUTHORED_ANALYTIC_SKY_NOT_A_PHOTO_OF_THE_SCHOOL',publicHdriAttempt:'Poly Haven API returned 403; no retry or bypass'}};
 }
 
 function resolveChunks(){
