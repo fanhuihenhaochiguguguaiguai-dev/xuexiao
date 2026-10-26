@@ -1,0 +1,62 @@
+{
+  "updated_utc": "2026-10-26T17:43:07+00:00",
+  "status": "PASS_EXPERIMENT_CLOSED_LOOP_ONLY",
+  "formal_project_changed": false,
+  "node_checks": {
+    "status": "PASS",
+    "total": 18,
+    "failed": 0,
+    "source_sha256": {
+      "navigation.js": "40410737faca89e063fea4e3ade1e9cccbc98dc64584f8bf9b5363583a11ec54",
+      "quality-budget.js": "811b8038305ec4418452feefcf5ad4fc9f7d9faad3782c8eec93a2fb77f77e64",
+      "simulation.js": "1ddccf287af91084c6471986ae19e92d6526b37e9c474f347883933019a02c4a",
+      "tests/navigation.test.mjs": "275d9bdd01f806971a7354130ebdd0e9355c2ef1ab6339d3f8a9e72263f49fc3",
+      "tests/quality.test.mjs": "223001da6a0af65a3c0eb625cb7d070995b3b3ef44065824a1fb8d80d94b615b"
+    }
+  },
+  "browser_reports": [
+    {
+      "report": "reports/webgpu-desktop.json",
+      "status": "PASS_BROWSER_EXPERIMENT_ONLY",
+      "checks": 15,
+      "failed": 0
+    },
+    {
+      "report": "reports/webgl2-mobile.json",
+      "status": "PASS_BROWSER_EXPERIMENT_ONLY",
+      "checks": 19,
+      "failed": 0
+    },
+    {
+      "report": "reports/auto-fallback-portrait.json",
+      "status": "PASS_BROWSER_EXPERIMENT_ONLY",
+      "checks": 19,
+      "failed": 0
+    },
+    {
+      "report": "reports/interaction.json",
+      "status": "PASS_EXPERIMENT_TOUR_AND_INTERACTION_ONLY",
+      "checks": 13,
+      "failed": 0
+    }
+  ],
+  "original_reference": {
+    "status": "PASS_ORIGINAL_SCENE_VISUAL_ONLY",
+    "raw_images_committed": false,
+    "requests_failed": [],
+    "http_failures": [],
+    "script_errors": [],
+    "page_status": 200,
+    "title": "河南经贸职业学院VR校园全景漫游_校园南门",
+    "canvas_count": 1,
+    "visible_text": "    人气：27.6万\n沙盘\n足迹\n简介\n1868\n场景选择\n学校网站\n导航\n官方微信\n校园漫游\n校园航拍",
+    "visible_rgb_std": 58.5502284413001,
+    "loader_hidden": true
+  },
+  "unchanged_baseline": "PASS_BYTE_IDENTITY_REUSED",
+  "android_real_device": "UNVERIFIED",
+  "formal_campus_fidelity": "UNVERIFIED_NOT_IMPROVED_BY_THIS_EXPERIMENT",
+  "new_github_repository": "FAIL_PERMISSION_CREATE_REPOSITORY",
+  "github_fallback": "xuexiao branch experiments/campus-exploration-lab",
+  "experimental_site_id": "appgprj_6adf859509d081919229809e5a6aceb6"
+}

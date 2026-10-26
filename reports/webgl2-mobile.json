@@ -1,0 +1,414 @@
+{
+  "status": "PASS_BROWSER_EXPERIMENT_ONLY",
+  "renderer_requested": "webgl2",
+  "viewport": [
+    844,
+    390
+  ],
+  "headed": true,
+  "software": true,
+  "android_hardware_tested": false,
+  "checks": [
+    {
+      "name": "Actual requested rendering backend",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "Portrait is playable without mandatory rotation",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "Search filters destination cards",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "Normal render/update loop walks the real actor",
+      "status": "PASS",
+      "details": {
+        "metres": 6.5816292516013855,
+        "animation": "Run"
+      }
+    },
+    {
+      "name": "Three-dimensional guidance and SVG route bound",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "Actual visible 3D scene area is nonblank",
+      "status": "PASS",
+      "details": 58.145310521948865
+    },
+    {
+      "name": "Joystick is in the viewport",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "Manual controls pause autonomous walking",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "Resume retains the intended destination",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "Same actual collision controller reaches the destination",
+      "status": "PASS",
+      "details": {
+        "guide": {
+          "status": "arrived",
+          "reason": "manual",
+          "destination": "stadium",
+          "destinationName": "体育场东侧",
+          "index": 6,
+          "points": [
+            {
+              "x": 9,
+              "z": 60
+            },
+            {
+              "x": -37.5,
+              "z": 57
+            },
+            {
+              "x": -99,
+              "z": -33
+            },
+            {
+              "x": -100.5,
+              "z": -39
+            },
+            {
+              "x": -123,
+              "z": -63
+            },
+            {
+              "x": -169.5,
+              "z": -94.5
+            },
+            {
+              "id": "stadium",
+              "name": "体育场东侧",
+              "x": -170,
+              "z": -95,
+              "yaw": 1.2,
+              "tag": "运动",
+              "title": "体育场东侧",
+              "en": "SPORTS & EVERYDAY",
+              "description": "到体育场周边走一走，把球场、跑道与生活区的方向连起来。",
+              "note": "目的地位于体育场外公共道路；场地开放时间以学校通知为准。"
+            }
+          ],
+          "distance": 277.084894674525,
+          "elapsed": 21.483333333332755,
+          "replans": 0,
+          "visited": [
+            "stadium"
+          ],
+          "tourRemaining": [],
+          "history": [
+            {
+              "id": "stadium",
+              "seconds": 21.483333333332755,
+              "offset": 1.1053060042818919,
+              "replans": 0
+            }
+          ]
+        },
+        "feet": {
+          "x": -169.52578735351562,
+          "y": 0.025099954605102504,
+          "z": -94.53470611572266
+        }
+      }
+    },
+    {
+      "name": "Arrival is visible and explorable",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "Pause/resume never teleports the actor",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "Building information references the actual library",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "One-click tour has remaining stops",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "Tour can pause for exploration",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "Real panorama stays on the original source",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "No main-page runtime or graphics errors",
+      "status": "PASS",
+      "details": {
+        "page": [],
+        "console": []
+      }
+    },
+    {
+      "name": "Game loading needs no external CDN requests",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "name": "No horizontal overflow",
+      "status": "PASS",
+      "details": null
+    }
+  ],
+  "page_errors": [],
+  "console_errors": [],
+  "external_requests": [],
+  "state": {
+    "ready": true,
+    "started": true,
+    "engine": "2.23.3",
+    "buildId": "campus-experiment-navigation-1",
+    "requestedRenderer": "webgl2",
+    "errors": [],
+    "frames": 40,
+    "version": "campus-experiment-1",
+    "renderConfig": {
+      "version": "0.5",
+      "engine": "PlayCanvas 2.23.3",
+      "units": "1 world unit = 1 metre",
+      "floorHeightMeters": 3,
+      "floorHeightSource": "USER_RULE_NOT_SURVEY",
+      "movement": {
+        "multiplier": 5,
+        "walkMetersPerSecond": 13.25,
+        "runMetersPerSecond": 26.5,
+        "mode": "FAST_EXPLORATION_NOT_HUMAN_WALKING_SPEED"
+      },
+      "renderer": {
+        "priority": [
+          "webgpu",
+          "webgl2"
+        ],
+        "minimumRenderScale": 1,
+        "maximumRenderScale": 1.25
+      },
+      "profiles": {
+        "low": {
+          "label": "标准清晰",
+          "renderScale": 1
+        },
+        "balanced": {
+          "label": "高清",
+          "renderScale": 1.25
+        }
+      },
+      "shadows": {
+        "staticBake": "CPU_DIRECTIONAL_GEOMETRY_BAKE",
+        "localRealtime": true,
+        "mapSize": 1024,
+        "distanceMeters": 22
+      },
+      "water": {
+        "doubleNormals": true,
+        "depth": "ESTIMATED_SHORE_DISTANCE_NOT_MEASURED_BATHYMETRY",
+        "shoreFoam": true,
+        "staticCubemapSize": 128,
+        "localReflectionOptional": "NOT_ENABLED_NOT_VERIFIED"
+      },
+      "ao": {
+        "baked": "BLENDER_CYCLES_AO",
+        "ssaoOptional": true,
+        "ssaoDefault": false
+      },
+      "bloom": {
+        "optional": true,
+        "default": false,
+        "intensity": 0.035
+      }
+    },
+    "effects": {
+      "ssao": false,
+      "bloom": false,
+      "active": false
+    },
+    "colliderCount": 44,
+    "actualRenderer": "webgl2",
+    "gpuAdapter": {
+      "vendor": null,
+      "architecture": null,
+      "device": null,
+      "description": null,
+      "isFallbackAdapter": null
+    },
+    "softwareRenderer": true,
+    "water": {
+      "surfaces": 6,
+      "reflection": "static_scene_cubemaps_2x128",
+      "time": 10.271199999999721,
+      "normalOffset": [
+        0.09244079999999749,
+        0.04108479999999889
+      ],
+      "capturedFaces": 12,
+      "captureSucceeded": true,
+      "depthMappedPonds": 3,
+      "depthSource": "ESTIMATED_SHORE_DISTANCE_NOT_SURVEYED",
+      "shoreFoam": true
+    },
+    "animations": [
+      {
+        "asset": "character.glb/animation/0",
+        "clip": "Idle",
+        "duration": 2.0333333015441895
+      },
+      {
+        "asset": "character.glb/animation/1",
+        "clip": "Walk",
+        "duration": 1.0333333015441895
+      },
+      {
+        "asset": "character.glb/animation/2",
+        "clip": "Run",
+        "duration": 0.8333333134651184
+      },
+      {
+        "asset": "character.glb/animation/3",
+        "clip": "Jump",
+        "duration": 1.0333333015441895
+      }
+    ],
+    "animation": "Run",
+    "quality": "auto",
+    "renderScale": 0.8,
+    "updates": 93,
+    "speedMetersPerSecond": 13.215071197957588,
+    "speedMultiplier": 5,
+    "animationRate": 1.8,
+    "position": {
+      "x": -165.19541931152344,
+      "y": 0.025099954605102504,
+      "z": -91.10568237304688
+    },
+    "grounded": true,
+    "travel": 294.1430255147611,
+    "camera": {
+      "x": -163.90782165527344,
+      "y": 1.4908983707427979,
+      "z": -96.5501708984375,
+      "yaw": 2.912183586774269,
+      "pitch": 0.06
+    },
+    "drawCalls": 59,
+    "frameMetrics": {
+      "fps": 1.575754392415388,
+      "p95": 904.7999999998137,
+      "frames": 12,
+      "sampledMs": 7615.399999999907
+    },
+    "qualityAdjustments": [],
+    "feet": {
+      "x": -165.19541931152344,
+      "y": 0.025099954605102504,
+      "z": -91.10568237304688
+    },
+    "verticalVelocity": -0.8,
+    "horizontalSpeed": 13.215071197957588,
+    "respawns": 1,
+    "distanceTravelled": 294.1430255147611,
+    "lastCollision": {
+      "name": "Campus_ground",
+      "kind": "Ground",
+      "building": null
+    },
+    "jumpCount": 0,
+    "colliders": 44
+  },
+  "navigation": {
+    "status": "paused",
+    "reason": "user",
+    "destination": "library",
+    "destinationName": "图书馆南广场",
+    "index": 1,
+    "points": [
+      {
+        "x": -169.5,
+        "z": -94.5
+      },
+      {
+        "x": -97.5,
+        "z": -37.5
+      },
+      {
+        "x": -75,
+        "z": 3
+      },
+      {
+        "x": -37.5,
+        "z": 57
+      },
+      {
+        "x": 31.5,
+        "z": 78
+      },
+      {
+        "id": "library",
+        "name": "图书馆南广场",
+        "x": 32,
+        "z": 78,
+        "yaw": 0.55,
+        "tag": "学习",
+        "title": "图书馆南广场",
+        "en": "LIBRARY PLAZA",
+        "description": "从广场认识校园的学习空间，沿湖畔走向下一段日常。",
+        "note": "图书馆外观沿用现有照片引导模型；楼高和细节仍有估算。"
+      }
+    ],
+    "distance": 276.5304155079865,
+    "elapsed": 0.5000000000000007,
+    "replans": 0,
+    "visited": [
+      "stadium"
+    ],
+    "tourRemaining": [
+      "stadium",
+      "dorm",
+      "gate"
+    ],
+    "history": [
+      {
+        "id": "stadium",
+        "seconds": 21.483333333332755,
+        "offset": 1.1053060042818919,
+        "replans": 0
+      }
+    ]
+  },
+  "quality": {
+    "mode": "software_diagnostic",
+    "scale": 0.8,
+    "metrics": {
+      "fps": 1.575754392415388,
+      "p95": 904.7999999998137,
+      "frames": 12,
+      "sampledMs": 7615.399999999907
+    },
+    "changes": []
+  }
+}

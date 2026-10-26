@@ -1,0 +1,356 @@
+{
+  "status": "PASS_EXPERIMENT_TOUR_AND_INTERACTION_ONLY",
+  "scope": "Headed desktop software WebGPU; normal collision-steering steps can be accelerated by QA. No teleport calls and no Android hardware claims.",
+  "checks": [
+    {
+      "name": "Tour stop 1 physically reached",
+      "status": "PASS",
+      "detail": {
+        "destination": "stadium",
+        "history": {
+          "id": "stadium",
+          "seconds": 21.40833333333276,
+          "offset": 1.1055112535078337,
+          "replans": 0
+        },
+        "feet": {
+          "x": -169.21478271484375,
+          "y": 0.024999938011169398,
+          "z": -94.31216430664062
+        }
+      }
+    },
+    {
+      "name": "Tour stop 2 physically reached",
+      "status": "PASS",
+      "detail": {
+        "destination": "dorm",
+        "history": {
+          "id": "dorm",
+          "seconds": 20.233333333332826,
+          "offset": 1.1107219509887722,
+          "replans": 0
+        },
+        "feet": {
+          "x": 37.073638916015625,
+          "y": 0.024999938011169398,
+          "z": -138.486572265625
+        }
+      }
+    },
+    {
+      "name": "Tour stop 3 physically reached",
+      "status": "PASS",
+      "detail": {
+        "destination": "gate",
+        "history": {
+          "id": "gate",
+          "seconds": 39.249999999998415,
+          "offset": 1.1472940333960089,
+          "replans": 0
+        },
+        "feet": {
+          "x": 99.91547393798828,
+          "y": 0.025099954605102504,
+          "z": 193.93870544433594
+        }
+      }
+    },
+    {
+      "name": "Tour stop 4 physically reached",
+      "status": "PASS",
+      "detail": {
+        "destination": "library",
+        "history": {
+          "id": "library",
+          "seconds": 10.291666666666723,
+          "offset": 1.1049685033490884,
+          "replans": 0
+        },
+        "feet": {
+          "x": 32.108367919921875,
+          "y": 0.18560364007949826,
+          "z": 79.01760864257812
+        }
+      }
+    },
+    {
+      "name": "All four exploration visits recorded",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "No player reset/teleport during full tour",
+      "status": "PASS",
+      "detail": {
+        "respawns": 1,
+        "metres": 1185.8344188386234
+      }
+    },
+    {
+      "name": "Cancel releases route visual entities",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "Repeated navigation keeps only current route resources",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "Actual library projects into visible canvas",
+      "status": "PASS",
+      "detail": {
+        "x": 644.5102554351286,
+        "y": 355.87250406333897
+      }
+    },
+    {
+      "name": "Clicking real building collision opens the right information",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "Library interaction connects to physical walk-up navigation",
+      "status": "PASS",
+      "detail": {
+        "id": "building/13",
+        "seconds": 5.233333333333383,
+        "offset": 1.14259190309931,
+        "replans": 0
+      }
+    },
+    {
+      "name": "Current WebGPU build renders visible real model scene",
+      "status": "PASS",
+      "detail": 32.838113291547764
+    },
+    {
+      "name": "Current game runtime has no graphics or script errors",
+      "status": "PASS",
+      "detail": {
+        "page": [],
+        "console": []
+      }
+    }
+  ],
+  "page_errors": [],
+  "console_errors": [],
+  "reference": {
+    "status": "PASS_ORIGINAL_PAGE_EMBED",
+    "src": "https://www.ivrpano.com/p/2b89e1f8b87d40ad?from=singlemessage&sid=0&_s=a449101eb4c7b224",
+    "title": "河南经贸职业学院VR校园全景漫游_校园南门",
+    "native_canvas_count": 0,
+    "image_files_republished": false
+  },
+  "stops": [
+    {
+      "id": "stadium",
+      "seconds": 21.40833333333276,
+      "offset": 1.1055112535078337,
+      "replans": 0
+    },
+    {
+      "id": "dorm",
+      "seconds": 20.233333333332826,
+      "offset": 1.1107219509887722,
+      "replans": 0
+    },
+    {
+      "id": "gate",
+      "seconds": 39.249999999998415,
+      "offset": 1.1472940333960089,
+      "replans": 0
+    },
+    {
+      "id": "library",
+      "seconds": 10.291666666666723,
+      "offset": 1.1049685033490884,
+      "replans": 0
+    }
+  ],
+  "runtime": {
+    "ready": true,
+    "started": true,
+    "engine": "2.23.3",
+    "buildId": "campus-experiment-navigation-1",
+    "requestedRenderer": "webgpu",
+    "errors": [],
+    "frames": 27,
+    "version": "campus-experiment-1",
+    "renderConfig": {
+      "version": "0.5",
+      "engine": "PlayCanvas 2.23.3",
+      "units": "1 world unit = 1 metre",
+      "floorHeightMeters": 3,
+      "floorHeightSource": "USER_RULE_NOT_SURVEY",
+      "movement": {
+        "multiplier": 5,
+        "walkMetersPerSecond": 13.25,
+        "runMetersPerSecond": 26.5,
+        "mode": "FAST_EXPLORATION_NOT_HUMAN_WALKING_SPEED"
+      },
+      "renderer": {
+        "priority": [
+          "webgpu",
+          "webgl2"
+        ],
+        "minimumRenderScale": 0.75,
+        "maximumRenderScale": 1.25
+      },
+      "profiles": {
+        "auto": {
+          "label": "自适应",
+          "renderScaleRange": [
+            0.75,
+            1.25
+          ],
+          "frameSource": "real postrender intervals",
+          "decreaseThreshold": {
+            "fpsBelow": 26,
+            "p95AboveMs": 48
+          },
+          "increaseRequires": "three windows above43FPS and below28msP95"
+        },
+        "low": {
+          "label": "节能",
+          "renderScale": 0.8
+        },
+        "balanced": {
+          "label": "高清",
+          "renderScale": 1.25
+        }
+      },
+      "shadows": {
+        "staticBake": "CPU_DIRECTIONAL_GEOMETRY_BAKE",
+        "localRealtime": true,
+        "mapSize": 1024,
+        "distanceMeters": 22
+      },
+      "water": {
+        "doubleNormals": true,
+        "depth": "ESTIMATED_SHORE_DISTANCE_NOT_MEASURED_BATHYMETRY",
+        "shoreFoam": true,
+        "staticCubemapSize": 128,
+        "localReflectionOptional": "NOT_ENABLED_NOT_VERIFIED"
+      },
+      "ao": {
+        "baked": "BLENDER_CYCLES_AO",
+        "ssaoOptional": true,
+        "ssaoDefault": false
+      },
+      "bloom": {
+        "optional": true,
+        "default": false,
+        "intensity": 0.035
+      },
+      "experiment": "campus-exploration-lab-1"
+    },
+    "effects": {
+      "ssao": false,
+      "bloom": false,
+      "active": false
+    },
+    "colliderCount": 44,
+    "actualRenderer": "webgpu",
+    "gpuAdapter": {
+      "vendor": "google",
+      "architecture": "swiftshader",
+      "device": "",
+      "description": "",
+      "isFallbackAdapter": true
+    },
+    "softwareRenderer": true,
+    "water": {
+      "surfaces": 6,
+      "reflection": "static_scene_cubemaps_2x128",
+      "time": 23.399600000000092,
+      "normalOffset": [
+        0.21059640000000082,
+        0.09359840000000037
+      ],
+      "capturedFaces": 12,
+      "captureSucceeded": true,
+      "depthMappedPonds": 3,
+      "depthSource": "ESTIMATED_SHORE_DISTANCE_NOT_SURVEYED",
+      "shoreFoam": true
+    },
+    "animations": [
+      {
+        "asset": "character.glb/animation/0",
+        "clip": "Idle",
+        "duration": 2.0333333015441895
+      },
+      {
+        "asset": "character.glb/animation/1",
+        "clip": "Walk",
+        "duration": 1.0333333015441895
+      },
+      {
+        "asset": "character.glb/animation/2",
+        "clip": "Run",
+        "duration": 0.8333333134651184
+      },
+      {
+        "asset": "character.glb/animation/3",
+        "clip": "Jump",
+        "duration": 1.0333333015441895
+      }
+    ],
+    "animation": "Idle",
+    "quality": "auto",
+    "renderScale": 0.8,
+    "updates": 219,
+    "speedMetersPerSecond": 0,
+    "speedMultiplier": 5,
+    "animationRate": 1,
+    "position": {
+      "x": 21.087553024291992,
+      "y": 0.18501921653747555,
+      "z": 12.535833358764648
+    },
+    "grounded": true,
+    "travel": 1252.8074680777481,
+    "camera": {
+      "x": 23.316181182861328,
+      "y": 1.650779128074646,
+      "z": 17.66227912902832,
+      "yaw": 0.4100844277963158,
+      "pitch": 0.06
+    },
+    "drawCalls": 80,
+    "frameMetrics": {
+      "fps": 0.5197617758527342,
+      "p95": 2894.2999999998137,
+      "frames": 12,
+      "sampledMs": 23087.5
+    },
+    "qualityAdjustments": [],
+    "feet": {
+      "x": 21.087553024291992,
+      "y": 0.18501921653747555,
+      "z": 12.535833358764648
+    },
+    "verticalVelocity": -0.8,
+    "horizontalSpeed": 0,
+    "respawns": 1,
+    "distanceTravelled": 1252.8074680777481,
+    "lastCollision": {
+      "name": "Library_south_plaza",
+      "kind": "Landscape",
+      "building": null
+    },
+    "jumpCount": 0,
+    "colliders": 44
+  },
+  "source_sha256": {
+    "game.js": "60d48d6ae1eb66e8e89a854ce2342990a6b6245024049e71ed3e527de2865d71",
+    "lab-experience.js": "847f6dabb0ad1a65001b74082495e8bee24f9f9de63eb86d1cda88097ca2e002",
+    "navigation.js": "40410737faca89e063fea4e3ade1e9cccbc98dc64584f8bf9b5363583a11ec54",
+    "quality-budget.js": "811b8038305ec4418452feefcf5ad4fc9f7d9faad3782c8eec93a2fb77f77e64",
+    "dist/game.js": "5619bf2a79d09a715a265a7ecfc943d5c5997028f4e0e8093b89a8f733202096",
+    "dist/index.html": "8293146e69eb8e6a5b32054d0f70f0686982283b9ae1d37808746be6906e71f9",
+    "dist/style.css": "021178e463d9210f49e18e79bd7cb05022ff5e3469085c7721dff55459cc4d8f",
+    "dist/assets/navigation.json": "e45589940bb20cb9470c42865aa5ff66aa4b76eaeb32092c12bc8a0a0e0babd5"
+  }
+}

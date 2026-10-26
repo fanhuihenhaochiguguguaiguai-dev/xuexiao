@@ -20,7 +20,7 @@ export class CampusNavigator{
  }
 }
 export class WalkingGuide{
- constructor(navigator,callbacks={}){this.nav=navigator;this.callbacks=callbacks;this.status='idle';this.points=[];this.index=0;this.replans=0;this.elapsed=0;this.visited=new Set();this.history=[];this.progressDistance=0;this.watchTime=0;}
+ constructor(navigator,callbacks={}){this.nav=navigator;this.callbacks=callbacks;this.status='idle';this.points=[];this.index=0;this.replans=0;this.elapsed=0;this.visited=new Set();this.history=[];this.tour=[];this.progressDistance=0;this.watchTime=0;}
  start(position,destination,tour=[]){const route=this.nav.route(position,destination);if(!route.ok){this.status='unreachable';this.callbacks.change?.(this.snapshot());return route;}
   this.destination=destination;this.points=route.points;this.index=planar(position,this.points[0])<1.2?1:0;this.status='walking';this.replans=0;this.elapsed=0;this.progressDistance=Infinity;this.watchTime=0;this.routeDistance=route.distance;this.tour=[...tour];this.callbacks.route?.(route);this.callbacks.change?.(this.snapshot());return route;}
  pause(reason='manual'){if(this.status==='walking'){this.status='paused';this.reason=reason;this.callbacks.change?.(this.snapshot());}}

@@ -6,6 +6,10 @@
   "validation_timeout_seconds": 180,
   "validation_commands": [
     [
+      "python3",
+      "tools/verify_assets.py"
+    ],
+    [
       "npm",
       "test"
     ],

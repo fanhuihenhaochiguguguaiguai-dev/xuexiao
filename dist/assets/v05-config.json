@@ -1,14 +1,68 @@
 {
- "version":"0.5",
- "engine":"PlayCanvas 2.23.3",
- "units":"1 world unit = 1 metre",
- "floorHeightMeters":3,
- "floorHeightSource":"USER_RULE_NOT_SURVEY",
- "movement":{"multiplier":5,"walkMetersPerSecond":13.25,"runMetersPerSecond":26.5,"mode":"FAST_EXPLORATION_NOT_HUMAN_WALKING_SPEED"},
- "renderer":{"priority":["webgpu","webgl2"],"minimumRenderScale":1,"maximumRenderScale":1.25},
- "profiles":{"low":{"label":"标准清晰","renderScale":1},"balanced":{"label":"高清","renderScale":1.25}},
- "shadows":{"staticBake":"CPU_DIRECTIONAL_GEOMETRY_BAKE","localRealtime":true,"mapSize":1024,"distanceMeters":22},
- "water":{"doubleNormals":true,"depth":"ESTIMATED_SHORE_DISTANCE_NOT_MEASURED_BATHYMETRY","shoreFoam":true,"staticCubemapSize":128,"localReflectionOptional":"NOT_ENABLED_NOT_VERIFIED"},
- "ao":{"baked":"BLENDER_CYCLES_AO","ssaoOptional":true,"ssaoDefault":false},
- "bloom":{"optional":true,"default":false,"intensity":0.035}
+  "version": "0.5",
+  "engine": "PlayCanvas 2.23.3",
+  "units": "1 world unit = 1 metre",
+  "floorHeightMeters": 3,
+  "floorHeightSource": "USER_RULE_NOT_SURVEY",
+  "movement": {
+    "multiplier": 5,
+    "walkMetersPerSecond": 13.25,
+    "runMetersPerSecond": 26.5,
+    "mode": "FAST_EXPLORATION_NOT_HUMAN_WALKING_SPEED"
+  },
+  "renderer": {
+    "priority": [
+      "webgpu",
+      "webgl2"
+    ],
+    "minimumRenderScale": 0.75,
+    "maximumRenderScale": 1.25
+  },
+  "profiles": {
+    "auto": {
+      "label": "自适应",
+      "renderScaleRange": [
+        0.75,
+        1.25
+      ],
+      "frameSource": "real postrender intervals",
+      "decreaseThreshold": {
+        "fpsBelow": 26,
+        "p95AboveMs": 48
+      },
+      "increaseRequires": "three windows above43FPS and below28msP95"
+    },
+    "low": {
+      "label": "节能",
+      "renderScale": 0.8
+    },
+    "balanced": {
+      "label": "高清",
+      "renderScale": 1.25
+    }
+  },
+  "shadows": {
+    "staticBake": "CPU_DIRECTIONAL_GEOMETRY_BAKE",
+    "localRealtime": true,
+    "mapSize": 1024,
+    "distanceMeters": 22
+  },
+  "water": {
+    "doubleNormals": true,
+    "depth": "ESTIMATED_SHORE_DISTANCE_NOT_MEASURED_BATHYMETRY",
+    "shoreFoam": true,
+    "staticCubemapSize": 128,
+    "localReflectionOptional": "NOT_ENABLED_NOT_VERIFIED"
+  },
+  "ao": {
+    "baked": "BLENDER_CYCLES_AO",
+    "ssaoOptional": true,
+    "ssaoDefault": false
+  },
+  "bloom": {
+    "optional": true,
+    "default": false,
+    "intensity": 0.035
+  },
+  "experiment": "campus-exploration-lab-1"
 }
