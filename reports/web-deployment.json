@@ -1,0 +1,15 @@
+{
+  "id": "appgdep_6adf922d8a7c8191b6603abe2093bf3c",
+  "project_id": "appgprj_6adf859509d081919229809e5a6aceb6",
+  "version_id": "appgprj_6adf859509d081919229809e5a6aceb6~appgver_dfc49d6756c8819199772bc8259d2cc0",
+  "version_number": 1,
+  "status": "succeeded",
+  "url": "https://henan-campus-exploration-lab.earthyaspen11.chatgpt.site",
+  "updated_at": "2026-10-26T17:47:55.441817+00:00",
+  "source_commit": "40b5d8793764471697fc5e0b168a32d878728db2",
+  "audience": "PRESERVED_OWNER_ONLY",
+  "formal_site_modified": false,
+  "github_branch": "experiments/campus-exploration-lab",
+  "new_repository_creation": "DENIED_BY_GITHUB_INTEGRATION_PERMISSION",
+  "android_hardware_tested": false
+}
