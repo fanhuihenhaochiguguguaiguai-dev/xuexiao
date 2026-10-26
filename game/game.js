@@ -21,13 +21,14 @@ let renderScale=1,fpsWindow=performance.now(),fpsFrames=0,water,qaView=null;
 const diagnostics=createDiagnostics({meta,toast,
  context:()=>({quality,renderScale,viewport:[innerWidth,innerHeight],canvas:app?[app.graphicsDevice.width,app.graphicsDevice.height]:null,devicePixelRatio,shadows:!!sun?.light.castShadows,antiAlias:true}),
  onStart:()=>{
-  const saved={quality,renderScale,cameraYaw,cameraPitch,cameraZoom,active,boot:$('boot').hidden,hud:$('hud').hidden};
+  const saved={quality,renderScale,cameraYaw,cameraPitch,cameraZoom,heading,feet:{...simulation.state().feet},active,boot:$('boot').hidden,hud:$('hud').hidden};
   keys.clear();input.x=input.y=0;input.jump=false;$('stick').style.transform='';quality='low';changeQuality();
   active=true;$('boot').hidden=true;$('hud').hidden=false;return saved;
  },
  onRestore:saved=>{
   quality=saved.quality;changeQuality();renderScale=saved.renderScale;app.graphicsDevice.maxPixelRatio=renderScale;resize();
   cameraYaw=saved.cameraYaw;cameraPitch=saved.cameraPitch;cameraZoom=saved.cameraZoom;cameraInitial=true;active=saved.active;
+  simulation.setFeet(saved.feet.x,saved.feet.y,saved.feet.z);heading=saved.heading;
   $('boot').hidden=saved.boot;$('hud').hidden=saved.hud;keys.clear();input.x=input.y=0;fpsWindow=performance.now();fpsFrames=0;
  },
  onPose:(phase,seconds)=>{

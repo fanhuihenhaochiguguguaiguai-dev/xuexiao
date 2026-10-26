@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "before": {
+    "x": 32,
+    "y": 9.999999961853028,
+    "z": 78
+  },
+  "falling": {
+    "x": 32,
+    "y": 8.33333393096924,
+    "z": 78
+  },
+  "after": {
+    "x": 32,
+    "y": 9.999999961853028,
+    "z": 78
+  },
+  "scope": "Actual Rapier state: starting a benchmark in midair, gravity during sampling, cancel restores original feet",
+  "sourceSha256": "734d2603d354980c77d51e542c381466898ccae92ea3429972fbd458e6cc7c0e"
+}

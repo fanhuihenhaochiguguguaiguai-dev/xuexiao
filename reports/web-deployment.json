@@ -1,8 +1,8 @@
 {
-  "id": "appgdep_6adf5d304a748191960742027fbcf300",
+  "id": "appgdep_6adf5f79e6fc819181bef82c07f8608e",
   "project_id": "appgprj_6adf2bcc8968819199bf5229a57b9972",
   "title": "河南经贸3D校园探索",
-  "version_id": "appgprj_6adf2bcc8968819199bf5229a57b9972~appgver_46386cabaf6081919b01b6133ef029fc",
+  "version_id": "appgprj_6adf2bcc8968819199bf5229a57b9972~appgver_4c7ca0133d788191b1681d72ab278328",
   "type": "publish",
   "status": "succeeded",
   "url": "https://henan-jingmao-campus-play.earthyaspen11.chatgpt.site",
@@ -11,7 +11,7 @@
   "provider_deployment_id": "site---6adf2bcc8968819199bf5229a57b9972",
   "failure_message": null,
   "env_set_revision": 0,
-  "updated_at": "2026-10-26T14:01:35.631645+00:00",
-  "source_commit": "c0d8347f60670423209606c9f45ce7d7dbcbd737",
+  "updated_at": "2026-10-26T14:11:23.054262+00:00",
+  "source_commit": "6a0ee8f28fde76b2fe3fe5290472ac468c206cbf",
   "audience": "PRESERVED_OWNER_ONLY"
 }

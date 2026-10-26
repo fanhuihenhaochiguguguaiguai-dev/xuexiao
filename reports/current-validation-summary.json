@@ -40,9 +40,9 @@
   "unchangedModelsReexported": 0,
   "fullPipelineCounts": {
     "BLOCKED": 0,
-    "CACHED": 49,
+    "CACHED": 48,
     "FAILED": 0,
-    "SUCCESS": 0
+    "SUCCESS": 1
   },
   "visualRefinementPendingBuildingIds": [
     1,
@@ -64,5 +64,9 @@
     18,
     19,
     20
-  ]
+  ],
+  "midairPositionRestorePassed": true,
+  "followupEvidence": "reports/position-restore-validation.json",
+  "reusedBenchmarkEvidence": "Sampling/assessment code, route and water unchanged; followup only snapshots/restores player feet and heading.",
+  "compatibilityRecoveryLink": "/?renderer=webgl2"
 }
