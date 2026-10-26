@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "@dimforge/rapier3d-compat": "0.21.0",
+    "esbuild": "0.25.11",
+    "playcanvas": "2.23.3"
+  },
+  "name": "henan-campus-exploration-lab",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "esbuild game.js --bundle --minify --format=esm --target=es2022 --legal-comments=inline --outfile=dist/game.js",
+    "check:physics": "node physics-check.mjs",
+    "check:performance": "node --test performance-check.mjs",
+    "check:movement": "node --test movement-check.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "build:nav": "node tools/build-navigation.mjs"
+  }
+}

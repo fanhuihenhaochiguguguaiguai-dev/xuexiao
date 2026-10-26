@@ -1,0 +1,26 @@
+{
+  "upstream_repository": "https://github.com/fanhuihenhaochiguguguaiguai-dev/xuexiao",
+  "upstream_commit": "42db0677d3fbd961763bd9f5d70376c5695f229a",
+  "scope": "Separate experimental checkout; formal source and assets unchanged; not a replacement official release.",
+  "retained_assets": [
+    {
+      "path": "dist/assets/campus.glb",
+      "sha256": "a05628d17f802b9ca9ef87f35499e317bf2b0fa1d0161a2cc5229cbf3824de6b",
+      "bytes": 5525060
+    },
+    {
+      "path": "dist/assets/character.glb",
+      "sha256": "9ad1670be0a40fc1575280a292ae9806dad6881e5dbc67541355753269069186",
+      "bytes": 1677704
+    },
+    {
+      "path": "dist/assets/world.json",
+      "sha256": "818e4ecade3f7df4c5884a4d93d7b1d143aef156dcab5fc8d2d17db75fc53531",
+      "bytes": 506785
+    }
+  ],
+  "reference_url": "https://www.ivrpano.com/p/2b89e1f8b87d40ad?from=singlemessage&sid=0&_s=a449101eb4c7b224",
+  "reference_observed_title": "河南经贸职业学院VR校园全景漫游_校园南门",
+  "reference_status": "HTTP200_HTML_READ_NO_PANORAMA_IMAGES_COPIED",
+  "remaining_limits": "Existing approximate building heights, identities and character likeness; no new measured campus reconstruction."
+}

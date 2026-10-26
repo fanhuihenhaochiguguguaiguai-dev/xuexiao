@@ -1,0 +1,12 @@
+{
+  "version": "fixed-campus-route-v1",
+  "warmupMs": 5000,
+  "stageMs": 10000,
+  "settleMs": 1000,
+  "phases": [
+    {"id":"library","name":"图书馆广场","target":[-25,12,-1],"radius":94,"height":9,"yaw":0.55},
+    {"id":"road","name":"校园道路与楼群","target":[30,8,-80],"radius":65,"height":7,"yaw":-0.9},
+    {"id":"water","name":"湖面与岸边","target":[-131,0.22,-23],"radius":31,"height":3.1,"yaw":0.85},
+    {"id":"stadium","name":"操场与远景","target":[-240,1,-110],"radius":80,"height":12,"yaw":1.5}
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "remote": "origin",
+  "main_branch": "main",
+  "max_push_attempts": 3,
+  "retry_delay_seconds": 1,
+  "validation_timeout_seconds": 180,
+  "validation_commands": [
+    [
+      "npm",
+      "test"
+    ],
+    [
+      "npm",
+      "run",
+      "build"
+    ]
+  ],
+  "policy": "Reuse upstream-tested synchronization; fetch before stages, validate then checkpoint, no force push/reset/clean/stash."
+}

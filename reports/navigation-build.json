@@ -1,0 +1,12 @@
+{
+  "status": "PASS_GRID_BUILD_ONLY",
+  "source_sha256": "818e4ecade3f7df4c5884a4d93d7b1d143aef156dcab5fc8d2d17db75fc53531",
+  "width": 486,
+  "height": 505,
+  "cellSize": 1.5,
+  "freeCells": 116651,
+  "roadCells": 10694,
+  "elapsedSeconds": 0.509266954,
+  "method": "Existing Rapier collision meshes + real campus polygon; conservative cuboid clearance per cell, ground/road surfaces excluded",
+  "route_physics_verified": false
+}

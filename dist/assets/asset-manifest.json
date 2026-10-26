@@ -1,0 +1,68 @@
+{
+  "revision": "landscape-library-v2",
+  "campus": "Photo-guided local refinement; dimensions remain estimated.",
+  "character": "Independent skinned clothing; approximate face/hair.",
+  "source_panorama_date": "2017-08-11",
+  "files": [
+    {
+      "path": "PlayCanvas-MIT.txt",
+      "bytes": 1064,
+      "sha256": "42fa51ddd556be151a29f381fb97ee975825dcc454e805ea3ea9c079cca04d34"
+    },
+    {
+      "path": "Rapier-LICENSE.txt",
+      "bytes": 11343,
+      "sha256": "4c05555705e3efde601fb1252ae48f1d63992af8a8fb8947745b7fa834e8f519"
+    },
+    {
+      "path": "app-icon-192.png",
+      "bytes": 4027,
+      "sha256": "2c83d9ad588ce76269781122e6484d0a3227cae23feda585b519173a6b085d52"
+    },
+    {
+      "path": "app-icon-512.png",
+      "bytes": 11145,
+      "sha256": "8ade558c05d3a4602bc2d49503d81729ba4cbe98e26bedd8ce374832f05dd319"
+    },
+    {
+      "path": "campus.glb",
+      "bytes": 3096868,
+      "sha256": "7467ace5e66154394bfe439dd35f1c591f6d95180020898e990acbcb4a3c8c20"
+    },
+    {
+      "path": "character-base-CC0.txt",
+      "bytes": 6962,
+      "sha256": "f6089cba01cb570a24712b41ab8a586ccd3cc5ef53dc266ca50b95c288956d2c"
+    },
+    {
+      "path": "character.glb",
+      "bytes": 1677032,
+      "sha256": "2bb2cab82f1688c5fcb24fbe90b6c0c91e8d149e8ee6e57336ea62bd9a87069f"
+    },
+    {
+      "path": "engine/glslang.js",
+      "bytes": 14904,
+      "sha256": "c4d874b63615e4ed03a739eb01506282c25e03954d97f13dfd9a2c9e06138120"
+    },
+    {
+      "path": "engine/glslang.wasm",
+      "bytes": 943680,
+      "sha256": "d79453e0803ebcdf3753c6b1d8d51543b52fed96f7f0d4aec94acd847e225169"
+    },
+    {
+      "path": "engine/twgsl.js",
+      "bytes": 74555,
+      "sha256": "b4f1f66263b801210f955f74aa71f1939be647ce0fd80ea5befd12a78499d5ff"
+    },
+    {
+      "path": "engine/twgsl.wasm",
+      "bytes": 1702916,
+      "sha256": "a434c2decdbb38caadf5f486d806384a1543554828c983c77922b2d92579914c"
+    },
+    {
+      "path": "world.json",
+      "bytes": 506701,
+      "sha256": "2f812bcdcef4e8478ddb8e5c38511a72a1c032d5b77139dffbb7662dfc2f67b9"
+    }
+  ]
+}

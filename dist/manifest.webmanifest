@@ -1,0 +1,19 @@
+{
+  "id": "/",
+  "name": "河南经贸3D数字校园",
+  "short_name": "经贸校园",
+  "description": "河南经贸校园第三人称探索原型，支持横屏触控。",
+  "lang": "zh-CN",
+  "start_url": "/?source=installed",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "fullscreen"],
+  "orientation": "landscape",
+  "background_color": "#193e35",
+  "theme_color": "#193e35",
+  "categories": ["games", "education"],
+  "icons": [
+    {"src": "/assets/app-icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "/assets/app-icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
+  ]
+}
