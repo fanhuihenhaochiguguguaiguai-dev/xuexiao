@@ -1,6 +1,6 @@
 {
   "remote": "origin",
-  "main_branch": "main",
+  "main_branch": "experiments/campus-exploration-lab",
   "max_push_attempts": 3,
   "retry_delay_seconds": 1,
   "validation_timeout_seconds": 180,
