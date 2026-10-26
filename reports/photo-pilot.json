@@ -1,0 +1,24 @@
+{
+  "campaign": "pilot",
+  "photos": [
+    {
+      "source_url": "https://www.gx211.cn/UploadImage/FckUpImg/2022081151.jpg",
+      "source_page": "https://www.gx211.cn/collegemanage/content2125_04.shtml",
+      "sha256": "62dcaec95dd50a80b11070c852b98d2c33e639bb2027b5e141f27f45912308b7",
+      "bytes": 299488,
+      "dimensions": [
+        600,
+        400
+      ],
+      "decoded": true,
+      "local_path": ".resource-cache/f9bc6f2f0971f5e8686854f302e392f7a383376eac54c696cdc656659f7a58f3/reference.jpg",
+      "capture_date": "UNKNOWN",
+      "upload_path_hint": "2022-08; not proof of capture date",
+      "rights": "REFERENCE_ONLY_NOT_RELICENSED",
+      "semantic_review": "VISUALLY_INSPECTED_SEE_OBSERVATIONS",
+      "cache_hit": true
+    }
+  ],
+  "passed": true,
+  "not_photogrammetry_qualified": true
+}

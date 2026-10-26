@@ -4,7 +4,11 @@
 
 现有体验入口：[河南经贸校园探索](https://henan-jingmao-campus-play.earthyaspen11.chatgpt.site)。该入口目前受托管平台的所有者访问权限限制。GitHub 保存源码，不会自动成为游戏网址；本次未新增公开游戏部署。
 
+本轮在同一入口更新设备自动检测与水景。首次开始后自动进行约45秒采样，生成本机报告，可跳过、重测和导出。水面增加动态小波纹，并一次性采集现有场景的楼体与天空反射后复用。使用方法见 [手机设备检测](docs/device-check.md)，完成与待办见 [当前工作状态](docs/work-status.md)。
+
 ![已有游戏在手机横屏尺寸下的实际运行截图](docs/images/game-mobile.png)
+
+![水面与现有楼体反射的实际网页截图](docs/images/water-current.png)
 
 ## 当前质量边界
 
@@ -25,6 +29,7 @@
 | `automation/` | Python 标准库驱动的 DAG、哈希缓存、导出与质量检查 |
 | `reports/` | 本次实测快照、20 栋模型索引及分批结果 |
 | `tests/` | 缓存损坏、依赖失败、质量阻断、有限重试及回滚等故障测试 |
+| `tools/` | 有限额的公开资料索引、照片批处理及浏览器检测脚本 |
 
 校园 GLB 的正式运行文件为 `game/dist/assets/campus.glb`；FBX 为 `assets/henan_campus/project/HenanCampus.fbx`。不另建第二套正式校园工程。缓存中的逐栋导出仅为检查中间产物，不上传、不代替正式工程。
 
@@ -60,6 +65,8 @@ python -m automation.pipeline --targets gate.campus gate.avatar gate.physics gam
 本地预览可由 AI 执行 `python -m http.server 8080 --directory game/dist`。实体手机安装需要可访问的 HTTPS 部署；普通 HTTP 地址不具备完整 PWA 安装条件。
 
 GitHub Actions 在每次推送时执行故障测试、实际物理验证、构建和静态网格/PWA 门禁。云端 CI 不宣称已做手机实测或浏览器渲染。更完整的调度、回滚和扩展规则见 [自动化说明](docs/automation.md)。
+
+设备报告判定另有9项JS测试：`npm run check:performance --prefix game`。资源调查按配置执行 `python tools/resource_inventory.py`；图片批处理由AI执行 `python tools/photo_reference_batch.py --campaign pilot`、`small`、`all`，图片解码使用Pillow。原始参考图片只保存在忽略的 `.resource-cache/` 中，仓库记录来源、哈希与观察结论；没有把公开可见等同于可再分发许可。
 
 ## 下一项主要工作
 

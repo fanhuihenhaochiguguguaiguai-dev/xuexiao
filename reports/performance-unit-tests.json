@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "count": 9,
+  "runner": "npm run check:performance --prefix game",
+  "sourceHashes": {
+    "game/performance-core.js": "224d980c57774a3321af4d2b1431ef55aff3ac241f88ac38f6a02e3a6b8f61a5",
+    "game/performance-check.mjs": "3225b4d20789f716d7d9a14c7bfc788903e5e090bd1f63f3e9aa1287f22cd72c"
+  }
+}

@@ -12,6 +12,9 @@
 | PlayCanvas 2.23.3 | MIT；运行目录保留 `PlayCanvas-MIT.txt` | 第三方引擎 |
 | Rapier 0.21.0 | 随包许可证 `Rapier-LICENSE.txt` | 第三方物理库 |
 | 游戏运行截图、程序纹理 | 本项目实际运行/生成的产物 | 反映当前初级模型，不是学校实景照片 |
+| 新增8张校园参考图 | 中国高校之窗校园图集 https://www.gx211.cn/collegemanage/content2125_04.shtml ，引用、文件哈希及观察结论保存在reports中 | 已实际下载解码并查看；拍摄日期未知，原图仅作本地参考，未重新授权或提交公开仓库 |
+
+水面的新波纹贴图由程序生成；反射立方图从当前既有校园模型一次采集，启动时生成，不使用第三方水面素材。它们改善游戏表现，不证明湖岸、楼高或倒影的视差精确匹配实景。
 
 OSM 署名：© OpenStreetMap contributors，见 https://www.openstreetmap.org/copyright 。如另行发布衍生数据库，需继续遵守 ODbL 的相应义务。
 

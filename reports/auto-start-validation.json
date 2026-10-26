@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "qaBypassUsed": false,
+  "firstStartAutomaticallyBegins": true,
+  "userCanSkip": true,
+  "actualRenderer": "webgl2",
+  "errors": [],
+  "scope": "Real click in Chromium touch emulation; not physical Android"
+}

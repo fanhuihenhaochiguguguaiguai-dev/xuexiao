@@ -1,0 +1,143 @@
+{
+  "campaign": "all",
+  "photos": [
+    {
+      "source_url": "https://www.gx211.cn/UploadImage/FckUpImg/2022081151.jpg",
+      "source_page": "https://www.gx211.cn/collegemanage/content2125_04.shtml",
+      "sha256": "62dcaec95dd50a80b11070c852b98d2c33e639bb2027b5e141f27f45912308b7",
+      "bytes": 299488,
+      "dimensions": [
+        600,
+        400
+      ],
+      "decoded": true,
+      "local_path": ".resource-cache/f9bc6f2f0971f5e8686854f302e392f7a383376eac54c696cdc656659f7a58f3/reference.jpg",
+      "capture_date": "UNKNOWN",
+      "upload_path_hint": "2022-08; not proof of capture date",
+      "rights": "REFERENCE_ONLY_NOT_RELICENSED",
+      "semantic_review": "VISUALLY_INSPECTED_SEE_OBSERVATIONS",
+      "cache_hit": true
+    },
+    {
+      "source_url": "https://www.gx211.cn/UploadImage/FckUpImg/2022081152.jpg",
+      "source_page": "https://www.gx211.cn/collegemanage/content2125_04.shtml",
+      "sha256": "9db0afbae2289284b9313a06f5b683543afb8fa6d3e621d8d09204b6c6aac252",
+      "bytes": 334783,
+      "dimensions": [
+        600,
+        400
+      ],
+      "decoded": true,
+      "local_path": ".resource-cache/cd749b2c2543a62be1dae326c930cab04954793ac8141c60bd916874fea09a80/reference.jpg",
+      "capture_date": "UNKNOWN",
+      "upload_path_hint": "2022-08; not proof of capture date",
+      "rights": "REFERENCE_ONLY_NOT_RELICENSED",
+      "semantic_review": "VISUALLY_INSPECTED_SEE_OBSERVATIONS",
+      "cache_hit": true
+    },
+    {
+      "source_url": "https://www.gx211.cn/UploadImage/FckUpImg/2022081153.jpg",
+      "source_page": "https://www.gx211.cn/collegemanage/content2125_04.shtml",
+      "sha256": "6558067500c9269d20be17fcd3f23b2f4fac3f309738752df6c8d2c9fb25611d",
+      "bytes": 292610,
+      "dimensions": [
+        600,
+        400
+      ],
+      "decoded": true,
+      "local_path": ".resource-cache/2f95a96bc78cc0a7bb6770efa950a29d245293097e333ef1cb729d76578eb59a/reference.jpg",
+      "capture_date": "UNKNOWN",
+      "upload_path_hint": "2022-08; not proof of capture date",
+      "rights": "REFERENCE_ONLY_NOT_RELICENSED",
+      "semantic_review": "VISUALLY_INSPECTED_SEE_OBSERVATIONS",
+      "cache_hit": true
+    },
+    {
+      "source_url": "https://www.gx211.cn/UploadImage/FckUpImg/2022081154.jpg",
+      "source_page": "https://www.gx211.cn/collegemanage/content2125_04.shtml",
+      "sha256": "b794539132c45004abdd33d8531769303ede7b7f59ed2bb3786bc64000271057",
+      "bytes": 212705,
+      "dimensions": [
+        600,
+        400
+      ],
+      "decoded": true,
+      "local_path": ".resource-cache/78bf324008b7f14c601f8d530016182045b5b87494feb94e22d685a95108e349/reference.jpg",
+      "capture_date": "UNKNOWN",
+      "upload_path_hint": "2022-08; not proof of capture date",
+      "rights": "REFERENCE_ONLY_NOT_RELICENSED",
+      "semantic_review": "VISUALLY_INSPECTED_SEE_OBSERVATIONS",
+      "cache_hit": true
+    },
+    {
+      "source_url": "https://www.gx211.cn/UploadImage/FckUpImg/2022081155.jpg",
+      "source_page": "https://www.gx211.cn/collegemanage/content2125_04.shtml",
+      "sha256": "c43e0eedc538a0cd9307e1d7b97ba97b4f032282f173ff0e5eff5a5e67c39910",
+      "bytes": 230868,
+      "dimensions": [
+        600,
+        400
+      ],
+      "decoded": true,
+      "local_path": ".resource-cache/e27a61b45ff5f65dee4fc761094bafce99c6c2a7a12a0947c95ff5a4f36bffb9/reference.jpg",
+      "capture_date": "UNKNOWN",
+      "upload_path_hint": "2022-08; not proof of capture date",
+      "rights": "REFERENCE_ONLY_NOT_RELICENSED",
+      "semantic_review": "VISUALLY_INSPECTED_SEE_OBSERVATIONS",
+      "cache_hit": true
+    },
+    {
+      "source_url": "https://www.gx211.cn/UploadImage/FckUpImg/2022081156.jpg",
+      "source_page": "https://www.gx211.cn/collegemanage/content2125_04.shtml",
+      "sha256": "71fc2635141d257100fd53ead092e0aa63eeb0b687725f3f9fb24ff1194434f8",
+      "bytes": 235703,
+      "dimensions": [
+        600,
+        400
+      ],
+      "decoded": true,
+      "local_path": ".resource-cache/3c7c9d2285da1b23cfbaca32bbd039159feb84ea0a393124aded67093f25ed29/reference.jpg",
+      "capture_date": "UNKNOWN",
+      "upload_path_hint": "2022-08; not proof of capture date",
+      "rights": "REFERENCE_ONLY_NOT_RELICENSED",
+      "semantic_review": "VISUALLY_INSPECTED_SEE_OBSERVATIONS",
+      "cache_hit": true
+    },
+    {
+      "source_url": "https://www.gx211.cn/UploadImage/FckUpImg/2022081157.jpg",
+      "source_page": "https://www.gx211.cn/collegemanage/content2125_04.shtml",
+      "sha256": "0e0621432e5e3b3648d0335b6bc3a963a8ec89577d65e2fa09397b6c50979b27",
+      "bytes": 188425,
+      "dimensions": [
+        600,
+        400
+      ],
+      "decoded": true,
+      "local_path": ".resource-cache/e84d15ab188b30391116e8f6e592ed8a2f532d31463202868def20ac6e10bcd6/reference.jpg",
+      "capture_date": "UNKNOWN",
+      "upload_path_hint": "2022-08; not proof of capture date",
+      "rights": "REFERENCE_ONLY_NOT_RELICENSED",
+      "semantic_review": "VISUALLY_INSPECTED_SEE_OBSERVATIONS",
+      "cache_hit": true
+    },
+    {
+      "source_url": "https://www.gx211.cn/UploadImage/FckUpImg/2022081158.jpg",
+      "source_page": "https://www.gx211.cn/collegemanage/content2125_04.shtml",
+      "sha256": "8673fad03e621929f92e228f83e8885533b54b961e10d7c54db213911c7a00da",
+      "bytes": 238939,
+      "dimensions": [
+        600,
+        400
+      ],
+      "decoded": true,
+      "local_path": ".resource-cache/7345bdc19759a5d944940725fcb743e183e562ef2a0f74e71079257054692ec1/reference.jpg",
+      "capture_date": "UNKNOWN",
+      "upload_path_hint": "2022-08; not proof of capture date",
+      "rights": "REFERENCE_ONLY_NOT_RELICENSED",
+      "semantic_review": "VISUALLY_INSPECTED_SEE_OBSERVATIONS",
+      "cache_hit": true
+    }
+  ],
+  "passed": true,
+  "not_photogrammetry_qualified": true
+}

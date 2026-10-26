@@ -1,0 +1,68 @@
+{
+  "buildId": "campus-gpu-water-20261026-1",
+  "pythonFaultTestsPassed": 21,
+  "javascriptPerformanceTestsPassed": 9,
+  "browserFunctionalFlowPassed": true,
+  "physicalAndroidTested": false,
+  "hardwareWebGPUPerformancePassed": false,
+  "softwareBenchmarkStageFps": {
+    "library": 1.22,
+    "road": 1.36,
+    "water": 0.64,
+    "stadium": 0.75
+  },
+  "softwareBenchmarkAssessment": {
+    "webgpuActive": false,
+    "softwareDetected": true,
+    "hardwareAdapterEvidence": false,
+    "status": "WEBGL2_FALLBACK",
+    "complete": false,
+    "performancePass": false,
+    "webgpuPerformancePass": false,
+    "target": {
+      "averageFps": 30,
+      "p95FrameMsMaximum": 50,
+      "scope": "Fixed camera route at recorded resolution/quality; excludes battery, thermals and extended play."
+    },
+    "notes": [
+      "采样未完成或帧数不足，不能作为性能通过依据。",
+      "当前实际使用 WebGL 2，不能记为 WebGPU 验收通过。",
+      "检测到软件适配器，不能代表手机硬件性能。",
+      "本报告来自当前浏览器自检，不证明设备出厂年份，也不替代长时间真机游玩。"
+    ]
+  },
+  "waterReflectionCapturePassed": true,
+  "playableRegressionPassed": true,
+  "offlineCoreResources": 15,
+  "referencePhotosDecodedAndViewed": 8,
+  "newPublicSourcesIndexed": 6,
+  "newVerifiedSchoolMeshes": 0,
+  "unchangedModelsReexported": 0,
+  "fullPipelineCounts": {
+    "BLOCKED": 0,
+    "CACHED": 49,
+    "FAILED": 0,
+    "SUCCESS": 0
+  },
+  "visualRefinementPendingBuildingIds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ]
+}

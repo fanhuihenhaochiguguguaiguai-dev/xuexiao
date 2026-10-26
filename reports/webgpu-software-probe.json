@@ -1,0 +1,10 @@
+{
+  "verificationContext": "Experimental headless software WebGPU, not phone hardware",
+  "api": true,
+  "adapter": true,
+  "info": {
+    "vendor": "google",
+    "description": "",
+    "isFallbackAdapter": true
+  }
+}

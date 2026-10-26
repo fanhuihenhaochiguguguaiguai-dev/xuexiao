@@ -2,10 +2,13 @@ import * as pc from 'playcanvas';
 import RAPIER from '@dimforge/rapier3d-compat';
 import {createSimulation} from './simulation.js';
 import {enterLandscape} from './dist/pwa.js';
+import {createDiagnostics} from './diagnostics.js';
+import {enhanceWater} from './water.js';
+import {BUILD_ID} from './performance-core.js';
 
 const $=id=>document.getElementById(id),canvas=$('game');
 const params=new URLSearchParams(location.search),qa=params.has('qa');
-const meta={ready:false,started:false,engine:pc.version,requestedRenderer:'webgpu',errors:[],frames:0};
+const meta={ready:false,started:false,engine:pc.version,buildId:BUILD_ID,requestedRenderer:params.get('renderer')==='webgl2'?'webgl2':'webgpu',errors:[],frames:0};
 window.__campusGameState=meta;
 window.addEventListener('error',e=>meta.errors.push(e.message));
 window.addEventListener('unhandledrejection',e=>meta.errors.push(String(e.reason)));
@@ -14,9 +17,27 @@ const input={x:0,y:0,run:false,jump:false},keys=new Set();let active=false,simul
 let cameraYaw=.55,cameraPitch=.06,cameraZoom=5.6,heading=-2.59,animName='Idle',verticalFrames=0;
 let quality=params.get('quality')||(matchMedia('(pointer:coarse)').matches?'low':'balanced');
 let toastTimer,nearby=null,mapArrows=[],accumulator=0,position,smoothedCamera=new pc.Vec3(),cameraInitial=true,blob;
-let renderScale=1,fpsWindow=performance.now(),fpsFrames=0;
+let renderScale=1,fpsWindow=performance.now(),fpsFrames=0,water,qaView=null;
+const diagnostics=createDiagnostics({meta,toast,
+ context:()=>({quality,renderScale,viewport:[innerWidth,innerHeight],canvas:app?[app.graphicsDevice.width,app.graphicsDevice.height]:null,devicePixelRatio,shadows:!!sun?.light.castShadows,antiAlias:true}),
+ onStart:()=>{
+  const saved={quality,renderScale,cameraYaw,cameraPitch,cameraZoom,active,boot:$('boot').hidden,hud:$('hud').hidden};
+  keys.clear();input.x=input.y=0;input.jump=false;$('stick').style.transform='';quality='low';changeQuality();
+  active=true;$('boot').hidden=true;$('hud').hidden=false;return saved;
+ },
+ onRestore:saved=>{
+  quality=saved.quality;changeQuality();renderScale=saved.renderScale;app.graphicsDevice.maxPixelRatio=renderScale;resize();
+  cameraYaw=saved.cameraYaw;cameraPitch=saved.cameraPitch;cameraZoom=saved.cameraZoom;cameraInitial=true;active=saved.active;
+  $('boot').hidden=saved.boot;$('hud').hidden=saved.hud;keys.clear();input.x=input.y=0;fpsWindow=performance.now();fpsFrames=0;
+ },
+ onPose:(phase,seconds)=>{
+  const yaw=phase.yaw+Math.sin(seconds*.2)*.12;
+  camera.setPosition(phase.target[0]+Math.sin(yaw)*phase.radius,phase.height,phase.target[2]+Math.cos(yaw)*phase.radius);
+  camera.lookAt(...phase.target);
+ }
+});
 const scratch=new pc.Vec3(),target=new pc.Vec3();
-const paused=()=>!active||!!document.querySelector('dialog[open]')||(matchMedia('(pointer:coarse)').matches&&innerHeight>innerWidth);
+const paused=()=>!active||diagnostics.running||!!document.querySelector('dialog[open]')||(matchMedia('(pointer:coarse)').matches&&innerHeight>innerWidth);
 function toast(text){$('toast').hidden=false;$('toast').textContent=text;clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('toast').hidden=true,2600);}
 function loadContainer(url){return new Promise((resolve,reject)=>app.assets.loadFromUrl(url,'container',(err,asset)=>err?reject(new Error(String(err))):resolve(asset)));}
 function changeQuality(notify=false){
@@ -48,7 +69,7 @@ function createMap(){
 function openDialog(id){keys.clear();input.x=input.y=0;$('stick').style.transform='';$(id).showModal();}
 function showPlace(){if(!nearby)return;$('place-title').textContent=nearby.name;$('place-content').textContent=`当前模型索引 B${String(nearby.id).padStart(2,'0')}。平面位置来自公开校园地图；楼体高度约 ${nearby.height.toFixed(1)} 米，为本版本估算值。室内尚未开放。`;openDialog('place-dialog');}
 function bindControls(){
- $('start').onclick=()=>{if(!meta.ready)return;active=true;meta.started=true;$('boot').hidden=true;$('hud').hidden=false;if(matchMedia('(pointer:coarse)').matches&&!qa)enterLandscape();toast('左侧移动，右侧滑动看向四周');};
+ $('start').onclick=async()=>{if(!meta.ready)return;active=true;meta.started=true;$('boot').hidden=true;$('hud').hidden=false;if(matchMedia('(pointer:coarse)').matches&&!qa)await enterLandscape();toast('左侧移动，右侧滑动看向四周');if(!qa)diagnostics.afterStart();};
  $('reset').onclick=()=>reset();$('info').onclick=()=>openDialog('info-dialog');$('map-toggle').onclick=()=>openDialog('map-dialog');
  $('quality').onclick=()=>{quality=quality==='low'?'balanced':'low';changeQuality(true);};
  $('run').onclick=()=>{input.run=!input.run;$('run').setAttribute('aria-pressed',String(input.run));};
@@ -88,7 +109,7 @@ function update(dt){
  fpsFrames++;const now=performance.now();
  if(now-fpsWindow>3500){
   const fps=fpsFrames*1000/(now-fpsWindow);meta.observedFps=fps;
-  if(quality==='low'&&fps<23&&renderScale>.57){renderScale=Math.max(.55,renderScale*.8);app.graphicsDevice.maxPixelRatio=renderScale;resize();}
+  if(!diagnostics.running&&quality==='low'&&fps<23&&renderScale>.57){renderScale=Math.max(.55,renderScale*.8);app.graphicsDevice.maxPixelRatio=renderScale;resize();}
   meta.renderScale=renderScale;fpsFrames=0;fpsWindow=now;
  }
  let x=0,y=0,run=false;
@@ -121,6 +142,8 @@ function update(dt){
  const smoothDistance=smoothedCamera.distance(target),safeSmooth=simulation.cameraDistance(target,smoothedCamera);
  if(safeSmooth<smoothDistance)smoothedCamera.lerp(target,smoothedCamera,safeSmooth/Math.max(smoothDistance,.001));
  camera.setPosition(smoothedCamera);camera.lookAt(target);
+ water?.update(dt);diagnostics.pose();
+ if(qaView&&!diagnostics.running){camera.setPosition(...qaView.eye);camera.lookAt(...qaView.look);}
  if(meta.frames%10===0){
   for(const g of mapArrows)g.setAttribute('transform',`translate(${p.x} ${p.z}) rotate(${heading*180/Math.PI+180})`);
   const nearPoi=[...worldData.pois].sort((a,b)=>Math.hypot(a.x-p.x,a.z-p.z)-Math.hypot(b.x-p.x,b.z-p.z))[0];
@@ -136,8 +159,9 @@ async function main(){
  const gpuOptions={deviceTypes:[pc.DEVICETYPE_WEBGPU,pc.DEVICETYPE_WEBGL2],antialias:true,alpha:false,
   glslangUrl:'/assets/engine/glslang.js',twgslUrl:'/assets/engine/twgsl.js'};
  if(params.get('renderer')==='webgl2')gpuOptions.deviceTypes=[pc.DEVICETYPE_WEBGL2];
- const [device,world]=await Promise.all([pc.createGraphicsDevice(canvas,gpuOptions),fetch('/assets/world.json').then(r=>{if(!r.ok)throw Error('校园配置读取失败');return r.json();}),RAPIER.init()]);
+ const [device,world,benchmarkRoute]=await Promise.all([pc.createGraphicsDevice(canvas,gpuOptions),fetch('/assets/world.json').then(r=>{if(!r.ok)throw Error('校园配置读取失败');return r.json();}),fetch('/assets/benchmark-route.json').then(r=>{if(!r.ok)throw Error('设备检测路线读取失败');return r.json();}),RAPIER.init()]);
  worldData=world;simulation=createSimulation(RAPIER,worldData);meta.colliderCount=world.colliders.length;meta.actualRenderer=device.deviceType;
+ device.wgpu?.addEventListener('uncapturederror',e=>diagnostics.graphicsFailure('WebGPU: '+String(e.error?.message||e.error).slice(0,350)));
  app=new pc.Application(canvas,{graphicsDevice:device});
  app.setCanvasFillMode(pc.FILLMODE_NONE);app.setCanvasResolution(pc.RESOLUTION_AUTO);resize();
  app.scene.ambientLight=new pc.Color(.57,.64,.67);
@@ -149,6 +173,7 @@ async function main(){
  progress(29,'正在载入校园建筑和人物…');
  const [campusAsset,characterAsset]=await Promise.all([loadContainer('/assets/campus.glb'),loadContainer('/assets/character.glb')]);
  const campus=campusAsset.resource.instantiateRenderEntity();campus.name='Existing_campus_draft';app.root.addChild(campus);
+ water=enhanceWater(app,campus,camera);meta.water={surfaces:water.surfaces,reflection:water.reflection};
  character=characterAsset.resource.instantiateRenderEntity();character.name='Reference_character';app.root.addChild(character);
  // A cheap contact shadow keeps the character grounded on mobile low quality.
  const shadowCanvas=document.createElement('canvas');shadowCanvas.width=shadowCanvas.height=64;
@@ -170,7 +195,9 @@ async function main(){
  app.batcher.generate([batch.id]);
  createMap();bindControls();changeQuality();
  app.on('update',update);app.start();
+ progress(92,'正在准备湖面与校园远景…');await water.ready;meta.water={...meta.water,...water.state()};
  meta.ready=true;progress(100,'校园与人物已就绪');$('start').disabled=false;$('start').innerHTML='开始探索 <span>→</span>';
+ diagnostics.attach(app,benchmarkRoute);
  if(qa)window.__campusTest={
   state:()=>({...meta,...simulation.state()}),
   teleport:(x,y,z)=>{simulation.setFeet(x,y,z);cameraInitial=true;},
@@ -179,8 +206,10 @@ async function main(){
   simulateFall:()=>simulation.setFeet(worldData.spawn.x,-6,worldData.spawn.z),
   input,
   camera:()=>({yaw:cameraYaw,pitch:cameraPitch}),
+  water:()=>water.state(),
+  inspectView:(eye,look)=>{qaView=eye?{eye,look}:null;},
   pose:()=>['Thigh_L','Shin_L','UpperArm_L'].map(n=>{const b=character.findByName(n);return {name:n,rotation:b?.getLocalRotation().toString()};}),
   worldSummary:()=>({colliders:worldData.colliders.map(c=>({name:c.name,kind:c.kind})),spawn:worldData.spawn})
  };
 }
-main().catch(e=>{console.error(e);meta.errors.push(String(e));progress(0,'加载失败：'+e.message);$('start').disabled=false;$('start').textContent='重新加载';$('start').onclick=()=>location.reload();});
+main().catch(e=>{console.error(e);meta.errors.push(String(e));progress(0,'加载失败：'+e.message);diagnostics.failure();$('start').disabled=false;$('start').textContent='重新加载';$('start').onclick=()=>location.reload();});

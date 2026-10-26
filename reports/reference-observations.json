@@ -1,0 +1,99 @@
+{
+  "observations": [
+    {
+      "source_url": "https://www.gx211.cn/UploadImage/FckUpImg/2022081151.jpg",
+      "sha256": "62dcaec95dd50a80b11070c852b98d2c33e639bb2027b5e141f27f45912308b7",
+      "subject": "校门与入口门楼",
+      "visually_observed": "石材门楼、中央跨越式通道、左侧玻璃竖向塔及金色校名；可供门楼外观校对。",
+      "limits": "Gate facade; dimensions and exact model correspondence still require checking.",
+      "review": "IMAGE_ACTUALLY_VIEWED",
+      "capture_date": "UNKNOWN",
+      "qualified_for_photogrammetry": false,
+      "raw_image_committed": false
+    },
+    {
+      "source_url": "https://www.gx211.cn/UploadImage/FckUpImg/2022081152.jpg",
+      "sha256": "9db0afbae2289284b9313a06f5b683543afb8fa6d3e621d8d09204b6c6aac252",
+      "subject": "浅色湖畔楼与桥",
+      "visually_observed": "浅石色外墙、蓝色玻璃窗、弧形屋面、岸边树木及红褐栏杆；水面有细小横向波纹与楼体倒影。",
+      "limits": "Lakeside facade; building ID unconfirmed.",
+      "review": "IMAGE_ACTUALLY_VIEWED",
+      "capture_date": "UNKNOWN",
+      "qualified_for_photogrammetry": false,
+      "raw_image_committed": false
+    },
+    {
+      "source_url": "https://www.gx211.cn/UploadImage/FckUpImg/2022081153.jpg",
+      "sha256": "6558067500c9269d20be17fcd3f23b2f4fac3f309738752df6c8d2c9fb25611d",
+      "subject": "橙红墙楼群远景",
+      "visually_observed": "约六层的橙红色实墙、浅色窗带、角部竖向玻璃区与低栏杆；可建立同类立面配方。",
+      "limits": "Do not apply to high-rise models before location matching.",
+      "review": "IMAGE_ACTUALLY_VIEWED",
+      "capture_date": "UNKNOWN",
+      "qualified_for_photogrammetry": false,
+      "raw_image_committed": false
+    },
+    {
+      "source_url": "https://www.gx211.cn/UploadImage/FckUpImg/2022081154.jpg",
+      "sha256": "b794539132c45004abdd33d8531769303ede7b7f59ed2bb3786bc64000271057",
+      "subject": "橙红墙楼群近景",
+      "visually_observed": "橙红色实墙、细窄侧窗、浅色长窗格及角部竖向玻璃带；局部被树木遮挡。",
+      "limits": "Occlusion and perspective prevent reliable dimensions.",
+      "review": "IMAGE_ACTUALLY_VIEWED",
+      "capture_date": "UNKNOWN",
+      "qualified_for_photogrammetry": false,
+      "raw_image_committed": false
+    },
+    {
+      "source_url": "https://www.gx211.cn/UploadImage/FckUpImg/2022081155.jpg",
+      "sha256": "c43e0eedc538a0cd9307e1d7b97ba97b4f032282f173ff0e5eff5a5e67c39910",
+      "subject": "楼角与长立面",
+      "visually_observed": "大面积竖向玻璃角部、浅色水平窗格、橙色墙面与顶部架空挑檐；可作构件比例观察。",
+      "limits": "Facade type evidence, not measured geometry.",
+      "review": "IMAGE_ACTUALLY_VIEWED",
+      "capture_date": "UNKNOWN",
+      "qualified_for_photogrammetry": false,
+      "raw_image_committed": false
+    },
+    {
+      "source_url": "https://www.gx211.cn/UploadImage/FckUpImg/2022081156.jpg",
+      "sha256": "71fc2635141d257100fd53ead092e0aa63eeb0b687725f3f9fb24ff1194434f8",
+      "subject": "路口楼角",
+      "visually_observed": "浅色石材与橙红侧墙、长玻璃角部、六至七层视觉量级及大挑檐；道路交叉口可作位置比对线索。",
+      "limits": "Storey count is a visual estimate; exact location unconfirmed.",
+      "review": "IMAGE_ACTUALLY_VIEWED",
+      "capture_date": "UNKNOWN",
+      "qualified_for_photogrammetry": false,
+      "raw_image_committed": false
+    },
+    {
+      "source_url": "https://www.gx211.cn/UploadImage/FckUpImg/2022081157.jpg",
+      "sha256": "0e0621432e5e3b3648d0335b6bc3a963a8ec89577d65e2fa09397b6c50979b27",
+      "subject": "湖面与白色楼体倒影",
+      "visually_observed": "湖水偏灰绿、近镜面，远处楼体和树木倒影较完整；不应处理成饱和蓝色或持续大浪。",
+      "limits": "Water appearance reference; capture date and exact shore geometry unknown.",
+      "review": "IMAGE_ACTUALLY_VIEWED",
+      "capture_date": "UNKNOWN",
+      "qualified_for_photogrammetry": false,
+      "raw_image_committed": false
+    },
+    {
+      "source_url": "https://www.gx211.cn/UploadImage/FckUpImg/2022081158.jpg",
+      "sha256": "8673fad03e621929f92e228f83e8885533b54b961e10d7c54db213911c7a00da",
+      "subject": "操场与看台",
+      "visually_observed": "红色跑道、绿色运动场、红色座椅、浅色大挑檐，远处有高层楼体；可对照现有看台与远景。",
+      "limits": "Positions should be matched against existing footprint layout before editing.",
+      "review": "IMAGE_ACTUALLY_VIEWED",
+      "capture_date": "UNKNOWN",
+      "qualified_for_photogrammetry": false,
+      "raw_image_committed": false
+    }
+  ],
+  "shared_roots": [
+    "NO_RELIABLE_CAPTURE_DATE_OR_CAMERA_TRAJECTORY",
+    "UNMEASURED_DIMENSIONS",
+    "BUILDING_ID_MATCH_PENDING",
+    "REFERENCE_PHOTO_REUSE_RIGHTS_UNCONFIRMED"
+  ],
+  "next_action": "Match facade types to mapped buildings, validate one visible facade before adapting a group. Do not infer depth from a single image."
+}

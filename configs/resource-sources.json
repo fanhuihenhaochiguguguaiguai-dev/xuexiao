@@ -1,0 +1,13 @@
+{
+  "sources": [
+    {"id":"recent_lakeside_video","url":"https://weibo.com/2/detail/5348786866230870","platform":"Weibo public post","rights":"PUBLIC_REFERENCE_ONLY_NO_IMAGE_REPUBLICATION_AUTHORIZATION"},
+    {"id":"recent_lakeside_video_second","url":"https://weibo.com/2/detail/5348791957589681","platform":"Weibo public post","rights":"PUBLIC_REFERENCE_ONLY_NO_IMAGE_REPUBLICATION_AUTHORIZATION"},
+    {"id":"campus_photo_gallery","url":"https://hnjm.hnszzxx.com/photo/","platform":"Education information gallery"},
+    {"id":"higher_education_gallery","url":"https://www.gx211.cn/collegemanage/content2125_04.shtml","platform":"China university information portal"},
+    {"id":"school_profile_2024","url":"https://www.chinaschool.com.cn/i_region/i_16_henan/b_33/b_33.html","platform":"School profile and campus photos"},
+    {"id":"provincial_school_profile","url":"https://13788.gaokao.haedu.cn/","platform":"Henan education admission information"}
+  ],
+  "excluded_repeated_work":["Previously inspected 54 ivrpano stations and 220 requests","Previously fetched procurement documents"],
+  "rules":{"max_workers":3,"cache_ttl_seconds":86400,"max_page_bytes":4194304,"max_model_bytes":33554432,"max_models_per_page":5,"model_download_requires_declared_host":true,"no_authentication_bypass":true},
+  "known_unavailable":[{"url":"https://wx3.sinaimg.cn/orj480/775ce157ly1ihlgsr480vj20mh0u0tda.jpg","status":"ACCESS_RESTRICTED_403","action":"DO_NOT_RETRY_OR_BYPASS"}]
+}

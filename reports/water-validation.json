@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "scope": "Current source loaded in desktop/mobile Chromium software WebGL2; two scene cubemaps captured; visible water checked in docs/images/water-current.png. Not physical Android or exact planar reflection.",
+  "sourceSha256": "b71ad045f28e0bda6dca707856038d1528ca7104336a203ca59695922cbe5b24",
+  "desktop": {
+    "surfaces": 6,
+    "reflection": "static_scene_cubemaps_2x128",
+    "time": 28.881199999999254,
+    "normalOffset": [
+      0.25993079999999325,
+      0.11552479999999701
+    ],
+    "capturedFaces": 12,
+    "captureSucceeded": true
+  },
+  "mobile": {
+    "surfaces": 6,
+    "reflection": "static_scene_cubemaps_2x128",
+    "time": 10.664699999999256,
+    "normalOffset": [
+      0.09598229999999329,
+      0.04265879999999702
+    ],
+    "capturedFaces": 12,
+    "captureSucceeded": true
+  },
+  "runtimeEvidence": "reports/playable-regression.json",
+  "benchmarkSourceHashes": {
+    "game/game.js": "05cb5b6c618f607fb88664dff8e46d89358b5abcc86e0182d04f265a2d4db677",
+    "game/diagnostics.js": "30376a827ab95a452949a1c9a550bbce6fb21716bef9d0a7ef06e6e3b2f4d4cd",
+    "game/performance-core.js": "224d980c57774a3321af4d2b1431ef55aff3ac241f88ac38f6a02e3a6b8f61a5",
+    "game/water.js": "b71ad045f28e0bda6dca707856038d1528ca7104336a203ca59695922cbe5b24",
+    "game/dist/game.js": "abddd2d9b37b8c7455b59ed3a2f874faf14ea821cd0324dcb12ef84b352620c9"
+  }
+}

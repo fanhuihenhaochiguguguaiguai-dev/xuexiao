@@ -162,6 +162,11 @@
       "sha256": "d8fe18c8b8d2a7c00bd0dec024431fff3c2cee82baa107db86452ad9952d7df7"
     },
     {
+      "path": "game/dist/assets/benchmark-route.json",
+      "bytes": 535,
+      "sha256": "6c972fd9ad30619eafd47fcb6eb510bb4976e8a6a33c1c5387649bb29c9e2fda"
+    },
+    {
       "path": "game/dist/assets/campus.glb",
       "bytes": 3096868,
       "sha256": "7467ace5e66154394bfe439dd35f1c591f6d95180020898e990acbcb4a3c8c20"

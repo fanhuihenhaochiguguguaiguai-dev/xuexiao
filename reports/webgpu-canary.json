@@ -1,0 +1,15 @@
+{
+  "offscreenCanary": {
+    "adapter": true,
+    "rgba": [
+      255,
+      0,
+      0,
+      255
+    ],
+    "fallback": true
+  },
+  "onscreenScreenshotValidated": false,
+  "issue": "Software WebGPU canvas screenshots were blank in this cloud environment; engine initialization does not count as visual acceptance",
+  "physicalAndroidTested": false
+}

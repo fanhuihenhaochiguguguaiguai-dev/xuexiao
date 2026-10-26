@@ -1,0 +1,50 @@
+{
+  "passed": false,
+  "scope": "Software WebGPU initialized and engine loop ran, but onscreen canvas screenshots were blank. Offscreen red clear/readback succeeded in separate canary. Not visual or hardware performance acceptance.",
+  "renderer": "webgpu",
+  "environment": {
+    "secureContext": true,
+    "webgpuApiAvailable": true,
+    "actualRenderer": "webgpu",
+    "requestedRenderer": "webgpu",
+    "adapter": {
+      "vendor": "google",
+      "architecture": "swiftshader",
+      "description": "",
+      "isFallbackAdapter": true
+    },
+    "adapterBoundToDevice": true,
+    "adapterEvidenceSource": "ACTUAL_GPU_DEVICE",
+    "adapterProbeFinished": true,
+    "adapterProbeError": "",
+    "webglRenderer": "",
+    "webglVendor": "",
+    "platform": "Linux",
+    "android": false,
+    "browser": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+    "deviceYear": "UNKNOWN_NOT_EXPOSED_BY_BROWSER",
+    "deviceLost": false
+  },
+  "waterBefore": {
+    "surfaces": 6,
+    "time": 3.869800000000745,
+    "normalOffset": [
+      0.0348282000000067,
+      0.01547920000000298
+    ],
+    "reflection": "sky_environment"
+  },
+  "waterAfter": {
+    "surfaces": 6,
+    "time": 6.204699999999255,
+    "normalOffset": [
+      0.05584229999999329,
+      0.024818799999997018
+    ],
+    "reflection": "sky_environment"
+  },
+  "errors": [],
+  "initializationPassed": true,
+  "visualPreviewPassed": false,
+  "failure_category": "ENVIRONMENT_PRESENTATION_UNVERIFIED"
+}

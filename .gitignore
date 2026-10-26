@@ -12,3 +12,5 @@ configs/local-photos/
 game/qa/current_physics_validation.json
 assets/henan_campus/character/reference/
 assets/henan_campus/tools/geometry_deps/
+
+.resource-cache/

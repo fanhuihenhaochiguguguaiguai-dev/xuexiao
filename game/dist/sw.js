@@ -1,5 +1,5 @@
-const CACHE='henan-campus-landscape-v2';
-const SHELL=['/','/style.css','/game.js','/pwa.js','/manifest.webmanifest','/assets/app-icon-192.png','/assets/app-icon-512.png','/assets/campus.glb','/assets/character.glb','/assets/world.json','/assets/engine/glslang.js','/assets/engine/glslang.wasm','/assets/engine/twgsl.js','/assets/engine/twgsl.wasm'];
+const CACHE='henan-campus-gpu-water-v3';
+const SHELL=['/','/style.css','/game.js','/pwa.js','/manifest.webmanifest','/assets/app-icon-192.png','/assets/app-icon-512.png','/assets/campus.glb','/assets/character.glb','/assets/world.json','/assets/benchmark-route.json','/assets/engine/glslang.js','/assets/engine/glslang.wasm','/assets/engine/twgsl.js','/assets/engine/twgsl.wasm'];
 async function safeResponse(request,response){
  if(!response.ok||response.redirected||response.type==='opaque'||/no-store/i.test(response.headers.get('cache-control')||''))return false;
  const url=new URL(request.url||request,self.location.origin);

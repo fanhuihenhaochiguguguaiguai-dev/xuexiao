@@ -9,6 +9,7 @@
   "type": "module",
   "scripts": {
     "build": "esbuild game.js --bundle --minify --format=esm --target=es2022 --legal-comments=inline --outfile=dist/game.js",
-    "check:physics": "node physics-check.mjs"
+    "check:physics": "node physics-check.mjs",
+    "check:performance": "node --test performance-check.mjs"
   }
 }

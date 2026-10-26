@@ -156,7 +156,10 @@
         "entry": "game/game.js",
         "simulation": "game/simulation.js",
         "pwa": "game/dist/pwa.js",
-        "lock": "game/package-lock.json"
+        "lock": "game/package-lock.json",
+        "diagnostics": "game/diagnostics.js",
+        "performance_core": "game/performance-core.js",
+        "water": "game/water.js"
       },
       "outputs": [
         "game.js"
@@ -179,7 +182,8 @@
         "avatar": "game/dist/assets/character.glb",
         "bundle": "game/dist/game.js",
         "icon192": "game/dist/assets/app-icon-192.png",
-        "icon512": "game/dist/assets/app-icon-512.png"
+        "icon512": "game/dist/assets/app-icon-512.png",
+        "benchmark_route": "game/dist/assets/benchmark-route.json"
       },
       "outputs": [
         "quality.json"
