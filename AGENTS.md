@@ -8,3 +8,5 @@
 4. 桌面软件WebGPU、手机尺寸与模拟触控不等于实体安卓性能。页面/Canvas初始化不等于场景可见，原站全景需等待遮罩结束。未授权的原始照片/全景截图只放忽略的.cache，不能提交。
 5. 试验Site身份以 `.openai/hosting.json` 为准，保留原访问范围，不重复创建Site。`tools/publish_source.py`是本环境缺少Sites官方本地脚本时的替代路径；短期官方凭据只能经隐藏stdin传递，不落盘、放命令参数或日志。静态归档须与已推送提交逐字节一致。
 6. 源码主保存位置是本实验分支；Sites是对应已验收提交的发布副本。发布回执可作为纯文档提交随后补存，不因此重复发布不变的游戏。保持正式校园精度缺口和手机未验证事项真实可见。
+
+本实验同步只需对应远端实验分支。首次恢复可使用 `git clone --single-branch --branch experiments/campus-exploration-lab <仓库URL>`；现有checkout将origin.fetch限制为 `refs/heads/experiments/campus-exploration-lab:refs/remotes/origin/experiments/campus-exploration-lab`，避免为本试验同步而拉取正式主线与无关分支。该设置只影响本地远端追踪，不向正式分支写入。
