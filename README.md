@@ -1,5 +1,7 @@
 # 河南经贸 · 校园探索实验室
 
+**[打开独立测试网页](https://henan-campus-exploration-lab.earthyaspen11.chatgpt.site)** · 已发布第1版，保留所有者访问权限。发布源与回执见 [reports/web-deployment.json](reports/web-deployment.json)。
+
 这是用户授权的独立体验试验，不是正式数字校园的新主线，不覆盖 `xuexiao` 项目。复用现有校园、人物、Rapier碰撞和水面，重点验证真实步行寻路、导览、建筑互动与安卓网页画质预算。
 
 来源检查点、保留模型哈希和全景参考见 `reports/baseline.json`。现有建筑高度、部分楼栋身份及人物细节仍为近似，不是学校实测数字孪生。原始全景照片未复制或上传；仅按用户提供链接打开原站。地图资料署名 © OpenStreetMap contributors / ODbL，混合素材来源与许可见 `docs/UPSTREAM_ASSETS.md`。
