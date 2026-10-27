@@ -1,0 +1,4873 @@
+{
+  "source": "https://www.ivrpano.com/p/2b89e1f8b87d40ad",
+  "capture_points": 54,
+  "expected_faces": 324,
+  "cached_faces": 324,
+  "missing": [],
+  "new_downloads": 0,
+  "images_are_not_324_independent_photogrammetry_views": true,
+  "originals_redistributed": false,
+  "pano_reference_date": "2017-08-11; do not assume current planting or renovations",
+  "entries": [
+    {
+      "capture_point": "scene_a449101eb4c7b224",
+      "title": "校园南门",
+      "face": "f",
+      "sha256": "3e4f40602ffeefff0bed5c72f0c2f37952c34bdfa15fbff6946ea0c29e29e710",
+      "bytes": 418598,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": true,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/A449101EB4C7B224.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_a449101eb4c7b224",
+      "title": "校园南门",
+      "face": "b",
+      "sha256": "534cebe3ca22d428c772f9acf970cbfac71a9cfee3dab25b244c6d103de76de1",
+      "bytes": 457336,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/A449101EB4C7B224.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_a449101eb4c7b224",
+      "title": "校园南门",
+      "face": "l",
+      "sha256": "c401c90b0b3424e4010c95ec1294a0df2d45896cb6e011df4c1064e6bb0e5457",
+      "bytes": 376490,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/A449101EB4C7B224.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_a449101eb4c7b224",
+      "title": "校园南门",
+      "face": "r",
+      "sha256": "852ffce3adb58d5e3e2c652e3c0c718967d9a1aa33b108b58d91d3a6e24ad973",
+      "bytes": 404952,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/A449101EB4C7B224.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_a449101eb4c7b224",
+      "title": "校园南门",
+      "face": "u",
+      "sha256": "b6db24533a8b94e97aa457fc4c9b720f01aff1e8e24cb001723b4b696cdfa1d7",
+      "bytes": 133405,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/A449101EB4C7B224.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_a449101eb4c7b224",
+      "title": "校园南门",
+      "face": "d",
+      "sha256": "0f357d2e440c001d123cc008ef8f4d5866c09a172123cce3e0b933169061553b",
+      "bytes": 684044,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/A449101EB4C7B224.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_2aefcd89c89ae196",
+      "title": "杏坛路",
+      "face": "f",
+      "sha256": "d1de10c8e76705aacfe3ec4ddb2e8c73b4e7800f489d09610915be00921cee34",
+      "bytes": 463266,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/2AEFCD89C89AE196.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_2aefcd89c89ae196",
+      "title": "杏坛路",
+      "face": "b",
+      "sha256": "e6d75d540f1dae83280cae3e1b0335a2f341572e6be2b530c1a6b03aa87418e0",
+      "bytes": 466335,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/2AEFCD89C89AE196.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_2aefcd89c89ae196",
+      "title": "杏坛路",
+      "face": "l",
+      "sha256": "e7342fd84f136de507c941df2df5616b6b328a2588637badf796e71c44bf7f72",
+      "bytes": 529785,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/2AEFCD89C89AE196.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_2aefcd89c89ae196",
+      "title": "杏坛路",
+      "face": "r",
+      "sha256": "22f9540d95b8ca1e700ce9177abd5236c7fc8ea5b8b98a696e064c994bb66bbe",
+      "bytes": 470104,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/2AEFCD89C89AE196.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_2aefcd89c89ae196",
+      "title": "杏坛路",
+      "face": "u",
+      "sha256": "789f54aaf32f6168af177012f41bcd9689e9a768dbcb7ff78248f6e68617b5f5",
+      "bytes": 128185,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/2AEFCD89C89AE196.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_2aefcd89c89ae196",
+      "title": "杏坛路",
+      "face": "d",
+      "sha256": "93803f98d76d5733f355003298b69ac0d2c0829847eaa845e4179a813863ed86",
+      "bytes": 743466,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/2AEFCD89C89AE196.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_6f3716af6ea11621",
+      "title": "办公楼A座",
+      "face": "f",
+      "sha256": "ed67cc07b1051f6670d3a92fd2a306c6a937dda133a03b1f4b47eb3d8b583109",
+      "bytes": 516616,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/6F3716AF6EA11621.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_6f3716af6ea11621",
+      "title": "办公楼A座",
+      "face": "b",
+      "sha256": "2b28371fe48609eb1df6aa0237afa93723a7c95db62f5f822c618f7ae5db0866",
+      "bytes": 677528,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/6F3716AF6EA11621.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_6f3716af6ea11621",
+      "title": "办公楼A座",
+      "face": "l",
+      "sha256": "c00114288ecef5bb61711a598c306162c183ab5bd64af91f239a2c9e6e02cf44",
+      "bytes": 522232,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/6F3716AF6EA11621.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_6f3716af6ea11621",
+      "title": "办公楼A座",
+      "face": "r",
+      "sha256": "9b41c55ecf1c3e4a9b96f250db7f974ac42ab89704988029336110ea876cabc1",
+      "bytes": 711613,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/6F3716AF6EA11621.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_6f3716af6ea11621",
+      "title": "办公楼A座",
+      "face": "u",
+      "sha256": "f55250415e041ee52c20ab3d84391858619259f15b603f46d9da173663556d65",
+      "bytes": 273626,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/6F3716AF6EA11621.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_6f3716af6ea11621",
+      "title": "办公楼A座",
+      "face": "d",
+      "sha256": "97ee307d0db4311c22612842b339badba679efd687855e52bdba526de55af9bd",
+      "bytes": 594869,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/6F3716AF6EA11621.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_c445759d115b23d6",
+      "title": "a座大厅",
+      "face": "f",
+      "sha256": "310c59a821f2f7ce8fdf987fff8f6daf4c067239449d019e975b0a4dd2f4dea3",
+      "bytes": 255442,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/C445759D115B23D6.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_c445759d115b23d6",
+      "title": "a座大厅",
+      "face": "b",
+      "sha256": "7ecb227696e3c4ea9ed0758a071007fce6c4aac2a77fc6b528532a537e7aaa1f",
+      "bytes": 329703,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/C445759D115B23D6.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_c445759d115b23d6",
+      "title": "a座大厅",
+      "face": "l",
+      "sha256": "cb9d28772e1f2963294f0630231352e62964b16d76dd629ab71b0dfdf5a93afb",
+      "bytes": 179573,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/C445759D115B23D6.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_c445759d115b23d6",
+      "title": "a座大厅",
+      "face": "r",
+      "sha256": "a724f5d272e4216f89c6e65696a0e3e8625449a8dd9a22904023aa300f176ef1",
+      "bytes": 161246,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/C445759D115B23D6.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_c445759d115b23d6",
+      "title": "a座大厅",
+      "face": "u",
+      "sha256": "1223e15ca9828bc5dfe631fb28046b3b5c5f23f8cefadca137967566dc1bf6a2",
+      "bytes": 69810,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/C445759D115B23D6.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_c445759d115b23d6",
+      "title": "a座大厅",
+      "face": "d",
+      "sha256": "1494b5bc262be81f7793d29615f901245e2e10a206ef66bbb8f805891dc3bda8",
+      "bytes": 117030,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/C445759D115B23D6.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_cfa8557492f97467",
+      "title": "办公楼B座",
+      "face": "f",
+      "sha256": "b6289207e0a78feca8ccb8315d4f4f9cbba5fc0c2e090e1f9afb11d8b1435185",
+      "bytes": 613219,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/CFA8557492F97467.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_cfa8557492f97467",
+      "title": "办公楼B座",
+      "face": "b",
+      "sha256": "d5a021b62a1eb20ba35d159ea2053f24eef70c01d980d5ae2566d74432e0f170",
+      "bytes": 546706,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/CFA8557492F97467.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_cfa8557492f97467",
+      "title": "办公楼B座",
+      "face": "l",
+      "sha256": "2ac3af305b513946b8591545c4fc9eacf27b7ceb96b62d475a3dc899ee2f2402",
+      "bytes": 870691,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/CFA8557492F97467.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_cfa8557492f97467",
+      "title": "办公楼B座",
+      "face": "r",
+      "sha256": "e366c39418d2c903aa2f80e45da5190223aa272c10cd57b9ff3eecafe9ef1329",
+      "bytes": 751832,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/CFA8557492F97467.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_cfa8557492f97467",
+      "title": "办公楼B座",
+      "face": "u",
+      "sha256": "1f0677039875749b5a727e4f8dd71f16f38f340a97c342b6bf9b64ee6f5b9fde",
+      "bytes": 310951,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/CFA8557492F97467.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_cfa8557492f97467",
+      "title": "办公楼B座",
+      "face": "d",
+      "sha256": "bbc35d450b07572211b27153fe14d363aaea31212312ac7e1e7ea4412af4ceaf",
+      "bytes": 769545,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/CFA8557492F97467.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_83e7ff3cd4ef0d14",
+      "title": "b座大厅",
+      "face": "f",
+      "sha256": "dc7d1c8c973f1533a040a84d72d79d1f28e8c946534cdbce6bf403488ff79808",
+      "bytes": 310681,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/83E7FF3CD4EF0D14.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_83e7ff3cd4ef0d14",
+      "title": "b座大厅",
+      "face": "b",
+      "sha256": "9045a6f331af19ae05439d517a93b735a94a546c588fd3a3b598b36359527bb5",
+      "bytes": 240042,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/83E7FF3CD4EF0D14.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_83e7ff3cd4ef0d14",
+      "title": "b座大厅",
+      "face": "l",
+      "sha256": "0b33b17f9d88475614f36804fca298928e871bce72f5a9d0af37215fb2b81fb1",
+      "bytes": 226031,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/83E7FF3CD4EF0D14.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_83e7ff3cd4ef0d14",
+      "title": "b座大厅",
+      "face": "r",
+      "sha256": "588122ddacd4d1425cee305c09c72fa1d14fdc02b03bbc17bfe52473139338c9",
+      "bytes": 188130,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/83E7FF3CD4EF0D14.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_83e7ff3cd4ef0d14",
+      "title": "b座大厅",
+      "face": "u",
+      "sha256": "33834d2584935567f3cd501fd3a1ac9b47e26f6e3e1a9068002adaac034695ac",
+      "bytes": 79652,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/83E7FF3CD4EF0D14.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_83e7ff3cd4ef0d14",
+      "title": "b座大厅",
+      "face": "d",
+      "sha256": "9a4ccc0e75b0e0d1de359d56b48ec2556dae60c09179f803b388500dd1a00c07",
+      "bytes": 133886,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/83E7FF3CD4EF0D14.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_6a250e445730578a",
+      "title": "环南路",
+      "face": "f",
+      "sha256": "2d649fbb71b89a3a74cf072bd8e86d01c86f366cad6b20c6abc12ed35058f6eb",
+      "bytes": 468526,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/6A250E445730578A.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_6a250e445730578a",
+      "title": "环南路",
+      "face": "b",
+      "sha256": "39494ce6539663b065ea716f4c654f8ba4c6d30750ea6e455e5b1d14d6200107",
+      "bytes": 588355,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/6A250E445730578A.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_6a250e445730578a",
+      "title": "环南路",
+      "face": "l",
+      "sha256": "8adae4e3269c1d8c9307a57577fe7f30efcf5e1bda54cb97fc50836ee1a7b15c",
+      "bytes": 470755,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/6A250E445730578A.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_6a250e445730578a",
+      "title": "环南路",
+      "face": "r",
+      "sha256": "8460dcbb6f06ee15269435848315fd0c92c1cc8cf0d7db856bd63211446f482f",
+      "bytes": 527781,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/6A250E445730578A.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_6a250e445730578a",
+      "title": "环南路",
+      "face": "u",
+      "sha256": "ba2a3476c287c0b2e63ad9865ce44e5d051eeddbab337c2aff1b9ec7275d8df1",
+      "bytes": 118493,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/6A250E445730578A.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_6a250e445730578a",
+      "title": "环南路",
+      "face": "d",
+      "sha256": "5286f44bfa4a0a95a97273ecd55dc2ac3fc8c74a60ebd7c4f6804f5abbc66ad2",
+      "bytes": 727315,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/6A250E445730578A.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_6d97932898a28489",
+      "title": "惟志湖",
+      "face": "f",
+      "sha256": "15c08713e0a6ee879ac1f25a5432e5d4d4aa3880643599b516c8d334b5cb51b8",
+      "bytes": 557005,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/6D97932898A28489.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_6d97932898a28489",
+      "title": "惟志湖",
+      "face": "b",
+      "sha256": "60b79aab2a6ba41e013b47c0329454e73d2b5e81967cdb4bdcb67cd14c8dbe5d",
+      "bytes": 828461,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/6D97932898A28489.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_6d97932898a28489",
+      "title": "惟志湖",
+      "face": "l",
+      "sha256": "d71de6b5a619e9a45c42e1828f6445e6e54d4b105147f5081f440f4bfc133527",
+      "bytes": 554403,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/6D97932898A28489.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_6d97932898a28489",
+      "title": "惟志湖",
+      "face": "r",
+      "sha256": "89732b6c64ca5dc0e6bb8942ec8cc3ea98e652118c2b0df9f08f59c946316c28",
+      "bytes": 833084,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/6D97932898A28489.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_6d97932898a28489",
+      "title": "惟志湖",
+      "face": "u",
+      "sha256": "e6d594fb44181a88a13405733f55d3d6a59bcf9d0a8c0cd9716c183f517bb865",
+      "bytes": 539085,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/6D97932898A28489.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_6d97932898a28489",
+      "title": "惟志湖",
+      "face": "d",
+      "sha256": "31a7bf8b9dab4b9412659383f6fa5bdcf7b5cab77c132ae98c0b4a79776490a8",
+      "bytes": 740809,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/6D97932898A28489.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_14639954a942a1c0",
+      "title": "惟勤湖",
+      "face": "f",
+      "sha256": "60f48455f9e2bd2691d4a862e5acd2286b0ba4584faded9d55964606e83233c4",
+      "bytes": 954208,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/14639954A942A1C0.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_14639954a942a1c0",
+      "title": "惟勤湖",
+      "face": "b",
+      "sha256": "0d904d54355897951725676bf85b18d56e256c12673cf672f3539d91a75e8865",
+      "bytes": 728595,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/14639954A942A1C0.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_14639954a942a1c0",
+      "title": "惟勤湖",
+      "face": "l",
+      "sha256": "1f63272aec956330db554d3447b1a8f5cfaa29f6f6272910d35022d6f0c7fb68",
+      "bytes": 810367,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/14639954A942A1C0.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_14639954a942a1c0",
+      "title": "惟勤湖",
+      "face": "r",
+      "sha256": "d1606490a3859a845b1d53a69e6a9a1c299c8b173b0ddc4b9b8bb5dd6baa90c2",
+      "bytes": 890521,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/14639954A942A1C0.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_14639954a942a1c0",
+      "title": "惟勤湖",
+      "face": "u",
+      "sha256": "7c0f5c1b44cd56cf25d4c4c44bba3ac297cd49413c0236cf5984198602538bf2",
+      "bytes": 630143,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/14639954A942A1C0.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_14639954a942a1c0",
+      "title": "惟勤湖",
+      "face": "d",
+      "sha256": "f1a74807b4cf155ea674bc225388517ce758814446fcc5e0815480a949434efe",
+      "bytes": 762968,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/14639954A942A1C0.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_ef8a1b1d35eefd7f",
+      "title": "图书馆南广场",
+      "face": "f",
+      "sha256": "22778a94bed0a38247034dbf8f2b2cc7b6f7a40cc506a4180ab0407b5dfc906c",
+      "bytes": 416622,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/EF8A1B1D35EEFD7F.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_ef8a1b1d35eefd7f",
+      "title": "图书馆南广场",
+      "face": "b",
+      "sha256": "35f3847617e40ff1fe756606a4f0b8853069fc135ac9fe7e4661853b3fd8d95e",
+      "bytes": 518539,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/EF8A1B1D35EEFD7F.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_ef8a1b1d35eefd7f",
+      "title": "图书馆南广场",
+      "face": "l",
+      "sha256": "03ab00350f1bb74455bc38c18abff644a150b986c5ba24d9c0877f40ad74e9ff",
+      "bytes": 500926,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/EF8A1B1D35EEFD7F.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_ef8a1b1d35eefd7f",
+      "title": "图书馆南广场",
+      "face": "r",
+      "sha256": "61246e7103efe752816ab34dd0eba572b950dd29626b98c1fc65607c02a8fded",
+      "bytes": 469156,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/EF8A1B1D35EEFD7F.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_ef8a1b1d35eefd7f",
+      "title": "图书馆南广场",
+      "face": "u",
+      "sha256": "a0ce9fb0adef666279968357ffa238b89fda437b25bfd0e0685a8ad7730cded8",
+      "bytes": 125199,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/EF8A1B1D35EEFD7F.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_ef8a1b1d35eefd7f",
+      "title": "图书馆南广场",
+      "face": "d",
+      "sha256": "a4b0f80cf38d1da13f632fe896b670e3413f31e0da34c4b8b33843bf6f68d355",
+      "bytes": 829740,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/EF8A1B1D35EEFD7F.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_ce7d108c961f96d4",
+      "title": "图书馆大厅",
+      "face": "f",
+      "sha256": "df39b2fd5e45adf5c44bd65d966b6a8f83adfff7a11c91f1fb2337f22a94e22e",
+      "bytes": 422077,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/CE7D108C961F96D4.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_ce7d108c961f96d4",
+      "title": "图书馆大厅",
+      "face": "b",
+      "sha256": "17d2ce58e21d5df8351bf642978f4a8d651a1cb6ad599e291f4806d7a5f38546",
+      "bytes": 293733,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/CE7D108C961F96D4.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_ce7d108c961f96d4",
+      "title": "图书馆大厅",
+      "face": "l",
+      "sha256": "aa3e789a6449d7e2eebe4b61a0d9b9964e7b5ff077285060a48266d0209ee758",
+      "bytes": 352090,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/CE7D108C961F96D4.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_ce7d108c961f96d4",
+      "title": "图书馆大厅",
+      "face": "r",
+      "sha256": "c7e18e943e4bd0ec905ca2026d06bfcf23acdbf8ef4fd9bac293c2e185082fb6",
+      "bytes": 323941,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/CE7D108C961F96D4.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_ce7d108c961f96d4",
+      "title": "图书馆大厅",
+      "face": "u",
+      "sha256": "62287ae84ba02d3d9c177183d8d332c90c472c260a39fdd8da9d40a03911a4e2",
+      "bytes": 163355,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/CE7D108C961F96D4.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_ce7d108c961f96d4",
+      "title": "图书馆大厅",
+      "face": "d",
+      "sha256": "96c050287575773fa8d827b73e044b80ff9c5699f23f52fffe73d8b7b9897b2e",
+      "bytes": 219925,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/CE7D108C961F96D4.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_b23e3d2ca51be88c",
+      "title": "图书馆天井",
+      "face": "f",
+      "sha256": "792999f71ca95ded5abf6a19c2cb28562583298d45466aa9703f90a3d16cebb3",
+      "bytes": 530274,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/B23E3D2CA51BE88C.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_b23e3d2ca51be88c",
+      "title": "图书馆天井",
+      "face": "b",
+      "sha256": "e18b297eb617cd6d22335a309899a13c3d574e590aa4abccd1baf18e2b06f3f0",
+      "bytes": 530079,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/B23E3D2CA51BE88C.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_b23e3d2ca51be88c",
+      "title": "图书馆天井",
+      "face": "l",
+      "sha256": "60c71b2d1695554ac590cecfc41bdbe7fbec41f30740d93818b51f6586f34f47",
+      "bytes": 470077,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/B23E3D2CA51BE88C.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_b23e3d2ca51be88c",
+      "title": "图书馆天井",
+      "face": "r",
+      "sha256": "8fb2591d9c12cf89631e13bf0213761fe69bdc96537cd420f261509f857257f4",
+      "bytes": 381100,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/B23E3D2CA51BE88C.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_b23e3d2ca51be88c",
+      "title": "图书馆天井",
+      "face": "u",
+      "sha256": "04a016f266e72b3162bf0739406cbbf522f09b5dbad9f0fd3efc80474c118adf",
+      "bytes": 392381,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/B23E3D2CA51BE88C.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_b23e3d2ca51be88c",
+      "title": "图书馆天井",
+      "face": "d",
+      "sha256": "453c3d8bf22d439d9054d91d969f21a49954702269610603546e01f6263b3362",
+      "bytes": 541308,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/B23E3D2CA51BE88C.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_ebec26f2544053f8",
+      "title": "图书馆一楼阅读区",
+      "face": "f",
+      "sha256": "cc20b7f85434d97b20070f008615660ec346727930a686a310e2e5803f0575de",
+      "bytes": 404314,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/EBEC26F2544053F8.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_ebec26f2544053f8",
+      "title": "图书馆一楼阅读区",
+      "face": "b",
+      "sha256": "01979a63db1e7be1410384990d6f9ae2fb20b2747f28bd1718986ec47ba41bfe",
+      "bytes": 449395,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/EBEC26F2544053F8.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_ebec26f2544053f8",
+      "title": "图书馆一楼阅读区",
+      "face": "l",
+      "sha256": "74cac09425111fe62793466fcf795d3cef7229d6cb4da2c0d3a9645ecd93212b",
+      "bytes": 426447,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/EBEC26F2544053F8.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_ebec26f2544053f8",
+      "title": "图书馆一楼阅读区",
+      "face": "r",
+      "sha256": "d2f16eade0ce448b69576be9bcbd437c012c254be5a6ecb02b90ad9a0c441caa",
+      "bytes": 546981,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/EBEC26F2544053F8.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_ebec26f2544053f8",
+      "title": "图书馆一楼阅读区",
+      "face": "u",
+      "sha256": "d49e74c4ef5e9044586d6e5dfe1d8ed0a452d94d3cabb0631c9b096c9a0aeb6d",
+      "bytes": 415706,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/EBEC26F2544053F8.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_ebec26f2544053f8",
+      "title": "图书馆一楼阅读区",
+      "face": "d",
+      "sha256": "2b281e9a8d38c7702a3fd12d6b7c2d4548b8c70a1e4b48b92fa36e77c01fbc05",
+      "bytes": 296558,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/EBEC26F2544053F8.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_3f9ede8a142674c5",
+      "title": "图书馆电子阅览室_equi",
+      "face": "f",
+      "sha256": "3f865ea660a3ce1631aaed6488d0b1f54aee7b8da54c0ede10787ea2e0fb7062",
+      "bytes": 383064,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/3F9EDE8A142674C5.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_3f9ede8a142674c5",
+      "title": "图书馆电子阅览室_equi",
+      "face": "b",
+      "sha256": "b4a990e2fb01ff1ac8de42e5613d434939a5070ed22dd9873504c700871abc5b",
+      "bytes": 392501,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/3F9EDE8A142674C5.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_3f9ede8a142674c5",
+      "title": "图书馆电子阅览室_equi",
+      "face": "l",
+      "sha256": "d9194b99210d5994591d23a980d5ac9f6eb169cb4f4533b9885347f807560101",
+      "bytes": 398267,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/3F9EDE8A142674C5.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_3f9ede8a142674c5",
+      "title": "图书馆电子阅览室_equi",
+      "face": "r",
+      "sha256": "5c3ec7a669825c1626ed7a6422f33a26a507edf2ad12135d630edc9dbb99ff0a",
+      "bytes": 388694,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/3F9EDE8A142674C5.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_3f9ede8a142674c5",
+      "title": "图书馆电子阅览室_equi",
+      "face": "u",
+      "sha256": "3af31f2b16f16a0a1a8254b8a929b8d38fc4667d485b7d6660c1b6e444fe744b",
+      "bytes": 412818,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/3F9EDE8A142674C5.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_3f9ede8a142674c5",
+      "title": "图书馆电子阅览室_equi",
+      "face": "d",
+      "sha256": "81ffa3a01f24114881531c51e98c861bf0058d5242884c873f32006802a00877",
+      "bytes": 412059,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/3F9EDE8A142674C5.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_722c8dab25953248",
+      "title": "图书馆3楼阅读区",
+      "face": "f",
+      "sha256": "f3d0d51205011f169dd185afe77ec97dd96feb9a7c659aa1f78baed5658c5be3",
+      "bytes": 456891,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/722C8DAB25953248.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_722c8dab25953248",
+      "title": "图书馆3楼阅读区",
+      "face": "b",
+      "sha256": "201c34cb28868c5256f96e4a1242a824d50ea361b32154e93de132b3c0457bd0",
+      "bytes": 374510,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/722C8DAB25953248.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_722c8dab25953248",
+      "title": "图书馆3楼阅读区",
+      "face": "l",
+      "sha256": "33c198d1e1c66a8df43d499d379cd3d65965ada7cc07a9ba00700b4b1aaa8a48",
+      "bytes": 439901,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/722C8DAB25953248.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_722c8dab25953248",
+      "title": "图书馆3楼阅读区",
+      "face": "r",
+      "sha256": "fe07b255f633ce8c23c173fa30c2f984a6a964984d972ada9f3407d857c5d611",
+      "bytes": 435260,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/722C8DAB25953248.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_722c8dab25953248",
+      "title": "图书馆3楼阅读区",
+      "face": "u",
+      "sha256": "e4e7dc54bc2bea10f79f4bf123af16b314908d6d0715d2c4983e4221ce95b1df",
+      "bytes": 440012,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/722C8DAB25953248.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_722c8dab25953248",
+      "title": "图书馆3楼阅读区",
+      "face": "d",
+      "sha256": "685629c2d267de97d1f60b1bd4990939c029eeebfa1aea1154076cebd09689fd",
+      "bytes": 265750,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/722C8DAB25953248.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_87cc780c51a72754",
+      "title": "环南路西",
+      "face": "f",
+      "sha256": "1df9f5aa0bdc9a97324698eb2d30cdae5f3d67b223d2e465f17ee3f8a6952cd7",
+      "bytes": 694014,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/87CC780C51A72754.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_87cc780c51a72754",
+      "title": "环南路西",
+      "face": "b",
+      "sha256": "6267d6cf2e52e349a3799e6a4162dcb1935724f0bc6d5607b62776a0c34ffe83",
+      "bytes": 724093,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/87CC780C51A72754.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_87cc780c51a72754",
+      "title": "环南路西",
+      "face": "l",
+      "sha256": "c4b98cbca2f43c41e6cf5c391c523d5415fe8662817ae5c63a013d7e57d838ba",
+      "bytes": 705674,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/87CC780C51A72754.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_87cc780c51a72754",
+      "title": "环南路西",
+      "face": "r",
+      "sha256": "f8a90e590fe6b1ecfa80b0c967c29a5c0960ce9a28e1a6abade8b87df632c5c6",
+      "bytes": 613918,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/87CC780C51A72754.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_87cc780c51a72754",
+      "title": "环南路西",
+      "face": "u",
+      "sha256": "f216816542d95440b996f9c8289ee697b33e7fbfaa207b7bb7bbc9cfa2f36524",
+      "bytes": 355094,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/87CC780C51A72754.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_87cc780c51a72754",
+      "title": "环南路西",
+      "face": "d",
+      "sha256": "694ed6d34133808fbbf5b1d80d34b04708d394c5833c877532ee430c28e15734",
+      "bytes": 605261,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/87CC780C51A72754.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_bbfe911158d01021",
+      "title": "环南路与环西路口",
+      "face": "f",
+      "sha256": "104aa6ec3e95865955c2e8474fcc4b0b313e1833bfc5a5daa4853ff883a70b54",
+      "bytes": 826453,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/BBFE911158D01021.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_bbfe911158d01021",
+      "title": "环南路与环西路口",
+      "face": "b",
+      "sha256": "f5d5459911aeeb176fbd4f368702d3ecc156124fdc8a276bd9505878536f1abf",
+      "bytes": 917379,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/BBFE911158D01021.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_bbfe911158d01021",
+      "title": "环南路与环西路口",
+      "face": "l",
+      "sha256": "1a0c123ad312c9bb648919230ea6175c808aa56ee88b6331ad3064680b1257dd",
+      "bytes": 863287,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/BBFE911158D01021.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_bbfe911158d01021",
+      "title": "环南路与环西路口",
+      "face": "r",
+      "sha256": "f08ca4d5636b1f9cd3cb733c3aaeaf572f9869d8cdc9a47e6fafc47d88b29e3b",
+      "bytes": 833839,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/BBFE911158D01021.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_bbfe911158d01021",
+      "title": "环南路与环西路口",
+      "face": "u",
+      "sha256": "b660367fc541eb0f82c10247b4187c0dde9aceaf16c8072e82458c6cc16368c7",
+      "bytes": 520794,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/BBFE911158D01021.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_bbfe911158d01021",
+      "title": "环南路与环西路口",
+      "face": "d",
+      "sha256": "b3aa3d05bb560f848c137813d40fea1db8f048efb742c5936934c5e8a88a8b03",
+      "bytes": 666531,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/BBFE911158D01021.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_82fe897aff65a686",
+      "title": "致能楼西",
+      "face": "f",
+      "sha256": "f77d34fb9b451c697f611dec6a4dcc90dcafe7c1ba869890f531ea5df501f2fc",
+      "bytes": 752906,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/82FE897AFF65A686.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_82fe897aff65a686",
+      "title": "致能楼西",
+      "face": "b",
+      "sha256": "af17a5c510a2ca7a0b1e0fcf87c5496c23ed177c9de26ee0a889eb5963294c88",
+      "bytes": 878036,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/82FE897AFF65A686.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_82fe897aff65a686",
+      "title": "致能楼西",
+      "face": "l",
+      "sha256": "9d5ff62254331379abfda3ed31235110fbf5297ee9ca2466f33531509799aa94",
+      "bytes": 1018004,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/82FE897AFF65A686.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_82fe897aff65a686",
+      "title": "致能楼西",
+      "face": "r",
+      "sha256": "0de9967b561154be79748d62c3f91ac7ad6cddad3a8a177df3956f0c76f47e89",
+      "bytes": 900919,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/82FE897AFF65A686.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_82fe897aff65a686",
+      "title": "致能楼西",
+      "face": "u",
+      "sha256": "2307929a19f4ec587a24dd401c638c89907b372d26c033903d491fdea9cfe215",
+      "bytes": 325036,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/82FE897AFF65A686.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_82fe897aff65a686",
+      "title": "致能楼西",
+      "face": "d",
+      "sha256": "30c56ede9d55c34828f7d29c94fed8285c931126bd1c95fe9ff2aef3c94d3297",
+      "bytes": 776545,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/82FE897AFF65A686.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_640a2ecc3a93f967",
+      "title": "砺志楼西",
+      "face": "f",
+      "sha256": "2f593714baabb14a4c13ceb19781f14b33a3c6814a3b805c677365f78c51c5b7",
+      "bytes": 939156,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/640A2ECC3A93F967.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_640a2ecc3a93f967",
+      "title": "砺志楼西",
+      "face": "b",
+      "sha256": "10523fc8a8791331c2fcbd155bad7526931fc22b2581449e362eb4d06a0d46c5",
+      "bytes": 936764,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/640A2ECC3A93F967.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_640a2ecc3a93f967",
+      "title": "砺志楼西",
+      "face": "l",
+      "sha256": "6a09ce0edc5dc85bd6c856b61de6f26859137c5ee3d063f13616d00a77756faa",
+      "bytes": 747168,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/640A2ECC3A93F967.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_640a2ecc3a93f967",
+      "title": "砺志楼西",
+      "face": "r",
+      "sha256": "5c1bba9cdfb5f75295cbde0630154363c1ef056d3a402de97e47b40f33ab4843",
+      "bytes": 846730,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/640A2ECC3A93F967.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_640a2ecc3a93f967",
+      "title": "砺志楼西",
+      "face": "u",
+      "sha256": "ed42ea72093f50d3f036962a498d0b1c97a31b8f02adb8756a67217d1bf54676",
+      "bytes": 574480,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/640A2ECC3A93F967.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_640a2ecc3a93f967",
+      "title": "砺志楼西",
+      "face": "d",
+      "sha256": "708aba9fc0bbec5785ab0b1898aaebc19e4066ee7f2631b56c939ee8f42be015",
+      "bytes": 807399,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/640A2ECC3A93F967.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_4ced676a1d8f3afd",
+      "title": "环西路与环北路",
+      "face": "f",
+      "sha256": "aedff60d48773aa1608f9bb8fa0d81661d9096f60c7e58396d2290c088167f1e",
+      "bytes": 733261,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/4CED676A1D8F3AFD.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_4ced676a1d8f3afd",
+      "title": "环西路与环北路",
+      "face": "b",
+      "sha256": "d4575b97e303d93a6b77293a12b30c807cb4116578a2665517199a75e959d609",
+      "bytes": 602740,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/4CED676A1D8F3AFD.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_4ced676a1d8f3afd",
+      "title": "环西路与环北路",
+      "face": "l",
+      "sha256": "017ef1aa192ecb467ac69ea7178e5e844ba40d9627526c931296445688cf9899",
+      "bytes": 615462,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/4CED676A1D8F3AFD.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_4ced676a1d8f3afd",
+      "title": "环西路与环北路",
+      "face": "r",
+      "sha256": "3ac9fff7b607796b3ece614ef55f52fd8cf1f6651f276a1299dc331fae2267c1",
+      "bytes": 851823,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/4CED676A1D8F3AFD.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_4ced676a1d8f3afd",
+      "title": "环西路与环北路",
+      "face": "u",
+      "sha256": "0a8aa8b54bdee22e1c7eea24cfc7aa57def8fc0c49f7675f8e5c9449c0a653c6",
+      "bytes": 268726,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/4CED676A1D8F3AFD.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_4ced676a1d8f3afd",
+      "title": "环西路与环北路",
+      "face": "d",
+      "sha256": "0db105ce62d968d8b0abcdbf87a70b075169f524c82c90458f53458bdd87d3cc",
+      "bytes": 753687,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/4CED676A1D8F3AFD.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_af10c52a75313397",
+      "title": "体育场入口",
+      "face": "f",
+      "sha256": "0e97a265d30b0f1453fd06d47c6e9e86872b83f2416b826e7f68794111541719",
+      "bytes": 824077,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/AF10C52A75313397.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_af10c52a75313397",
+      "title": "体育场入口",
+      "face": "b",
+      "sha256": "3f029cf561f8977f7ddf17d6c3281a1cfa7abaf06013228a1f7e8f768853663b",
+      "bytes": 1052124,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/AF10C52A75313397.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_af10c52a75313397",
+      "title": "体育场入口",
+      "face": "l",
+      "sha256": "b3f0ea89a5130881342d7263036d130698af22e3976326fcad66311bf5431b71",
+      "bytes": 756343,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/AF10C52A75313397.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_af10c52a75313397",
+      "title": "体育场入口",
+      "face": "r",
+      "sha256": "b009aedc2b119e2ee21293f7447debe90c7e5aa9687354140b70e9b6faa6299e",
+      "bytes": 1110070,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/AF10C52A75313397.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_af10c52a75313397",
+      "title": "体育场入口",
+      "face": "u",
+      "sha256": "97c7922036a74f1cff1b808c92319727257f64c41dd81f2f3c51d80bc84d713d",
+      "bytes": 1251132,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/AF10C52A75313397.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_af10c52a75313397",
+      "title": "体育场入口",
+      "face": "d",
+      "sha256": "7467c98597fea8adc4cb0944fa57b72fc0fa35e8b6f6c1c25fefc9f37e7d3abf",
+      "bytes": 730651,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/AF10C52A75313397.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_34656fcf113110f3",
+      "title": "体育场观礼台中央",
+      "face": "f",
+      "sha256": "26c580839631d2aa10280e65b416a819619c76d5e4b24c0ba9d7d8f5a68f6086",
+      "bytes": 487859,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/34656FCF113110F3.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_34656fcf113110f3",
+      "title": "体育场观礼台中央",
+      "face": "b",
+      "sha256": "8e2cd2d368dec2015992768730d62dd925ac5383d92b8b86fef5734458ac86fe",
+      "bytes": 425864,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/34656FCF113110F3.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_34656fcf113110f3",
+      "title": "体育场观礼台中央",
+      "face": "l",
+      "sha256": "85e313e496b8e689fc27a2192492007fb057cd7f183672d91a9d10c8c9fa95cc",
+      "bytes": 498173,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/34656FCF113110F3.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_34656fcf113110f3",
+      "title": "体育场观礼台中央",
+      "face": "r",
+      "sha256": "2cc099813603b68ff3c42f209e3a780e45ba6c0ec24fb56e3843a451e032bc09",
+      "bytes": 469508,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/34656FCF113110F3.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_34656fcf113110f3",
+      "title": "体育场观礼台中央",
+      "face": "u",
+      "sha256": "dc9ae33664849db19921f8b221a4e000c3e2306f7431117caa945691f6e4314e",
+      "bytes": 300039,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/34656FCF113110F3.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_34656fcf113110f3",
+      "title": "体育场观礼台中央",
+      "face": "d",
+      "sha256": "3a7e8dd1c5bd18a07cbe2455110c1dad79cc7afbaf5147765bde197d7cf4ff7b",
+      "bytes": 778012,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/34656FCF113110F3.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_28ea3e6c013eab33",
+      "title": "体育场观礼台",
+      "face": "f",
+      "sha256": "801bd74612451ff7863aed2e7599fbbbfb17989db1020a989d7b92f0de1a51bc",
+      "bytes": 452407,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/28EA3E6C013EAB33.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_28ea3e6c013eab33",
+      "title": "体育场观礼台",
+      "face": "b",
+      "sha256": "dd1d7902afd83d6c25fc9a6ae3a8e74efa4d5579358e4fb533202dc0a823e1a2",
+      "bytes": 349364,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/28EA3E6C013EAB33.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_28ea3e6c013eab33",
+      "title": "体育场观礼台",
+      "face": "l",
+      "sha256": "1c6297dc60acdc5b3d94cfea733fc8906dde4feda7844272b6c35997d1bc4a56",
+      "bytes": 358612,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/28EA3E6C013EAB33.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_28ea3e6c013eab33",
+      "title": "体育场观礼台",
+      "face": "r",
+      "sha256": "270874c9c69f35f2b88dc82c4fd7d84c43ebaf3a84eac4a24f595a18859f5614",
+      "bytes": 458604,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/28EA3E6C013EAB33.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_28ea3e6c013eab33",
+      "title": "体育场观礼台",
+      "face": "u",
+      "sha256": "1888da5e1b43559d51a5b55ed73b8905085cf5f719d5bceab9504ff0d7f65327",
+      "bytes": 273439,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/28EA3E6C013EAB33.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_28ea3e6c013eab33",
+      "title": "体育场观礼台",
+      "face": "d",
+      "sha256": "524a0c3e27e3c704f5a69c943ca76d26a05d9f32045eba34014c74c8f4354034",
+      "bytes": 358398,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/28EA3E6C013EAB33.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_3540f3f08689a340",
+      "title": "足球场",
+      "face": "f",
+      "sha256": "c2f8a3370105d3cf0b1d3e44492a7bf7886a27a3ebe4dbb22c45057956198bdb",
+      "bytes": 694993,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/3540F3F08689A340.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_3540f3f08689a340",
+      "title": "足球场",
+      "face": "b",
+      "sha256": "f6bcad2c656ff9a4e28444ca7c114b767b3ca021a727efa1878bc7fd899f9a76",
+      "bytes": 669376,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/3540F3F08689A340.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_3540f3f08689a340",
+      "title": "足球场",
+      "face": "l",
+      "sha256": "261793d39c023f2d20a6df104e78f2cdeff4f2e2ad78cf914dfa0f2661cfb789",
+      "bytes": 704881,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/3540F3F08689A340.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_3540f3f08689a340",
+      "title": "足球场",
+      "face": "r",
+      "sha256": "b19f067d7f645e50058d42d0fe102298c9019f35639292a9d143886c0e9b9008",
+      "bytes": 673563,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/3540F3F08689A340.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_3540f3f08689a340",
+      "title": "足球场",
+      "face": "u",
+      "sha256": "62d404629be3bd000a493d352fd0b7752760d2e4c79b34eadcbe1fe5df3bc112",
+      "bytes": 127087,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/3540F3F08689A340.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_3540f3f08689a340",
+      "title": "足球场",
+      "face": "d",
+      "sha256": "905b4b24e7c8a449c6b0f63ff71b76792a5393de4982796d688438a1704c49d9",
+      "bytes": 1473162,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/3540F3F08689A340.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_c5206e274222f4aa",
+      "title": "网球场",
+      "face": "f",
+      "sha256": "ac7a178ac484f67835633c9968d16eeec466dae9e4a9dbb00e434576d1ef667e",
+      "bytes": 461504,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/C5206E274222F4AA.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_c5206e274222f4aa",
+      "title": "网球场",
+      "face": "b",
+      "sha256": "c88f740b265fb48fe8b537c2062b66fffde2a2d944313b8e203930997a6c0cee",
+      "bytes": 416387,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/C5206E274222F4AA.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_c5206e274222f4aa",
+      "title": "网球场",
+      "face": "l",
+      "sha256": "37706c6b1836574f0d88f34de68fb324e7b8e30bd708901cd7bedf814ca5c0aa",
+      "bytes": 522768,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/C5206E274222F4AA.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_c5206e274222f4aa",
+      "title": "网球场",
+      "face": "r",
+      "sha256": "78d8c8d2ed74496f1018f01330ff0d3bce8531e0954a83c6d7145be197babe13",
+      "bytes": 343311,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/C5206E274222F4AA.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_c5206e274222f4aa",
+      "title": "网球场",
+      "face": "u",
+      "sha256": "a05fb9e883fc483149b50d6d0b29e12401378659ccde4107060e7b20e3331884",
+      "bytes": 100245,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/C5206E274222F4AA.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_c5206e274222f4aa",
+      "title": "网球场",
+      "face": "d",
+      "sha256": "29e5898291a1759a075030365d38a3b83e2e7f292f29bc7611a5bcbc4fb0b338",
+      "bytes": 495034,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/C5206E274222F4AA.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_5bebc6fd823a058b",
+      "title": "篮球场",
+      "face": "f",
+      "sha256": "c5604b745ad18e2bc8d06f5faa6d8c8d53d6653f68ada965cb5888d5faba5314",
+      "bytes": 356095,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/5BEBC6FD823A058B.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_5bebc6fd823a058b",
+      "title": "篮球场",
+      "face": "b",
+      "sha256": "f38ed71ad5683d33a2c2a99670abdf00a682181ceb348867bf537dd1a7507838",
+      "bytes": 290505,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/5BEBC6FD823A058B.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_5bebc6fd823a058b",
+      "title": "篮球场",
+      "face": "l",
+      "sha256": "67fd2b52d6673369cadecb9b549747dd9c38cb1946154bfe0a5e7063efc047ff",
+      "bytes": 330869,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/5BEBC6FD823A058B.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_5bebc6fd823a058b",
+      "title": "篮球场",
+      "face": "r",
+      "sha256": "e6c788e6821eea7bd713746294ada784b284e2d8c037caea4e85f43b52978964",
+      "bytes": 318491,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/5BEBC6FD823A058B.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_5bebc6fd823a058b",
+      "title": "篮球场",
+      "face": "u",
+      "sha256": "396c415110368b1ad12ee9389210aeb9bec8a3b1b652f211d63adebde8e914f3",
+      "bytes": 80623,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/5BEBC6FD823A058B.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_5bebc6fd823a058b",
+      "title": "篮球场",
+      "face": "d",
+      "sha256": "73c19677433728741d55f6c5077c4e871cc24b0ec4f559e201c40490716b6a5b",
+      "bytes": 398431,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/5BEBC6FD823A058B.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_268bfa81cf17c0aa",
+      "title": "樟桂大道",
+      "face": "f",
+      "sha256": "161d1a884eacd2b1c57847cc68c9361b5e76cee14a55664c561c7219540d8199",
+      "bytes": 593247,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/268BFA81CF17C0AA.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_268bfa81cf17c0aa",
+      "title": "樟桂大道",
+      "face": "b",
+      "sha256": "b8df15d38317180f2ccd7588ff3ee38c509da28b6b4b96f3d84114cb5d6b1c1b",
+      "bytes": 624897,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/268BFA81CF17C0AA.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_268bfa81cf17c0aa",
+      "title": "樟桂大道",
+      "face": "l",
+      "sha256": "174755347a70c32fb077f6c270f68fe620d0892f8480148961055837c7fea78f",
+      "bytes": 641773,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/268BFA81CF17C0AA.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_268bfa81cf17c0aa",
+      "title": "樟桂大道",
+      "face": "r",
+      "sha256": "d6beb4e734c0e7dda139a0d10f7bc14cdf039d5e27f8a7da9dca251f98a7819a",
+      "bytes": 679165,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/268BFA81CF17C0AA.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_268bfa81cf17c0aa",
+      "title": "樟桂大道",
+      "face": "u",
+      "sha256": "74f1bb8578ff3ab5ef3d30aaacae7a77fa06e59a6d24e4bafbd43ccb8b4e2322",
+      "bytes": 201653,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/268BFA81CF17C0AA.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_268bfa81cf17c0aa",
+      "title": "樟桂大道",
+      "face": "d",
+      "sha256": "447c5fac7d46b7263e0c8b7b890c0c5c74a33894e21a831b0c8ad9790305d9de",
+      "bytes": 680388,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/268BFA81CF17C0AA.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_7de3eee09535b3bd",
+      "title": "环北路",
+      "face": "f",
+      "sha256": "1805aa3b8a3329aef2c9d8f7f31f833ebc151c9901aa9d958e101d06ca833af8",
+      "bytes": 605966,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/7DE3EEE09535B3BD.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_7de3eee09535b3bd",
+      "title": "环北路",
+      "face": "b",
+      "sha256": "806bc9840aabb5155ed4f269d4ebb09e16e94f1a29d5813fb2b6e7433a079d11",
+      "bytes": 699116,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/7DE3EEE09535B3BD.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_7de3eee09535b3bd",
+      "title": "环北路",
+      "face": "l",
+      "sha256": "98f0ef6d7bde239088a2697fefe3630fb20105342a01984822b1f5ac9989c1da",
+      "bytes": 570809,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/7DE3EEE09535B3BD.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_7de3eee09535b3bd",
+      "title": "环北路",
+      "face": "r",
+      "sha256": "51ceda6e1bba6f99d03b16ef40d00b6a9b2121512b8970ef5de14152fc163729",
+      "bytes": 499639,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/7DE3EEE09535B3BD.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_7de3eee09535b3bd",
+      "title": "环北路",
+      "face": "u",
+      "sha256": "99536eb01edf757e20cbb982e781b01eb25a2f80d452f18bcd00531893ff5a59",
+      "bytes": 118036,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/7DE3EEE09535B3BD.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_7de3eee09535b3bd",
+      "title": "环北路",
+      "face": "d",
+      "sha256": "73658588cb89d50c20d2f00113a0da3033f3d5521c342b28b9a5e00ffe6e76c2",
+      "bytes": 665838,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/7DE3EEE09535B3BD.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_beb5603a649ec2d3",
+      "title": "商圣范蠡雕像",
+      "face": "f",
+      "sha256": "f82f2c261909a729f5bdb2186d742eb3bdbbf969e4ca02b2067bcd2c9af602be",
+      "bytes": 554953,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/BEB5603A649EC2D3.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_beb5603a649ec2d3",
+      "title": "商圣范蠡雕像",
+      "face": "b",
+      "sha256": "6a5eb0dea3ccf4532203ea2af5e4f242d01f0f76807f812f17e6be0023b76523",
+      "bytes": 955680,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/BEB5603A649EC2D3.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_beb5603a649ec2d3",
+      "title": "商圣范蠡雕像",
+      "face": "l",
+      "sha256": "819ce88c022bcc8a44b919276f4590ae53e0594e3313ae39a69262efca4e96fa",
+      "bytes": 1027797,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/BEB5603A649EC2D3.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_beb5603a649ec2d3",
+      "title": "商圣范蠡雕像",
+      "face": "r",
+      "sha256": "eb8332223a5999cfacf9731da623028e6f2fe26fb3300c498de2c039c64304e4",
+      "bytes": 740554,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/BEB5603A649EC2D3.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_beb5603a649ec2d3",
+      "title": "商圣范蠡雕像",
+      "face": "u",
+      "sha256": "4e661cf9ed8a5e7bafe0fc720a4bd94bae1b157e167c74948f18b2d0252643b9",
+      "bytes": 692817,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/BEB5603A649EC2D3.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_beb5603a649ec2d3",
+      "title": "商圣范蠡雕像",
+      "face": "d",
+      "sha256": "aa6029b6e668317e53365a0f87c6755c62eab4a4e21ce00da61353044e2b3c3c",
+      "bytes": 666313,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/BEB5603A649EC2D3.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_9c55ae29d225b8b9",
+      "title": "石桥",
+      "face": "f",
+      "sha256": "057818272d1f4c9b6e02ba7f569203204bd0574c05be96310b46338407a0d460",
+      "bytes": 800446,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/9C55AE29D225B8B9.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_9c55ae29d225b8b9",
+      "title": "石桥",
+      "face": "b",
+      "sha256": "94a96ae649835187d3bb9f5d1ae7bece1dac531c6db3ec57465e626d0a414c36",
+      "bytes": 665343,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/9C55AE29D225B8B9.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_9c55ae29d225b8b9",
+      "title": "石桥",
+      "face": "l",
+      "sha256": "9e97bbc7be7e81bccb2eb52de07a47baf7f0ba9a06effd6721ec7a17e06b23d8",
+      "bytes": 640459,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/9C55AE29D225B8B9.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_9c55ae29d225b8b9",
+      "title": "石桥",
+      "face": "r",
+      "sha256": "fa8a1be7f11d55f999f28ae8c56b037ce45e4d9559af3fa5caecacee6f7bc1f1",
+      "bytes": 718273,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/9C55AE29D225B8B9.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_9c55ae29d225b8b9",
+      "title": "石桥",
+      "face": "u",
+      "sha256": "e9548c8b9148f65c9b5ff4c9d344aa8b9f07126988cfbc0f187c8c25040a0275",
+      "bytes": 151927,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/9C55AE29D225B8B9.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_9c55ae29d225b8b9",
+      "title": "石桥",
+      "face": "d",
+      "sha256": "7ead8b6b4781fd555385773917d96bc3e37a7964e09091bb63cec67e0f795910",
+      "bytes": 773109,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/9C55AE29D225B8B9.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_c3618ba55d159f7c",
+      "title": "砺志楼北侧",
+      "face": "f",
+      "sha256": "e80fd4ced70ab7f01cfa82c9623a5ed2045c647d2ec29b89eccc98fbd817ecfa",
+      "bytes": 647006,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/C3618BA55D159F7C.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_c3618ba55d159f7c",
+      "title": "砺志楼北侧",
+      "face": "b",
+      "sha256": "3629a12fe177616465d6865d9cc07b6037f18fb8fce1cb61c3c06b0c1268b79a",
+      "bytes": 688518,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/C3618BA55D159F7C.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_c3618ba55d159f7c",
+      "title": "砺志楼北侧",
+      "face": "l",
+      "sha256": "2dc560d78e30f28cbd74c6812839dabfd25d546ab64beb50b11934f990a2612c",
+      "bytes": 820372,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/C3618BA55D159F7C.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_c3618ba55d159f7c",
+      "title": "砺志楼北侧",
+      "face": "r",
+      "sha256": "eae2e6c3a6b5b193e613b2398ae45ae217617d57f304ff6e7009a51a06c0de1d",
+      "bytes": 656550,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/C3618BA55D159F7C.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_c3618ba55d159f7c",
+      "title": "砺志楼北侧",
+      "face": "u",
+      "sha256": "daf032a58a3eff10ae3be049731b333ccdf3059d088fb82dd58c13898ce6406c",
+      "bytes": 156802,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/C3618BA55D159F7C.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_c3618ba55d159f7c",
+      "title": "砺志楼北侧",
+      "face": "d",
+      "sha256": "b67a4fa9c3aa5ddc603c85422abf8b2a8548837020bee228ca47f91586c831af",
+      "bytes": 779048,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/C3618BA55D159F7C.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_72196154d257a88b",
+      "title": "砺志楼5",
+      "face": "f",
+      "sha256": "97e8c6a167be7c7e5178a32e3112bfef68c0b8a4cf3b2abb1417aab5f8091f13",
+      "bytes": 685356,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/72196154D257A88B.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_72196154d257a88b",
+      "title": "砺志楼5",
+      "face": "b",
+      "sha256": "817f6098f2329a1973e4372126320d144a46e8965cdacf510ff5f48b5365e45d",
+      "bytes": 878234,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/72196154D257A88B.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_72196154d257a88b",
+      "title": "砺志楼5",
+      "face": "l",
+      "sha256": "2162986a8d71247e46e03e7dda27c6b75b6e655fc92aff975f0e73b78d54c0b0",
+      "bytes": 769070,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/72196154D257A88B.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_72196154d257a88b",
+      "title": "砺志楼5",
+      "face": "r",
+      "sha256": "bc594d6075d0f4d0889181ca1dddd34c9f4da162b4a1b9adbb19f47efaf97135",
+      "bytes": 947735,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/72196154D257A88B.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_72196154d257a88b",
+      "title": "砺志楼5",
+      "face": "u",
+      "sha256": "49fd9e4385ed02f185c97396acb606693e3d483cf5bb666e57e611448f119ac2",
+      "bytes": 244470,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/72196154D257A88B.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_72196154d257a88b",
+      "title": "砺志楼5",
+      "face": "d",
+      "sha256": "c6f3243e5e18acbaea268d5bd14b811f54c8e8c1b4bd7d567bf9472a06839f7a",
+      "bytes": 803606,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/72196154D257A88B.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_b1d3e69d6c7c62ab",
+      "title": "砺志楼4",
+      "face": "f",
+      "sha256": "e291bf82e97a37ab93ea336e53df06b70be270159c0fc97354c5fbfa128d4686",
+      "bytes": 864039,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/B1D3E69D6C7C62AB.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_b1d3e69d6c7c62ab",
+      "title": "砺志楼4",
+      "face": "b",
+      "sha256": "a9099d7abda9aebc57141b2354183fdf9d38314c667d50fbd429c9f11d0f1e50",
+      "bytes": 658576,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/B1D3E69D6C7C62AB.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_b1d3e69d6c7c62ab",
+      "title": "砺志楼4",
+      "face": "l",
+      "sha256": "c300ca90903b7aa87e8539997853d1089969a258f12e8930b52d1b2efef3427f",
+      "bytes": 568983,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/B1D3E69D6C7C62AB.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_b1d3e69d6c7c62ab",
+      "title": "砺志楼4",
+      "face": "r",
+      "sha256": "5d5a452177c662496008755013d31590777ab17bdceefa5c7661229807ce8f99",
+      "bytes": 691917,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/B1D3E69D6C7C62AB.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_b1d3e69d6c7c62ab",
+      "title": "砺志楼4",
+      "face": "u",
+      "sha256": "7d64250f30ad3f0320318c5c7e32e36cf7bdb05af9aa7996d4ea83d84b498084",
+      "bytes": 323187,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/B1D3E69D6C7C62AB.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_b1d3e69d6c7c62ab",
+      "title": "砺志楼4",
+      "face": "d",
+      "sha256": "847a35312398ff9d8685aee5ca09f6c6f7c837f9f3bfc9b7f0e0d0c9c2042cfa",
+      "bytes": 640754,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/B1D3E69D6C7C62AB.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_6c4f91358a051915",
+      "title": "砺志楼3",
+      "face": "f",
+      "sha256": "a82c29a5ef8e541676013af578da5a1a8e163a1158201656cdd6bd2939ae5917",
+      "bytes": 944918,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/6C4F91358A051915.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_6c4f91358a051915",
+      "title": "砺志楼3",
+      "face": "b",
+      "sha256": "a7db8da07f0f9d1c00d5e4fc5a6eb0b79be9f0e17e51e986219008c85796bb8e",
+      "bytes": 669809,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/6C4F91358A051915.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_6c4f91358a051915",
+      "title": "砺志楼3",
+      "face": "l",
+      "sha256": "b02a9a96ae5048809b68dc4b755517461c43627c5127243c6851b56694174413",
+      "bytes": 607785,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/6C4F91358A051915.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_6c4f91358a051915",
+      "title": "砺志楼3",
+      "face": "r",
+      "sha256": "af8672b9de72e7a1cc28b01fedb7309d2abfe6d3ee6121043401755d123890cf",
+      "bytes": 906316,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/6C4F91358A051915.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_6c4f91358a051915",
+      "title": "砺志楼3",
+      "face": "u",
+      "sha256": "5d9437b0629175c00d5aad3356bd26f965d6c89d369534f61f562078119f8af1",
+      "bytes": 274644,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/6C4F91358A051915.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_6c4f91358a051915",
+      "title": "砺志楼3",
+      "face": "d",
+      "sha256": "6be57549248c09688a90a090b5f818aca173371d0744eb1c2b93f1d631b69a19",
+      "bytes": 742243,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/6C4F91358A051915.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_07c8e74cb2494ce1",
+      "title": "致能楼2",
+      "face": "f",
+      "sha256": "58c4deba406b5dab58168bed438033f025944dcf639fe03cbf32fe4fa5ca5236",
+      "bytes": 671866,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/07C8E74CB2494CE1.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_07c8e74cb2494ce1",
+      "title": "致能楼2",
+      "face": "b",
+      "sha256": "bc945c4d3d73ee7c8479686fe76d7fb1a6c3eafb78dd621bf494b39bb650b4a9",
+      "bytes": 801055,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/07C8E74CB2494CE1.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_07c8e74cb2494ce1",
+      "title": "致能楼2",
+      "face": "l",
+      "sha256": "bfcbaea2e5d97fe29da2a2be5cd55ea3c1b3c89c3277c14e2688cdeedb4c6117",
+      "bytes": 1048377,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/07C8E74CB2494CE1.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_07c8e74cb2494ce1",
+      "title": "致能楼2",
+      "face": "r",
+      "sha256": "8cdb4566798af026c60723bf61f08bf7875a6d5e960af4a6b3815d70ed28d122",
+      "bytes": 691947,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/07C8E74CB2494CE1.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_07c8e74cb2494ce1",
+      "title": "致能楼2",
+      "face": "u",
+      "sha256": "3ccd4c7177fd3f3576c735ccebbf6abe37425442f3098cc8ebdeac9235b4f15c",
+      "bytes": 215434,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/07C8E74CB2494CE1.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_07c8e74cb2494ce1",
+      "title": "致能楼2",
+      "face": "d",
+      "sha256": "34835ffb497063bb3499346145444f92b6359a8aee61cd084581f3eefb1b11a8",
+      "bytes": 791577,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/07C8E74CB2494CE1.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_c75c513f25818b6b",
+      "title": "致能楼1",
+      "face": "f",
+      "sha256": "18929d39524592dd5e3203525b666549dfed7baf5e17f5b77fda3e8be4bbb43e",
+      "bytes": 993495,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/C75C513F25818B6B.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_c75c513f25818b6b",
+      "title": "致能楼1",
+      "face": "b",
+      "sha256": "1f8686fe62191f249e17167149ac817993a71e4be6d837bc51b21132076a6c37",
+      "bytes": 665062,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/C75C513F25818B6B.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_c75c513f25818b6b",
+      "title": "致能楼1",
+      "face": "l",
+      "sha256": "f5683b1fd6438039a8e97e29484a032d50570ffae3f6111dda56ea5f540017f9",
+      "bytes": 799096,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/C75C513F25818B6B.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_c75c513f25818b6b",
+      "title": "致能楼1",
+      "face": "r",
+      "sha256": "7d5ef6a9d766577c3625adde189141572503a42e570deeaa7d0fe6a05c0fe472",
+      "bytes": 793629,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/C75C513F25818B6B.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_c75c513f25818b6b",
+      "title": "致能楼1",
+      "face": "u",
+      "sha256": "52d9a77ec74b6010430dd0873508444887d9da825f0367386d8e329be1a25a94",
+      "bytes": 211035,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/C75C513F25818B6B.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_c75c513f25818b6b",
+      "title": "致能楼1",
+      "face": "d",
+      "sha256": "7044c2450b26e73e29b958dd7d00cfe2de62bbedf349c6784dad19a5bf1ebc10",
+      "bytes": 778658,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/C75C513F25818B6B.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_826098de4f24259d",
+      "title": "致东路",
+      "face": "f",
+      "sha256": "4394583b605677b85ae588a5172ed91c2ec9561fbe1490085713930053a6bdbf",
+      "bytes": 406453,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/826098DE4F24259D.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_826098de4f24259d",
+      "title": "致东路",
+      "face": "b",
+      "sha256": "46675ece410b78cfddc8d2fdc83e81f9534143bef1b75c2dbccd51c1fc2c1f2e",
+      "bytes": 873679,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/826098DE4F24259D.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_826098de4f24259d",
+      "title": "致东路",
+      "face": "l",
+      "sha256": "9c85167c9ba98f0f3e92f73e86e06a53f839915436440a33535972456106576f",
+      "bytes": 892352,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/826098DE4F24259D.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_826098de4f24259d",
+      "title": "致东路",
+      "face": "r",
+      "sha256": "ef701f6a9b8a005bda7cd024e652c065156e2532cdcb213734514ec446a3a27f",
+      "bytes": 747546,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/826098DE4F24259D.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_826098de4f24259d",
+      "title": "致东路",
+      "face": "u",
+      "sha256": "00dd00ff4342b150b73764b8580b259084726ea2f05b89d25369563f57bf0f86",
+      "bytes": 693478,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/826098DE4F24259D.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_826098de4f24259d",
+      "title": "致东路",
+      "face": "d",
+      "sha256": "542e9aa8de191577820dddff0fc3657d600f09cf0a05886f4485b51d29f862e0",
+      "bytes": 736330,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/826098DE4F24259D.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_d82e1ed36e8be7bd",
+      "title": "乐群楼（宿舍）",
+      "face": "f",
+      "sha256": "9838822d737b6d10e27ab761f0e522d53adc2e1478bf7911e5238e5d64643f93",
+      "bytes": 746556,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/D82E1ED36E8BE7BD.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_d82e1ed36e8be7bd",
+      "title": "乐群楼（宿舍）",
+      "face": "b",
+      "sha256": "e6e52a424468a56f0a403c4397afba777e664e3725e1b957f20323571d87675c",
+      "bytes": 680850,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/D82E1ED36E8BE7BD.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_d82e1ed36e8be7bd",
+      "title": "乐群楼（宿舍）",
+      "face": "l",
+      "sha256": "001a4665bc1387e2fcb19e1744a6746b123ce7dae2a21e44cc3bc1ad6b5c42ea",
+      "bytes": 694977,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/D82E1ED36E8BE7BD.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_d82e1ed36e8be7bd",
+      "title": "乐群楼（宿舍）",
+      "face": "r",
+      "sha256": "5850616be8a6d8c91cd72ce5266bcda3991dccdc6d01c354c37e7c0e297072d5",
+      "bytes": 652416,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/D82E1ED36E8BE7BD.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_d82e1ed36e8be7bd",
+      "title": "乐群楼（宿舍）",
+      "face": "u",
+      "sha256": "96f7df1155c6d67c750d20ee1b57c4d740abb3150dc838a88689504dd9baea80",
+      "bytes": 327105,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/D82E1ED36E8BE7BD.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_d82e1ed36e8be7bd",
+      "title": "乐群楼（宿舍）",
+      "face": "d",
+      "sha256": "3f5b171652a76975863dafc2d92813e554334353e2c797b15ed466599c60473f",
+      "bytes": 568319,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/D82E1ED36E8BE7BD.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_be94b824903c62d8",
+      "title": "宿舍",
+      "face": "f",
+      "sha256": "7b3819f35beb37ae435a1d48137db7b474a45ef9c6315b8201ceb7e51f37795d",
+      "bytes": 252782,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/BE94B824903C62D8.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_be94b824903c62d8",
+      "title": "宿舍",
+      "face": "b",
+      "sha256": "44a35f9d62d517f4362a29682d1474e613d0b455c043edbfbd3fc4a317aba18e",
+      "bytes": 235041,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/BE94B824903C62D8.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_be94b824903c62d8",
+      "title": "宿舍",
+      "face": "l",
+      "sha256": "b0625e4b829cc53a4243aab7acfdebf4098742d4bb7b30f67befda66bbca99e3",
+      "bytes": 220924,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/BE94B824903C62D8.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_be94b824903c62d8",
+      "title": "宿舍",
+      "face": "r",
+      "sha256": "c610d3d37cff28f0a26320cbfc8236185d2607e7a8dde474833c5bcd5a380c8f",
+      "bytes": 214142,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/BE94B824903C62D8.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_be94b824903c62d8",
+      "title": "宿舍",
+      "face": "u",
+      "sha256": "81fb2b134b014a5ba821dd935170c17b65a984befff5510cb91caf61916eff62",
+      "bytes": 102748,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/BE94B824903C62D8.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_be94b824903c62d8",
+      "title": "宿舍",
+      "face": "d",
+      "sha256": "75022b1a57f161c9328c069dd35aea3865686a009ed71e6aacd4e4cbf25bac59",
+      "bytes": 197492,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/BE94B824903C62D8.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_bbddbfd202e8965b",
+      "title": "校园北门口",
+      "face": "f",
+      "sha256": "9ae794f8c962667defc4c919537357669056d63c4b00c82920ff061d746b339c",
+      "bytes": 493545,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/BBDDBFD202E8965B.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_bbddbfd202e8965b",
+      "title": "校园北门口",
+      "face": "b",
+      "sha256": "fb6551243d12ee5b2d962da40fc6d211557b7ce36644b6b96883d157623bc6aa",
+      "bytes": 737398,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/BBDDBFD202E8965B.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_bbddbfd202e8965b",
+      "title": "校园北门口",
+      "face": "l",
+      "sha256": "315c26eb91253c3dd7957e8cf0badf73b35b40e1b80cc41fbe07fd38fe841837",
+      "bytes": 633517,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/BBDDBFD202E8965B.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_bbddbfd202e8965b",
+      "title": "校园北门口",
+      "face": "r",
+      "sha256": "4de344666382fef444b5ff75f0d9d02a89772655365d1adcb0afce9e84b8e265",
+      "bytes": 500745,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/BBDDBFD202E8965B.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_bbddbfd202e8965b",
+      "title": "校园北门口",
+      "face": "u",
+      "sha256": "41dd97e510ce40407c5fbaee94a327601e626671a2ae3adebc1e214609a4d415",
+      "bytes": 141086,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/BBDDBFD202E8965B.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_bbddbfd202e8965b",
+      "title": "校园北门口",
+      "face": "d",
+      "sha256": "c6e95ebe642b4a6edb1dcd4ff100f500a72cd9b0f83a9ac376f007ae59e865a8",
+      "bytes": 853268,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/BBDDBFD202E8965B.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_936937a0effef637",
+      "title": "亭子",
+      "face": "f",
+      "sha256": "d47c23d004627ae15c1a1cfa004499b5d8935d1b32104d1d2ceff106e9139768",
+      "bytes": 434086,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/936937A0EFFEF637.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_936937a0effef637",
+      "title": "亭子",
+      "face": "b",
+      "sha256": "2b5e3d141c181a6e0d8d1f7c2d849a91d4baddc44bae7a59733abdc26e55aae1",
+      "bytes": 444975,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/936937A0EFFEF637.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_936937a0effef637",
+      "title": "亭子",
+      "face": "l",
+      "sha256": "75e343c00924752423f48030096d2439f305cb9358303729481d3762742a1bad",
+      "bytes": 484975,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/936937A0EFFEF637.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_936937a0effef637",
+      "title": "亭子",
+      "face": "r",
+      "sha256": "bfe87c27626aade2ebb46d1dfb92ebfe47417e154b87cd54f1d11bc28feff15e",
+      "bytes": 448176,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/936937A0EFFEF637.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_936937a0effef637",
+      "title": "亭子",
+      "face": "u",
+      "sha256": "722360e0e4563b60190fefe7b6b93dbe03b82b5fee9163cef990095f7a3266f1",
+      "bytes": 149604,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/936937A0EFFEF637.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_936937a0effef637",
+      "title": "亭子",
+      "face": "d",
+      "sha256": "31946577081e2c4404cfe6d38c5828c9f55070bca3e79a1f1ce1236d0a9362d2",
+      "bytes": 405467,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/936937A0EFFEF637.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_81ab06ef2d0e0075",
+      "title": "办学成果展",
+      "face": "f",
+      "sha256": "359d1ecd63ddbecc683d02ea62c40fda70d4c8f4ad13c4a0136d126aa7290193",
+      "bytes": 294912,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/81AB06EF2D0E0075.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_81ab06ef2d0e0075",
+      "title": "办学成果展",
+      "face": "b",
+      "sha256": "2acd9939227c34d9d6c3e7ce367ff9c91e7485646ff1b03f3b3440a16a0a6a74",
+      "bytes": 271638,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/81AB06EF2D0E0075.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_81ab06ef2d0e0075",
+      "title": "办学成果展",
+      "face": "l",
+      "sha256": "deceb29ab9cecbdc1b8d4fc633d6cdae5ea236a7e25eb4265603dc59b1c6a1ca",
+      "bytes": 245865,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/81AB06EF2D0E0075.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_81ab06ef2d0e0075",
+      "title": "办学成果展",
+      "face": "r",
+      "sha256": "0b3ddc18e118b9e2efab86476516edf664abc542b9aa9ea4a041da11d865f133",
+      "bytes": 268003,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/81AB06EF2D0E0075.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_81ab06ef2d0e0075",
+      "title": "办学成果展",
+      "face": "u",
+      "sha256": "d06ecaca45f38bc2e8411285cde8a7c3508e5ef56403b6adabcd86f45065daf7",
+      "bytes": 85142,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/81AB06EF2D0E0075.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_81ab06ef2d0e0075",
+      "title": "办学成果展",
+      "face": "d",
+      "sha256": "e66a2a85742ae8b3831e5f4bf8abff6f7710626fc5cbef51aabbace768877256",
+      "bytes": 264485,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/81AB06EF2D0E0075.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_5a1df9c2d051f27b",
+      "title": "办学成果展2",
+      "face": "f",
+      "sha256": "ee95cb53a262a2638b05881a299bd09e7aa88ffb87564263be083d70ebece7af",
+      "bytes": 371204,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/5A1DF9C2D051F27B.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_5a1df9c2d051f27b",
+      "title": "办学成果展2",
+      "face": "b",
+      "sha256": "ba92612646151278b4b636e89b85ef071b16c89566009869393e7b22e7006388",
+      "bytes": 310489,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/5A1DF9C2D051F27B.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_5a1df9c2d051f27b",
+      "title": "办学成果展2",
+      "face": "l",
+      "sha256": "f8f13d32b1bf014f75ea77736579989ed44c1c5dd70768c72c2f882eb2d1d218",
+      "bytes": 347845,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/5A1DF9C2D051F27B.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_5a1df9c2d051f27b",
+      "title": "办学成果展2",
+      "face": "r",
+      "sha256": "9e21d3067a09951255aad03dc3e92f623bff270a58050539ea5cbb8b3348c495",
+      "bytes": 279394,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/5A1DF9C2D051F27B.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_5a1df9c2d051f27b",
+      "title": "办学成果展2",
+      "face": "u",
+      "sha256": "775bc805d497233a049df1fa3a50d3601a4c59baa4805b87513894e99ded13fd",
+      "bytes": 284243,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/5A1DF9C2D051F27B.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_5a1df9c2d051f27b",
+      "title": "办学成果展2",
+      "face": "d",
+      "sha256": "99a3bebeb9f45a75907f7b1b63eb1adf0fbdfa3c7f71f15f0ec2cf6496e67649",
+      "bytes": 260457,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/5A1DF9C2D051F27B.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_9d33bfd498327cf2",
+      "title": "味邦美食城外",
+      "face": "f",
+      "sha256": "5f4adc578b8c357edcb99d4cac74dc24ad3a6a70974f1083e4e0d65f59bc3683",
+      "bytes": 421536,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/9D33BFD498327CF2.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_9d33bfd498327cf2",
+      "title": "味邦美食城外",
+      "face": "b",
+      "sha256": "04cab0b4ff86ccdffa3010d0d755b2a057fa030bb2e6933f52702a4f747c7f02",
+      "bytes": 483021,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/9D33BFD498327CF2.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_9d33bfd498327cf2",
+      "title": "味邦美食城外",
+      "face": "l",
+      "sha256": "3b1479024a6e7bd9025afe232550a4686b861f896fcd0b4c46dec801f1b59eb1",
+      "bytes": 491686,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/9D33BFD498327CF2.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_9d33bfd498327cf2",
+      "title": "味邦美食城外",
+      "face": "r",
+      "sha256": "b55665ccabe6a6b95451907797b81d061af7aedffdec3eed6821b2c1ba10542a",
+      "bytes": 430366,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/9D33BFD498327CF2.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_9d33bfd498327cf2",
+      "title": "味邦美食城外",
+      "face": "u",
+      "sha256": "68c966be982b4cb01f537ed7e35a976b1dba609967cdeaf300d5b9c2b94d249b",
+      "bytes": 160212,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/9D33BFD498327CF2.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_9d33bfd498327cf2",
+      "title": "味邦美食城外",
+      "face": "d",
+      "sha256": "7cd046d0372c15736b546bb81fe44acb5c77270748a87ea1a9632dd9aea30cab",
+      "bytes": 573933,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/9D33BFD498327CF2.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_1b18ffeb0942c054",
+      "title": "味邦餐厅",
+      "face": "f",
+      "sha256": "f8c465c655db113b5b67d8a567308d7f199d53d0f847cf898155aa0da8a612f8",
+      "bytes": 290454,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/1B18FFEB0942C054.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_1b18ffeb0942c054",
+      "title": "味邦餐厅",
+      "face": "b",
+      "sha256": "755e32b8c440032049bef5854941212d0cd79e1e33f0f14599cdf09df70018a4",
+      "bytes": 293552,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/1B18FFEB0942C054.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_1b18ffeb0942c054",
+      "title": "味邦餐厅",
+      "face": "l",
+      "sha256": "03adf441ad18fe0dc7d47b13cc29b7b299e3a8bce186dc8e7b4bf6b21d20714d",
+      "bytes": 264232,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/1B18FFEB0942C054.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_1b18ffeb0942c054",
+      "title": "味邦餐厅",
+      "face": "r",
+      "sha256": "2fdc173bbc51b8f60e45bbd403aea3a5fd193b5ebf31862b5f8ddac43860cec6",
+      "bytes": 297703,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/1B18FFEB0942C054.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_1b18ffeb0942c054",
+      "title": "味邦餐厅",
+      "face": "u",
+      "sha256": "e51a2f1c3b41ef1fc4ec6f0028c98056e814ea5779f0ef730a2a504cfc90a0f8",
+      "bytes": 142382,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/1B18FFEB0942C054.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_1b18ffeb0942c054",
+      "title": "味邦餐厅",
+      "face": "d",
+      "sha256": "dc7fc2d5ac6618168028160fb5792c5ae24683f1427e18b747b9d2ec429c2f44",
+      "bytes": 132584,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/1B18FFEB0942C054.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_4fec8bef99ed6043",
+      "title": "学术报告厅",
+      "face": "f",
+      "sha256": "3687b00380a5fe540c4059dadd2d60a40e1bbda4f4b2f788269161e207f3503a",
+      "bytes": 312869,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/4FEC8BEF99ED6043.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_4fec8bef99ed6043",
+      "title": "学术报告厅",
+      "face": "b",
+      "sha256": "9d755fed058fbaf7ff24ab2699195a5b219d8740a0819a8cdfdeb18e7561ab29",
+      "bytes": 312541,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/4FEC8BEF99ED6043.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_4fec8bef99ed6043",
+      "title": "学术报告厅",
+      "face": "l",
+      "sha256": "0b2eec111f6afb5eab3bd61a191cb6357602f9eafe693481ca98808d04ece259",
+      "bytes": 410064,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/4FEC8BEF99ED6043.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_4fec8bef99ed6043",
+      "title": "学术报告厅",
+      "face": "r",
+      "sha256": "048d68c2d7721b89d24730874cb4b1c072b0b175f7fa85744260e312f2b78958",
+      "bytes": 349798,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/4FEC8BEF99ED6043.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_4fec8bef99ed6043",
+      "title": "学术报告厅",
+      "face": "u",
+      "sha256": "f120efaedc5c95becc0f41511be7da0feb81ab9f608fec023cb612d4d44a6c64",
+      "bytes": 296056,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/4FEC8BEF99ED6043.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_4fec8bef99ed6043",
+      "title": "学术报告厅",
+      "face": "d",
+      "sha256": "f057dd43c86ea6aeb368f5c5bffb53c2c9a9400ffc2322ece3164a3b9dd3c7c3",
+      "bytes": 96587,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/4FEC8BEF99ED6043.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_01f4532844a151fb",
+      "title": "实训教室1",
+      "face": "f",
+      "sha256": "4bc2668673d9a30a012ed6b3745235085489682dcf78f230dda15fa20af072ad",
+      "bytes": 429923,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/01F4532844A151FB.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_01f4532844a151fb",
+      "title": "实训教室1",
+      "face": "b",
+      "sha256": "cd45f7f77427c3e75dfb34c3b2f3e3ffb161b0049f74f3dd4517e523a6b1d05b",
+      "bytes": 372783,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/01F4532844A151FB.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_01f4532844a151fb",
+      "title": "实训教室1",
+      "face": "l",
+      "sha256": "8ea0450a014bfa103b106a1eed600af2ba79b7a03e6bfa798308031dc04dd8b5",
+      "bytes": 389951,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/01F4532844A151FB.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_01f4532844a151fb",
+      "title": "实训教室1",
+      "face": "r",
+      "sha256": "fea0aa8cf29170846bf83da0a12aece1aa0878b5212667d32546201448adc5b7",
+      "bytes": 387680,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/01F4532844A151FB.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_01f4532844a151fb",
+      "title": "实训教室1",
+      "face": "u",
+      "sha256": "03dc51eff3df09ab4e0685c5f8736be410753d2b9bb7284412404300809a0a6e",
+      "bytes": 192974,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/01F4532844A151FB.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_01f4532844a151fb",
+      "title": "实训教室1",
+      "face": "d",
+      "sha256": "493206fc4ab04a156a237e6b084fcc4c44cafe0f0220cbc4e1f54efabc4fc5fb",
+      "bytes": 163143,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/01F4532844A151FB.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_5124f94aae8f8c7c",
+      "title": "实训教室2",
+      "face": "f",
+      "sha256": "73676bd04e04ca3688a1f8d8a8942a0eff5934122561fdda26f78a8cb7a3283b",
+      "bytes": 336427,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/5124F94AAE8F8C7C.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_5124f94aae8f8c7c",
+      "title": "实训教室2",
+      "face": "b",
+      "sha256": "984f32440b0c3341e756703ce4ff3cc90c4154fa0dbcde1640fb5e89c817b8a1",
+      "bytes": 287672,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/5124F94AAE8F8C7C.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_5124f94aae8f8c7c",
+      "title": "实训教室2",
+      "face": "l",
+      "sha256": "1ce88a9c11cf194a8cf3d7cbfcc83492f0b7991102322158536cdafb5e8c8bb0",
+      "bytes": 279925,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/5124F94AAE8F8C7C.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_5124f94aae8f8c7c",
+      "title": "实训教室2",
+      "face": "r",
+      "sha256": "001e06e11dc53854e8193d20ca016037efeb6cd6e57c7bf9493006b68aed0498",
+      "bytes": 242708,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/5124F94AAE8F8C7C.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_5124f94aae8f8c7c",
+      "title": "实训教室2",
+      "face": "u",
+      "sha256": "fa7e3038ccee089d4755eb15dd5c6c07a987ca6db1d4f924d05afbf431b2edf2",
+      "bytes": 179738,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/5124F94AAE8F8C7C.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_5124f94aae8f8c7c",
+      "title": "实训教室2",
+      "face": "d",
+      "sha256": "0df3f4070da97f7a2d16a4a8001f80863fb714aa4d0917a64941ab22d146aa77",
+      "bytes": 145472,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/5124F94AAE8F8C7C.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_e45ca11620ab4546",
+      "title": "普通教室",
+      "face": "f",
+      "sha256": "006972942ee1c021758ec419673463fbfb7ee89fd7c92c252d363ba9d7cdd6a4",
+      "bytes": 250710,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/E45CA11620AB4546.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_e45ca11620ab4546",
+      "title": "普通教室",
+      "face": "b",
+      "sha256": "bfeb4e4e8bd23be386dd9e8abf6cbdf2ce4563c2532176099f7400d0603fe97b",
+      "bytes": 316419,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/E45CA11620AB4546.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_e45ca11620ab4546",
+      "title": "普通教室",
+      "face": "l",
+      "sha256": "1a504a6fb7572c0c7a2c997ce6e218e270ce6856a0bac5cec884b791047cad62",
+      "bytes": 266942,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/E45CA11620AB4546.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_e45ca11620ab4546",
+      "title": "普通教室",
+      "face": "r",
+      "sha256": "9aa201231b8221898b070c81a7697f49e250fdec8524d46c5060a519b44ed0ce",
+      "bytes": 283386,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/E45CA11620AB4546.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_e45ca11620ab4546",
+      "title": "普通教室",
+      "face": "u",
+      "sha256": "bbb333f9e410445bb968bf714a826c878aff9ba8a7c74d0005b94811a27b4419",
+      "bytes": 86143,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/E45CA11620AB4546.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_e45ca11620ab4546",
+      "title": "普通教室",
+      "face": "d",
+      "sha256": "1a8fd884d342ac49ca64acd80d1a051f33f3a5cf11d6c4b9eca91a6138bccc64",
+      "bytes": 164007,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/E45CA11620AB4546.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_1a0d9167e50490e4",
+      "title": "苹果教室",
+      "face": "f",
+      "sha256": "cdd12bb8f85cd1daeca95aa99f0b781fd7dfcb0b9c10f8cf26bac637a37b1dae",
+      "bytes": 340813,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/1A0D9167E50490E4.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_1a0d9167e50490e4",
+      "title": "苹果教室",
+      "face": "b",
+      "sha256": "b03df7091ea8f129d3f0f577ed1fb84f192770a831fd3daff031e18e1604a314",
+      "bytes": 295713,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/1A0D9167E50490E4.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_1a0d9167e50490e4",
+      "title": "苹果教室",
+      "face": "l",
+      "sha256": "b564ced7f32f963a7fed1246f45d8cc389b8bde9f55ca7f40a29909116ca8382",
+      "bytes": 313764,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/1A0D9167E50490E4.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_1a0d9167e50490e4",
+      "title": "苹果教室",
+      "face": "r",
+      "sha256": "5fd33b1209932a1319eeb50d2ff96f839da89115a255010e2da154244baddd6a",
+      "bytes": 268036,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/1A0D9167E50490E4.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_1a0d9167e50490e4",
+      "title": "苹果教室",
+      "face": "u",
+      "sha256": "e4fa10933dcf5cddc263c57b333315b9074a99bdb93b3a87fc6b6da398662cf3",
+      "bytes": 101296,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/1A0D9167E50490E4.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_1a0d9167e50490e4",
+      "title": "苹果教室",
+      "face": "d",
+      "sha256": "fd5279da8ee991faa21a1e90cb59c7980f2b29d8c26690e84a6ca7da532a0336",
+      "bytes": 271815,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/1A0D9167E50490E4.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_9f4d093c2a78c406",
+      "title": "南大门航拍",
+      "face": "f",
+      "sha256": "c4cc87c4bbfffc4779f6a06d837e279ec90282276bfac754ab7b981470f9d6f4",
+      "bytes": 380239,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/9F4D093C2A78C406.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_9f4d093c2a78c406",
+      "title": "南大门航拍",
+      "face": "b",
+      "sha256": "742990a229d95381f21c2c087b7d4b3d7f5fd462251f6d21569382c24fd03329",
+      "bytes": 373227,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/9F4D093C2A78C406.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_9f4d093c2a78c406",
+      "title": "南大门航拍",
+      "face": "l",
+      "sha256": "02c32120a9c9a4f0f9574ad3fae558720702773743e7e4e94bd20d031df0e1ac",
+      "bytes": 388544,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/9F4D093C2A78C406.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_9f4d093c2a78c406",
+      "title": "南大门航拍",
+      "face": "r",
+      "sha256": "1cc7ce8d8fb215e073409b3a10a574f9e1939584722be60d65ffb6859839aab2",
+      "bytes": 457303,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/9F4D093C2A78C406.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_9f4d093c2a78c406",
+      "title": "南大门航拍",
+      "face": "u",
+      "sha256": "a4355d9b1951bf666f49b1d657799e8650cc3850bfeefa75673146a8ec1e2a5d",
+      "bytes": 176537,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/9F4D093C2A78C406.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_9f4d093c2a78c406",
+      "title": "南大门航拍",
+      "face": "d",
+      "sha256": "bdcbe144aa65261c613819f12a29f0c178097536555a1958c9d70b2149f7d82d",
+      "bytes": 529500,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/9F4D093C2A78C406.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_153c98536fe07bea",
+      "title": "北大门航拍",
+      "face": "f",
+      "sha256": "3773da43e3677fe9c6519f005816aed65f34bb86ce3dc2a51fca6ef9b8f85847",
+      "bytes": 454031,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/153C98536FE07BEA.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_153c98536fe07bea",
+      "title": "北大门航拍",
+      "face": "b",
+      "sha256": "3e1caa7282aca362b61b116b21aa4be557e8abfb48a4b29f1d3c364113775eb5",
+      "bytes": 443172,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/153C98536FE07BEA.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_153c98536fe07bea",
+      "title": "北大门航拍",
+      "face": "l",
+      "sha256": "ee75334fc95cd442993930ebf8673bacd6307a93938dc665601f0520dd35d7aa",
+      "bytes": 457763,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/153C98536FE07BEA.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_153c98536fe07bea",
+      "title": "北大门航拍",
+      "face": "r",
+      "sha256": "eedf83a622916e43802edd5ffc7026d0ded2d31682856aff3f48bb1ae228c6a9",
+      "bytes": 442031,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/153C98536FE07BEA.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_153c98536fe07bea",
+      "title": "北大门航拍",
+      "face": "u",
+      "sha256": "0303cb27469d368161423df88f5bc5327561776923a58753d699296ee0d29322",
+      "bytes": 152807,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/153C98536FE07BEA.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_153c98536fe07bea",
+      "title": "北大门航拍",
+      "face": "d",
+      "sha256": "74c04cb499348bd39190712e15cac35efafa210fdab5bc920af7768bb92f8e45",
+      "bytes": 635533,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/153C98536FE07BEA.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_c5fd9763ca141592",
+      "title": "图书馆航拍",
+      "face": "f",
+      "sha256": "3d328caf6f8f91be7d1eeced2b694ee6129a4d394647963dee80d80a291cd2be",
+      "bytes": 373412,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/C5FD9763CA141592.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_c5fd9763ca141592",
+      "title": "图书馆航拍",
+      "face": "b",
+      "sha256": "04559e9d065c911fca14621d5c74fd15a9ab9117842c969457291b7084fcc8f5",
+      "bytes": 373649,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/C5FD9763CA141592.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_c5fd9763ca141592",
+      "title": "图书馆航拍",
+      "face": "l",
+      "sha256": "cd2630f6c248779c6765a642f6e0d57a4a1bae55df75d722955a9ef851cd204c",
+      "bytes": 373529,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/C5FD9763CA141592.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_c5fd9763ca141592",
+      "title": "图书馆航拍",
+      "face": "r",
+      "sha256": "581e287fc1065a61ff9b4733baa9ba78e56c67e2e2b3422200253e6d4cd61ebd",
+      "bytes": 380752,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/C5FD9763CA141592.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_c5fd9763ca141592",
+      "title": "图书馆航拍",
+      "face": "u",
+      "sha256": "4cec8da5dd9148138a3066d3ab789abfb28947032c978afe37907de5478a9e02",
+      "bytes": 149629,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/C5FD9763CA141592.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_c5fd9763ca141592",
+      "title": "图书馆航拍",
+      "face": "d",
+      "sha256": "7a205ae3aa4b3559f03b1be8e354bd360d0138c942bf852f9c6cb519aa2cf7ff",
+      "bytes": 350944,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/C5FD9763CA141592.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_7c605a34773a3496",
+      "title": "体育场航拍",
+      "face": "f",
+      "sha256": "7dc2fb39057dc8335ea7bfb6978a67689b010bb3ec7933ff43e01b79ecfe81b2",
+      "bytes": 297398,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/7C605A34773A3496.tiles/vr/pano_f.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_7c605a34773a3496",
+      "title": "体育场航拍",
+      "face": "b",
+      "sha256": "d9ea07736de39dcacd4e49413493e0941dfe6b9afad4498d036c0166fc60ea5e",
+      "bytes": 303089,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/7C605A34773A3496.tiles/vr/pano_b.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_7c605a34773a3496",
+      "title": "体育场航拍",
+      "face": "l",
+      "sha256": "8e3207556b7e9758b4dd36850e1ed79f32f3038fc19adbd7a187deca947a8b9b",
+      "bytes": 307327,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/7C605A34773A3496.tiles/vr/pano_l.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_7c605a34773a3496",
+      "title": "体育场航拍",
+      "face": "r",
+      "sha256": "e49254d96f0f69a835c273fb791b77d8877ea4e8a4735b326f81cfa3ec39d7e3",
+      "bytes": 371355,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/7C605A34773A3496.tiles/vr/pano_r.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_7c605a34773a3496",
+      "title": "体育场航拍",
+      "face": "u",
+      "sha256": "e4778fbafdec357b66476193364168db3a1145d41dcfcc76dd3cafeda64dc518",
+      "bytes": 149740,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/7C605A34773A3496.tiles/vr/pano_u.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    },
+    {
+      "capture_point": "scene_7c605a34773a3496",
+      "title": "体育场航拍",
+      "face": "d",
+      "sha256": "1f0a6e4b20d00b5ecf54ab934fb8d30b2a247cc0c516a31e91f874517c6ec037",
+      "bytes": 237829,
+      "format": "JPEG",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "existing_cache_alias": false,
+      "source_url": "https://l1.img2.ivrpano.com/panos/04211AF766DFDD3F/vtour/panos/7C605A34773A3496.tiles/vr/pano_d.jpg",
+      "role": "REFERENCE_OR_REQUESTED_DERIVATIVE_TEXTURE_INPUT_NOT_INDEPENDENT_CAMERA"
+    }
+  ]
+}

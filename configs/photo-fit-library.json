@@ -1,0 +1,223 @@
+{
+  "id": "library-photo-v1",
+  "building_id": 13,
+  "baseline_commit": "1eb034fa53aa5eeae372c9fddc3fa3e540def4a7",
+  "source_archive_sha256": "7f89044fe3cce9372e7baaafe88c94ad3f9c1635e3c8b018d0c960e00350fd5d",
+  "photo": "1000069959.jpg",
+  "source_sha256": "4b43bf8c50ff83a08e2effc9d0661952357af3c284505df26dbf1dd37f21b105",
+  "source_dimensions": [
+    1000,
+    450
+  ],
+  "source_permission": "USER_REQUESTED_PHOTO_DERIVED_GAME_TEXTURES; ORIGINAL_PHOTOS_REMAIN_PRIVATE",
+  "building_match": "LIBRARY_SIGN_AND_CURVED_FACADE_CONFIRMED",
+  "calibration": "AI_SELECTED_CLEAN_COMPONENT_CORNERS_PLUS_AUTOMATIC_PLANAR_HOMOGRAPHY_NOT_SURVEY_CAMERA_CALIBRATION",
+  "window_quads": [
+    [
+      [
+        597,
+        48
+      ],
+      [
+        642,
+        41
+      ],
+      [
+        642,
+        82
+      ],
+      [
+        594,
+        89
+      ]
+    ],
+    [
+      [
+        665,
+        39
+      ],
+      [
+        706,
+        33
+      ],
+      [
+        706,
+        74
+      ],
+      [
+        663,
+        81
+      ]
+    ],
+    [
+      [
+        727,
+        29
+      ],
+      [
+        767,
+        23
+      ],
+      [
+        767,
+        67
+      ],
+      [
+        726,
+        73
+      ]
+    ],
+    [
+      [
+        786,
+        20
+      ],
+      [
+        827,
+        13
+      ],
+      [
+        827,
+        58
+      ],
+      [
+        786,
+        65
+      ]
+    ]
+  ],
+  "wall_quad": [
+    [
+      670,
+      86
+    ],
+    [
+      707,
+      81
+    ],
+    [
+      707,
+      108
+    ],
+    [
+      669,
+      113
+    ]
+  ],
+  "wall_repeat_m": [
+    1.5,
+    1.0
+  ],
+  "floor_height_m": 3.9,
+  "window_width_m": 1.9,
+  "window_height_m": 1.85,
+  "window_sill_m": 1.0,
+  "bay_pitch_m": 6.2,
+  "subwindows_per_bay": 2,
+  "front_only": true,
+  "regular_front_rows": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "keep_existing": [
+    "footprints",
+    "collisions",
+    "door_height",
+    "steps",
+    "roof",
+    "back_facade",
+    "character",
+    "mobile_balanced_profile"
+  ],
+  "campaigns": {
+    "pilot": {
+      "bays": [
+        5
+      ],
+      "rows": [
+        2
+      ]
+    },
+    "small": {
+      "bays": [
+        4,
+        5,
+        6
+      ],
+      "rows": [
+        2,
+        3
+      ]
+    },
+    "front": {
+      "bays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "rows": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  "budget": {
+    "maximum_added_triangles": 2000,
+    "maximum_texture_edge": 512,
+    "maximum_added_texture_bytes": 524288
+  },
+  "limitations": [
+    "Source is a 1000x450 screenshot, not a high-resolution camera original",
+    "Repeated window modules do not prove exact whole-facade window correspondence",
+    "Window reflections and recess shading retain some photographed lighting",
+    "Unseen walls are not newly reconstructed"
+  ],
+  "panorama_pool": "reports/panorama-photo-pool.json",
+  "paving": {
+    "scene": "scene_ef8a1b1d35eefd7f",
+    "face": "d",
+    "source_sha256": "a4b0f80cf38d1da13f632fe896b670e3413f31e0da34c4b8b33843bf6f68d355",
+    "quad": [
+      [
+        430,
+        445
+      ],
+      [
+        765,
+        220
+      ],
+      [
+        965,
+        520
+      ],
+      [
+        630,
+        745
+      ]
+    ],
+    "repeat_m": [
+      0.9,
+      0.6
+    ],
+    "status": "PHOTO_COMPONENT_FROM_USER_LINKED_VR; DIMENSIONS_ESTIMATED; SOURCE_LICENSE_NOT_INDEPENDENTLY_VERIFIED"
+  }
+}
