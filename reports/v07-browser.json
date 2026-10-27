@@ -1,0 +1,505 @@
+{
+  "passed": true,
+  "scope": "Actual Chromium software WebGL2 with touch emulation; not physical Android performance or China network verification.",
+  "sourceHashes": {
+    "game/game.js": "7e84c09b6c9b8e8b13ac3b7301b77a236a1e7fb5e95a95999a7ffe77ce395157",
+    "game/render-quality.js": "3a5ab7e532284d3e815675c8056047c30b47d17d89c9225165a7f028c4129de7",
+    "game/quality-policy.js": "3af5aee155b445c09253f0768670fa2d2854c419592d3d32d1d11536f64a83a4",
+    "game/streaming.js": "0fe63474ecdff9f434f10861d6db598773b144afefc8c81c92c8d4352127f8b5",
+    "game/texture-quality.js": "d7dfeb5919c2b81c3ae9526963742bbe0a02bd48157ac6478a1d60a4362c7a47",
+    "game/simulation.js": "e7b341779e8f39782726b3625502c4b3669c5319d3c5f48064d3c12b398a9c7a",
+    "game/water.js": "1ca6f6b487f10945172615aeac1a7bdcac2a68c32e750496a4d1c56438237ae3",
+    "game/diagnostics.js": "30376a827ab95a452949a1c9a550bbce6fb21716bef9d0a7ef06e6e3b2f4d4cd",
+    "game/performance-core.js": "1850344d2a7c31d8cadf89b27aab50e674449fae2f086d56626462509156727a",
+    "game/dist/game.js": "eed398bf62aa069a0549772b356d101a782d697dcebcfc590bf7cd7ba7a938e1",
+    "game/dist/index.html": "4f50902137500be39a21e8117d0937a88f668a08bf0aa46a6205e56e4d03c70e",
+    "game/dist/sw.js": "aec34263d5d91808c20ffb057a96180bdb60e134127bed9308037ee5c6c5f435",
+    "game/dist/assets/campus.glb": "8136ffbdeaa44b91d9861abac6a178453ad3312d34a0293e9c1a66f2bc4305b4",
+    "game/dist/assets/world.json": "97ac8900005e4db9681f267c799716697c1729b3264fae89dd20e44bc7b79297",
+    "game/dist/assets/v06-config.json": "b60f4607609be76a2cf4c0e7dd71e2b1b3c0a836eef49c219b908806e82702f9",
+    "game/dist/assets/zones.json": "bea77246cfe1378fe962e887846d196fc7ae6efa03fd8e7947bcc6181ef9b0ee",
+    "game/dist/assets/zones/b01.glb": "7b1b6fd7249c5db3c122a75fe3885baf4404663e4993344e13433fae8f16fb59",
+    "game/dist/assets/zones/b02.glb": "66f39d2cdf1876950447f293613ff120e58bc5e7e47fb485b08bcc3cf473b49a",
+    "game/dist/assets/zones/b03.glb": "b0aae5bfafa460b8d6c50a639a917005d13bb6ed725b39c9838a4c8895e04a3e",
+    "game/dist/assets/zones/b04.glb": "fe4abc33c6800712e60108f20f46c66de8cf7bdffb4b398c47e683a308e684c5",
+    "game/dist/assets/zones/b05.glb": "15fee2154209eb743ef93cd590cf22840850d69b232a6affbe382101f9c2cab3",
+    "game/dist/assets/zones/b06.glb": "b4186aa47471327a2e5921c7db7935aefed0c1d647b847c468d3a660de311f5d",
+    "game/dist/assets/zones/b07.glb": "c8ffe020edea72dad83a3fa5bd78668d93b50329476528a70a627b3966c79ff9",
+    "game/dist/assets/zones/b08.glb": "a5904094be098cedaa50e034ea1f711269145a478980b0271ce95132acc02682",
+    "game/dist/assets/zones/b09.glb": "1245c1422b9f107080767c2478218bebc998d98650bfdceab5d56b60e800a201",
+    "game/dist/assets/zones/b10.glb": "bd01cfeaef0c5a52e3fa726a1373026527687c62383d244c164227652406f534",
+    "game/dist/assets/zones/b11.glb": "bf07b09e72da15b47d0a349d70411983cc8e26d5681bafbea1deabb2c5ddc26d",
+    "game/dist/assets/zones/b12.glb": "34af9b399574ac94068ca4bb3b99bd12f3da0a5301afc2c2087f77d71e4f329e",
+    "game/dist/assets/zones/b13.glb": "9d4029c83dcd5b8aa3c35cd9f9dee026c5be6cd0b83d15ad76cdbb9fccd72ca7",
+    "game/dist/assets/zones/b14.glb": "f89134ad53b6b80853ffeeed94bbc0cae0ca7d99c4a2356b15c5cdd9bd454bf9",
+    "game/dist/assets/zones/b15.glb": "703603ddf00820f7bf0b8a54c39454f626b44248b0962182050b9d88417224a5",
+    "game/dist/assets/zones/b16.glb": "cc218300f699edb623390d10c215734ddb06d6d8b2f45b93907a92e8715289c2",
+    "game/dist/assets/zones/b17.glb": "fdfca1bfc9f29a1ec05f4cb2c7a87fd99836f8bd823f24a02cebe9389b3da371",
+    "game/dist/assets/zones/b18.glb": "49366858e68034f4b9d5b0da071e98fafe0843b5723ad9c246c84d5fd7018d91",
+    "game/dist/assets/zones/b19.glb": "c0483532a1ee9b93a6fae79810b519f5cfd86d15cf7be24c16e5dda1c6f879e9",
+    "game/dist/assets/zones/b20.glb": "94f40b838631b4ebdca1d348ca781e5507d6b9ad790179f73a404de18c1530ce"
+  },
+  "defaults": {
+    "quality": "balanced",
+    "renderScale": 1,
+    "actualCanvas": [
+      915,
+      412
+    ],
+    "viewport": [
+      915,
+      412
+    ],
+    "shadowMapSize": 1024,
+    "localShadows": true,
+    "effects": {
+      "ssao": false,
+      "bloom": false,
+      "pcss": false,
+      "fog": false,
+      "active": true
+    },
+    "config": {
+      "version": "0.7",
+      "engine": "PlayCanvas 2.23.3",
+      "floorHeightMeters": 3.9,
+      "scale": "METRES; OSM XY and documented/estimated floors, not a survey certificate",
+      "renderer": {
+        "priority": [
+          "webgpu",
+          "webgl2"
+        ],
+        "minimumRenderScale": 0.75,
+        "maximumRenderScale": 1.5,
+        "actualSupersampling": "Fixed drawing-buffer resolution; independent of devicePixelRatio",
+        "defaultRenderScale": 1,
+        "profileSource": "game/quality-policy.js",
+        "phoneFrameCapTarget": 30
+      },
+      "shadows": {
+        "mapSize": 1024,
+        "cascades": 1,
+        "filter": "PCF3",
+        "pcssOptional": true,
+        "highQuality": "2048 / 2 cascades / PCF5"
+      },
+      "antialias": {
+        "type": "TAA",
+        "sharpness": 0.22,
+        "history": "neighborhood clamp, motion-adaptive blend, camera-cut/resize resets, character and water reactive regions"
+      },
+      "environment": {
+        "hdrSky": "self-authored analytical HDR",
+        "ibl": true,
+        "volumetricFogOptional": true
+      },
+      "water": {
+        "physicalModes": [
+          "wading",
+          "swimming"
+        ],
+        "buoyancyAndDrag": true,
+        "depth": "ESTIMATED_NOT_MEASURED",
+        "refraction": "HIGH_AND_ULTRA_ONLY",
+        "localHdrCubemaps": true,
+        "reflectionRefresh": "HIGH_AND_ULTRA_ONLY; nearby and budgeted"
+      },
+      "pbr": {
+        "authoredSourceSize": 4096,
+        "embeddedRuntimeSize": 1024,
+        "optionalRuntimeSize": 2048,
+        "gpuCompression": "NOT_IMPLEMENTED; PNG file compression and mipmaps only",
+        "transferCompression": "LOSSLESS_WEBP_DETAIL_NORMAL; embedded GLB maps remain PNG"
+      },
+      "ao": {
+        "baked": "Existing actual 2048px Cycles 6m near-field AO retained; static directional shadows reprojected for v0.7 height. New local facade details are not a full GI bake.",
+        "ssaoScale": 0.5
+      },
+      "streaming": {
+        "zones": 20,
+        "nearDetails": 140,
+        "unloadDetails": 195,
+        "coarseMappedBodiesRemainVisible": true,
+        "defaultMaximumResidentZones": 6
+      }
+    },
+    "features": {
+      "taa": true,
+      "reactiveCharacterAndWater": true,
+      "historyResets": 2,
+      "currentHistoryReset": false,
+      "sharpness": 0.22,
+      "hdr": true,
+      "ssaoScale": 0.5,
+      "colorGrading": true,
+      "volumetricFog": false,
+      "shadowMapSize": 1024,
+      "cascades": 1,
+      "shadowType": 0
+    },
+    "environment": {
+      "hdr": true,
+      "format": "RGBA16F",
+      "maximumRadiance": 11.481604937987225,
+      "ibl": true,
+      "atlasSize": 128,
+      "source": "SELF_AUTHORED_ANALYTIC_SKY_NOT_A_PHOTO_OF_THE_SCHOOL",
+      "publicHdriAttempt": "Poly Haven API returned 403; no retry or bypass"
+    },
+    "streaming": {
+      "zones": 20,
+      "loaded": [
+        13,
+        14,
+        18,
+        19
+      ],
+      "loading": 0,
+      "failed": [],
+      "disposed": 0,
+      "maxZones": 6,
+      "loadDistance": 140,
+      "coarseFallbackAlwaysVisible": true,
+      "position": {
+        "x": 31.999998092651367,
+        "y": 0.1850985503196716,
+        "z": 78
+      }
+    },
+    "textures": {
+      "limit": 1024,
+      "trackedTextures": 52,
+      "resizes": 10,
+      "detailStatus": "loaded",
+      "unsupportedSources": 0,
+      "transferCompression": "LOSSLESS_WEBP",
+      "gpuBlockCompression": false
+    }
+  },
+  "comparison": {
+    "quality": "high",
+    "renderScale": 1.25,
+    "actualCanvas": [
+      1144,
+      515
+    ],
+    "viewport": [
+      915,
+      412
+    ],
+    "shadowMapSize": 2048,
+    "localShadows": true,
+    "effects": {
+      "ssao": false,
+      "bloom": false,
+      "pcss": false,
+      "fog": false,
+      "active": true
+    },
+    "config": {
+      "version": "0.7",
+      "engine": "PlayCanvas 2.23.3",
+      "floorHeightMeters": 3.9,
+      "scale": "METRES; OSM XY and documented/estimated floors, not a survey certificate",
+      "renderer": {
+        "priority": [
+          "webgpu",
+          "webgl2"
+        ],
+        "minimumRenderScale": 0.75,
+        "maximumRenderScale": 1.5,
+        "actualSupersampling": "Fixed drawing-buffer resolution; independent of devicePixelRatio",
+        "defaultRenderScale": 1,
+        "profileSource": "game/quality-policy.js",
+        "phoneFrameCapTarget": 30
+      },
+      "shadows": {
+        "mapSize": 1024,
+        "cascades": 1,
+        "filter": "PCF3",
+        "pcssOptional": true,
+        "highQuality": "2048 / 2 cascades / PCF5"
+      },
+      "antialias": {
+        "type": "TAA",
+        "sharpness": 0.22,
+        "history": "neighborhood clamp, motion-adaptive blend, camera-cut/resize resets, character and water reactive regions"
+      },
+      "environment": {
+        "hdrSky": "self-authored analytical HDR",
+        "ibl": true,
+        "volumetricFogOptional": true
+      },
+      "water": {
+        "physicalModes": [
+          "wading",
+          "swimming"
+        ],
+        "buoyancyAndDrag": true,
+        "depth": "ESTIMATED_NOT_MEASURED",
+        "refraction": "HIGH_AND_ULTRA_ONLY",
+        "localHdrCubemaps": true,
+        "reflectionRefresh": "HIGH_AND_ULTRA_ONLY; nearby and budgeted"
+      },
+      "pbr": {
+        "authoredSourceSize": 4096,
+        "embeddedRuntimeSize": 1024,
+        "optionalRuntimeSize": 2048,
+        "gpuCompression": "NOT_IMPLEMENTED; PNG file compression and mipmaps only",
+        "transferCompression": "LOSSLESS_WEBP_DETAIL_NORMAL; embedded GLB maps remain PNG"
+      },
+      "ao": {
+        "baked": "Existing actual 2048px Cycles 6m near-field AO retained; static directional shadows reprojected for v0.7 height. New local facade details are not a full GI bake.",
+        "ssaoScale": 0.5
+      },
+      "streaming": {
+        "zones": 20,
+        "nearDetails": 140,
+        "unloadDetails": 195,
+        "coarseMappedBodiesRemainVisible": true,
+        "defaultMaximumResidentZones": 6
+      }
+    },
+    "features": {
+      "taa": true,
+      "reactiveCharacterAndWater": true,
+      "historyResets": 9,
+      "currentHistoryReset": true,
+      "sharpness": 0.22,
+      "hdr": true,
+      "ssaoScale": 0.5,
+      "colorGrading": true,
+      "volumetricFog": false,
+      "shadowMapSize": 2048,
+      "cascades": 2,
+      "shadowType": 4
+    },
+    "environment": {
+      "hdr": true,
+      "format": "RGBA16F",
+      "maximumRadiance": 11.481604937987225,
+      "ibl": true,
+      "atlasSize": 128,
+      "source": "SELF_AUTHORED_ANALYTIC_SKY_NOT_A_PHOTO_OF_THE_SCHOOL",
+      "publicHdriAttempt": "Poly Haven API returned 403; no retry or bypass"
+    },
+    "streaming": {
+      "zones": 20,
+      "loaded": [
+        13,
+        14,
+        18,
+        19
+      ],
+      "loading": 2,
+      "failed": [],
+      "disposed": 0,
+      "maxZones": 10,
+      "loadDistance": 170,
+      "coarseFallbackAlwaysVisible": true,
+      "position": {
+        "x": 31.999998092651367,
+        "y": 0.1850985503196716,
+        "z": 78
+      }
+    },
+    "textures": {
+      "limit": 2048,
+      "trackedTextures": 52,
+      "resizes": 20,
+      "detailStatus": "loaded",
+      "unsupportedSources": 0,
+      "transferCompression": "LOSSLESS_WEBP",
+      "gpuBlockCompression": false
+    }
+  },
+  "comparisonCamera": {
+    "eye": [
+      35,
+      13,
+      85
+    ],
+    "look": [
+      -25,
+      14,
+      0
+    ],
+    "viewport": [
+      915,
+      412
+    ],
+    "beforeImage": "docs/images/v06-library.png",
+    "afterImage": "docs/images/v07-library-comparison.png",
+    "note": "Same game camera and viewport; height rule changed. Reference photo camera calibration is unknown."
+  },
+  "touch": {
+    "distance": 5.122931996484913,
+    "animation": "Run",
+    "cameraChanged": true
+  },
+  "placeInfo": "模型索引 B13。主体高 35.1 米（9层×3.9米规则）；地图轮廓长约 82.4 米、宽约 80.4 米。楼层数及平面尺寸尚未实测，屋顶构件另计，室内尚未开放。",
+  "deviceReport": {
+    "schemaVersion": 1,
+    "buildId": "campus-v07-20261027-1",
+    "createdUtc": "2026-10-27T03:41:05.880Z",
+    "status": "completed",
+    "reason": "",
+    "environment": {
+      "secureContext": true,
+      "webgpuApiAvailable": true,
+      "actualRenderer": "webgl2",
+      "requestedRenderer": "webgl2",
+      "adapter": null,
+      "adapterBoundToDevice": false,
+      "adapterEvidenceSource": "SEPARATE_CAPABILITY_PROBE_ONLY",
+      "adapterProbeFinished": true,
+      "adapterProbeError": "未取得可用适配器，或检测超过4秒。",
+      "webglRenderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+      "webglVendor": "Google Inc. (Google)",
+      "platform": "Linux",
+      "android": false,
+      "browser": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "deviceYear": "UNKNOWN_NOT_EXPOSED_BY_BROWSER",
+      "deviceLost": false
+    },
+    "settings": {
+      "version": "0.7",
+      "quality": "low",
+      "renderScale": 0.85,
+      "viewport": [
+        915,
+        412
+      ],
+      "canvas": [
+        778,
+        350
+      ],
+      "devicePixelRatio": 1,
+      "shadows": true,
+      "shadowMapSize": 1024,
+      "effects": {
+        "ssao": false,
+        "bloom": false,
+        "pcss": false,
+        "fog": false
+      },
+      "speedMultiplier": 5,
+      "antiAlias": {
+        "taa": true,
+        "reactiveCharacterAndWater": true,
+        "historyResets": 30,
+        "currentHistoryReset": true,
+        "sharpness": 0.22,
+        "hdr": true,
+        "ssaoScale": 0.5,
+        "colorGrading": true,
+        "volumetricFog": false,
+        "shadowMapSize": 1024,
+        "cascades": 1,
+        "shadowType": 0
+      }
+    },
+    "routeVersion": "fixed-campus-route-v1",
+    "expectedStages": 4,
+    "warmupMs": 5000,
+    "stageMs": 10000,
+    "stages": [
+      {
+        "id": "library",
+        "name": "图书馆广场",
+        "metrics": {
+          "frames": 9,
+          "sampledMs": 8298,
+          "averageFps": 1.08,
+          "p95FrameMs": 1012,
+          "p99FrameMs": 1012,
+          "onePercentLowFps": 0.99,
+          "over50msPercent": 100
+        }
+      },
+      {
+        "id": "road",
+        "name": "校园道路与楼群",
+        "metrics": {
+          "frames": 10,
+          "sampledMs": 8168,
+          "averageFps": 1.22,
+          "p95FrameMs": 898.6,
+          "p99FrameMs": 898.6,
+          "onePercentLowFps": 1.11,
+          "over50msPercent": 100
+        }
+      },
+      {
+        "id": "water",
+        "name": "湖面与岸边",
+        "metrics": {
+          "frames": 13,
+          "sampledMs": 8376,
+          "averageFps": 1.55,
+          "p95FrameMs": 929.8,
+          "p99FrameMs": 929.8,
+          "onePercentLowFps": 1.08,
+          "over50msPercent": 100
+        }
+      },
+      {
+        "id": "stadium",
+        "name": "操场与远景",
+        "metrics": {
+          "frames": 11,
+          "sampledMs": 8160,
+          "averageFps": 1.35,
+          "p95FrameMs": 885.8,
+          "p99FrameMs": 885.8,
+          "onePercentLowFps": 1.13,
+          "over50msPercent": 100
+        }
+      }
+    ],
+    "errors": [],
+    "privacy": "Local only. No report is uploaded automatically.",
+    "measurement": "Real postrender-to-postrender wall time; CPU, GPU, browser and display combined. No isolated GPU timestamp claims.",
+    "assessment": {
+      "webgpuActive": false,
+      "softwareDetected": true,
+      "hardwareAdapterEvidence": false,
+      "status": "WEBGL2_FALLBACK",
+      "complete": false,
+      "performancePass": false,
+      "webgpuPerformancePass": false,
+      "target": {
+        "averageFps": 30,
+        "p95FrameMsMaximum": 50,
+        "scope": "Fixed camera route at recorded resolution/quality; excludes battery, thermals and extended play."
+      },
+      "notes": [
+        "采样未完成或帧数不足，不能作为性能通过依据。",
+        "当前实际使用 WebGL 2，不能记为 WebGPU 验收通过。",
+        "检测到软件适配器，不能代表手机硬件性能。",
+        "本报告来自当前浏览器自检，不证明设备出厂年份，也不替代长时间真机游玩。"
+      ]
+    }
+  },
+  "detectorSettingsRestored": true,
+  "detectorExportPassed": true,
+  "offlineFallback": {
+    "zones": 20,
+    "loaded": [],
+    "loading": 0,
+    "failed": [],
+    "disposed": 0,
+    "maxZones": 6,
+    "loadDistance": 140,
+    "coarseFallbackAlwaysVisible": true,
+    "position": {
+      "x": 31.999998092651367,
+      "y": 0.1850985503196716,
+      "z": 78
+    }
+  },
+  "allRequestsSameOrigin": true,
+  "externalRequests": [],
+  "errors": [],
+  "consoleErrors": []
+}

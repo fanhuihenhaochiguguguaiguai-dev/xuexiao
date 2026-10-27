@@ -1,5 +1,5 @@
 {
-  "revision": "landscape-library-v2",
+  "revision": "0.7",
   "campus": "Photo-guided local refinement; dimensions remain estimated.",
   "character": "Independent skinned clothing; approximate face/hair.",
   "source_panorama_date": "2017-08-11",
@@ -25,9 +25,14 @@
       "sha256": "8ade558c05d3a4602bc2d49503d81729ba4cbe98e26bedd8ce374832f05dd319"
     },
     {
+      "path": "benchmark-route.json",
+      "bytes": 535,
+      "sha256": "6c972fd9ad30619eafd47fcb6eb510bb4976e8a6a33c1c5387649bb29c9e2fda"
+    },
+    {
       "path": "campus.glb",
-      "bytes": 3096868,
-      "sha256": "7467ace5e66154394bfe439dd35f1c591f6d95180020898e990acbcb4a3c8c20"
+      "bytes": 5448316,
+      "sha256": "8136ffbdeaa44b91d9861abac6a178453ad3312d34a0293e9c1a66f2bc4305b4"
     },
     {
       "path": "character-base-CC0.txt",
@@ -36,8 +41,8 @@
     },
     {
       "path": "character.glb",
-      "bytes": 1677032,
-      "sha256": "2bb2cab82f1688c5fcb24fbe90b6c0c91e8d149e8ee6e57336ea62bd9a87069f"
+      "bytes": 1715344,
+      "sha256": "c9f8d3301c7d419227977be969398a76550c8a1684d87c2eb2ca4956aead7031"
     },
     {
       "path": "engine/glslang.js",
@@ -60,9 +65,194 @@
       "sha256": "a434c2decdbb38caadf5f486d806384a1543554828c983c77922b2d92579914c"
     },
     {
+      "path": "v05/Garden_pond_north-depth-color.png",
+      "bytes": 11903,
+      "sha256": "9a97713d4f8f9f01463787a4e8f7c6f20dc464b38386bdfd62aba476ebaa8ccf"
+    },
+    {
+      "path": "v05/Garden_pond_north-depth-foam.png",
+      "bytes": 13706,
+      "sha256": "f25ee9c42d649100f0340a37ea2f0ffa174501d0c02f4cbc327ad1dc4d8fa360"
+    },
+    {
+      "path": "v05/Garden_pond_south-depth-color.png",
+      "bytes": 4925,
+      "sha256": "16a293d8f4849ae6f3d4127ba319d4379b4a6cebc81f0ad60e5ab443fce8deef"
+    },
+    {
+      "path": "v05/Garden_pond_south-depth-foam.png",
+      "bytes": 11003,
+      "sha256": "6e3174a55c999c187230146b279fd82917cba432cdb59bd9810e42c1336e0879"
+    },
+    {
+      "path": "v05/Garden_pond_south_1-depth-color.png",
+      "bytes": 12070,
+      "sha256": "1690faacdabc9d565ef7dc32d87a5514204e8d5346b4e7643e2d366868991dcc"
+    },
+    {
+      "path": "v05/Garden_pond_south_1-depth-foam.png",
+      "bytes": 14609,
+      "sha256": "a6971b580ebf2555177b3acd5b3e2cb426056511c5c613eb7d5846cef435e555"
+    },
+    {
+      "path": "v05/ao-bake.json",
+      "bytes": 501,
+      "sha256": "4f6464205968e3daef596257463324a984945536f8561bbb472bcb218503ee09"
+    },
+    {
+      "path": "v05/facade-cell-ao.png",
+      "bytes": 36625,
+      "sha256": "2e589738d3e6f6d07aa11be495ff396701126ecebf47e742f0b262ed875483ab"
+    },
+    {
+      "path": "v05/ground-ao.png",
+      "bytes": 31240,
+      "sha256": "8f30839d4778aa0fa3cdf47b57955b6d1a29886382482d42120d11d0bd39c400"
+    },
+    {
+      "path": "v05/ground-occlusion.png",
+      "bytes": 309232,
+      "sha256": "70725c2d87386433cb25bf5a8ef5579c925e77eea57c5a54c8a29b075eda03dc"
+    },
+    {
+      "path": "v05/ground-static-shadow.png",
+      "bytes": 119015,
+      "sha256": "775de5bd62184f76390f5e9a073de533e1e9c6941379601e2286a7bdcd1bd574"
+    },
+    {
+      "path": "v05/lighting-water.json",
+      "bytes": 1759,
+      "sha256": "e5e32a983dea53535cfc1330cb038c768ba1dd35849b13a118f1bcc46111b21a"
+    },
+    {
+      "path": "v05-config.json",
+      "bytes": 936,
+      "sha256": "af4cf16f58d958f1f7503a59951aec94161fd1c8030dcc9eaa67e97575da183e"
+    },
+    {
+      "path": "v06/stone-basecolor-2048.webp",
+      "bytes": 1129450,
+      "sha256": "b693415d8429eb31807661064ecaef38bc98a4ca12cdb274a9ce1ef66ae4d491"
+    },
+    {
+      "path": "v06/stone-normal-2048.webp",
+      "bytes": 2726758,
+      "sha256": "5ccf499e8771de2308123693372c8b9a2da37c527b00cc2eda683048f3c2b2b6"
+    },
+    {
+      "path": "v06-config.json",
+      "bytes": 1928,
+      "sha256": "b60f4607609be76a2cf4c0e7dd71e2b1b3c0a836eef49c219b908806e82702f9"
+    },
+    {
       "path": "world.json",
-      "bytes": 506701,
-      "sha256": "2f812bcdcef4e8478ddb8e5c38511a72a1c032d5b77139dffbb7662dfc2f67b9"
+      "bytes": 661076,
+      "sha256": "97ac8900005e4db9681f267c799716697c1729b3264fae89dd20e44bc7b79297"
+    },
+    {
+      "path": "zones/b01.glb",
+      "bytes": 12572,
+      "sha256": "7b1b6fd7249c5db3c122a75fe3885baf4404663e4993344e13433fae8f16fb59"
+    },
+    {
+      "path": "zones/b02.glb",
+      "bytes": 12572,
+      "sha256": "66f39d2cdf1876950447f293613ff120e58bc5e7e47fb485b08bcc3cf473b49a"
+    },
+    {
+      "path": "zones/b03.glb",
+      "bytes": 12724,
+      "sha256": "b0aae5bfafa460b8d6c50a639a917005d13bb6ed725b39c9838a4c8895e04a3e"
+    },
+    {
+      "path": "zones/b04.glb",
+      "bytes": 12408,
+      "sha256": "fe4abc33c6800712e60108f20f46c66de8cf7bdffb4b398c47e683a308e684c5"
+    },
+    {
+      "path": "zones/b05.glb",
+      "bytes": 21856,
+      "sha256": "15fee2154209eb743ef93cd590cf22840850d69b232a6affbe382101f9c2cab3"
+    },
+    {
+      "path": "zones/b06.glb",
+      "bytes": 22016,
+      "sha256": "b4186aa47471327a2e5921c7db7935aefed0c1d647b847c468d3a660de311f5d"
+    },
+    {
+      "path": "zones/b07.glb",
+      "bytes": 21852,
+      "sha256": "c8ffe020edea72dad83a3fa5bd78668d93b50329476528a70a627b3966c79ff9"
+    },
+    {
+      "path": "zones/b08.glb",
+      "bytes": 21848,
+      "sha256": "a5904094be098cedaa50e034ea1f711269145a478980b0271ce95132acc02682"
+    },
+    {
+      "path": "zones/b09.glb",
+      "bytes": 22240,
+      "sha256": "1245c1422b9f107080767c2478218bebc998d98650bfdceab5d56b60e800a201"
+    },
+    {
+      "path": "zones/b10.glb",
+      "bytes": 21412,
+      "sha256": "bd01cfeaef0c5a52e3fa726a1373026527687c62383d244c164227652406f534"
+    },
+    {
+      "path": "zones/b11.glb",
+      "bytes": 21316,
+      "sha256": "bf07b09e72da15b47d0a349d70411983cc8e26d5681bafbea1deabb2c5ddc26d"
+    },
+    {
+      "path": "zones/b12.glb",
+      "bytes": 57636,
+      "sha256": "34af9b399574ac94068ca4bb3b99bd12f3da0a5301afc2c2087f77d71e4f329e"
+    },
+    {
+      "path": "zones/b13.glb",
+      "bytes": 1754964,
+      "sha256": "9d4029c83dcd5b8aa3c35cd9f9dee026c5be6cd0b83d15ad76cdbb9fccd72ca7"
+    },
+    {
+      "path": "zones/b14.glb",
+      "bytes": 22080,
+      "sha256": "f89134ad53b6b80853ffeeed94bbc0cae0ca7d99c4a2356b15c5cdd9bd454bf9"
+    },
+    {
+      "path": "zones/b15.glb",
+      "bytes": 1817744,
+      "sha256": "703603ddf00820f7bf0b8a54c39454f626b44248b0962182050b9d88417224a5"
+    },
+    {
+      "path": "zones/b16.glb",
+      "bytes": 1817732,
+      "sha256": "cc218300f699edb623390d10c215734ddb06d6d8b2f45b93907a92e8715289c2"
+    },
+    {
+      "path": "zones/b17.glb",
+      "bytes": 1817732,
+      "sha256": "fdfca1bfc9f29a1ec05f4cb2c7a87fd99836f8bd823f24a02cebe9389b3da371"
+    },
+    {
+      "path": "zones/b18.glb",
+      "bytes": 1817904,
+      "sha256": "49366858e68034f4b9d5b0da071e98fafe0843b5723ad9c246c84d5fd7018d91"
+    },
+    {
+      "path": "zones/b19.glb",
+      "bytes": 1817888,
+      "sha256": "c0483532a1ee9b93a6fae79810b519f5cfd86d15cf7be24c16e5dda1c6f879e9"
+    },
+    {
+      "path": "zones/b20.glb",
+      "bytes": 1452552,
+      "sha256": "94f40b838631b4ebdca1d348ca781e5507d6b9ad790179f73a404de18c1530ce"
+    },
+    {
+      "path": "zones.json",
+      "bytes": 4958,
+      "sha256": "bea77246cfe1378fe962e887846d196fc7ae6efa03fd8e7947bcc6181ef9b0ee"
     }
   ]
 }

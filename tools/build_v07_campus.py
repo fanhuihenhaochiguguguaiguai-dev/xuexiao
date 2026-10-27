@@ -56,15 +56,23 @@ if 13 in policy:
             if a[0]<=x<=b[0]:return a[1]+(b[1]-a[1])*(x-a[0])/(b[0]-a[0])
         return profile[0][1] if x<profile[0][0] else profile[-1][1]
     def point(x,d,z):return u*x+v*(front(x)-d)+Vector((0,0,z))
+    def strip(parts,a,b,d0,d1,z0,z1,mat):
+        # Follow each piece of the curved footprint instead of placing straight
+        # beams across the curve (which creates unintended projecting wedges).
+        cuts=[a,*[x for x,_ in profile if a<x<b],b]
+        for left,right in zip(cuts,cuts[1:]):
+            k=len(parts.v);parts.v.extend([tuple(point(x,d,z)) for z in [z0,z1] for x,d in [(left,d1),(right,d1),(right,d0),(left,d0)]])
+            if mat not in parts.m:parts.m.append(mat)
+            for ids in [(0,3,2,1),(4,5,6,7),(0,1,5,4),(1,2,6,5),(2,3,7,6),(3,0,4,7)]:parts.f.append(tuple(k+i for i in ids));parts.mi.append(parts.m.index(mat))
     stone=bpy.data.materials['Library_photo_guided_stone'];metal=material('V07_library_handrail',(.48,.49,.45),.4,.5);leaf=material('V07_trimmed_shrubs',(.26,.35,.17),.92)
     relief=Parts();rails=Parts();planters=Parts();base=policy[13]['base'];height=policy[13]['new_height']
     # Concrete window returns and repeated ledges add depth in a single batch.
     for k in range(13):
-        x=uc-37.2+k*6.2;relief.box(point(x,.39,base+height/2),(.55,.55,height),stone,u,v)
+        x=uc-37.2+k*6.2;strip(relief,x-.275,x+.275,.115,.665,base,base+height,stone)
     for row in range(1,10):
         z=base+min(row*3.9,height)-.17
         for k in range(12):
-            x=uc-34.1+k*6.2;relief.box(point(x,.36,z),(5.7,.43,.28),stone,u,v)
+            x=uc-34.1+k*6.2;strip(relief,x-2.85,x+2.85,.145,.575,z-.14,z+.14,stone)
     relief.finish('V07_library_window_returns')
     for x in [uc-17,uc+17]:
         # Hollow planters retain a clear central door/step route.
@@ -107,7 +115,7 @@ for b in spec['buildings']:
 for ob in scene.objects:
     if ob.type=='MESH' and ob.get('collision_kind')=='PlanterOrRail':
         ob.data.calc_loop_triangles();extra_colliders.append({'name':ob.name,'kind':'Landscape','building':13,'vertices':[q for vert in ob.data.vertices for q in ((ob.matrix_world@vert.co).x,(ob.matrix_world@vert.co).z,-(ob.matrix_world@vert.co).y)],'indices':[i for tri in ob.data.loop_triangles for i in tri.vertices]})
-world=json.loads((OUT/'world.json').read_text());world['colliders'].extend(extra_colliders)
+world=json.loads((OUT/'world.json').read_text());generated_names={c['name'] for c in extra_colliders};world['colliders']=[c for c in world['colliders'] if c['name'] not in generated_names];world['colliders'].extend(extra_colliders)
 all_meshes=[o for o in scene.objects if o.type=='MESH'];report['triangles']=sum(len(p.vertices)-2 for ob in all_meshes for p in ob.data.polygons);report['triangle_increase_ratio']=report['triangles']/report['previous_triangles']-1
 assert report['triangle_increase_ratio']<.05,'Detail budget exceeded; do not expand this method'
 def export(path,objects):

@@ -126,7 +126,7 @@ function update(dt){
  meta.frames++;
  const now=performance.now(),profile=qualityProfile(quality);
  if(!startupReflections){
-  const targetFps=matchMedia('(pointer:coarse)').matches?profile.targetFps:60;
+  const targetFps=diagnostics.running?60:(matchMedia('(pointer:coarse)').matches?profile.targetFps:60);
   renderClock+=dt;if(renderClock>=1/targetFps-.0005){renderClock=Math.max(0,renderClock-1/targetFps);renderClock=Math.min(renderClock,1/targetFps);app.renderNextFrame=!document.hidden;}
  }
  if(now-fpsWindow>3500){
