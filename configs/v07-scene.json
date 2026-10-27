@@ -1,0 +1,39 @@
+{
+  "version": "0.7",
+  "floor_height_m": 3.9,
+  "height_source": "USER_RULE_NOT_SURVEY",
+  "xy_policy": "PRESERVE_EXISTING_FOOTPRINTS_AND_POSITIONS",
+  "apply_floor_rule_to": "BUILDING_STOREYS_ONLY_NOT_STEPS_RAILINGS_OR_STADIUM_TIERS",
+  "library": {
+    "building_id": 13,
+    "floor_count": 9,
+    "body_height_m": 35.1,
+    "door_height_m": 2.1,
+    "retain_validated_stairs": true,
+    "photo_ids": ["1000069957.jpg", "1000069959.jpg"],
+    "photo_match": "CONFIRMED_BY_LIBRARY_SIGN_CURVED_FACADE_AND_PLAZA"
+  },
+  "reuse": {
+    "strategy": "EXISTING_BODY_AND_FACADE_MODULES_WITH_PARAMETERIZED_STOREY_SPACING",
+    "preserve_footprints": true,
+    "unlocated_photos": "TYPE_REFERENCE_ONLY_NO_GUESSED_BUILDING_ID",
+    "dormitory_palette_reference": "1000069953.jpg",
+    "dormitory_status": "BUILDING_TYPE_MATCH_NOT_CONFIRMED_MAP_INDEX",
+    "do_not_clone": ["library", "stadium", "bridge"]
+  },
+  "photo_observations": {
+    "1000069943.jpg": "Low-rise cream small-tile facade, dark glazing, external air conditioners; exact building unlocated.",
+    "1000069948.jpg": "Sideways screenshot of low-rise entrance; unsuitable as calibrated photogrammetry input.",
+    "1000069949.jpg": "Sideways garden/building view; no reliable building identification.",
+    "1000069950.jpg": "Sideways tree-lined paving and entrance; no reliable building identification.",
+    "1000069951.jpg": "Service lane, cream tile walls, dark grey plinth and exposed pipes.",
+    "1000069952.jpg": "Dormitory courtyard and ground-floor storefronts; people must not become facade textures.",
+    "1000069953.jpg": "Long cream dormitory facade with muted terracotta frames, silver windows and wall-mounted air conditioners; map index unverified.",
+    "1000069954.jpg": "Curved cream/orange facade, deep ground-level canopy and shallow steps; building identity unverified.",
+    "1000069955.jpg": "Lake-side path, pale stone balustrade and traditional pavilion; precise placement unverified.",
+    "1000069956.jpg": "Dark timber pavilion, red-brown railing, multi-level eaves; location unverified, not added at an invented coordinate.",
+    "1000069957.jpg": "Confirmed library: warm small stone tiles, deep blue glazing, recessed vertical corner bays and projecting curved roof.",
+    "1000069958.jpg": "Plaza screen, orange/cream blocks with dark corner glazing and curved roof; specific map building not confirmed.",
+    "1000069959.jpg": "Confirmed library entrance: wide shallow stairs, continuous dark glazing, small metal handrails, low stone planters and gold lettering. Stair dimensions remain estimates."
+  }
+}

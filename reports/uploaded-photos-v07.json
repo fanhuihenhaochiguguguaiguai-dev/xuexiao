@@ -1,0 +1,180 @@
+{
+  "archive_name": "campus_photos_updated.zip",
+  "archive_sha256": "7f89044fe3cce9372e7baaafe88c94ad3f9c1635e3c8b018d0c960e00350fd5d",
+  "source": "USER_UPLOAD_2026_10_27",
+  "rights": "USER_PROVIDED_REFERENCE_ONLY_ORIGINALS_NOT_REDISTRIBUTED",
+  "photogrammetry_qualified": false,
+  "reason": "Sparse viewpoints/screenshots without calibrated overlap; no validated depth.",
+  "photos": [
+    {
+      "name": "1000069943.jpg",
+      "sha256": "ff07d673dbd0952c769cb6088aadfbdd95ffee637011a819b5474f10f39740af",
+      "bytes": 178441,
+      "format": "JPEG",
+      "dimensions": [
+        1000,
+        450
+      ],
+      "decoded": true,
+      "cache_hit": true,
+      "local_path": ".resource-cache/user-photos/7f89044fe3cce9372e7baaafe88c94ad3f9c1635e3c8b018d0c960e00350fd5d/1000069943.jpg"
+    },
+    {
+      "name": "1000069948.jpg",
+      "sha256": "29591779916b730dba007e2e591a750377aa66aaa3e7da8a111882cba7107ddf",
+      "bytes": 135383,
+      "format": "JPEG",
+      "dimensions": [
+        450,
+        1000
+      ],
+      "decoded": true,
+      "cache_hit": true,
+      "local_path": ".resource-cache/user-photos/7f89044fe3cce9372e7baaafe88c94ad3f9c1635e3c8b018d0c960e00350fd5d/1000069948.jpg"
+    },
+    {
+      "name": "1000069949.jpg",
+      "sha256": "afac81d5202f1dcb9fb05a90f09ae04ddd4428a3e1f9cbcfd2cdaa19e1a17b1d",
+      "bytes": 163200,
+      "format": "JPEG",
+      "dimensions": [
+        450,
+        1000
+      ],
+      "decoded": true,
+      "cache_hit": true,
+      "local_path": ".resource-cache/user-photos/7f89044fe3cce9372e7baaafe88c94ad3f9c1635e3c8b018d0c960e00350fd5d/1000069949.jpg"
+    },
+    {
+      "name": "1000069950.jpg",
+      "sha256": "c6fdb895c5012ba9f0caef6646ae739f61afdb7be236d8f0bf985334d63b0db1",
+      "bytes": 158704,
+      "format": "JPEG",
+      "dimensions": [
+        450,
+        1000
+      ],
+      "decoded": true,
+      "cache_hit": true,
+      "local_path": ".resource-cache/user-photos/7f89044fe3cce9372e7baaafe88c94ad3f9c1635e3c8b018d0c960e00350fd5d/1000069950.jpg"
+    },
+    {
+      "name": "1000069951.jpg",
+      "sha256": "0517ec51808fdb1bd01566be013aa7e8a035ad36ed4db226cd07bf87b7d95c4a",
+      "bytes": 143727,
+      "format": "JPEG",
+      "dimensions": [
+        1000,
+        450
+      ],
+      "decoded": true,
+      "cache_hit": true,
+      "local_path": ".resource-cache/user-photos/7f89044fe3cce9372e7baaafe88c94ad3f9c1635e3c8b018d0c960e00350fd5d/1000069951.jpg"
+    },
+    {
+      "name": "1000069952.jpg",
+      "sha256": "33bcad501ff580e56f409e9fb4f4121580720b8922dc35d1978f61d18c063ffa",
+      "bytes": 165749,
+      "format": "JPEG",
+      "dimensions": [
+        1000,
+        450
+      ],
+      "decoded": true,
+      "cache_hit": true,
+      "local_path": ".resource-cache/user-photos/7f89044fe3cce9372e7baaafe88c94ad3f9c1635e3c8b018d0c960e00350fd5d/1000069952.jpg"
+    },
+    {
+      "name": "1000069953.jpg",
+      "sha256": "a8d20f8ba767bfc41db3ae748f0fa5c42a7bb5c46a8e69bd122a337fdebc2751",
+      "bytes": 160720,
+      "format": "JPEG",
+      "dimensions": [
+        1000,
+        450
+      ],
+      "decoded": true,
+      "cache_hit": true,
+      "local_path": ".resource-cache/user-photos/7f89044fe3cce9372e7baaafe88c94ad3f9c1635e3c8b018d0c960e00350fd5d/1000069953.jpg"
+    },
+    {
+      "name": "1000069954.jpg",
+      "sha256": "1f15ec6dbd723710019ca693341bd4c85ec3d9a302f21f60a427412ddc9d5203",
+      "bytes": 174744,
+      "format": "JPEG",
+      "dimensions": [
+        1000,
+        450
+      ],
+      "decoded": true,
+      "cache_hit": true,
+      "local_path": ".resource-cache/user-photos/7f89044fe3cce9372e7baaafe88c94ad3f9c1635e3c8b018d0c960e00350fd5d/1000069954.jpg"
+    },
+    {
+      "name": "1000069955.jpg",
+      "sha256": "fa3599bfe49f0398c46911d05716883682414a8e2cb9e54c8f40924e8faca365",
+      "bytes": 129881,
+      "format": "JPEG",
+      "dimensions": [
+        1000,
+        450
+      ],
+      "decoded": true,
+      "cache_hit": true,
+      "local_path": ".resource-cache/user-photos/7f89044fe3cce9372e7baaafe88c94ad3f9c1635e3c8b018d0c960e00350fd5d/1000069955.jpg"
+    },
+    {
+      "name": "1000069956.jpg",
+      "sha256": "3e0684025f30b3f5343dbed2f938bd1bbec0e458f860d236fe959281ca0b1c6c",
+      "bytes": 140257,
+      "format": "JPEG",
+      "dimensions": [
+        1000,
+        450
+      ],
+      "decoded": true,
+      "cache_hit": true,
+      "local_path": ".resource-cache/user-photos/7f89044fe3cce9372e7baaafe88c94ad3f9c1635e3c8b018d0c960e00350fd5d/1000069956.jpg"
+    },
+    {
+      "name": "1000069957.jpg",
+      "sha256": "97bf1eef2754185f7b9ced34339fb5027f6136dc567e9839d5ca6e38e3ba37e2",
+      "bytes": 109837,
+      "format": "JPEG",
+      "dimensions": [
+        1000,
+        450
+      ],
+      "decoded": true,
+      "cache_hit": true,
+      "local_path": ".resource-cache/user-photos/7f89044fe3cce9372e7baaafe88c94ad3f9c1635e3c8b018d0c960e00350fd5d/1000069957.jpg"
+    },
+    {
+      "name": "1000069958.jpg",
+      "sha256": "67d4d66c30df7da8652b9afe5b4f7821820425b5c77b5cec30f73e648b3190da",
+      "bytes": 88747,
+      "format": "JPEG",
+      "dimensions": [
+        1000,
+        450
+      ],
+      "decoded": true,
+      "cache_hit": true,
+      "local_path": ".resource-cache/user-photos/7f89044fe3cce9372e7baaafe88c94ad3f9c1635e3c8b018d0c960e00350fd5d/1000069958.jpg"
+    },
+    {
+      "name": "1000069959.jpg",
+      "sha256": "4b43bf8c50ff83a08e2effc9d0661952357af3c284505df26dbf1dd37f21b105",
+      "bytes": 129461,
+      "format": "JPEG",
+      "dimensions": [
+        1000,
+        450
+      ],
+      "decoded": true,
+      "cache_hit": true,
+      "local_path": ".resource-cache/user-photos/7f89044fe3cce9372e7baaafe88c94ad3f9c1635e3c8b018d0c960e00350fd5d/1000069959.jpg"
+    }
+  ],
+  "passed": true
+}
