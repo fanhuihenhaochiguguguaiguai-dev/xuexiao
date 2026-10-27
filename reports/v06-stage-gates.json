@@ -48,6 +48,7 @@
     ],
     "scope": "Geometry, buffers, finiteness and embedded texture signatures; not a likeness, survey, render or full glTF schema certification."
   },
-  "status": "CURRENT_SOURCE_BROWSER_AND_MODEL_STAGE_PASSED",
-  "browser_hashes_match": true
+  "status": "CURRENT_BUILD_COMPONENT_VALIDATION_PASSED",
+  "browser_hashes_match": false,
+  "incremental_component_acceptance": "reports/v06-incremental-validation.json"
 }

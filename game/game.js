@@ -30,7 +30,7 @@ const diagnostics=createDiagnostics({meta,toast,
   active=true;$('boot').hidden=true;$('hud').hidden=false;return saved;
  },
  onRestore:saved=>{
-  quality=saved.quality;Object.assign(effects,saved.effects);changeQuality();applyEffects();renderScale=saved.renderScale;resize();
+  quality=saved.quality;Object.assign(effects,saved.effects);changeQuality();applyEffects();renderScale=saved.renderScale;textureQuality?.setScale(renderScale);resize();
   cameraYaw=saved.cameraYaw;cameraPitch=saved.cameraPitch;cameraZoom=saved.cameraZoom;cameraInitial=true;active=saved.active;
   simulation.setFeet(saved.feet.x,saved.feet.y,saved.feet.z);heading=saved.heading;
   $('boot').hidden=saved.boot;$('hud').hidden=saved.hud;keys.clear();input.x=input.y=0;fpsWindow=performance.now();fpsFrames=0;

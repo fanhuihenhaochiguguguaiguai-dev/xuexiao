@@ -75,5 +75,12 @@
     }
   },
   "lake_bed_triangles": 25411,
-  "survey_1_to_1_verified": false
+  "survey_1_to_1_verified": false,
+  "public_dimension_search": {
+    "queries": 8,
+    "result": "Library ninth floor documented; no verified current building or bridge length/width survey found",
+    "not_used": "Historical 400m track descriptions were not used to assert current-site surveyed scale"
+  },
+  "library_entrance_plinth_m": 1.8,
+  "library_storey_grid_origin_m": 1.96
 }

@@ -42,3 +42,5 @@
 ![实际图书馆场景](images/v06-library.png)
 ![实际体育场平台](images/v06-stadium.png)
 ![实际水中人物](images/v06-swimming.png)
+
+最后一行诊断恢复补丁由当前源哈希的完整设备检测回归单独验证。其他渲染代码和模型哈希与原渲染验收一致；原报告保留当时哈希，增量对应见 reports/v06-incremental-validation.json。首次真实点击自动检测与跳过亦通过；仅取消等待并不存在的页面导航，保留原生点击。

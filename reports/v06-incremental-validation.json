@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "base_render_validation_commit": "c87948c18e1fe3abdd91b355cba218904ea79af4",
+  "renderer_report": "reports/v06-browser.json",
+  "unchanged_render_code_and_asset_hashes_verified": true,
+  "changed_runtime_inputs": [
+    "game/dist/game.js",
+    "game/game.js"
+  ],
+  "exact_delta": "One diagnostics restoration statement now restores the adaptive texture budget to the saved render scale. Renderer, physics, scene and character assets unchanged.",
+  "current_delta_verified_by": "reports/browser-device-check.json",
+  "current_diagnostics_source_hashes": {
+    "game/game.js": "c128c6a56b9e89ba425a67484bfef8f8cc5a0a8d91eafe13836517709953c744",
+    "game/diagnostics.js": "30376a827ab95a452949a1c9a550bbce6fb21716bef9d0a7ef06e6e3b2f4d4cd",
+    "game/performance-core.js": "da73c6bf9bf6c5fbd8b148b5b0011bda989f9b6667643a4fc73233314d6280f0",
+    "game/water.js": "1ca6f6b487f10945172615aeac1a7bdcac2a68c32e750496a4d1c56438237ae3",
+    "game/dist/game.js": "550f81fa6271d0bc3b7117c4e2ea5b3bdfa9f40419cf285bba95c3040120af5f"
+  },
+  "actual_desktop_mobile_offline_regression_passed": true,
+  "native_first_click_auto_detection_and_skip_passed": true,
+  "hardware_webgpu_acceptance": "NOT_VERIFIED",
+  "note": "Incremental component acceptance; original renderer report retains its actual tested source hashes."
+}

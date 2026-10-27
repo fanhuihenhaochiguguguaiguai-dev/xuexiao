@@ -4,86 +4,89 @@
       "ready": true,
       "started": true,
       "engine": "2.23.3",
-      "buildId": "campus-v05-20261026-1",
+      "buildId": "campus-v06-20261026-1",
       "requestedRenderer": "webgpu",
       "errors": [],
-      "frames": 106,
-      "version": "0.5",
+      "frames": 107,
+      "version": "0.6",
       "renderConfig": {
-        "version": "0.5",
+        "version": "0.6",
         "engine": "PlayCanvas 2.23.3",
-        "units": "1 world unit = 1 metre",
         "floorHeightMeters": 3,
-        "floorHeightSource": "USER_RULE_NOT_SURVEY",
-        "movement": {
-          "multiplier": 5,
-          "walkMetersPerSecond": 13.25,
-          "runMetersPerSecond": 26.5,
-          "mode": "FAST_EXPLORATION_NOT_HUMAN_WALKING_SPEED"
-        },
+        "scale": "METRES; OSM XY and documented/estimated floors, not a survey certificate",
         "renderer": {
           "priority": [
             "webgpu",
             "webgl2"
           ],
-          "minimumRenderScale": 1,
-          "maximumRenderScale": 1.25
-        },
-        "profiles": {
-          "low": {
-            "label": "标准清晰",
-            "renderScale": 1
-          },
-          "balanced": {
-            "label": "高清",
-            "renderScale": 1.25
-          }
+          "minimumRenderScale": 1.25,
+          "maximumRenderScale": 1.5,
+          "actualSupersampling": "Fixed drawing-buffer resolution; independent of devicePixelRatio"
         },
         "shadows": {
-          "staticBake": "CPU_DIRECTIONAL_GEOMETRY_BAKE",
-          "localRealtime": true,
-          "mapSize": 1024,
-          "distanceMeters": 22
+          "mapSize": 2048,
+          "cascades": 2,
+          "filter": "PCF5",
+          "pcssOptional": true
+        },
+        "antialias": {
+          "type": "TAA",
+          "sharpness": 0.22,
+          "history": "neighborhood clamp, motion-adaptive blend, camera-cut/resize resets, character and water reactive regions"
+        },
+        "environment": {
+          "hdrSky": "self-authored analytical HDR",
+          "ibl": true,
+          "volumetricFogOptional": true
         },
         "water": {
-          "doubleNormals": true,
-          "depth": "ESTIMATED_SHORE_DISTANCE_NOT_MEASURED_BATHYMETRY",
-          "shoreFoam": true,
-          "staticCubemapSize": 128,
-          "localReflectionOptional": "NOT_ENABLED_NOT_VERIFIED"
+          "physicalModes": [
+            "wading",
+            "swimming"
+          ],
+          "buoyancyAndDrag": true,
+          "depth": "ESTIMATED_NOT_MEASURED",
+          "refraction": true,
+          "localHdrCubemaps": true,
+          "reflectionRefresh": "nearby only; suspended under frame-time pressure"
+        },
+        "pbr": {
+          "authoredSourceSize": 4096,
+          "embeddedRuntimeSize": 1024,
+          "optionalRuntimeSize": 2048,
+          "gpuCompression": "NOT_IMPLEMENTED; PNG file compression and mipmaps only",
+          "transferCompression": "LOSSLESS_WEBP_DETAIL_NORMAL; embedded GLB maps remain PNG"
         },
         "ao": {
-          "baked": "BLENDER_CYCLES_AO",
-          "ssaoOptional": true,
-          "ssaoDefault": false
+          "baked": "Actual 2048px Cycles AO, 16 samples, plus 4096px source static-shadow atlas",
+          "ssaoScale": 0.5
         },
-        "bloom": {
-          "optional": true,
-          "default": false,
-          "intensity": 0.035
+        "streaming": {
+          "zones": 20,
+          "nearDetails": 190,
+          "unloadDetails": 250,
+          "coarseMappedBodiesRemainVisible": true
         }
       },
       "effects": {
         "ssao": false,
         "bloom": false,
-        "active": false
+        "pcss": false,
+        "fog": false,
+        "active": true
       },
-      "colliderCount": 44,
+      "colliderCount": 53,
       "actualRenderer": "webgl2",
-      "water": {
-        "surfaces": 6,
-        "reflection": "static_scene_cubemaps_2x128",
-        "time": 23.90309999999404,
-        "normalOffset": [
-          0.21512789999994636,
-          0.09561239999997616
-        ],
-        "capturedFaces": 12,
-        "captureSucceeded": true,
-        "depthMappedPonds": 3,
-        "depthSource": "ESTIMATED_SHORE_DISTANCE_NOT_SURVEYED",
-        "shoreFoam": true
+      "environment": {
+        "hdr": true,
+        "format": "RGBA16F",
+        "maximumRadiance": 11.481604937987225,
+        "ibl": true,
+        "atlasSize": 128,
+        "source": "SELF_AUTHORED_ANALYTIC_SKY_NOT_A_PHOTO_OF_THE_SCHOOL",
+        "publicHdriAttempt": "Poly Haven API returned 403; no retry or bypass"
       },
+      "water": null,
       "animations": [
         {
           "asset": "character.glb/animation/0",
@@ -104,30 +107,78 @@
           "asset": "character.glb/animation/3",
           "clip": "Jump",
           "duration": 1.0333333015441895
+        },
+        {
+          "asset": "character.glb/animation/4",
+          "clip": "Swim",
+          "duration": 1.2333333492279053
+        },
+        {
+          "asset": "character.glb/animation/5",
+          "clip": "Tread",
+          "duration": 2.0333333015441895
         }
       ],
       "animation": "Idle",
       "quality": "low",
-      "renderScale": 1,
+      "renderScale": 1.25,
       "speedMetersPerSecond": 0.0002288818359375,
       "speedMultiplier": 5,
       "animationRate": 1,
+      "renderFeatures": {
+        "taa": true,
+        "reactiveCharacterAndWater": true,
+        "historyResets": 8,
+        "currentHistoryReset": false,
+        "sharpness": 0.22,
+        "hdr": true,
+        "ssaoScale": 0.5,
+        "colorGrading": true,
+        "volumetricFog": false,
+        "shadowMapSize": 2048,
+        "cascades": 2,
+        "shadowType": 4
+      },
+      "streaming": {
+        "zones": 20,
+        "loaded": [
+          10,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "loading": 0,
+        "failed": [],
+        "disposed": 6,
+        "coarseFallbackAlwaysVisible": true,
+        "position": {
+          "x": 31.999998092651367,
+          "y": 0.1850985503196716,
+          "z": 78
+        }
+      },
+      "waterPhysics": null,
       "position": {
         "x": 31.999998092651367,
         "y": 0.1850985503196716,
         "z": 78
       },
       "grounded": true,
-      "travel": 9.116549988868833,
+      "travel": 15.68474339258705,
       "camera": {
-        "x": 30.647201538085938,
-        "y": 2.523513078689575,
-        "z": 83.29808044433594,
+        "x": 30.840457916259766,
+        "y": 2.3508822917938232,
+        "z": 82.54121398925781,
         "yaw": -0.25000000000000006,
         "pitch": 0.21749999999999992
       },
-      "drawCalls": 91,
-      "observedFps": 0.5527610414013467,
+      "drawCalls": 194,
+      "observedFps": 0.23716352424997036,
       "feet": {
         "x": 31.999998092651367,
         "y": 0.1850985503196716,
@@ -136,16 +187,16 @@
       "verticalVelocity": -0.8,
       "horizontalSpeed": 0.0002288818359375,
       "respawns": 3,
-      "distanceTravelled": 9.116549988868833,
+      "distanceTravelled": 15.68474339258705,
       "lastCollision": {
         "name": "Library_south_plaza",
         "kind": "Landscape",
         "building": null
       },
       "jumpCount": 0,
-      "colliders": 44
+      "colliders": 53
     },
-    "keyboardDisplacement": 9.104445433443527,
+    "keyboardDisplacement": 15.674123024101092,
     "movingAnimation": "Run",
     "poseBefore": [
       {
@@ -164,15 +215,15 @@
     "poseMoving": [
       {
         "name": "Thigh_L",
-        "rotation": "[0.9968337360839866, 0.046917217745945365, 0.05633905938992251, 0.030776414197879697]"
+        "rotation": "[0.9877903499630535, 0.054981209883263375, 0.05551011976849975, 0.13478099896842968]"
       },
       {
         "name": "Shin_L",
-        "rotation": "[0.39700158925329004, -0.011583046513606029, 0.026590206420623128, 0.917359543519516]"
+        "rotation": "[0.514213590276824, -0.00897648419762442, 0.038379350402448435, 0.8567559931326741]"
       },
       {
         "name": "UpperArm_L",
-        "rotation": "[-0.9932168570610356, -0.06072524103764491, -0.06409379582717561, 0.07566178220993046]"
+        "rotation": "[-0.9807762171103033, -0.06679568617524531, -0.057739917077449014, 0.1740185341711359]"
       }
     ],
     "skeletalPoseChanges": true,
@@ -199,10 +250,10 @@
     "consoleMessages": [
       "No available adapters.",
       "No available adapters.",
-      "[.WebGL-0x1034001b3000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
-      "[.WebGL-0x1034001b3000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
-      "[.WebGL-0x1034001b3000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
-      "[.WebGL-0x1034001b3000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      "[.WebGL-0x1b24001b4200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+      "[.WebGL-0x1b24001b4200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+      "[.WebGL-0x1b24001b4200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+      "[.WebGL-0x1b24001b4200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
     ],
     "verificationLimit": "Chromium software renderer; phone viewport/touch emulation is not a physical Android or hardware WebGPU performance test."
   },
@@ -228,86 +279,89 @@
       "ready": true,
       "started": true,
       "engine": "2.23.3",
-      "buildId": "campus-v05-20261026-1",
+      "buildId": "campus-v06-20261026-1",
       "requestedRenderer": "webgpu",
       "errors": [],
       "frames": 99,
-      "version": "0.5",
+      "version": "0.6",
       "renderConfig": {
-        "version": "0.5",
+        "version": "0.6",
         "engine": "PlayCanvas 2.23.3",
-        "units": "1 world unit = 1 metre",
         "floorHeightMeters": 3,
-        "floorHeightSource": "USER_RULE_NOT_SURVEY",
-        "movement": {
-          "multiplier": 5,
-          "walkMetersPerSecond": 13.25,
-          "runMetersPerSecond": 26.5,
-          "mode": "FAST_EXPLORATION_NOT_HUMAN_WALKING_SPEED"
-        },
+        "scale": "METRES; OSM XY and documented/estimated floors, not a survey certificate",
         "renderer": {
           "priority": [
             "webgpu",
             "webgl2"
           ],
-          "minimumRenderScale": 1,
-          "maximumRenderScale": 1.25
-        },
-        "profiles": {
-          "low": {
-            "label": "标准清晰",
-            "renderScale": 1
-          },
-          "balanced": {
-            "label": "高清",
-            "renderScale": 1.25
-          }
+          "minimumRenderScale": 1.25,
+          "maximumRenderScale": 1.5,
+          "actualSupersampling": "Fixed drawing-buffer resolution; independent of devicePixelRatio"
         },
         "shadows": {
-          "staticBake": "CPU_DIRECTIONAL_GEOMETRY_BAKE",
-          "localRealtime": true,
-          "mapSize": 1024,
-          "distanceMeters": 22
+          "mapSize": 2048,
+          "cascades": 2,
+          "filter": "PCF5",
+          "pcssOptional": true
+        },
+        "antialias": {
+          "type": "TAA",
+          "sharpness": 0.22,
+          "history": "neighborhood clamp, motion-adaptive blend, camera-cut/resize resets, character and water reactive regions"
+        },
+        "environment": {
+          "hdrSky": "self-authored analytical HDR",
+          "ibl": true,
+          "volumetricFogOptional": true
         },
         "water": {
-          "doubleNormals": true,
-          "depth": "ESTIMATED_SHORE_DISTANCE_NOT_MEASURED_BATHYMETRY",
-          "shoreFoam": true,
-          "staticCubemapSize": 128,
-          "localReflectionOptional": "NOT_ENABLED_NOT_VERIFIED"
+          "physicalModes": [
+            "wading",
+            "swimming"
+          ],
+          "buoyancyAndDrag": true,
+          "depth": "ESTIMATED_NOT_MEASURED",
+          "refraction": true,
+          "localHdrCubemaps": true,
+          "reflectionRefresh": "nearby only; suspended under frame-time pressure"
+        },
+        "pbr": {
+          "authoredSourceSize": 4096,
+          "embeddedRuntimeSize": 1024,
+          "optionalRuntimeSize": 2048,
+          "gpuCompression": "NOT_IMPLEMENTED; PNG file compression and mipmaps only",
+          "transferCompression": "LOSSLESS_WEBP_DETAIL_NORMAL; embedded GLB maps remain PNG"
         },
         "ao": {
-          "baked": "BLENDER_CYCLES_AO",
-          "ssaoOptional": true,
-          "ssaoDefault": false
+          "baked": "Actual 2048px Cycles AO, 16 samples, plus 4096px source static-shadow atlas",
+          "ssaoScale": 0.5
         },
-        "bloom": {
-          "optional": true,
-          "default": false,
-          "intensity": 0.035
+        "streaming": {
+          "zones": 20,
+          "nearDetails": 190,
+          "unloadDetails": 250,
+          "coarseMappedBodiesRemainVisible": true
         }
       },
       "effects": {
         "ssao": false,
         "bloom": false,
-        "active": false
+        "pcss": false,
+        "fog": false,
+        "active": true
       },
-      "colliderCount": 44,
+      "colliderCount": 53,
       "actualRenderer": "webgl2",
-      "water": {
-        "surfaces": 6,
-        "reflection": "static_scene_cubemaps_2x128",
-        "time": 15.12,
-        "normalOffset": [
-          0.13607999999999998,
-          0.06048
-        ],
-        "capturedFaces": 12,
-        "captureSucceeded": true,
-        "depthMappedPonds": 3,
-        "depthSource": "ESTIMATED_SHORE_DISTANCE_NOT_SURVEYED",
-        "shoreFoam": true
+      "environment": {
+        "hdr": true,
+        "format": "RGBA16F",
+        "maximumRadiance": 11.481604937987225,
+        "ibl": true,
+        "atlasSize": 128,
+        "source": "SELF_AUTHORED_ANALYTIC_SKY_NOT_A_PHOTO_OF_THE_SCHOOL",
+        "publicHdriAttempt": "Poly Haven API returned 403; no retry or bypass"
       },
+      "water": null,
       "animations": [
         {
           "asset": "character.glb/animation/0",
@@ -328,30 +382,75 @@
           "asset": "character.glb/animation/3",
           "clip": "Jump",
           "duration": 1.0333333015441895
+        },
+        {
+          "asset": "character.glb/animation/4",
+          "clip": "Swim",
+          "duration": 1.2333333492279053
+        },
+        {
+          "asset": "character.glb/animation/5",
+          "clip": "Tread",
+          "duration": 2.0333333015441895
         }
       ],
       "animation": "Idle",
       "quality": "low",
-      "renderScale": 1,
+      "renderScale": 1.25,
+      "observedFps": 0.35468539405566024,
       "speedMetersPerSecond": 0,
       "speedMultiplier": 5,
       "animationRate": 1,
+      "renderFeatures": {
+        "taa": true,
+        "reactiveCharacterAndWater": true,
+        "historyResets": 16,
+        "currentHistoryReset": false,
+        "sharpness": 0.22,
+        "hdr": true,
+        "ssaoScale": 0.5,
+        "colorGrading": true,
+        "volumetricFog": false,
+        "shadowMapSize": 2048,
+        "cascades": 2,
+        "shadowType": 4
+      },
+      "streaming": {
+        "zones": 20,
+        "loaded": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "loading": 2,
+        "failed": [],
+        "disposed": 6,
+        "coarseFallbackAlwaysVisible": true,
+        "position": {
+          "x": 18.758424758911133,
+          "y": 0.18476154565811154,
+          "z": 52.990962982177734
+        }
+      },
+      "waterPhysics": null,
       "position": {
         "x": 18.758424758911133,
         "y": 0.18476154565811154,
         "z": 52.990962982177734
       },
       "grounded": true,
-      "travel": 37.603036074457535,
+      "travel": 44.171206589992046,
       "camera": {
-        "x": 20.1321964263916,
-        "y": 2.040708065032959,
-        "z": 58.371089935302734,
+        "x": 19.935943603515625,
+        "y": 1.9370008707046509,
+        "z": 57.602500915527344,
         "yaw": 0.25000000000000006,
         "pitch": 0.13
       },
-      "drawCalls": 107,
-      "observedFps": 0.7408139075461517,
+      "drawCalls": 228,
       "feet": {
         "x": 18.758424758911133,
         "y": 0.18476154565811154,
@@ -360,16 +459,16 @@
       "verticalVelocity": -0.8,
       "horizontalSpeed": 0,
       "respawns": 3,
-      "distanceTravelled": 37.603036074457535,
+      "distanceTravelled": 44.171206589992046,
       "lastCollision": {
         "name": "Library_south_plaza",
         "kind": "Landscape",
         "building": null
       },
       "jumpCount": 0,
-      "colliders": 44
+      "colliders": 53
     },
-    "keyboardDisplacement": 9.104445433443527,
+    "keyboardDisplacement": 15.674123024101092,
     "movingAnimation": "Run",
     "poseBefore": [
       {
@@ -388,15 +487,15 @@
     "poseMoving": [
       {
         "name": "Thigh_L",
-        "rotation": "[0.9968337360839866, 0.046917217745945365, 0.05633905938992251, 0.030776414197879697]"
+        "rotation": "[0.9877903499630535, 0.054981209883263375, 0.05551011976849975, 0.13478099896842968]"
       },
       {
         "name": "Shin_L",
-        "rotation": "[0.39700158925329004, -0.011583046513606029, 0.026590206420623128, 0.917359543519516]"
+        "rotation": "[0.514213590276824, -0.00897648419762442, 0.038379350402448435, 0.8567559931326741]"
       },
       {
         "name": "UpperArm_L",
-        "rotation": "[-0.9932168570610356, -0.06072524103764491, -0.06409379582717561, 0.07566178220993046]"
+        "rotation": "[-0.9807762171103033, -0.06679568617524531, -0.057739917077449014, 0.1740185341711359]"
       }
     ],
     "skeletalPoseChanges": true,
@@ -474,25 +573,40 @@
       ]
     },
     "cachedPaths": [
-      "/",
       "/style.css",
+      "/",
       "/pwa.js",
       "/assets/app-icon-512.png",
+      "/game.js",
       "/assets/world.json",
       "/assets/benchmark-route.json",
-      "/assets/v05-config.json",
+      "/assets/zones.json",
+      "/assets/v06-config.json",
       "/assets/v05/lighting-water.json",
-      "/game.js",
       "/assets/engine/glslang.js",
+      "/assets/engine/twgsl.js",
       "/assets/engine/glslang.wasm",
       "/assets/engine/twgsl.wasm",
-      "/assets/engine/twgsl.js",
       "/assets/character.glb",
       "/assets/campus.glb",
+      "/assets/v06/stone-basecolor-2048.webp",
+      "/assets/v06/stone-normal-2048.webp",
+      "/assets/zones/b13.glb",
+      "/assets/zones/b12.glb",
+      "/assets/zones/b17.glb",
+      "/assets/zones/b16.glb",
+      "/assets/zones/b15.glb",
+      "/assets/zones/b20.glb",
+      "/assets/zones/b14.glb",
+      "/assets/zones/b18.glb",
+      "/assets/zones/b19.glb",
+      "/assets/zones/b09.glb",
+      "/assets/zones/b10.glb",
       "/assets/app-icon-192.png",
       "/manifest.webmanifest"
     ],
     "portraitGateVisible": true,
     "offlineLoadsGame": true
-  }
+  },
+  "passed": true
 }
