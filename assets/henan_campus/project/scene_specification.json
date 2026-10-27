@@ -143973,7 +143973,7 @@
     "source_date": "2017-08-11",
     "measurement_status": "ALL_NEW_DIMENSIONS_ESTIMATED"
   },
-  "version": "0.7",
+  "version": "0.7.1",
   "v05_floor_policy": {
     "version": "0.5",
     "units": "METERS",
@@ -144296,5 +144296,141 @@
     18,
     19
   ],
-  "v07_baseline_commit": "84a0d767127deb84fd740c78bed3045d11aee73b"
+  "v07_baseline_commit": "84a0d767127deb84fd740c78bed3045d11aee73b",
+  "photo_projection": {
+    "id": "library-facade-projection-v1",
+    "baseline_commit": "1eb034fa53aa5eeae372c9fddc3fa3e540def4a7",
+    "building_id": 13,
+    "panorama_scene": "scene_ef8a1b1d35eefd7f",
+    "source_date": "2017-08-11",
+    "view": {
+      "yaw_deg": -135,
+      "pitch_deg": 10,
+      "horizontal_fov_deg": 90,
+      "size": [
+        1800,
+        1000
+      ]
+    },
+    "facade_quads": [
+      [
+        [
+          603,
+          265
+        ],
+        [
+          773,
+          289
+        ],
+        [
+          780,
+          576
+        ],
+        [
+          600,
+          602
+        ]
+      ],
+      [
+        [
+          773,
+          289
+        ],
+        [
+          1332,
+          252
+        ],
+        [
+          1343,
+          565
+        ],
+        [
+          780,
+          576
+        ]
+      ],
+      [
+        [
+          1332,
+          252
+        ],
+        [
+          1540,
+          176
+        ],
+        [
+          1605,
+          612
+        ],
+        [
+          1343,
+          565
+        ]
+      ]
+    ],
+    "texture_sizes": [
+      [
+        512,
+        1024
+      ],
+      [
+        1024,
+        768
+      ],
+      [
+        512,
+        1024
+      ]
+    ],
+    "paving_quad": [
+      [
+        430,
+        445
+      ],
+      [
+        765,
+        220
+      ],
+      [
+        965,
+        520
+      ],
+      [
+        630,
+        745
+      ]
+    ],
+    "floor_height_m": 3.9,
+    "body_height_m": 35.1,
+    "front_base_m": 1.96,
+    "projection_bottom_m": 5.86,
+    "projection_top_m": 37.06,
+    "campaigns": {
+      "pilot": [
+        1
+      ],
+      "small": [
+        0,
+        1
+      ],
+      "front": [
+        0,
+        1,
+        2
+      ]
+    },
+    "lighting": "CAPTURED_STATIC_PHOTO_LIGHTING_UNLIT_MATERIAL; NO_EXTRA_REALTIME_SHADOWS",
+    "permission": "USER_REQUESTED_DERIVATIVE_GAME_TEXTURES_FROM_LINKED_PANORAMA; SOURCE_LICENSE_NOT_INDEPENDENTLY_VERIFIED; ORIGINALS_NOT_REDISTRIBUTED",
+    "quality_limits": [
+      "Existing model shape/height is estimated; photo-to-mesh corner calibration is approximate",
+      "Visible window bands are not evidence of the total structural floor count",
+      "The 3.9m body rule is retained; exact window-to-floor correspondence remains unverified",
+      "Ground-floor doors, rear faces, roof geometry and unseen regions are not newly photo-reconstructed"
+    ],
+    "budget": {
+      "maximum_texture_edge": 1024,
+      "maximum_texture_bytes": 786432,
+      "maximum_added_triangles": 0
+    }
+  }
 }

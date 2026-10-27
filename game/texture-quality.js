@@ -3,10 +3,10 @@ import * as pc from 'playcanvas';
 // two GPU allocations. Compressed WebP transfers are lossless normal maps.
 export function createTextureQuality(app){
  const originals=new WeakMap(),textures=new Set(),roots=new Set();let limit=1024,changed=0,detail=null,albedo=null,detailStatus='loading',skipped=0,loaded=0;
- function resize(tex){
+ function resize(tex,cap=limit){
   if(!tex||tex.cubemap||!tex.getSource)return;const source=originals.get(tex)||tex.getSource();if(!source||ArrayBuffer.isView(source))return;
   if(!originals.has(tex))originals.set(tex,source);textures.add(tex);
-  const max=Math.max(source.width||0,source.height||0),scale=Math.min(1,limit/max),width=Math.max(1,Math.round(source.width*scale)),height=Math.max(1,Math.round(source.height*scale));
+  const max=Math.max(source.width||0,source.height||0),scale=Math.min(1,cap/max),width=Math.max(1,Math.round(source.width*scale)),height=Math.max(1,Math.round(source.height*scale));
   tex.anisotropy=Math.min(limit===2048?8:4,app.graphicsDevice.maxAnisotropy);
   if(tex.width===width&&tex.height===height)return;
   try{
@@ -20,12 +20,13 @@ export function createTextureQuality(app){
    const m=mesh.material;
    if(albedo&&/V06_pale_stone|Library_photo_guided_stone|Library_granite_steps|V05_Pale_stone/.test(m.name)){m.diffuseMap=albedo;m.update();}
    if(detail&&/stone|wall|dorm|tower|admin|arcade|teaching|paving/i.test(m.name)&&!m.name.startsWith('Runtime_water')){m.normalDetailMap=detail;m.normalDetailMapBumpiness=.08;m.normalDetailMapTiling.set(3,3);m.update();}
-   for(const key of ['diffuseMap','normalMap','normalDetailMap','aoMap','glossMap','metalnessMap'])resize(m[key]);
+   const photoCap=m.name.startsWith('PhotoProjected')?Math.min(limit,(limit===2048?1024:512)/(m.name.includes('Coarse')?2:1)):limit;
+   for(const key of ['diffuseMap','emissiveMap','normalMap','normalDetailMap','aoMap','glossMap','metalnessMap'])resize(m[key],photoCap);
   }
  }
  if(navigator.onLine!==false)for(const [name,isColor] of [['stone-normal-2048.webp',false],['stone-basecolor-2048.webp',true]])app.assets.loadFromUrl('/assets/v06/'+name,'texture',(error,asset)=>{
   if(error){detailStatus='unavailable; embedded PBR retained';return;}if(isColor){albedo=asset.resource;albedo.srgb=true;}else{detail=asset.resource;detail.srgb=false;}loaded++;detailStatus=loaded===2?'loaded':'partial';for(const root of roots)if(!root._destroying)apply(root);
  });
  else detailStatus='offline; embedded PBR retained';
- return {apply,release(root){roots.delete(root);textures.clear();for(const live of roots)if(!live._destroying)apply(live);},setScale(scale){limit=scale>=1.24?2048:1024;for(const root of roots)if(!root._destroying)apply(root);},state:()=>({limit,trackedTextures:textures.size,resizes:changed,detailStatus,unsupportedSources:skipped,transferCompression:'LOSSLESS_WEBP',gpuBlockCompression:false})};
+ return {apply,release(root){roots.delete(root);textures.clear();for(const live of roots)if(!live._destroying)apply(live);},setScale(scale){limit=scale>=1.24?2048:1024;for(const root of roots)if(!root._destroying)apply(root);},state:()=>({limit,photoFacadeLimit:limit===2048?1024:512,photoCoarseLimit:limit===2048?512:256,trackedTextures:textures.size,resizes:changed,detailStatus,unsupportedSources:skipped,transferCompression:'LOSSLESS_WEBP',gpuBlockCompression:false})};
 }

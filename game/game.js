@@ -24,7 +24,7 @@ let toastTimer,nearby=null,mapArrows=[],accumulator=0,position,smoothedCamera=ne
 let renderScale=qualityProfile(quality).scale,fpsWindow=performance.now(),fpsFrames=0,water,qaView=null,v05Config,renderQuality,streaming,hdrEnvironment,textureQuality,smoothedSpeed=0,startupReflections=true,renderClock=0,readyAt=Infinity,slowWindows=0;
 const effects=defaultEffects(quality);
 const diagnostics=createDiagnostics({meta,toast,
- context:()=>({version:'0.7',quality,renderScale,viewport:[innerWidth,innerHeight],canvas:app?[app.graphicsDevice.width,app.graphicsDevice.height]:null,devicePixelRatio,shadows:!!sun?.light.castShadows,shadowMapSize:sun?.light.shadowResolution,effects:{...effects},speedMultiplier:simulation?.state().speedMultiplier,antiAlias:renderQuality?.state()}),
+ context:()=>({version:'0.7.1',quality,renderScale,viewport:[innerWidth,innerHeight],canvas:app?[app.graphicsDevice.width,app.graphicsDevice.height]:null,devicePixelRatio,shadows:!!sun?.light.castShadows,shadowMapSize:sun?.light.shadowResolution,effects:{...effects},speedMultiplier:simulation?.state().speedMultiplier,antiAlias:renderQuality?.state()}),
  onStart:()=>{
   const saved={quality,renderScale,effects:{...effects},cameraYaw,cameraPitch,cameraZoom,heading,feet:{...simulation.state().feet},active,boot:$('boot').hidden,hud:$('hud').hidden};
   keys.clear();input.x=input.y=0;input.jump=false;$('stick').style.transform='';quality='low';Object.assign(effects,{ssao:false,bloom:false,pcss:false,fog:false});changeQuality();applyEffects();
@@ -190,7 +190,7 @@ async function main(){
   glslangUrl:'/assets/engine/glslang.js',twgslUrl:'/assets/engine/twgsl.js'};
  if(params.get('renderer')==='webgl2')gpuOptions.deviceTypes=[pc.DEVICETYPE_WEBGL2];
  const [device,world,benchmarkRoute,renderConfig,waterMetadata,zoneManifest]=await Promise.all([pc.createGraphicsDevice(canvas,gpuOptions),fetch('/assets/world.json').then(r=>{if(!r.ok)throw Error('校园配置读取失败');return r.json();}),fetch('/assets/benchmark-route.json').then(r=>{if(!r.ok)throw Error('设备检测路线读取失败');return r.json();}),fetch('/assets/v06-config.json').then(r=>r.json()),fetch('/assets/v05/lighting-water.json').then(r=>r.json()),fetch('/assets/zones.json').then(r=>r.json()),RAPIER.init()]);
- v05Config=renderConfig;meta.version='0.7';meta.renderConfig=renderConfig;meta.effects={...effects,active:false};
+ v05Config=renderConfig;meta.version='0.7.1';meta.renderConfig=renderConfig;meta.effects={...effects,active:false};
  worldData=world;simulation=createSimulation(RAPIER,worldData);meta.colliderCount=world.colliders.length;meta.actualRenderer=device.deviceType;
  device.wgpu?.addEventListener('uncapturederror',e=>diagnostics.graphicsFailure('WebGPU: '+String(e.error?.message||e.error).slice(0,350)));
  app=new pc.Application(canvas,{graphicsDevice:device});
@@ -253,6 +253,7 @@ async function main(){
   water:()=>water.state(),
   refreshReflection:()=>water.requestLocalRefresh(),
   settings:()=>({quality,renderScale,actualCanvas:[device.width,device.height],viewport:[innerWidth,innerHeight],shadowMapSize:sun.light.shadowResolution,localShadows:sun.light.castShadows,effects:meta.effects,config:v05Config,features:renderQuality?.state(),environment:hdrEnvironment.state,streaming:streaming.state(),textures:textureQuality.state()}),
+  photoMaterials:()=>app.root.findComponents('render').flatMap(r=>r.meshInstances.filter(mi=>mi.material.name.startsWith('PhotoProjected')||mi.material.name.includes('PhotoPavers')).map(mi=>{const m=mi.material,t=m.emissiveMap||m.diffuseMap;return {object:r.entity.name,name:m.name,enabled:r.entity.enabled,unlit:m.useLighting===false,width:t?.width,height:t?.height,hasAo:!!m.aoMap,aoUv:m.aoMapUv,occludeDirect:m.occludeDirect};})),
   lightingProof:()=>({terrainAoMaterials:campus.findComponents('render').flatMap(r=>r.meshInstances).filter(m=>m.material.aoMap&&m.material.occludeDirect).map(m=>({name:m.material.name,uv:m.material.aoMapUv,width:m.material.aoMap.width})),staticCampusCasters:campus.findComponents('render').filter(r=>r.castShadows).length,characterCasters:character.findComponents('render').filter(r=>r.castShadows).length}),
   inspectView:(eye,look)=>{qaView=eye?{eye,look}:null;},
   pose:()=>['Thigh_L','Shin_L','UpperArm_L'].map(n=>{const b=character.findByName(n);return {name:n,rotation:b?.getLocalRotation().toString()};}),

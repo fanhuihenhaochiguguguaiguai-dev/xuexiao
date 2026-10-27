@@ -1,0 +1,158 @@
+{
+  "passed": true,
+  "strategy": "RECTIFIED_WHOLE_FACADE_PIECES_ON_EXISTING_3D_WALLS",
+  "fingerprint": "42b6582a604d55ef9370752eee672277fe221f474fda73555fd0cd188677770f",
+  "campaign": "small",
+  "selected_facade_planes": [
+    0,
+    1
+  ],
+  "baseline_triangles": 108317,
+  "triangles": 104129,
+  "triangle_change": -4188,
+  "old_decorative_faces_removed": 972,
+  "photo_texture_bytes": 444383,
+  "collision_solids_modified": false,
+  "floor_height_rule_m": 3.9,
+  "body_height_m": 35.1,
+  "window_to_floor_alignment": "NOT_FULLY_VALIDATED_NOT_SURVEYED",
+  "lighting": "CAPTURED_STATIC_LIGHTING_IN_PHOTO; UNLIT_MATERIAL",
+  "limitations": [
+    "Existing model shape/height is estimated; photo-to-mesh corner calibration is approximate",
+    "Visible window bands are not evidence of the total structural floor count",
+    "The 3.9m body rule is retained; exact window-to-floor correspondence remains unverified",
+    "Ground-floor doors, rear faces, roof geometry and unseen regions are not newly photo-reconstructed"
+  ],
+  "materials": {
+    "passed": true,
+    "fingerprint": "9bf225e0bcd36dbd6a4577f7cb3314ab0137f21121d1eeced37df81153c78b85",
+    "source_scene": "scene_ef8a1b1d35eefd7f",
+    "source_face_hashes": {
+      "f": "22778a94bed0a38247034dbf8f2b2cc7b6f7a40cc506a4180ab0407b5dfc906c",
+      "b": "35f3847617e40ff1fe756606a4f0b8853069fc135ac9fe7e4661853b3fd8d95e",
+      "l": "03ab00350f1bb74455bc38c18abff644a150b986c5ba24d9c0877f40ad74e9ff",
+      "r": "61246e7103efe752816ab34dd0eba572b950dd29626b98c1fc65607c02a8fded",
+      "u": "a0ce9fb0adef666279968357ffa238b89fda437b25bfd0e0685a8ad7730cded8",
+      "d": "a4b0f80cf38d1da13f632fe896b670e3413f31e0da34c4b8b33843bf6f68d355"
+    },
+    "checks": [
+      {
+        "segment": 0,
+        "homography": [
+          [
+            1.7384218801718907,
+            0.015475565698859594,
+            -1052.369418653848
+          ],
+          [
+            -0.30881759861635866,
+            2.187457990199202,
+            -393.4593554371242
+          ],
+          [
+            -0.00059229030117754,
+            0.00012770657332475068,
+            1.0
+          ]
+        ],
+        "corner_reprojection_error_px": 3.4634914294201513e-13,
+        "green_pixel_fraction": 1.33514404296875e-05,
+        "dimensions": [
+          512,
+          1024
+        ],
+        "sha256": "95cf716de60a551a10e7dca551187e23360086df62f6aad305bf93616fc7c35b"
+      },
+      {
+        "segment": 1,
+        "homography": [
+          [
+            2.292864706394491,
+            -0.055923529424255915,
+            -1756.2225180393318
+          ],
+          [
+            0.20429135113413968,
+            3.086455818486053,
+            -1049.9029459691594
+          ],
+          [
+            0.00018807005974208837,
+            1.7492542694603812e-05,
+            1.0
+          ]
+        ],
+        "corner_reprojection_error_px": 1.9764173479243363e-13,
+        "green_pixel_fraction": 3.3060709635416664e-05,
+        "dimensions": [
+          1024,
+          768
+        ],
+        "sha256": "06c473c5e53aa3f4fe05fa35cf71a3c822717f814b84cad2b815b95c9eb187e5"
+      },
+      {
+        "segment": 2,
+        "homography": [
+          [
+            -1.9851367340474422,
+            0.06976518873649114,
+            2626.6213021895974
+          ],
+          [
+            -0.8222962877565309,
+            -2.250495103333666,
+            1662.4234213317832
+          ],
+          [
+            -0.0011497935026882743,
+            -0.00027121615393536057,
+            1.0
+          ]
+        ],
+        "corner_reprojection_error_px": 5.556432592680738e-13,
+        "green_pixel_fraction": 0.0,
+        "dimensions": [
+          512,
+          1024
+        ],
+        "sha256": "5e4aae16a48ad86693c460bd9b31538135612f87d3f5d6d2c5487165b9869849"
+      }
+    ],
+    "textures": {
+      "library-facade-1.jpg": "06c473c5e53aa3f4fe05fa35cf71a3c822717f814b84cad2b815b95c9eb187e5",
+      "library-coarse-0.jpg": "948d46180dd6b61b1b59d005a455ff2de77124c24a38c4c69eb26190b9be2f5a",
+      "library-coarse-2.jpg": "af6930f75b25fe5dfe41f5f0fad5fbcf23350b4b969d9d977b25042640985362",
+      "library-facade-2.jpg": "5e4aae16a48ad86693c460bd9b31538135612f87d3f5d6d2c5487165b9869849",
+      "library-facade-0.jpg": "95cf716de60a551a10e7dca551187e23360086df62f6aad305bf93616fc7c35b",
+      "library-coarse-1.jpg": "d873f2fcbebbb8f15f076e741e4cbdfc65be96f9060b31029d404d6d0dcbb771"
+    },
+    "texture_bytes": 444383,
+    "original_full_photos_published": false,
+    "source_lighting": "CAPTURED_IN_PHOTO_NOT_NEW_PHYSICAL_RELIGHTING",
+    "limitations": [
+      "Existing model shape/height is estimated; photo-to-mesh corner calibration is approximate",
+      "Visible window bands are not evidence of the total structural floor count",
+      "The 3.9m body rule is retained; exact window-to-floor correspondence remains unverified",
+      "Ground-floor doors, rear faces, roof geometry and unseen regions are not newly photo-reconstructed"
+    ],
+    "permission": "USER_REQUESTED_DERIVATIVE_GAME_TEXTURES_FROM_LINKED_PANORAMA; SOURCE_LICENSE_NOT_INDEPENDENTLY_VERIFIED; ORIGINALS_NOT_REDISTRIBUTED"
+  },
+  "outputs": {
+    "HenanCampus.blend": "3f2fac9e8b788fcb00c5738a1325b9bc332c378263fd22988c31735163139692",
+    "library.glb": "4d6d203fe3d305d745661cbcf171c2d6ed1cd5b89b09281257385d02d5fc5f0e"
+  },
+  "geometry_gate": {
+    "passed": true,
+    "sha256": "4d6d203fe3d305d745661cbcf171c2d6ed1cd5b89b09281257385d02d5fc5f0e",
+    "triangles": 1922,
+    "vertices": 3948,
+    "position_extent_m": [
+      114.82917022705078,
+      39.401670813560486,
+      114.62933731079102
+    ],
+    "embedded_images": 5,
+    "animations": [],
+    "scope": "Geometry, buffers, finiteness and embedded texture signatures; not a likeness, survey, render or full glTF schema certification."
+  }
+}

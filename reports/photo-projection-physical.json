@@ -1,0 +1,91 @@
+{
+  "passed": true,
+  "physical_meshes_compared": 54,
+  "physical_mesh_signatures": {
+    "B18_teaching": "ef38877e8c317adb11a1481bcab8c057f0fb84d4885c1206485bf2100d9f5644",
+    "Stone_bridge_approach_1_1": "ea5b9be808f3a092a0daf9ab78427cdce20c2363c09154977cdd5dae4616361e",
+    "B17_teaching": "eac4373e39c994fc3b23f642d7c8825b550baaa0b5cc8313c22013955f34768e",
+    "Library_stair_0": "01c80fee0272bcf06de74d9f178ce72ffec2064d4f3cdb13bf245af626fe1958",
+    "Library_stair_8": "5ad5ef4245ddaec752344cdd162b3936c1f5562d2520ff0d16f3e8a9095cf570",
+    "B14_admin": "35f81b1620aba785f8675ddecb6a131707ca1e83e78f7ebcf6ed935adf2282ce",
+    "Library_stair_1": "3fe920ee56e7aa0f5dd9f944018e4e1b58f74b28d625bd4c5de5898e3c4d372f",
+    "B07_dorm": "7870bd4e9f4c9f8e427f43998ce00b662956bf11158d8b5982e33ea7ab71f9dc",
+    "Library_stair_3": "8c727842b48dca169c3139834355d6df56b9b6b6d9da8bf9dcbc2d4cc29c645c",
+    "Library_entry_terrace": "608b29c89b249bb65c7230b529ef1e4ad6b5b0dd1eaf0b267e6a0f85668232d5",
+    "B15_teaching": "ae20f14e26b2b8d4df8c111d5fc5d18f258a1bf76be7c54864ed8f4d45c96102",
+    "Stadium_ceremonial_platform": "a6e9b389714a2785c963124e20531b540a89fa1ea1cdb02d54e8e9e52760643c",
+    "Stone_bridge_balustrades": "776ff8b80f0de61a224bc87ea84c493cb42b8880a7e665b38c41824e6c3f8f63",
+    "Campus_walkways": "4b6ab84ef95fb16518771229b86f6aea9dbd5b09a6893b3973e01cae145a63ae",
+    "B10_dorm": "931e66bb553a7b89c99dc80580dd8cb7b9a791440a6d2487ae4a3e6b54fb5fbd",
+    "Library_stair_4": "22db1fbb22ea26a44cc2e964a6eac4bbaff064628b3dd500850ad506a06c58b0",
+    "Library_stair_2": "de6423ed4faf814fb5fa847a6655491bcf44d4e8814204071b32b16ff5c55447",
+    "Library_stair_5": "a30b760d30042b9a5ba5fc12e8e44844dd6c24b0dbe7bd56250100224874508f",
+    "Stone_bridge_deck": "2a30f220c034d0d96b12c9ce41dbd733822ced00d3eba831af36ad80c9aaf72f",
+    "B03_tower": "6478bbb6d33df15a968c128a4b8650ac45e7101233a812c5ff9eb3b2a92e0503",
+    "B02_tower": "283d8a60f81ffe95a7e75065cdffc2b21e36ab7f86bed8a57806a849d353d97b",
+    "South_gatehouse_roof_1": "f73da3bfd215625cc2ce165b6b6c7be3919712cd27514f2cf78afde6c723635b",
+    "Library_stair_11": "91eb9e8698eecc656db322cd095013d24283f9ddafd2337715f3111149150133",
+    "V07_library_entry_handrails": "b346113ab4263af48410fbd22152f15910edaf7e1f1fc052bc9be8db880aa930",
+    "B13_library_plinth": "28b307cd5b4fe6cbd9a451a9cc52e709b6c532a6a5817d4467f2d909cbf7ffb7",
+    "South_gatehouse_1": "31a48d22e3837710ff43d511c804fa3d69db9b6a98021c130d27897a295f2c49",
+    "Library_stair_10": "4517645b42aaf486218865fe377a8edc500dfba8ecdb87da83d5c6938d16da74",
+    "Campus_roads_ref1": "3dcd9a88d329d60a7198817b544d6c06df50731d0e326856fe24a0e636ffde11",
+    "B14_admin_upper_bridge": "6b0940b977902bf5233d46ca1cb24cc60a2b5ef7a23f089c11c780abdab26fc8",
+    "B19_teaching": "004cd2bcb678b1445b579dd09d945bf84095e17484d7f6b1839bf19ef3646b70",
+    "B04_tower": "225a6fe9e8c381124353fc3247bd5d833045cd4e3add9c298950771d43c5eb49",
+    "B08_dorm": "dd10963c6aa311f90365f778101f16fd29e6c74cb8a60c17b1825c27d6846118",
+    "Library_stair_9": "8f995cf47d52d472e5d7aeeae70d45412e1862660c1add77f43f2b14faa2e1c4",
+    "Stone_bridge_approach_-1_1": "bdb553fe20fe1831e55c72264a5b1d298541d6dca473a790be908a5ad5b1056e",
+    "Stone_bridge_approach_1_0": "f41aa32c91cc94683fb49bd54341112e669addf3356b30d46d0846f58938c39c",
+    "B09_dorm": "44d80e7bad61418713dfe1e7b3cc3180e7765c139ece704c941dcfc832c3da9b",
+    "Stone_bridge_approach_-1_0": "1cc0d5735e092a8a7e6c4899f6aaeccccf5fd5e38c648cc045de6acee55bd6c9",
+    "South_gatehouse_-1": "37ec3f58d3cf4c58cce3faa86e1d2e68963f4ad3265265f510a4597d9ff7f574",
+    "Library_stair_6": "4e4851b032b17c62c4f7f8a1840b4e791a31bd90d0bbf57bd647a7300a0b4762",
+    "B20_grandstand": "9bcfd3a470f714e63416288605081443de13eee368d120f668a4ce8425fa4388",
+    "B13_library": "77f73ddb46ae4362472c9488543f8492ed2053d8f61680bf40127aeb1b00d12f",
+    "South_gatehouse_roof_-1": "8148801421d6ad60b33659c971b189c8a5aed1bf0755cb806ec1b9ba0bbc031f",
+    "V07_library_entry_planters": "34a9ed46b08f965fc4bcc0a24ebebce4958ea4b52ba62436fe128a9b475cea6e",
+    "B14_admin_1": "19d0fb2bf30697b4431dfc53102078f0297d6130211972a78fa2730b0a0a4eb7",
+    "Library_south_plaza": "24acea9d5a80ccce32e6210b5f2f629648541adba0461f3f0e08c4987bcf8e06",
+    "Campus_roads": "4c1d56af048c69b2da3d1823ca3570cb98c01c9844cbb0ac3bfa849ddc0aaeaf",
+    "B05_dorm": "9f8e76a40b7492bea396321d03f68d0b520e77a9308b41e902fff1bdf1e8a101",
+    "B12_arcade": "5b792d4fdbaea07e2fe094c5d4ed6bddf505f507ad5159bb9f6c157663b52da3",
+    "B11_dorm": "c4ef0dbe98a25405301dc5dd422133c43d9093356b06d45a8ce1bda9151095f0",
+    "B06_dorm": "4307659fe9f9be59e29e370a69072b1fb9f127ec8695b5b6b853cd4314745bf2",
+    "B16_teaching": "d3255fa8002efc31a25a61ebb32636cc1ed66cc0cdb6e9304e042bfd50415226",
+    "Library_stair_7": "9601f2a7aeaed701b1ce509ad3a0f2b426351f0037f05f195cf0b81703af2d95",
+    "Campus_ground": "1fc5c8ce0820458cc8caedd4b60d5d8950ef52040778cd58957a9f5a7b29d461",
+    "B01_tower": "8caa0d5ff0a5f4e2be8e3e816d4a7e59c5fdc65b1e120424be83cf3f9a7b1091"
+  },
+  "world_colliders_sha256": "4727f042a451c757a4c7a6c8c5012c5a1fb38f04e366f5944bf5d8c62910db49",
+  "materials": [
+    {
+      "file": "HenanCampus.glb",
+      "photo_materials": [
+        "PhotoProjectedFacade_0",
+        "PhotoProjectedFacade_1",
+        "PhotoProjectedFacade_2"
+      ],
+      "explicit_unlit": true
+    },
+    {
+      "file": "library.glb",
+      "photo_materials": [
+        "PhotoProjectedFacade_0",
+        "PhotoProjectedFacade_1",
+        "PhotoProjectedFacade_2"
+      ],
+      "explicit_unlit": true
+    },
+    {
+      "file": "campus-base.glb",
+      "photo_materials": [
+        "PhotoProjectedCoarse_0",
+        "PhotoProjectedCoarse_1",
+        "PhotoProjectedCoarse_2"
+      ],
+      "explicit_unlit": true
+    }
+  ],
+  "scope": "Exact unchanged world-space collision-source meshes plus actual glTF unlit extension; not surveyed shape or photorealism proof."
+}

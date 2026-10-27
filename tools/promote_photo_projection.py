@@ -1,0 +1,12 @@
+"""Promote only the verified photographic library and shared plaza; keep other zones."""
+import hashlib,json,shutil,sys
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT));from automation.quality import glb_gate
+S=ROOT/'.campus-cache/photo-projection';F=S/'front';P=ROOT/'assets/henan_campus/project';D=ROOT/'game/dist/assets';BASE=ROOT/'.campus-cache/photo-fit/baseline';r=json.loads((F/'fit-report.json').read_text());roundtrip=json.loads((F/'reimport.json').read_text());physical=json.loads((F/'physical-and-materials.json').read_text());assert r['passed'] and roundtrip['passed'] and physical['passed'];assert r['selected_facade_planes']==[0,1,2]
+gates={n:glb_gate(F/n,10) for n in ['HenanCampus.glb','library.glb','campus-base.glb']}
+for n in ['HenanCampus.blend','HenanCampus.glb','HenanCampus.fbx']:shutil.copy2(F/n,P/n)
+shutil.copy2(F/'campus-base.glb',D/'campus.glb');shutil.copy2(F/'library.glb',D/'zones/b13.glb');shutil.copy2(F/'zones.json',D/'zones.json');shutil.copytree(S/'assets',P/'assets/photo-projection',dirs_exist_ok=True);shutil.copy2(F/'reimport.json',P/'verification/reimport_validation.json')
+cfg=json.loads((ROOT/'configs/photo-projection-library.json').read_text());spec=json.loads((BASE/'scene_specification.json').read_text());spec.update(version='0.7.1',photo_projection=cfg);(P/'scene_specification.json').write_text(json.dumps(spec,ensure_ascii=False,indent=2)+'\n')
+world=json.loads((BASE/'world.json').read_text());world.update(version='0.7.1',source_model_sha256=hashlib.sha256((P/'HenanCampus.glb').read_bytes()).hexdigest(),runtime_base_sha256=hashlib.sha256((D/'campus.glb').read_bytes()).hexdigest(),photoProjection={'building':13,'upperFrontOnly':True,'groundPavers':True,'sourceCapture':'2017-08-11','accuracy':'PHOTO_SURFACE_ON_ESTIMATED_EXISTING_GEOMETRY_NOT_SURVEYED'});(D/'world.json').write_text(json.dumps(world,ensure_ascii=False,separators=(',',':')))
+for src,name in [('fit-report.json','photo-projection-geometry.json'),('reimport.json','photo-projection-reimport.json'),('physical-and-materials.json','photo-projection-physical.json')]:shutil.copy2(F/src,ROOT/'reports'/name)
+shutil.copy2(S/'materials.json',ROOT/'reports/photo-projection-materials.json');gates['status']='MODEL_FORMAT_PHYSICAL_AND_MATERIAL_GATES_PASSED_BROWSER_PENDING';(ROOT/'reports/photo-projection-gates.json').write_text(json.dumps(gates,indent=2)+'\n');print('PHOTO_LIBRARY_PROMOTED_OTHER_ZONES_UNCHANGED')

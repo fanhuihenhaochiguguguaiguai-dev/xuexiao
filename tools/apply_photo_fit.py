@@ -73,10 +73,13 @@ if args.campaign=='front':
     if obj.data.materials[face.material_index]!=wall:continue
     for li in face.loop_indices:
      p=obj.matrix_world@obj.data.vertices[obj.data.loops[li].vertex_index].co;obj.data.uv_layers.active.data[li].uv=((p.x if abs(face.normal.y)>.5 else p.y)/1.5,p.z)
- paving=bpy.data.objects['Library_south_plaza'];old=paving.data.materials[0];m=old.copy();m.name='PhotoLibraryPavers';nodes=m.node_tree.nodes;bs=nodes.get('Principled BSDF');t=nodes.new('ShaderNodeTexImage');t.image=bpy.data.images.load(str(S/'assets/library-photo-pavers.png'));m.node_tree.links.new(t.outputs['Color'],bs.inputs['Base Color']);bs.inputs['Roughness'].default_value=.9;paving.data.materials[0]=m
+ paving=bpy.data.objects['Library_south_plaza'];old=bpy.data.materials['V05_terrain_paving'];m=old.copy();m.name='V05_terrain_PhotoPavers';nodes=m.node_tree.nodes;bs=nodes.get('Principled BSDF');t=nodes.new('ShaderNodeTexImage');t.image=bpy.data.images.load(str(S/'assets/library-photo-pavers.png'));m.node_tree.links.new(t.outputs['Color'],bs.inputs['Base Color']);bs.inputs['Roughness'].default_value=.9;paving.data.materials[0]=m
  uv=paving.data.uv_layers.get('UVMap') or paving.data.uv_layers[0]
  for loop in paving.data.loops:
   p=paving.matrix_world@paving.data.vertices[loop.vertex_index].co;uv.data[loop.index].uv=(p.x/.9,p.y/.6)
+ bounds=json.loads((P/'assets/lighting-water.json').read_text())['ground_blender_bounds'];x0,y0,x1,y1=bounds;atlas=paving.data.uv_layers.get('GroundAtlas') or paving.data.uv_layers.new(name='GroundAtlas')
+ for loop in paving.data.loops:
+  p=paving.matrix_world@paving.data.vertices[loop.vertex_index].co;atlas.data[loop.index].uv=((p.x-x0)/(x1-x0),(p.y-y0)/(y1-y0))
 for im in bpy.data.images:
  if im.type=='IMAGE' and im.source=='FILE' and not im.packed_file:im.pack()
 all_meshes=[o for o in scene.objects if o.type=='MESH'];triangles=sum(len(p.vertices)-2 for o in all_meshes for p in o.data.polygons);added=triangles-before_triangles;assert added<=cfg['budget']['maximum_added_triangles'],added

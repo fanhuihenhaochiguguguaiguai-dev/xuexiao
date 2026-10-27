@@ -1,0 +1,45 @@
+{
+  "HenanCampus.glb": {
+    "passed": true,
+    "sha256": "f0ecc090210bb1dfc7c488d6817727da4b535a837a175a56e4c5dbd22493a80f",
+    "triangles": 103645,
+    "vertices": 149878,
+    "position_extent_m": [
+      722.0218811035156,
+      73.44300055503845,
+      749.9226379394531
+    ],
+    "embedded_images": 17,
+    "animations": [],
+    "scope": "Geometry, buffers, finiteness and embedded texture signatures; not a likeness, survey, render or full glTF schema certification."
+  },
+  "library.glb": {
+    "passed": true,
+    "sha256": "c20c29c585fd676c1a21371fbf2b831c1f2f91e7053a5877ef021e2bef062273",
+    "triangles": 1438,
+    "vertices": 2980,
+    "position_extent_m": [
+      114.82917022705078,
+      39.401670813560486,
+      114.62933731079102
+    ],
+    "embedded_images": 6,
+    "animations": [],
+    "scope": "Geometry, buffers, finiteness and embedded texture signatures; not a likeness, survey, render or full glTF schema certification."
+  },
+  "campus-base.glb": {
+    "passed": true,
+    "sha256": "0c4e1343a59390189a2a165cfd70e8610bdb44e211a53dde5690548c4f5d3b14",
+    "triangles": 72921,
+    "vertices": 89215,
+    "position_extent_m": [
+      722.0218811035156,
+      71.44300055503845,
+      749.9226379394531
+    ],
+    "embedded_images": 17,
+    "animations": [],
+    "scope": "Geometry, buffers, finiteness and embedded texture signatures; not a likeness, survey, render or full glTF schema certification."
+  },
+  "status": "MODEL_FORMAT_PHYSICAL_AND_MATERIAL_GATES_PASSED_BROWSER_PENDING"
+}

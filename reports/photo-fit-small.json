@@ -1,0 +1,248 @@
+{
+  "passed": true,
+  "fingerprint": "5b8dea74eb63df4aa1e16f8610555d8aa24e3fbe0f53c392b435f67e2e044dc3",
+  "campaign": "small",
+  "selection": {
+    "bays": [
+      4,
+      5,
+      6
+    ],
+    "rows": [
+      2,
+      3
+    ]
+  },
+  "old_panels_removed": 24,
+  "photo_windows": 12,
+  "baseline_triangles": 108317,
+  "triangles": 108401,
+  "added_triangles": 84,
+  "body_height_m": 35.09999752044678,
+  "floor_height_m": 3.9,
+  "original_photos_embedded": false,
+  "photo_texture_bytes": 210793,
+  "geometry_status": "EXISTING_PHYSICAL_SOLIDS_AND_FOOTPRINTS_RETAINED; FACADE_COMPONENTS_APPROXIMATE",
+  "outputs": {
+    "HenanCampus.blend": "9eda8f579ddbb6ef1ffc520972216aa674424d1a6619802b4bbbe5bfecc0bec5",
+    "library.glb": "a8ca4f9883e7a140785f4c1729ea423a4780327d1190ff58fff71b0efdb5b95c"
+  },
+  "materials": {
+    "passed": true,
+    "fingerprint": "3f3ebf9148c005ec829e6ceef76b8c4b452dc18eadc57b1108af1a4f709412a8",
+    "source_photo_sha256": "4b43bf8c50ff83a08e2effc9d0661952357af3c284505df26dbf1dd37f21b105",
+    "source_dimensions": [
+      1000,
+      450
+    ],
+    "permission": "USER_REQUESTED_PHOTO_DERIVED_GAME_TEXTURES; ORIGINAL_PHOTOS_REMAIN_PRIVATE",
+    "method": "PLANAR_HOMOGRAPHY_COMPONENT_TEXTURES_NOT_PHOTOGRAMMETRY",
+    "window_checks": [
+      {
+        "homography": [
+          [
+            3.4661599301970925,
+            0.25362145830710137,
+            -2081.471308326405
+          ],
+          [
+            0.6244998835171676,
+            4.014642108324653,
+            -565.5292516593323
+          ],
+          [
+            0.0008001863725221913,
+            0.0026696995611273813,
+            1.0
+          ]
+        ],
+        "corner_error_px": 0.0,
+        "source_edge_pixels": [
+          45.54119110107422,
+          41.0,
+          48.50773239135742,
+          41.1096076965332
+        ],
+        "output_dimensions": [
+          96,
+          96
+        ]
+      },
+      {
+        "homography": [
+          [
+            2.0762654723653067,
+            0.09886978439834528,
+            -1384.5724607144643
+          ],
+          [
+            0.3161950987064355,
+            2.1606665078273086,
+            -294.5357344450446
+          ],
+          [
+            -0.00020469714066733143,
+            0.0010407345726141614,
+            1.0
+          ]
+        ],
+        "corner_error_px": 0.0,
+        "source_edge_pixels": [
+          41.43669891357422,
+          41.0,
+          43.5660400390625,
+          42.04759216308594
+        ],
+        "output_dimensions": [
+          96,
+          96
+        ]
+      },
+      {
+        "homography": [
+          [
+            2.7790913320125314,
+            0.06316116663664743,
+            -2022.231072205573
+          ],
+          [
+            0.38714924186145633,
+            2.5809949457430443,
+            -356.306352259827
+          ],
+          [
+            0.00019669223149713295,
+            0.0006648543856489177,
+            1.0
+          ]
+        ],
+        "corner_error_px": 2.0164867497139694e-13,
+        "source_edge_pixels": [
+          40.4474983215332,
+          44.0,
+          41.43669891357422,
+          44.0113639831543
+        ],
+        "output_dimensions": [
+          96,
+          96
+        ]
+      },
+      {
+        "homography": [
+          [
+            2.3170731707317023,
+            -4.1956638111886133e-16,
+            -1821.2195121951179
+          ],
+          [
+            0.36043360433604255,
+            2.1111111111111076,
+            -325.5230352303516
+          ],
+          [
+            -1.9357247543885175e-18,
+            -3.3241765415677172e-18,
+            1.0
+          ]
+        ],
+        "corner_error_px": 0.0,
+        "source_edge_pixels": [
+          41.59326934814453,
+          45.0,
+          41.59326934814453,
+          45.0
+        ],
+        "output_dimensions": [
+          96,
+          96
+        ]
+      }
+    ],
+    "wall_check": {
+      "homography": [
+        [
+          4.730315845214035,
+          0.1751968831560807,
+          -3184.3785482448266
+        ],
+        [
+          0.8952753638756411,
+          6.625037692679734,
+          -1169.5877353671367
+        ],
+        [
+          0.00036702440523333704,
+          0.001379503016977014,
+          1.0
+        ]
+      ],
+      "corner_error_px": 3.332596785338149e-13,
+      "source_edge_pixels": [
+        37.336307525634766,
+        27.0,
+        38.327537536621094,
+        27.018512725830078
+      ],
+      "output_dimensions": [
+        128,
+        128
+      ]
+    },
+    "paving_check": {
+      "homography": [
+        [
+          0.525773195876289,
+          -0.350515463917526,
+          -70.10309278350519
+        ],
+        [
+          0.3943298969072168,
+          0.587113402061856,
+          -430.8273195876292
+        ],
+        [
+          5.314348336996914e-19,
+          2.9587993443820643e-19,
+          1.0
+        ]
+      ],
+      "corner_error_px": 2.842170943040401e-14,
+      "source_edge_pixels": [
+        403.5467834472656,
+        360.55511474609375,
+        403.5467834472656,
+        360.55511474609375
+      ],
+      "output_dimensions": [
+        256,
+        256
+      ]
+    },
+    "paving_source_sha256": "a4b0f80cf38d1da13f632fe896b670e3413f31e0da34c4b8b33843bf6f68d355",
+    "texture_hashes": {
+      "library-photo-cladding.png": "4d4321ba6f8281ab29be846c01cbd23c65f7f54bb80c11c8d36227688ce7784f",
+      "library-photo-normal.png": "177e8d0b549091495205358997bdde257593b7ec4f8079b7892dbe557aa53ef3",
+      "library-photo-pavers.png": "cfd2af06de54a41b1a0e66b43aa725b607f884cf2af1207ac0c6cf9d7c281cbf",
+      "library-photo-windows.png": "cace568baa7f199330c8b6e1b23b090acd4cbf9c9bef2a5f6d7d19e0f324941d"
+    },
+    "texture_bytes": 210793,
+    "original_photo_included": false,
+    "source_detail_limit": "Actual usable window corners span about 40 pixels; output resolution does not create new captured detail",
+    "normal_status": "PHOTO_DERIVED_MICRO_NORMAL_ESTIMATE_NOT_MEASURED_DEPTH"
+  },
+  "independent_glb_check": {
+    "passed": true,
+    "sha256": "a8ca4f9883e7a140785f4c1729ea423a4780327d1190ff58fff71b0efdb5b95c",
+    "triangles": 6194,
+    "vertices": 10288,
+    "position_extent_m": [
+      114.82917022705078,
+      39.401670813560486,
+      114.62933731079102
+    ],
+    "embedded_images": 6,
+    "animations": [],
+    "scope": "Geometry, buffers, finiteness and embedded texture signatures; not a likeness, survey, render or full glTF schema certification."
+  }
+}

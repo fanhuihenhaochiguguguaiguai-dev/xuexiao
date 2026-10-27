@@ -1,6 +1,6 @@
 {
   "baseline": {
-    "mesh_objects": 153,
+    "mesh_objects": 154,
     "building_bounds": {
       "13": {
         "min": [
@@ -244,7 +244,7 @@
       }
     },
     "temporary_uv_seam_weld_tolerance_m": 0.0001,
-    "triangles": 108317,
+    "triangles": 103645,
     "invalid_coordinate_objects": [],
     "building_geometry_checks": [
       {
@@ -383,7 +383,7 @@
           256
         ],
         "packed": true,
-        "path": "//../assets/henan_campus/project/assets/admin_facade.png"
+        "path": "//../../photo-fit/assets/henan_campus/project/assets/admin_facade.png"
       },
       {
         "name": "arcade_facade.png",
@@ -393,7 +393,7 @@
           256
         ],
         "packed": true,
-        "path": "//../assets/henan_campus/project/assets/arcade_facade.png"
+        "path": "//../../photo-fit/assets/henan_campus/project/assets/arcade_facade.png"
       },
       {
         "name": "court.png",
@@ -403,7 +403,7 @@
           768
         ],
         "packed": true,
-        "path": "//../assets/henan_campus/project/assets/court.png"
+        "path": "//../../photo-fit/assets/henan_campus/project/assets/court.png"
       },
       {
         "name": "dorm-facade-v07.png",
@@ -464,6 +464,46 @@
         ],
         "packed": true,
         "path": "/workspace/repositories/xuexiao/.campus-cache/v07/assets/ground-occlusion-v07.png"
+      },
+      {
+        "name": "library-facade-0.jpg",
+        "has_pixels": true,
+        "size": [
+          512,
+          1024
+        ],
+        "packed": true,
+        "path": "/workspace/repositories/xuexiao/.campus-cache/photo-projection/assets/library-facade-0.jpg"
+      },
+      {
+        "name": "library-facade-1.jpg",
+        "has_pixels": true,
+        "size": [
+          1024,
+          768
+        ],
+        "packed": true,
+        "path": "/workspace/repositories/xuexiao/.campus-cache/photo-projection/assets/library-facade-1.jpg"
+      },
+      {
+        "name": "library-facade-2.jpg",
+        "has_pixels": true,
+        "size": [
+          512,
+          1024
+        ],
+        "packed": true,
+        "path": "/workspace/repositories/xuexiao/.campus-cache/photo-projection/assets/library-facade-2.jpg"
+      },
+      {
+        "name": "library-pavers.png",
+        "has_pixels": true,
+        "size": [
+          256,
+          256
+        ],
+        "packed": true,
+        "path": "/workspace/repositories/xuexiao/.campus-cache/photo-projection/assets/library-pavers.png"
       },
       {
         "name": "library_paving.png",
@@ -643,7 +683,7 @@
           256
         ],
         "packed": true,
-        "path": "//../assets/henan_campus/project/assets/tower_facade.png"
+        "path": "//../../photo-fit/assets/henan_campus/project/assets/tower_facade.png"
       }
     ],
     "all_images_loaded": true,
@@ -651,7 +691,7 @@
   },
   "formats": {
     "glb": {
-      "mesh_objects": 153,
+      "mesh_objects": 154,
       "building_bounds": {
         "13": {
           "min": [
@@ -895,7 +935,7 @@
         }
       },
       "temporary_uv_seam_weld_tolerance_m": 0.0001,
-      "triangles": 108317,
+      "triangles": 103645,
       "invalid_coordinate_objects": [],
       "building_geometry_checks": [
         {
@@ -1117,11 +1157,41 @@
           "path": ""
         },
         {
-          "name": "library_paving",
+          "name": "library-facade-0",
           "has_pixels": true,
           "size": [
             512,
-            512
+            1024
+          ],
+          "packed": true,
+          "path": ""
+        },
+        {
+          "name": "library-facade-1",
+          "has_pixels": true,
+          "size": [
+            1024,
+            768
+          ],
+          "packed": true,
+          "path": ""
+        },
+        {
+          "name": "library-facade-2",
+          "has_pixels": true,
+          "size": [
+            512,
+            1024
+          ],
+          "packed": true,
+          "path": ""
+        },
+        {
+          "name": "library-pavers",
+          "has_pixels": true,
+          "size": [
+            256,
+            256
           ],
           "packed": true,
           "path": ""
@@ -1173,7 +1243,7 @@
       "passed": true
     },
     "fbx": {
-      "mesh_objects": 153,
+      "mesh_objects": 154,
       "building_bounds": {
         "1": {
           "min": [
@@ -1417,7 +1487,7 @@
         }
       },
       "temporary_uv_seam_weld_tolerance_m": 0.0001,
-      "triangles": 108317,
+      "triangles": 103645,
       "invalid_coordinate_objects": [],
       "building_geometry_checks": [
         {
@@ -1556,7 +1626,7 @@
             256
           ],
           "packed": true,
-          "path": "/workspace/repositories/xuexiao/.campus-cache/v07/HenanCampus.fbm/admin_facade.png"
+          "path": "/workspace/repositories/xuexiao/.campus-cache/photo-projection/front/HenanCampus.fbm/admin_facade.png"
         },
         {
           "name": "arcade_facade.png",
@@ -1566,7 +1636,7 @@
             256
           ],
           "packed": true,
-          "path": "/workspace/repositories/xuexiao/.campus-cache/v07/HenanCampus.fbm/arcade_facade.png"
+          "path": "/workspace/repositories/xuexiao/.campus-cache/photo-projection/front/HenanCampus.fbm/arcade_facade.png"
         },
         {
           "name": "court.png",
@@ -1576,7 +1646,7 @@
             768
           ],
           "packed": true,
-          "path": "/workspace/repositories/xuexiao/.campus-cache/v07/HenanCampus.fbm/court.png"
+          "path": "/workspace/repositories/xuexiao/.campus-cache/photo-projection/front/HenanCampus.fbm/court.png"
         },
         {
           "name": "dorm-facade-v07.png",
@@ -1586,7 +1656,7 @@
             256
           ],
           "packed": true,
-          "path": "/workspace/repositories/xuexiao/.campus-cache/v07/assets/dorm-facade-v07.png"
+          "path": "/workspace/repositories/xuexiao/.campus-cache/photo-projection/front/HenanCampus.fbm/dorm-facade-v07.png"
         },
         {
           "name": "Garden_pond_north-depth-color.png",
@@ -1596,7 +1666,7 @@
             256
           ],
           "packed": true,
-          "path": "/workspace/repositories/xuexiao/.campus-cache/v07/HenanCampus.fbm/Garden_pond_north-depth-color.png"
+          "path": "/workspace/repositories/xuexiao/.campus-cache/photo-projection/front/HenanCampus.fbm/Garden_pond_north-depth-color.png"
         },
         {
           "name": "Garden_pond_south-depth-color.png",
@@ -1606,7 +1676,7 @@
             256
           ],
           "packed": true,
-          "path": "/workspace/repositories/xuexiao/.campus-cache/v07/HenanCampus.fbm/Garden_pond_south-depth-color.png"
+          "path": "/workspace/repositories/xuexiao/.campus-cache/photo-projection/front/HenanCampus.fbm/Garden_pond_south-depth-color.png"
         },
         {
           "name": "Garden_pond_south_1-depth-color.png",
@@ -1616,17 +1686,47 @@
             256
           ],
           "packed": true,
-          "path": "/workspace/repositories/xuexiao/.campus-cache/v07/HenanCampus.fbm/Garden_pond_south_1-depth-color.png"
+          "path": "/workspace/repositories/xuexiao/.campus-cache/photo-projection/front/HenanCampus.fbm/Garden_pond_south_1-depth-color.png"
         },
         {
-          "name": "library_paving.png.002",
+          "name": "library-facade-0.jpg",
           "has_pixels": true,
           "size": [
             512,
-            512
+            1024
           ],
           "packed": true,
-          "path": "/workspace/repositories/xuexiao/.campus-cache/v07/HenanCampus.fbm/library_paving.png"
+          "path": "/workspace/repositories/xuexiao/.campus-cache/photo-projection/front/HenanCampus.fbm/library-facade-0.jpg"
+        },
+        {
+          "name": "library-facade-1.jpg",
+          "has_pixels": true,
+          "size": [
+            1024,
+            768
+          ],
+          "packed": true,
+          "path": "/workspace/repositories/xuexiao/.campus-cache/photo-projection/front/HenanCampus.fbm/library-facade-1.jpg"
+        },
+        {
+          "name": "library-facade-2.jpg",
+          "has_pixels": true,
+          "size": [
+            512,
+            1024
+          ],
+          "packed": true,
+          "path": "/workspace/repositories/xuexiao/.campus-cache/photo-projection/front/HenanCampus.fbm/library-facade-2.jpg"
+        },
+        {
+          "name": "library-pavers.png",
+          "has_pixels": true,
+          "size": [
+            256,
+            256
+          ],
+          "packed": true,
+          "path": "/workspace/repositories/xuexiao/.campus-cache/photo-projection/front/HenanCampus.fbm/library-pavers.png"
         },
         {
           "name": "stone-basecolor-1024.png",
@@ -1636,7 +1736,7 @@
             1024
           ],
           "packed": true,
-          "path": "/workspace/repositories/xuexiao/.campus-cache/v07/HenanCampus.fbm/stone-basecolor-1024.png"
+          "path": "/workspace/repositories/xuexiao/.campus-cache/photo-projection/front/HenanCampus.fbm/stone-basecolor-1024.png"
         },
         {
           "name": "stone-normal-1024.png.002",
@@ -1646,7 +1746,7 @@
             1024
           ],
           "packed": true,
-          "path": "/workspace/repositories/xuexiao/.campus-cache/v07/HenanCampus.fbm/stone-normal-1024.png"
+          "path": "/workspace/repositories/xuexiao/.campus-cache/photo-projection/front/HenanCampus.fbm/stone-normal-1024.png"
         },
         {
           "name": "stone-roughness-1024.png.002",
@@ -1656,7 +1756,7 @@
             1024
           ],
           "packed": true,
-          "path": "/workspace/repositories/xuexiao/.campus-cache/v07/HenanCampus.fbm/stone-roughness-1024.png"
+          "path": "/workspace/repositories/xuexiao/.campus-cache/photo-projection/front/HenanCampus.fbm/stone-roughness-1024.png"
         },
         {
           "name": "tower_facade.png",
@@ -1666,7 +1766,7 @@
             256
           ],
           "packed": true,
-          "path": "/workspace/repositories/xuexiao/.campus-cache/v07/HenanCampus.fbm/tower_facade.png"
+          "path": "/workspace/repositories/xuexiao/.campus-cache/photo-projection/front/HenanCampus.fbm/tower_facade.png"
         }
       ],
       "all_images_loaded": true,

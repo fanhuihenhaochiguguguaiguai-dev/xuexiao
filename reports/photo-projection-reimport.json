@@ -1,0 +1,1780 @@
+{
+  "baseline": {
+    "mesh_objects": 154,
+    "building_bounds": {
+      "13": {
+        "min": [
+          -81.16748046875,
+          -57.951637268066406,
+          0.1599999964237213
+        ],
+        "max": [
+          33.66168975830078,
+          56.67770004272461,
+          38.751670837402344
+        ]
+      },
+      "20": {
+        "min": [
+          -335.43377685546875,
+          -21.747472763061523,
+          0.0
+        ],
+        "max": [
+          -248.0960235595703,
+          97.80419158935547,
+          6.799999713897705
+        ]
+      },
+      "1": {
+        "min": [
+          -13.469447135925293,
+          348.6860046386719,
+          0.1599999964237213
+        ],
+        "max": [
+          38.276206970214844,
+          391.95147705078125,
+          72.36000061035156
+        ]
+      },
+      "2": {
+        "min": [
+          19.874874114990234,
+          293.65020751953125,
+          0.1599999964237213
+        ],
+        "max": [
+          71.62992095947266,
+          336.90472412109375,
+          72.36000061035156
+        ]
+      },
+      "3": {
+        "min": [
+          -92.11799621582031,
+          298.1656799316406,
+          0.1599999964237213
+        ],
+        "max": [
+          -25.71279525756836,
+          350.31683349609375,
+          72.36000061035156
+        ]
+      },
+      "4": {
+        "min": [
+          -47.216854095458984,
+          234.36550903320312,
+          0.1599999964237213
+        ],
+        "max": [
+          24.505096435546875,
+          291.49798583984375,
+          72.36000061035156
+        ]
+      },
+      "5": {
+        "min": [
+          2.763484477996826,
+          179.70680236816406,
+          0.1599999964237213
+        ],
+        "max": [
+          122.91938018798828,
+          257.08599853515625,
+          25.559999465942383
+        ]
+      },
+      "6": {
+        "min": [
+          29.318674087524414,
+          143.0644073486328,
+          0.1599999964237213
+        ],
+        "max": [
+          149.46572875976562,
+          220.44386291503906,
+          25.559999465942383
+        ]
+      },
+      "7": {
+        "min": [
+          48.9561653137207,
+          104.95768737792969,
+          0.1599999964237213
+        ],
+        "max": [
+          169.1035919189453,
+          182.3262176513672,
+          25.559999465942383
+        ]
+      },
+      "8": {
+        "min": [
+          72.75740814208984,
+          65.61964416503906,
+          0.1599999964237213
+        ],
+        "max": [
+          192.9143524169922,
+          142.9884033203125,
+          25.559999465942383
+        ]
+      },
+      "9": {
+        "min": [
+          95.83590698242188,
+          30.186630249023438,
+          0.1599999964237213
+        ],
+        "max": [
+          215.98402404785156,
+          107.56671142578125,
+          25.559999465942383
+        ]
+      },
+      "10": {
+        "min": [
+          128.47705078125,
+          -2.794539213180542,
+          0.1599999964237213
+        ],
+        "max": [
+          241.26841735839844,
+          68.96124267578125,
+          25.559999465942383
+        ]
+      },
+      "11": {
+        "min": [
+          152.0409698486328,
+          -41.52223587036133,
+          0.1599999964237213
+        ],
+        "max": [
+          264.83270263671875,
+          30.23377227783203,
+          25.559999465942383
+        ]
+      },
+      "12": {
+        "min": [
+          -38.56986999511719,
+          -67.10476684570312,
+          0.1599999964237213
+        ],
+        "max": [
+          148.6374969482422,
+          193.17459106445312,
+          12.879999160766602
+        ]
+      },
+      "14": {
+        "min": [
+          3.2760567665100098,
+          -217.003662109375,
+          0.1599999964237213
+        ],
+        "max": [
+          155.81288146972656,
+          -99.23187255859375,
+          20.459999084472656
+        ]
+      },
+      "15": {
+        "min": [
+          -210.33251953125,
+          -69.70392608642578,
+          0.1599999964237213
+        ],
+        "max": [
+          -115.3382568359375,
+          10.12218952178955,
+          25.559999465942383
+        ]
+      },
+      "16": {
+        "min": [
+          -184.10704040527344,
+          -111.37235260009766,
+          0.1599999964237213
+        ],
+        "max": [
+          -89.1124267578125,
+          -31.534969329833984,
+          25.559999465942383
+        ]
+      },
+      "17": {
+        "min": [
+          -153.22340393066406,
+          -149.1468963623047,
+          0.1599999964237213
+        ],
+        "max": [
+          -58.22856140136719,
+          -69.30931091308594,
+          25.559999465942383
+        ]
+      },
+      "18": {
+        "min": [
+          -121.97355651855469,
+          -190.9927215576172,
+          0.1599999964237213
+        ],
+        "max": [
+          -26.978418350219727,
+          -111.16600036621094,
+          25.559999465942383
+        ]
+      },
+      "19": {
+        "min": [
+          -96.68061828613281,
+          -225.4388885498047,
+          0.1599999964237213
+        ],
+        "max": [
+          -1.685227870941162,
+          -145.60092163085938,
+          25.559999465942383
+        ]
+      }
+    },
+    "temporary_uv_seam_weld_tolerance_m": 0.0001,
+    "triangles": 103645,
+    "invalid_coordinate_objects": [],
+    "building_geometry_checks": [
+      {
+        "object": "B01_tower",
+        "building_index": 1,
+        "non_manifold_edges_after_seam_weld": 0,
+        "volume_m3": 54780.68800378484
+      },
+      {
+        "object": "B02_tower",
+        "building_index": 2,
+        "non_manifold_edges_after_seam_weld": 0,
+        "volume_m3": 54781.83034356426
+      },
+      {
+        "object": "B03_tower",
+        "building_index": 3,
+        "non_manifold_edges_after_seam_weld": 0,
+        "volume_m3": 66909.24911987479
+      },
+      {
+        "object": "B04_tower",
+        "building_index": 4,
+        "non_manifold_edges_after_seam_weld": 0,
+        "volume_m3": 84047.28226838743
+      },
+      {
+        "object": "B05_dorm",
+        "building_index": 5,
+        "non_manifold_edges_after_seam_weld": 0,
+        "volume_m3": 56820.90344800901
+      },
+      {
+        "object": "B06_dorm",
+        "building_index": 6,
+        "non_manifold_edges_after_seam_weld": 0,
+        "volume_m3": 56827.024484747744
+      },
+      {
+        "object": "B07_dorm",
+        "building_index": 7,
+        "non_manifold_edges_after_seam_weld": 0,
+        "volume_m3": 56818.07724493573
+      },
+      {
+        "object": "B08_dorm",
+        "building_index": 8,
+        "non_manifold_edges_after_seam_weld": 0,
+        "volume_m3": 56823.4968448446
+      },
+      {
+        "object": "B09_dorm",
+        "building_index": 9,
+        "non_manifold_edges_after_seam_weld": 0,
+        "volume_m3": 56820.03843993583
+      },
+      {
+        "object": "B10_dorm",
+        "building_index": 10,
+        "non_manifold_edges_after_seam_weld": 0,
+        "volume_m3": 52537.423618572
+      },
+      {
+        "object": "B11_dorm",
+        "building_index": 11,
+        "non_manifold_edges_after_seam_weld": 0,
+        "volume_m3": 52536.61550067764
+      },
+      {
+        "object": "B12_arcade",
+        "building_index": 12,
+        "non_manifold_edges_after_seam_weld": 0,
+        "volume_m3": 63271.43655960389
+      },
+      {
+        "object": "B13_library",
+        "building_index": 13,
+        "non_manifold_edges_after_seam_weld": 0,
+        "volume_m3": 177257.3469193287
+      },
+      {
+        "object": "B14_admin",
+        "building_index": 14,
+        "non_manifold_edges_after_seam_weld": 0,
+        "volume_m3": 33121.73446983377
+      },
+      {
+        "object": "B14_admin_1",
+        "building_index": 14,
+        "non_manifold_edges_after_seam_weld": 0,
+        "volume_m3": 32792.85400324304
+      },
+      {
+        "object": "B15_teaching",
+        "building_index": 15,
+        "non_manifold_edges_after_seam_weld": 0,
+        "volume_m3": 57797.55727267772
+      },
+      {
+        "object": "B16_teaching",
+        "building_index": 16,
+        "non_manifold_edges_after_seam_weld": 0,
+        "volume_m3": 57818.52951936097
+      },
+      {
+        "object": "B17_teaching",
+        "building_index": 17,
+        "non_manifold_edges_after_seam_weld": 0,
+        "volume_m3": 57810.3531313018
+      },
+      {
+        "object": "B18_teaching",
+        "building_index": 18,
+        "non_manifold_edges_after_seam_weld": 0,
+        "volume_m3": 57798.315229470994
+      },
+      {
+        "object": "B19_teaching",
+        "building_index": 19,
+        "non_manifold_edges_after_seam_weld": 0,
+        "volume_m3": 57810.821834593706
+      },
+      {
+        "object": "B20_grandstand",
+        "building_index": 20,
+        "non_manifold_edges_after_seam_weld": 0,
+        "volume_m3": 2647.8201679659455
+      }
+    ],
+    "images": [
+      {
+        "name": "admin_facade.png",
+        "has_pixels": true,
+        "size": [
+          1024,
+          256
+        ],
+        "packed": true,
+        "path": "//../../photo-fit/assets/henan_campus/project/assets/admin_facade.png"
+      },
+      {
+        "name": "arcade_facade.png",
+        "has_pixels": true,
+        "size": [
+          1024,
+          256
+        ],
+        "packed": true,
+        "path": "//../../photo-fit/assets/henan_campus/project/assets/arcade_facade.png"
+      },
+      {
+        "name": "court.png",
+        "has_pixels": true,
+        "size": [
+          512,
+          768
+        ],
+        "packed": true,
+        "path": "//../../photo-fit/assets/henan_campus/project/assets/court.png"
+      },
+      {
+        "name": "dorm-facade-v07.png",
+        "has_pixels": true,
+        "size": [
+          1024,
+          256
+        ],
+        "packed": true,
+        "path": "/workspace/repositories/xuexiao/.campus-cache/v07/assets/dorm-facade-v07.png"
+      },
+      {
+        "name": "facade-cell-ao.png",
+        "has_pixels": true,
+        "size": [
+          256,
+          256
+        ],
+        "packed": true,
+        "path": "/workspace/repositories/xuexiao/.campus-cache/v05/final/assets/facade-cell-ao.png"
+      },
+      {
+        "name": "Garden_pond_north-depth-color.png",
+        "has_pixels": true,
+        "size": [
+          256,
+          256
+        ],
+        "packed": true,
+        "path": "/workspace/repositories/xuexiao/.campus-cache/v05/final/assets/Garden_pond_north-depth-color.png"
+      },
+      {
+        "name": "Garden_pond_south-depth-color.png",
+        "has_pixels": true,
+        "size": [
+          256,
+          256
+        ],
+        "packed": true,
+        "path": "/workspace/repositories/xuexiao/.campus-cache/v05/final/assets/Garden_pond_south-depth-color.png"
+      },
+      {
+        "name": "Garden_pond_south_1-depth-color.png",
+        "has_pixels": true,
+        "size": [
+          256,
+          256
+        ],
+        "packed": true,
+        "path": "/workspace/repositories/xuexiao/.campus-cache/v05/final/assets/Garden_pond_south_1-depth-color.png"
+      },
+      {
+        "name": "ground-occlusion-v07.png",
+        "has_pixels": true,
+        "size": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "path": "/workspace/repositories/xuexiao/.campus-cache/v07/assets/ground-occlusion-v07.png"
+      },
+      {
+        "name": "library-facade-0.jpg",
+        "has_pixels": true,
+        "size": [
+          512,
+          1024
+        ],
+        "packed": true,
+        "path": "/workspace/repositories/xuexiao/.campus-cache/photo-projection/assets/library-facade-0.jpg"
+      },
+      {
+        "name": "library-facade-1.jpg",
+        "has_pixels": true,
+        "size": [
+          1024,
+          768
+        ],
+        "packed": true,
+        "path": "/workspace/repositories/xuexiao/.campus-cache/photo-projection/assets/library-facade-1.jpg"
+      },
+      {
+        "name": "library-facade-2.jpg",
+        "has_pixels": true,
+        "size": [
+          512,
+          1024
+        ],
+        "packed": true,
+        "path": "/workspace/repositories/xuexiao/.campus-cache/photo-projection/assets/library-facade-2.jpg"
+      },
+      {
+        "name": "library-pavers.png",
+        "has_pixels": true,
+        "size": [
+          256,
+          256
+        ],
+        "packed": true,
+        "path": "/workspace/repositories/xuexiao/.campus-cache/photo-projection/assets/library-pavers.png"
+      },
+      {
+        "name": "library_paving.png",
+        "has_pixels": true,
+        "size": [
+          512,
+          512
+        ],
+        "packed": true,
+        "path": "/workspace/henan_campus/project/assets/library_paving.png"
+      },
+      {
+        "name": "library_paving.png.001",
+        "has_pixels": true,
+        "size": [
+          512,
+          512
+        ],
+        "packed": true,
+        "path": "/workspace/henan_campus/project/assets/library_paving.png"
+      },
+      {
+        "name": "library_paving.png.002",
+        "has_pixels": true,
+        "size": [
+          512,
+          512
+        ],
+        "packed": true,
+        "path": "/workspace/henan_campus/project/assets/library_paving.png"
+      },
+      {
+        "name": "library_stone.png",
+        "has_pixels": true,
+        "size": [
+          512,
+          512
+        ],
+        "packed": true,
+        "path": "/workspace/henan_campus/project/assets/library_stone.png"
+      },
+      {
+        "name": "library_stone.png.001",
+        "has_pixels": true,
+        "size": [
+          512,
+          512
+        ],
+        "packed": true,
+        "path": "/workspace/henan_campus/project/assets/library_stone.png"
+      },
+      {
+        "name": "library_stone.png.002",
+        "has_pixels": true,
+        "size": [
+          512,
+          512
+        ],
+        "packed": true,
+        "path": "/workspace/henan_campus/project/assets/library_stone.png"
+      },
+      {
+        "name": "stone-basecolor-1024.png",
+        "has_pixels": true,
+        "size": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "path": "/workspace/repositories/xuexiao/.campus-cache/v06/assets/stone-basecolor-1024.png"
+      },
+      {
+        "name": "stone-normal-1024.png",
+        "has_pixels": true,
+        "size": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "path": "/workspace/repositories/xuexiao/.campus-cache/v06/assets/stone-normal-1024.png"
+      },
+      {
+        "name": "stone-normal-1024.png.001",
+        "has_pixels": true,
+        "size": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "path": "/workspace/repositories/xuexiao/.campus-cache/v06/assets/stone-normal-1024.png"
+      },
+      {
+        "name": "stone-normal-1024.png.002",
+        "has_pixels": true,
+        "size": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "path": "/workspace/repositories/xuexiao/.campus-cache/v06/assets/stone-normal-1024.png"
+      },
+      {
+        "name": "stone-normal-1024.png.003",
+        "has_pixels": true,
+        "size": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "path": "/workspace/repositories/xuexiao/.campus-cache/v06/assets/stone-normal-1024.png"
+      },
+      {
+        "name": "stone-normal-1024.png.004",
+        "has_pixels": true,
+        "size": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "path": "/workspace/repositories/xuexiao/.campus-cache/v06/assets/stone-normal-1024.png"
+      },
+      {
+        "name": "stone-roughness-1024.png",
+        "has_pixels": true,
+        "size": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "path": "/workspace/repositories/xuexiao/.campus-cache/v06/assets/stone-roughness-1024.png"
+      },
+      {
+        "name": "stone-roughness-1024.png.001",
+        "has_pixels": true,
+        "size": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "path": "/workspace/repositories/xuexiao/.campus-cache/v06/assets/stone-roughness-1024.png"
+      },
+      {
+        "name": "stone-roughness-1024.png.002",
+        "has_pixels": true,
+        "size": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "path": "/workspace/repositories/xuexiao/.campus-cache/v06/assets/stone-roughness-1024.png"
+      },
+      {
+        "name": "stone-roughness-1024.png.003",
+        "has_pixels": true,
+        "size": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "path": "/workspace/repositories/xuexiao/.campus-cache/v06/assets/stone-roughness-1024.png"
+      },
+      {
+        "name": "stone-roughness-1024.png.004",
+        "has_pixels": true,
+        "size": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "path": "/workspace/repositories/xuexiao/.campus-cache/v06/assets/stone-roughness-1024.png"
+      },
+      {
+        "name": "tower_facade.png",
+        "has_pixels": true,
+        "size": [
+          1024,
+          256
+        ],
+        "packed": true,
+        "path": "//../../photo-fit/assets/henan_campus/project/assets/tower_facade.png"
+      }
+    ],
+    "all_images_loaded": true,
+    "all_building_solids_closed": true
+  },
+  "formats": {
+    "glb": {
+      "mesh_objects": 154,
+      "building_bounds": {
+        "13": {
+          "min": [
+            -81.16748046875,
+            -57.951637268066406,
+            0.1599999964237213
+          ],
+          "max": [
+            33.66168975830078,
+            56.67770004272461,
+            38.751670837402344
+          ]
+        },
+        "20": {
+          "min": [
+            -335.43377685546875,
+            -21.747472763061523,
+            0.0
+          ],
+          "max": [
+            -248.0960235595703,
+            97.80419158935547,
+            6.799999713897705
+          ]
+        },
+        "1": {
+          "min": [
+            -13.469447135925293,
+            348.6860046386719,
+            0.1599999964237213
+          ],
+          "max": [
+            38.276206970214844,
+            391.95147705078125,
+            72.36000061035156
+          ]
+        },
+        "2": {
+          "min": [
+            19.874874114990234,
+            293.65020751953125,
+            0.1599999964237213
+          ],
+          "max": [
+            71.62992095947266,
+            336.90472412109375,
+            72.36000061035156
+          ]
+        },
+        "3": {
+          "min": [
+            -92.11799621582031,
+            298.1656799316406,
+            0.1599999964237213
+          ],
+          "max": [
+            -25.71279525756836,
+            350.31683349609375,
+            72.36000061035156
+          ]
+        },
+        "4": {
+          "min": [
+            -47.216854095458984,
+            234.36550903320312,
+            0.1599999964237213
+          ],
+          "max": [
+            24.505096435546875,
+            291.49798583984375,
+            72.36000061035156
+          ]
+        },
+        "5": {
+          "min": [
+            2.763484477996826,
+            179.70680236816406,
+            0.1599999964237213
+          ],
+          "max": [
+            122.91938018798828,
+            257.08599853515625,
+            25.559999465942383
+          ]
+        },
+        "6": {
+          "min": [
+            29.318674087524414,
+            143.0644073486328,
+            0.1599999964237213
+          ],
+          "max": [
+            149.46572875976562,
+            220.44386291503906,
+            25.559999465942383
+          ]
+        },
+        "7": {
+          "min": [
+            48.9561653137207,
+            104.95768737792969,
+            0.1599999964237213
+          ],
+          "max": [
+            169.1035919189453,
+            182.3262176513672,
+            25.559999465942383
+          ]
+        },
+        "8": {
+          "min": [
+            72.75740814208984,
+            65.61964416503906,
+            0.1599999964237213
+          ],
+          "max": [
+            192.9143524169922,
+            142.9884033203125,
+            25.559999465942383
+          ]
+        },
+        "9": {
+          "min": [
+            95.83590698242188,
+            30.186630249023438,
+            0.1599999964237213
+          ],
+          "max": [
+            215.98402404785156,
+            107.56671142578125,
+            25.559999465942383
+          ]
+        },
+        "10": {
+          "min": [
+            128.47705078125,
+            -2.794539213180542,
+            0.1599999964237213
+          ],
+          "max": [
+            241.26841735839844,
+            68.96124267578125,
+            25.559999465942383
+          ]
+        },
+        "11": {
+          "min": [
+            152.0409698486328,
+            -41.52223587036133,
+            0.1599999964237213
+          ],
+          "max": [
+            264.83270263671875,
+            30.23377227783203,
+            25.559999465942383
+          ]
+        },
+        "12": {
+          "min": [
+            -38.56986999511719,
+            -67.10476684570312,
+            0.1599999964237213
+          ],
+          "max": [
+            148.6374969482422,
+            193.17459106445312,
+            12.879999160766602
+          ]
+        },
+        "14": {
+          "min": [
+            3.2760567665100098,
+            -217.003662109375,
+            0.1599999964237213
+          ],
+          "max": [
+            155.81288146972656,
+            -99.23187255859375,
+            20.459999084472656
+          ]
+        },
+        "15": {
+          "min": [
+            -210.33251953125,
+            -69.70392608642578,
+            0.1599999964237213
+          ],
+          "max": [
+            -115.3382568359375,
+            10.12218952178955,
+            25.559999465942383
+          ]
+        },
+        "16": {
+          "min": [
+            -184.10704040527344,
+            -111.37235260009766,
+            0.1599999964237213
+          ],
+          "max": [
+            -89.1124267578125,
+            -31.534969329833984,
+            25.559999465942383
+          ]
+        },
+        "17": {
+          "min": [
+            -153.22340393066406,
+            -149.1468963623047,
+            0.1599999964237213
+          ],
+          "max": [
+            -58.22856140136719,
+            -69.30931091308594,
+            25.559999465942383
+          ]
+        },
+        "18": {
+          "min": [
+            -121.97355651855469,
+            -190.9927215576172,
+            0.1599999964237213
+          ],
+          "max": [
+            -26.978418350219727,
+            -111.16600036621094,
+            25.559999465942383
+          ]
+        },
+        "19": {
+          "min": [
+            -96.68061828613281,
+            -225.4388885498047,
+            0.1599999964237213
+          ],
+          "max": [
+            -1.685227870941162,
+            -145.60092163085938,
+            25.559999465942383
+          ]
+        }
+      },
+      "temporary_uv_seam_weld_tolerance_m": 0.0001,
+      "triangles": 103645,
+      "invalid_coordinate_objects": [],
+      "building_geometry_checks": [
+        {
+          "object": "B01_tower",
+          "building_index": 1,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 54780.68800378488
+        },
+        {
+          "object": "B02_tower",
+          "building_index": 2,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 54781.83034356419
+        },
+        {
+          "object": "B03_tower",
+          "building_index": 3,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 66909.24911987473
+        },
+        {
+          "object": "B04_tower",
+          "building_index": 4,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 84047.2822683874
+        },
+        {
+          "object": "B05_dorm",
+          "building_index": 5,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 56820.903448009056
+        },
+        {
+          "object": "B06_dorm",
+          "building_index": 6,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 56827.02448474779
+        },
+        {
+          "object": "B07_dorm",
+          "building_index": 7,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 56818.07724493573
+        },
+        {
+          "object": "B08_dorm",
+          "building_index": 8,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 56823.4968448446
+        },
+        {
+          "object": "B09_dorm",
+          "building_index": 9,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 56820.03843993578
+        },
+        {
+          "object": "B10_dorm",
+          "building_index": 10,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 52537.42361857203
+        },
+        {
+          "object": "B11_dorm",
+          "building_index": 11,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 52536.61550067768
+        },
+        {
+          "object": "B12_arcade",
+          "building_index": 12,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 63271.43655960389
+        },
+        {
+          "object": "B13_library",
+          "building_index": 13,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 177257.3469193287
+        },
+        {
+          "object": "B14_admin",
+          "building_index": 14,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 33121.734469833784
+        },
+        {
+          "object": "B14_admin_1",
+          "building_index": 14,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 32792.854003243025
+        },
+        {
+          "object": "B15_teaching",
+          "building_index": 15,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 57797.55727267775
+        },
+        {
+          "object": "B16_teaching",
+          "building_index": 16,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 57818.52951936096
+        },
+        {
+          "object": "B17_teaching",
+          "building_index": 17,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 57810.35313130182
+        },
+        {
+          "object": "B18_teaching",
+          "building_index": 18,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 57798.31522947099
+        },
+        {
+          "object": "B19_teaching",
+          "building_index": 19,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 57810.821834593706
+        },
+        {
+          "object": "B20_grandstand",
+          "building_index": 20,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 2647.820167965989
+        }
+      ],
+      "images": [
+        {
+          "name": "admin_facade",
+          "has_pixels": true,
+          "size": [
+            1024,
+            256
+          ],
+          "packed": true,
+          "path": ""
+        },
+        {
+          "name": "arcade_facade",
+          "has_pixels": true,
+          "size": [
+            1024,
+            256
+          ],
+          "packed": true,
+          "path": ""
+        },
+        {
+          "name": "court",
+          "has_pixels": true,
+          "size": [
+            512,
+            768
+          ],
+          "packed": true,
+          "path": ""
+        },
+        {
+          "name": "dorm-facade-v07",
+          "has_pixels": true,
+          "size": [
+            1024,
+            256
+          ],
+          "packed": true,
+          "path": ""
+        },
+        {
+          "name": "facade-cell-ao",
+          "has_pixels": true,
+          "size": [
+            256,
+            256
+          ],
+          "packed": true,
+          "path": ""
+        },
+        {
+          "name": "Garden_pond_north-depth-color",
+          "has_pixels": true,
+          "size": [
+            256,
+            256
+          ],
+          "packed": true,
+          "path": ""
+        },
+        {
+          "name": "Garden_pond_south-depth-color",
+          "has_pixels": true,
+          "size": [
+            256,
+            256
+          ],
+          "packed": true,
+          "path": ""
+        },
+        {
+          "name": "Garden_pond_south_1-depth-color",
+          "has_pixels": true,
+          "size": [
+            256,
+            256
+          ],
+          "packed": true,
+          "path": ""
+        },
+        {
+          "name": "ground-occlusion-v07",
+          "has_pixels": true,
+          "size": [
+            2048,
+            2048
+          ],
+          "packed": true,
+          "path": ""
+        },
+        {
+          "name": "library-facade-0",
+          "has_pixels": true,
+          "size": [
+            512,
+            1024
+          ],
+          "packed": true,
+          "path": ""
+        },
+        {
+          "name": "library-facade-1",
+          "has_pixels": true,
+          "size": [
+            1024,
+            768
+          ],
+          "packed": true,
+          "path": ""
+        },
+        {
+          "name": "library-facade-2",
+          "has_pixels": true,
+          "size": [
+            512,
+            1024
+          ],
+          "packed": true,
+          "path": ""
+        },
+        {
+          "name": "library-pavers",
+          "has_pixels": true,
+          "size": [
+            256,
+            256
+          ],
+          "packed": true,
+          "path": ""
+        },
+        {
+          "name": "stone-basecolor-1024",
+          "has_pixels": true,
+          "size": [
+            1024,
+            1024
+          ],
+          "packed": true,
+          "path": ""
+        },
+        {
+          "name": "stone-normal-1024",
+          "has_pixels": true,
+          "size": [
+            1024,
+            1024
+          ],
+          "packed": true,
+          "path": ""
+        },
+        {
+          "name": "stone-roughness-1024",
+          "has_pixels": true,
+          "size": [
+            1024,
+            1024
+          ],
+          "packed": true,
+          "path": ""
+        },
+        {
+          "name": "tower_facade",
+          "has_pixels": true,
+          "size": [
+            1024,
+            256
+          ],
+          "packed": true,
+          "path": ""
+        }
+      ],
+      "all_images_loaded": true,
+      "all_building_solids_closed": true,
+      "bounds_deviations_over_1mm": [],
+      "passed": true
+    },
+    "fbx": {
+      "mesh_objects": 154,
+      "building_bounds": {
+        "1": {
+          "min": [
+            -13.469478607177734,
+            348.6860046386719,
+            0.1599999964237213
+          ],
+          "max": [
+            38.27617263793945,
+            391.95147705078125,
+            72.36000061035156
+          ]
+        },
+        "2": {
+          "min": [
+            19.874847412109375,
+            293.65020751953125,
+            0.1599999964237213
+          ],
+          "max": [
+            71.62989044189453,
+            336.90472412109375,
+            72.36000061035156
+          ]
+        },
+        "3": {
+          "min": [
+            -92.11802673339844,
+            298.1656799316406,
+            0.1599999964237213
+          ],
+          "max": [
+            -25.712825775146484,
+            350.31683349609375,
+            72.36000061035156
+          ]
+        },
+        "4": {
+          "min": [
+            -47.21687698364258,
+            234.36550903320312,
+            0.1599999964237213
+          ],
+          "max": [
+            24.50507164001465,
+            291.49798583984375,
+            72.36000061035156
+          ]
+        },
+        "5": {
+          "min": [
+            2.763468027114868,
+            179.70680236816406,
+            0.1599999964237213
+          ],
+          "max": [
+            122.91935729980469,
+            257.08599853515625,
+            25.559999465942383
+          ]
+        },
+        "6": {
+          "min": [
+            29.318660736083984,
+            143.0644073486328,
+            0.1599999964237213
+          ],
+          "max": [
+            149.46571350097656,
+            220.44387817382812,
+            25.559999465942383
+          ]
+        },
+        "7": {
+          "min": [
+            48.956153869628906,
+            104.95769500732422,
+            0.1599999964237213
+          ],
+          "max": [
+            169.10357666015625,
+            182.32623291015625,
+            25.559999465942383
+          ]
+        },
+        "8": {
+          "min": [
+            72.75740051269531,
+            65.6196517944336,
+            0.1599999964237213
+          ],
+          "max": [
+            192.91433715820312,
+            142.98841857910156,
+            25.559999465942383
+          ]
+        },
+        "9": {
+          "min": [
+            95.83590698242188,
+            30.1866397857666,
+            0.1599999964237213
+          ],
+          "max": [
+            215.9840087890625,
+            107.56672668457031,
+            25.559999465942383
+          ]
+        },
+        "10": {
+          "min": [
+            128.47705078125,
+            -2.794527053833008,
+            0.1599999964237213
+          ],
+          "max": [
+            241.26841735839844,
+            68.96126556396484,
+            25.559999465942383
+          ]
+        },
+        "11": {
+          "min": [
+            152.0409698486328,
+            -41.522220611572266,
+            0.1599999964237213
+          ],
+          "max": [
+            264.83270263671875,
+            30.233795166015625,
+            25.559999465942383
+          ]
+        },
+        "12": {
+          "min": [
+            -38.56988525390625,
+            -67.10475158691406,
+            0.1599999964237213
+          ],
+          "max": [
+            148.6374969482422,
+            193.17459106445312,
+            12.879999160766602
+          ]
+        },
+        "13": {
+          "min": [
+            -81.16748046875,
+            -57.95164108276367,
+            0.1599999964237213
+          ],
+          "max": [
+            33.66168975830078,
+            56.67770004272461,
+            38.751670837402344
+          ]
+        },
+        "14": {
+          "min": [
+            3.276074171066284,
+            -217.003662109375,
+            0.1599999964237213
+          ],
+          "max": [
+            155.81289672851562,
+            -99.23185729980469,
+            20.459999084472656
+          ]
+        },
+        "15": {
+          "min": [
+            -210.33251953125,
+            -69.70394134521484,
+            0.1599999964237213
+          ],
+          "max": [
+            -115.3382568359375,
+            10.122178077697754,
+            25.559999465942383
+          ]
+        },
+        "16": {
+          "min": [
+            -184.10702514648438,
+            -111.37236785888672,
+            0.1599999964237213
+          ],
+          "max": [
+            -89.11241912841797,
+            -31.53497886657715,
+            25.559999465942383
+          ]
+        },
+        "17": {
+          "min": [
+            -153.223388671875,
+            -149.14691162109375,
+            0.1599999964237213
+          ],
+          "max": [
+            -58.228553771972656,
+            -69.30931854248047,
+            25.559999465942383
+          ]
+        },
+        "18": {
+          "min": [
+            -121.97354125976562,
+            -190.99273681640625,
+            0.1599999964237213
+          ],
+          "max": [
+            -26.97840690612793,
+            -111.16600036621094,
+            25.559999465942383
+          ]
+        },
+        "19": {
+          "min": [
+            -96.68060302734375,
+            -225.4388885498047,
+            0.1599999964237213
+          ],
+          "max": [
+            -1.6852134466171265,
+            -145.60092163085938,
+            25.559999465942383
+          ]
+        },
+        "20": {
+          "min": [
+            -335.43377685546875,
+            -21.747495651245117,
+            0.0
+          ],
+          "max": [
+            -248.0960235595703,
+            97.80416107177734,
+            6.799999713897705
+          ]
+        }
+      },
+      "temporary_uv_seam_weld_tolerance_m": 0.0001,
+      "triangles": 103645,
+      "invalid_coordinate_objects": [],
+      "building_geometry_checks": [
+        {
+          "object": "B01_tower",
+          "building_index": 1,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 54780.68800378484
+        },
+        {
+          "object": "B02_tower",
+          "building_index": 2,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 54781.83034356426
+        },
+        {
+          "object": "B03_tower",
+          "building_index": 3,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 66909.24911987479
+        },
+        {
+          "object": "B04_tower",
+          "building_index": 4,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 84047.28226838743
+        },
+        {
+          "object": "B05_dorm",
+          "building_index": 5,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 56820.90344800901
+        },
+        {
+          "object": "B06_dorm",
+          "building_index": 6,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 56827.024484747744
+        },
+        {
+          "object": "B07_dorm",
+          "building_index": 7,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 56818.07724493573
+        },
+        {
+          "object": "B08_dorm",
+          "building_index": 8,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 56823.4968448446
+        },
+        {
+          "object": "B09_dorm",
+          "building_index": 9,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 56820.03843993583
+        },
+        {
+          "object": "B10_dorm",
+          "building_index": 10,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 52537.423618572
+        },
+        {
+          "object": "B11_dorm",
+          "building_index": 11,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 52536.61550067764
+        },
+        {
+          "object": "B12_arcade",
+          "building_index": 12,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 63271.43655960389
+        },
+        {
+          "object": "B13_library",
+          "building_index": 13,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 177257.3469193287
+        },
+        {
+          "object": "B14_admin",
+          "building_index": 14,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 33121.73446983377
+        },
+        {
+          "object": "B14_admin_1",
+          "building_index": 14,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 32792.85400324304
+        },
+        {
+          "object": "B15_teaching",
+          "building_index": 15,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 57797.55727267772
+        },
+        {
+          "object": "B16_teaching",
+          "building_index": 16,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 57818.52951936097
+        },
+        {
+          "object": "B17_teaching",
+          "building_index": 17,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 57810.3531313018
+        },
+        {
+          "object": "B18_teaching",
+          "building_index": 18,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 57798.315229470994
+        },
+        {
+          "object": "B19_teaching",
+          "building_index": 19,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 57810.821834593706
+        },
+        {
+          "object": "B20_grandstand",
+          "building_index": 20,
+          "non_manifold_edges_after_seam_weld": 0,
+          "volume_m3": 2647.8201679659455
+        }
+      ],
+      "images": [
+        {
+          "name": "admin_facade.png",
+          "has_pixels": true,
+          "size": [
+            1024,
+            256
+          ],
+          "packed": true,
+          "path": "/workspace/repositories/xuexiao/.campus-cache/photo-projection/front/HenanCampus.fbm/admin_facade.png"
+        },
+        {
+          "name": "arcade_facade.png",
+          "has_pixels": true,
+          "size": [
+            1024,
+            256
+          ],
+          "packed": true,
+          "path": "/workspace/repositories/xuexiao/.campus-cache/photo-projection/front/HenanCampus.fbm/arcade_facade.png"
+        },
+        {
+          "name": "court.png",
+          "has_pixels": true,
+          "size": [
+            512,
+            768
+          ],
+          "packed": true,
+          "path": "/workspace/repositories/xuexiao/.campus-cache/photo-projection/front/HenanCampus.fbm/court.png"
+        },
+        {
+          "name": "dorm-facade-v07.png",
+          "has_pixels": true,
+          "size": [
+            1024,
+            256
+          ],
+          "packed": true,
+          "path": "/workspace/repositories/xuexiao/.campus-cache/photo-projection/front/HenanCampus.fbm/dorm-facade-v07.png"
+        },
+        {
+          "name": "Garden_pond_north-depth-color.png",
+          "has_pixels": true,
+          "size": [
+            256,
+            256
+          ],
+          "packed": true,
+          "path": "/workspace/repositories/xuexiao/.campus-cache/photo-projection/front/HenanCampus.fbm/Garden_pond_north-depth-color.png"
+        },
+        {
+          "name": "Garden_pond_south-depth-color.png",
+          "has_pixels": true,
+          "size": [
+            256,
+            256
+          ],
+          "packed": true,
+          "path": "/workspace/repositories/xuexiao/.campus-cache/photo-projection/front/HenanCampus.fbm/Garden_pond_south-depth-color.png"
+        },
+        {
+          "name": "Garden_pond_south_1-depth-color.png",
+          "has_pixels": true,
+          "size": [
+            256,
+            256
+          ],
+          "packed": true,
+          "path": "/workspace/repositories/xuexiao/.campus-cache/photo-projection/front/HenanCampus.fbm/Garden_pond_south_1-depth-color.png"
+        },
+        {
+          "name": "library-facade-0.jpg",
+          "has_pixels": true,
+          "size": [
+            512,
+            1024
+          ],
+          "packed": true,
+          "path": "/workspace/repositories/xuexiao/.campus-cache/photo-projection/front/HenanCampus.fbm/library-facade-0.jpg"
+        },
+        {
+          "name": "library-facade-1.jpg",
+          "has_pixels": true,
+          "size": [
+            1024,
+            768
+          ],
+          "packed": true,
+          "path": "/workspace/repositories/xuexiao/.campus-cache/photo-projection/front/HenanCampus.fbm/library-facade-1.jpg"
+        },
+        {
+          "name": "library-facade-2.jpg",
+          "has_pixels": true,
+          "size": [
+            512,
+            1024
+          ],
+          "packed": true,
+          "path": "/workspace/repositories/xuexiao/.campus-cache/photo-projection/front/HenanCampus.fbm/library-facade-2.jpg"
+        },
+        {
+          "name": "library-pavers.png",
+          "has_pixels": true,
+          "size": [
+            256,
+            256
+          ],
+          "packed": true,
+          "path": "/workspace/repositories/xuexiao/.campus-cache/photo-projection/front/HenanCampus.fbm/library-pavers.png"
+        },
+        {
+          "name": "stone-basecolor-1024.png",
+          "has_pixels": true,
+          "size": [
+            1024,
+            1024
+          ],
+          "packed": true,
+          "path": "/workspace/repositories/xuexiao/.campus-cache/photo-projection/front/HenanCampus.fbm/stone-basecolor-1024.png"
+        },
+        {
+          "name": "stone-normal-1024.png.002",
+          "has_pixels": true,
+          "size": [
+            1024,
+            1024
+          ],
+          "packed": true,
+          "path": "/workspace/repositories/xuexiao/.campus-cache/photo-projection/front/HenanCampus.fbm/stone-normal-1024.png"
+        },
+        {
+          "name": "stone-roughness-1024.png.002",
+          "has_pixels": true,
+          "size": [
+            1024,
+            1024
+          ],
+          "packed": true,
+          "path": "/workspace/repositories/xuexiao/.campus-cache/photo-projection/front/HenanCampus.fbm/stone-roughness-1024.png"
+        },
+        {
+          "name": "tower_facade.png",
+          "has_pixels": true,
+          "size": [
+            1024,
+            256
+          ],
+          "packed": true,
+          "path": "/workspace/repositories/xuexiao/.campus-cache/photo-projection/front/HenanCampus.fbm/tower_facade.png"
+        }
+      ],
+      "all_images_loaded": true,
+      "all_building_solids_closed": true,
+      "bounds_deviations_over_1mm": [],
+      "passed": true
+    }
+  },
+  "note": "Checks mesh geometry, units, placement and loaded images; not proof of surveyed accuracy or UE runtime behaviour.",
+  "passed": true
+}

@@ -1,4 +1,4 @@
-const CACHE='henan-campus-v07-mobile-1';
+const CACHE='henan-campus-v071-photo-1';
 const SHELL=['/','/style.css','/game.js','/pwa.js','/manifest.webmanifest','/assets/app-icon-192.png','/assets/app-icon-512.png','/assets/campus.glb','/assets/character.glb','/assets/world.json','/assets/benchmark-route.json','/assets/v06-config.json','/assets/zones.json','/assets/v06/stone-normal-2048.webp','/assets/v06/stone-basecolor-2048.webp','/assets/v05/lighting-water.json','/assets/engine/glslang.js','/assets/engine/glslang.wasm','/assets/engine/twgsl.js','/assets/engine/twgsl.wasm'];
 async function safeResponse(request,response){
  if(!response.ok||response.redirected||response.type==='opaque'||/no-store/i.test(response.headers.get('cache-control')||''))return false;
