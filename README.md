@@ -4,7 +4,7 @@
 
 AI 按阶段执行远程获取、验收、提交与推送，后台重试已验证成果；冲突分支保留、未完成编辑不自动提交。机制、范围和恢复方式见 [持续同步](docs/github-sync.md)。
 
-现有体验入口：[河南经贸校园探索](https://henan-jingmao-campus-play.earthyaspen11.chatgpt.site)。该入口保持所有者访问权限。GitHub保存源码，网页版沿用原Site；当前上线状态见 [部署记录](reports/web-deployment.json)。
+现有体验入口：[河南经贸校园探索](https://henan-jingmao-campus-play.earthyaspen11.chatgpt.site)。该入口已开放公开试玩，无需使用项目所有者账号。GitHub保存源码，网页版沿用原Site；当前上线状态见 [部署记录](reports/web-deployment.json)。
 
 当前源码为 **v0.6 超清配置**：保留5倍快速漫游，补充石桥、图书馆入口台阶和体育场观礼平台；修复浮空看台座椅，增加可步行中央通道。人物可以涉水、浮水和游泳，加入估算湖床、浮力/阻力、接触波纹与水中动作。
 

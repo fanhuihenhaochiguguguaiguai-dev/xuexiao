@@ -17,11 +17,17 @@
   "source_commit": "156bd032f52b0c51d54553e79f0e2a9d2d46e743",
   "canonical_source_commit": "fb0a99c840e6362ef3940121ce54a5f79560e582",
   "archive_sha256": "e29ccdcdb27dfaeb5dba2f5b23c11e743c94aad7c5a8370ce4edb1d3afd7f3c8",
-  "audience": "PRESERVED_OWNER_ONLY",
+  "audience": "PUBLIC",
   "verification": {
     "native_deployment": "SUCCEEDED",
     "local_renderer": "Chromium software WebGL2; actual graphics and interaction checks passed",
     "incremental_current_build": "reports/v06-incremental-validation.json",
     "hardware_android_webgpu": "NOT_VERIFIED"
+  },
+  "access_policy": {
+    "access_mode": "public",
+    "revision": 2,
+    "updated_at": "2026-10-27T01:55:21.324020+00:00",
+    "reason": "User requested a link other people can play."
   }
 }

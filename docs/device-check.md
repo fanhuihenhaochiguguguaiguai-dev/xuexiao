@@ -1,6 +1,6 @@
 # 手机自动检测
 
-继续使用原入口：https://henan-jingmao-campus-play.earthyaspen11.chatgpt.site 。访问权限保持原状，需要使用项目所有者的 ChatGPT 账号。
+继续使用原入口：https://henan-jingmao-campus-play.earthyaspen11.chatgpt.site 。已开放公开试玩，无需使用项目所有者的 ChatGPT 账号。
 
 手机横屏打开网页，点击“开始探索”。若画面异常，可点击左下角“使用兼容模式”重新加载为WebGL 2。默认勾选首次自动检测：约5秒准备，再依次查看图书馆、道路、湖面和操场各10秒，共约45秒。无需安装开发工具、输入代码或手动移动人物。检测时可点击“跳过检测”。
 
