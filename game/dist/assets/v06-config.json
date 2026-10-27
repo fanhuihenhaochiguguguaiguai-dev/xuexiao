@@ -1,5 +1,5 @@
 {
-  "version": "0.7",
+  "version": "0.7.1",
   "engine": "PlayCanvas 2.23.3",
   "floorHeightMeters": 3.9,
   "scale": "METRES; OSM XY and documented/estimated floors, not a survey certificate",
@@ -60,5 +60,13 @@
     "unloadDetails": 195,
     "coarseMappedBodiesRemainVisible": true,
     "defaultMaximumResidentZones": 6
+  },
+  "photoProjection": {
+    "building": 13,
+    "captureDate": "2017-08-11",
+    "lighting": "CAPTURED_STATIC_LIGHTING_UNLIT",
+    "defaultPhotoFacadeMaxEdge": 512,
+    "defaultCoarseMaxEdge": 256,
+    "geometry": "Existing estimated geometry retained; exact photo-to-floor correspondence not verified"
   }
 }

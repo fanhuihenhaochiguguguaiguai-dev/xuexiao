@@ -1,8 +1,8 @@
 {
-  "build": "campus-v07-20261027-1",
-  "content_fingerprint": "13a2e73c63072abdacb44808bba9dce6fa1dd6d07b66b01daba218f6b54c0aa9",
-  "zip_sha256": "b0271006b672444dda53c73ebcef25cd8f00f81926f36e06bda2d046ff9b27c2",
-  "zip_bytes": 22046786,
+  "build": "campus-v071-photo-20261027-1",
+  "content_fingerprint": "bd246f2575b45317a5bc92dd93bb60bcb3bf4427447b631b74c66c6e29807067",
+  "zip_sha256": "b5c2c09f6fd54b070cf02ece00e68505e282e09177a93f9651d7fe3979a7a313",
+  "zip_bytes": 22361118,
   "runtime_files": 57,
   "original_reference_photos_included": false,
   "browser_all_requests_same_origin": true,

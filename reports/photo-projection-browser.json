@@ -1,0 +1,519 @@
+{
+  "passed": true,
+  "scope": "Actual Chromium software WebGL2/touch emulation; not Android GPU/FPS/thermal validation.",
+  "sourceHashes": {
+    "game/diagnostics.js": "30376a827ab95a452949a1c9a550bbce6fb21716bef9d0a7ef06e6e3b2f4d4cd",
+    "game/game.js": "fe04858a807b6882081641ef67740ce981039182d14b3eb658f2a69121346728",
+    "game/performance-core.js": "7e531fb694342402dd7718b71b043155378920c57eb5398912261118f1049040",
+    "game/quality-policy.js": "3af5aee155b445c09253f0768670fa2d2854c419592d3d32d1d11536f64a83a4",
+    "game/render-quality.js": "3a5ab7e532284d3e815675c8056047c30b47d17d89c9225165a7f028c4129de7",
+    "game/simulation.js": "e7b341779e8f39782726b3625502c4b3669c5319d3c5f48064d3c12b398a9c7a",
+    "game/streaming.js": "0fe63474ecdff9f434f10861d6db598773b144afefc8c81c92c8d4352127f8b5",
+    "game/texture-quality.js": "3a9c4609b23c55361c9b1b663e7147e1d36cbbd6b89bf4ccd75005a14f804a2b",
+    "game/water.js": "1ca6f6b487f10945172615aeac1a7bdcac2a68c32e750496a4d1c56438237ae3",
+    "game/package-lock.json": "bddaebaba3042bb5e16c32ff5957a15c57855a087f5c4c189e22167b2567e558",
+    "game/dist/game.js": "2a76b514b67401c3fa01399581623e27e6a2237757316cf23bb6e7aebee61b07",
+    "game/dist/index.html": "8db02ff77a2893de2329f65542230b36eaa0a5fdec56794a30513be521e3ea7b",
+    "game/dist/style.css": "c73eff40cb0541c2d48c59f5cb4a03e48ecd0ae25366ce5ee459259ccfef21dd",
+    "game/dist/sw.js": "a780cab8b165408511045b3e99c50bb3d796fae69e6aa54f70abad899d4a07c0",
+    "game/dist/pwa.js": "d5d1a2007ee94ea8c112b2c142d7fa85c91dc8797b919850e25b3d9456a19b5e",
+    "game/dist/manifest.webmanifest": "97c05bd04439786f0aa2bab4de165c7317d421f9d8a47d37c237776cf9dad26f",
+    "game/dist/assets/campus.glb": "0c4e1343a59390189a2a165cfd70e8610bdb44e211a53dde5690548c4f5d3b14",
+    "game/dist/assets/character.glb": "c9f8d3301c7d419227977be969398a76550c8a1684d87c2eb2ca4956aead7031",
+    "game/dist/assets/world.json": "43cf5fa4eb1fefab8a1e41767f1afb2d2ac2d100301e04bad4020b17eaba4431",
+    "game/dist/assets/zones.json": "b86055c6a0c58d51a84db82ac3308bf59a14960e7dbff5f4a65d6f41bafccbfa",
+    "game/dist/assets/zones/b13.glb": "c20c29c585fd676c1a21371fbf2b831c1f2f91e7053a5877ef021e2bef062273",
+    "game/dist/assets/v06-config.json": "e208de9130319360c06444c2ea7a321918311040cb9ec7d8b2693eb3bf5a6909",
+    "game/dist/assets/asset-manifest.json": "8ea625e7bfc36665c8ce323d7be27c18a0c98b65e8193e8803e18e481ae5092e"
+  },
+  "baseline": "1eb034fa53aa5eeae372c9fddc3fa3e540def4a7",
+  "unchangedControlCameraWaterDetectorAlgorithms": true,
+  "collisionDataIdentical": true,
+  "defaults": {
+    "quality": "balanced",
+    "renderScale": 1,
+    "actualCanvas": [
+      915,
+      412
+    ],
+    "viewport": [
+      915,
+      412
+    ],
+    "shadowMapSize": 1024,
+    "localShadows": true,
+    "effects": {
+      "ssao": false,
+      "bloom": false,
+      "pcss": false,
+      "fog": false,
+      "active": true
+    },
+    "config": {
+      "version": "0.7.1",
+      "engine": "PlayCanvas 2.23.3",
+      "floorHeightMeters": 3.9,
+      "scale": "METRES; OSM XY and documented/estimated floors, not a survey certificate",
+      "renderer": {
+        "priority": [
+          "webgpu",
+          "webgl2"
+        ],
+        "minimumRenderScale": 0.75,
+        "maximumRenderScale": 1.5,
+        "actualSupersampling": "Fixed drawing-buffer resolution; independent of devicePixelRatio",
+        "defaultRenderScale": 1,
+        "profileSource": "game/quality-policy.js",
+        "phoneFrameCapTarget": 30
+      },
+      "shadows": {
+        "mapSize": 1024,
+        "cascades": 1,
+        "filter": "PCF3",
+        "pcssOptional": true,
+        "highQuality": "2048 / 2 cascades / PCF5"
+      },
+      "antialias": {
+        "type": "TAA",
+        "sharpness": 0.22,
+        "history": "neighborhood clamp, motion-adaptive blend, camera-cut/resize resets, character and water reactive regions"
+      },
+      "environment": {
+        "hdrSky": "self-authored analytical HDR",
+        "ibl": true,
+        "volumetricFogOptional": true
+      },
+      "water": {
+        "physicalModes": [
+          "wading",
+          "swimming"
+        ],
+        "buoyancyAndDrag": true,
+        "depth": "ESTIMATED_NOT_MEASURED",
+        "refraction": "HIGH_AND_ULTRA_ONLY",
+        "localHdrCubemaps": true,
+        "reflectionRefresh": "HIGH_AND_ULTRA_ONLY; nearby and budgeted"
+      },
+      "pbr": {
+        "authoredSourceSize": 4096,
+        "embeddedRuntimeSize": 1024,
+        "optionalRuntimeSize": 2048,
+        "gpuCompression": "NOT_IMPLEMENTED; PNG file compression and mipmaps only",
+        "transferCompression": "LOSSLESS_WEBP_DETAIL_NORMAL; embedded GLB maps remain PNG"
+      },
+      "ao": {
+        "baked": "Existing actual 2048px Cycles 6m near-field AO retained; static directional shadows reprojected for v0.7 height. New local facade details are not a full GI bake.",
+        "ssaoScale": 0.5
+      },
+      "streaming": {
+        "zones": 20,
+        "nearDetails": 140,
+        "unloadDetails": 195,
+        "coarseMappedBodiesRemainVisible": true,
+        "defaultMaximumResidentZones": 6
+      },
+      "photoProjection": {
+        "building": 13,
+        "captureDate": "2017-08-11",
+        "lighting": "CAPTURED_STATIC_LIGHTING_UNLIT",
+        "defaultPhotoFacadeMaxEdge": 512,
+        "defaultCoarseMaxEdge": 256,
+        "geometry": "Existing estimated geometry retained; exact photo-to-floor correspondence not verified"
+      }
+    },
+    "features": {
+      "taa": true,
+      "reactiveCharacterAndWater": true,
+      "historyResets": 2,
+      "currentHistoryReset": false,
+      "sharpness": 0.22,
+      "hdr": true,
+      "ssaoScale": 0.5,
+      "colorGrading": true,
+      "volumetricFog": false,
+      "shadowMapSize": 1024,
+      "cascades": 1,
+      "shadowType": 0
+    },
+    "environment": {
+      "hdr": true,
+      "format": "RGBA16F",
+      "maximumRadiance": 11.481604937987225,
+      "ibl": true,
+      "atlasSize": 128,
+      "source": "SELF_AUTHORED_ANALYTIC_SKY_NOT_A_PHOTO_OF_THE_SCHOOL",
+      "publicHdriAttempt": "Poly Haven API returned 403; no retry or bypass"
+    },
+    "streaming": {
+      "zones": 20,
+      "loaded": [
+        13,
+        14,
+        18,
+        19
+      ],
+      "loading": 0,
+      "failed": [],
+      "disposed": 0,
+      "maxZones": 6,
+      "loadDistance": 140,
+      "coarseFallbackAlwaysVisible": true,
+      "position": {
+        "x": 31.999998092651367,
+        "y": 0.1850985503196716,
+        "z": 78
+      }
+    },
+    "textures": {
+      "limit": 1024,
+      "photoFacadeLimit": 512,
+      "photoCoarseLimit": 256,
+      "trackedTextures": 59,
+      "resizes": 17,
+      "detailStatus": "loaded",
+      "unsupportedSources": 0,
+      "transferCompression": "LOSSLESS_WEBP",
+      "gpuBlockCompression": false
+    }
+  },
+  "materials": [
+    {
+      "object": "Photo_coarse_library_facade_0",
+      "name": "PhotoProjectedCoarse_0",
+      "enabled": false,
+      "active": false,
+      "unlit": true,
+      "width": 128,
+      "height": 256,
+      "hasAo": false,
+      "aoUv": 0,
+      "occludeDirect": false
+    },
+    {
+      "object": "Photo_coarse_library_facade_1",
+      "name": "PhotoProjectedCoarse_1",
+      "enabled": false,
+      "active": false,
+      "unlit": true,
+      "width": 256,
+      "height": 192,
+      "hasAo": false,
+      "aoUv": 0,
+      "occludeDirect": false
+    },
+    {
+      "object": "Photo_coarse_library_facade_2",
+      "name": "PhotoProjectedCoarse_2",
+      "enabled": false,
+      "active": false,
+      "unlit": true,
+      "width": 128,
+      "height": 256,
+      "hasAo": false,
+      "aoUv": 0,
+      "occludeDirect": false
+    },
+    {
+      "object": "Library_south_plaza",
+      "name": "V05_terrain_PhotoPavers",
+      "enabled": true,
+      "active": true,
+      "unlit": false,
+      "width": 256,
+      "height": 256,
+      "hasAo": true,
+      "aoUv": 1,
+      "occludeDirect": true
+    },
+    {
+      "object": "Photo_projected_library_facade_0",
+      "name": "PhotoProjectedFacade_0",
+      "enabled": true,
+      "active": true,
+      "unlit": true,
+      "width": 256,
+      "height": 512,
+      "hasAo": false,
+      "aoUv": 0,
+      "occludeDirect": false
+    },
+    {
+      "object": "Photo_projected_library_facade_1",
+      "name": "PhotoProjectedFacade_1",
+      "enabled": true,
+      "active": true,
+      "unlit": true,
+      "width": 512,
+      "height": 384,
+      "hasAo": false,
+      "aoUv": 0,
+      "occludeDirect": false
+    },
+    {
+      "object": "Photo_projected_library_facade_2",
+      "name": "PhotoProjectedFacade_2",
+      "enabled": true,
+      "active": true,
+      "unlit": true,
+      "width": 256,
+      "height": 512,
+      "hasAo": false,
+      "aoUv": 0,
+      "occludeDirect": false
+    }
+  ],
+  "comparison": {
+    "quality": "high",
+    "renderScale": 1.25,
+    "actualCanvas": [
+      1144,
+      515
+    ],
+    "viewport": [
+      915,
+      412
+    ],
+    "shadowMapSize": 2048,
+    "localShadows": true,
+    "effects": {
+      "ssao": false,
+      "bloom": false,
+      "pcss": false,
+      "fog": false,
+      "active": true
+    },
+    "config": {
+      "version": "0.7.1",
+      "engine": "PlayCanvas 2.23.3",
+      "floorHeightMeters": 3.9,
+      "scale": "METRES; OSM XY and documented/estimated floors, not a survey certificate",
+      "renderer": {
+        "priority": [
+          "webgpu",
+          "webgl2"
+        ],
+        "minimumRenderScale": 0.75,
+        "maximumRenderScale": 1.5,
+        "actualSupersampling": "Fixed drawing-buffer resolution; independent of devicePixelRatio",
+        "defaultRenderScale": 1,
+        "profileSource": "game/quality-policy.js",
+        "phoneFrameCapTarget": 30
+      },
+      "shadows": {
+        "mapSize": 1024,
+        "cascades": 1,
+        "filter": "PCF3",
+        "pcssOptional": true,
+        "highQuality": "2048 / 2 cascades / PCF5"
+      },
+      "antialias": {
+        "type": "TAA",
+        "sharpness": 0.22,
+        "history": "neighborhood clamp, motion-adaptive blend, camera-cut/resize resets, character and water reactive regions"
+      },
+      "environment": {
+        "hdrSky": "self-authored analytical HDR",
+        "ibl": true,
+        "volumetricFogOptional": true
+      },
+      "water": {
+        "physicalModes": [
+          "wading",
+          "swimming"
+        ],
+        "buoyancyAndDrag": true,
+        "depth": "ESTIMATED_NOT_MEASURED",
+        "refraction": "HIGH_AND_ULTRA_ONLY",
+        "localHdrCubemaps": true,
+        "reflectionRefresh": "HIGH_AND_ULTRA_ONLY; nearby and budgeted"
+      },
+      "pbr": {
+        "authoredSourceSize": 4096,
+        "embeddedRuntimeSize": 1024,
+        "optionalRuntimeSize": 2048,
+        "gpuCompression": "NOT_IMPLEMENTED; PNG file compression and mipmaps only",
+        "transferCompression": "LOSSLESS_WEBP_DETAIL_NORMAL; embedded GLB maps remain PNG"
+      },
+      "ao": {
+        "baked": "Existing actual 2048px Cycles 6m near-field AO retained; static directional shadows reprojected for v0.7 height. New local facade details are not a full GI bake.",
+        "ssaoScale": 0.5
+      },
+      "streaming": {
+        "zones": 20,
+        "nearDetails": 140,
+        "unloadDetails": 195,
+        "coarseMappedBodiesRemainVisible": true,
+        "defaultMaximumResidentZones": 6
+      },
+      "photoProjection": {
+        "building": 13,
+        "captureDate": "2017-08-11",
+        "lighting": "CAPTURED_STATIC_LIGHTING_UNLIT",
+        "defaultPhotoFacadeMaxEdge": 512,
+        "defaultCoarseMaxEdge": 256,
+        "geometry": "Existing estimated geometry retained; exact photo-to-floor correspondence not verified"
+      }
+    },
+    "features": {
+      "taa": true,
+      "reactiveCharacterAndWater": true,
+      "historyResets": 10,
+      "currentHistoryReset": false,
+      "sharpness": 0.22,
+      "hdr": true,
+      "ssaoScale": 0.5,
+      "colorGrading": true,
+      "volumetricFog": false,
+      "shadowMapSize": 2048,
+      "cascades": 2,
+      "shadowType": 4
+    },
+    "environment": {
+      "hdr": true,
+      "format": "RGBA16F",
+      "maximumRadiance": 11.481604937987225,
+      "ibl": true,
+      "atlasSize": 128,
+      "source": "SELF_AUTHORED_ANALYTIC_SKY_NOT_A_PHOTO_OF_THE_SCHOOL",
+      "publicHdriAttempt": "Poly Haven API returned 403; no retry or bypass"
+    },
+    "streaming": {
+      "zones": 20,
+      "loaded": [
+        12,
+        13,
+        14,
+        18,
+        19
+      ],
+      "loading": 2,
+      "failed": [],
+      "disposed": 0,
+      "maxZones": 10,
+      "loadDistance": 170,
+      "coarseFallbackAlwaysVisible": true,
+      "position": {
+        "x": 31.999998092651367,
+        "y": 0.1850985503196716,
+        "z": 78
+      }
+    },
+    "textures": {
+      "limit": 2048,
+      "photoFacadeLimit": 1024,
+      "photoCoarseLimit": 512,
+      "trackedTextures": 60,
+      "resizes": 34,
+      "detailStatus": "loaded",
+      "unsupportedSources": 0,
+      "transferCompression": "LOSSLESS_WEBP",
+      "gpuBlockCompression": false
+    }
+  },
+  "comparisonInputPaused": true,
+  "photoBudgetsRestoredAfterDetector": true,
+  "touchDistance": 9.104767098661018,
+  "farMaterials": [
+    {
+      "object": "Photo_coarse_library_facade_0",
+      "name": "PhotoProjectedCoarse_0",
+      "enabled": true,
+      "active": true,
+      "unlit": true,
+      "width": 128,
+      "height": 256,
+      "hasAo": false,
+      "aoUv": 0,
+      "occludeDirect": false
+    },
+    {
+      "object": "Photo_coarse_library_facade_1",
+      "name": "PhotoProjectedCoarse_1",
+      "enabled": true,
+      "active": true,
+      "unlit": true,
+      "width": 256,
+      "height": 192,
+      "hasAo": false,
+      "aoUv": 0,
+      "occludeDirect": false
+    },
+    {
+      "object": "Photo_coarse_library_facade_2",
+      "name": "PhotoProjectedCoarse_2",
+      "enabled": true,
+      "active": true,
+      "unlit": true,
+      "width": 128,
+      "height": 256,
+      "hasAo": false,
+      "aoUv": 0,
+      "occludeDirect": false
+    },
+    {
+      "object": "Library_south_plaza",
+      "name": "V05_terrain_PhotoPavers",
+      "enabled": true,
+      "active": true,
+      "unlit": false,
+      "width": 256,
+      "height": 256,
+      "hasAo": true,
+      "aoUv": 1,
+      "occludeDirect": true
+    }
+  ],
+  "offlinePhotoMaterials": [
+    {
+      "object": "Photo_coarse_library_facade_0",
+      "name": "PhotoProjectedCoarse_0",
+      "enabled": true,
+      "active": true,
+      "unlit": true,
+      "width": 128,
+      "height": 256,
+      "hasAo": false,
+      "aoUv": 0,
+      "occludeDirect": false
+    },
+    {
+      "object": "Photo_coarse_library_facade_1",
+      "name": "PhotoProjectedCoarse_1",
+      "enabled": true,
+      "active": true,
+      "unlit": true,
+      "width": 256,
+      "height": 192,
+      "hasAo": false,
+      "aoUv": 0,
+      "occludeDirect": false
+    },
+    {
+      "object": "Photo_coarse_library_facade_2",
+      "name": "PhotoProjectedCoarse_2",
+      "enabled": true,
+      "active": true,
+      "unlit": true,
+      "width": 128,
+      "height": 256,
+      "hasAo": false,
+      "aoUv": 0,
+      "occludeDirect": false
+    },
+    {
+      "object": "Library_south_plaza",
+      "name": "V05_terrain_PhotoPavers",
+      "enabled": true,
+      "active": true,
+      "unlit": false,
+      "width": 256,
+      "height": 256,
+      "hasAo": true,
+      "aoUv": 1,
+      "occludeDirect": true
+    }
+  ],
+  "allRequestsSameOrigin": true,
+  "errors": [],
+  "consoleErrors": []
+}

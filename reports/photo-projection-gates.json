@@ -41,5 +41,8 @@
     "animations": [],
     "scope": "Geometry, buffers, finiteness and embedded texture signatures; not a likeness, survey, render or full glTF schema certification."
   },
-  "status": "MODEL_FORMAT_PHYSICAL_AND_MATERIAL_GATES_PASSED_BROWSER_PENDING"
+  "status": "MODEL_FORMAT_PHYSICAL_MATERIAL_AND_ACTUAL_BROWSER_PASSED",
+  "browser_report": "reports/photo-projection-browser.json",
+  "android_hardware": "NOT_VERIFIED",
+  "likeness": "LOCAL_UPPER_FRONT_SAMPLE_ONLY"
 }

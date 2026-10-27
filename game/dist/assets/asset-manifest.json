@@ -1,5 +1,5 @@
 {
-  "revision": "0.7",
+  "revision": "0.7.1",
   "campus": "Photo-guided local refinement; dimensions remain estimated.",
   "character": "Independent skinned clothing; approximate face/hair.",
   "source_panorama_date": "2017-08-11",
@@ -31,8 +31,8 @@
     },
     {
       "path": "campus.glb",
-      "bytes": 5448316,
-      "sha256": "8136ffbdeaa44b91d9861abac6a178453ad3312d34a0293e9c1a66f2bc4305b4"
+      "bytes": 5479724,
+      "sha256": "0c4e1343a59390189a2a165cfd70e8610bdb44e211a53dde5690548c4f5d3b14"
     },
     {
       "path": "character-base-CC0.txt",
@@ -141,13 +141,13 @@
     },
     {
       "path": "v06-config.json",
-      "bytes": 1928,
-      "sha256": "b60f4607609be76a2cf4c0e7dd71e2b1b3c0a836eef49c219b908806e82702f9"
+      "bytes": 2237,
+      "sha256": "e208de9130319360c06444c2ea7a321918311040cb9ec7d8b2693eb3bf5a6909"
     },
     {
       "path": "world.json",
-      "bytes": 661076,
-      "sha256": "9f83c8d79babda0b6be47e9a26370303ea6af39435877c2d1a806b491a2b7899"
+      "bytes": 661254,
+      "sha256": "43cf5fa4eb1fefab8a1e41767f1afb2d2ac2d100301e04bad4020b17eaba4431"
     },
     {
       "path": "zones/b01.glb",
@@ -211,8 +211,8 @@
     },
     {
       "path": "zones/b13.glb",
-      "bytes": 1770084,
-      "sha256": "e5d7ef7a938285e094d86b34328848dda1dd1de88c051b614a5e5e092920f32e"
+      "bytes": 1871640,
+      "sha256": "c20c29c585fd676c1a21371fbf2b831c1f2f91e7053a5877ef021e2bef062273"
     },
     {
       "path": "zones/b14.glb",
@@ -251,8 +251,8 @@
     },
     {
       "path": "zones.json",
-      "bytes": 4958,
-      "sha256": "bea77246cfe1378fe962e887846d196fc7ae6efa03fd8e7947bcc6181ef9b0ee"
+      "bytes": 5081,
+      "sha256": "b86055c6a0c58d51a84db82ac3308bf59a14960e7dbff5f4a65d6f41bafccbfa"
     }
   ]
 }
