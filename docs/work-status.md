@@ -1,6 +1,6 @@
 # 当前工作状态：v0.7.1 实拍材质样板
 
-唯一正式仓库为 xuexiao，正式模型仍为 assets/henan_campus/project/HenanCampus.blend。沿用原公开Site，实际线上版本以 reports/web-deployment.json 为准；发布前不把本地新版本标记为已上线。每阶段提交推送，云环境中的既有watcher仅重试已验证提交。
+唯一正式仓库为 xuexiao，正式模型仍为 assets/henan_campus/project/HenanCampus.blend。v0.7.1已成功发布到原公开Site，Sites保存版本9，原受众保持公开；实际线上状态见 reports/web-deployment.json。当前云环境普通匿名HTTP此前返回403，未绕过；本次以上线工具成功结果和本地实际浏览器验收为依据，不宣称大陆或新版本匿名网络实测通过。每阶段提交推送，云环境中的既有watcher仅重试已验证提交。
 
 ## 本轮完成
 

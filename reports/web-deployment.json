@@ -1,8 +1,8 @@
 {
-  "id": "appgdep_6ae0217ccd748191808fb4e0035c4d2f",
+  "id": "appgdep_6ae042678c708191a17e2c427bbd6642",
   "project_id": "appgprj_6adf2bcc8968819199bf5229a57b9972",
   "title": "河南经贸3D校园探索",
-  "version_id": "appgprj_6adf2bcc8968819199bf5229a57b9972~appgver_cf3008f66a788191896cd39d0bdccc65",
+  "version_id": "appgprj_6adf2bcc8968819199bf5229a57b9972~appgver_2060ea3883d08191a14054173f1501ff",
   "type": "publish",
   "status": "succeeded",
   "url": "https://henan-jingmao-campus-play.earthyaspen11.chatgpt.site",
@@ -11,27 +11,29 @@
   "provider_deployment_id": "site---6adf2bcc8968819199bf5229a57b9972",
   "failure_message": null,
   "env_set_revision": 0,
-  "updated_at": "2026-10-27T03:59:21.851678+00:00",
-  "version": "0.7",
-  "build_id": "campus-v07-20261027-1",
-  "source_commit": "37220dc0fc86124a84ef8a5d30c6d99ac8ef06b4",
-  "canonical_source_commit": "1743d8b022b2fc0e0f06009b8511356d1d89ea0c",
-  "archive_sha256": "b6ce2b7ffd61bd558855df7fa970eac4821cca84c1673463e3a00d43b4f306fc",
+  "updated_at": "2026-10-27T06:19:46.152229+00:00",
+  "version": "0.7.1",
+  "build_id": "campus-v071-photo-20261027-1",
+  "source_commit": "b45127a63ca2c8e6d0b13ee3bf2c46c89ec93fa1",
+  "canonical_source_commit": "8670003c16c32371c60d842d3998eaa64c61196d",
+  "archive_sha256": "feb3b0d0545cba28389e734f436ef38292fd56a05a19e62d391bbf50e5419401",
   "audience": "PUBLIC",
   "verification": {
     "native_deployment": "SUCCEEDED",
-    "local_renderer": "Chromium software WebGL2; actual graphics and interaction checks passed",
-    "incremental_current_build": "reports/v07-visual-revalidation.json",
+    "local_renderer": "Chromium software WebGL2; actual photographic materials, touch movement, LOD and offline checks passed",
+    "incremental_current_build": "reports/photo-projection-browser.json",
     "hardware_android_webgpu": "NOT_VERIFIED",
-    "anonymous_public_access": "reports/public-sharing.json",
-    "full_browser": "reports/v07-browser.json",
+    "anonymous_public_access": "NOT_FRESHLY_VERIFIED_FOR_V071; ordinary HTTP access from this cloud returned 403 before publication, stopped without bypass; native Sites access mode is public",
+    "historical_public_access": "reports/public-sharing.json is the earlier v0.7 result only",
+    "historical_full_browser": "reports/v07-browser.json; unchanged control, camera, water and detector algorithms verified by current incremental report",
     "china_network": "NOT_VERIFIED",
-    "github_ci": "https://github.com/fanhuihenhaochiguguguaiguai-dev/xuexiao/actions/runs/40446975690"
+    "github_ci": "https://github.com/fanhuihenhaochiguguguaiguai-dev/xuexiao/actions/runs/40460238010"
   },
   "access_policy": {
     "access_mode": "public",
     "revision": 2,
     "updated_at": "2026-10-27T01:55:21.324020+00:00",
     "reason": "User requested a link other people can play."
-  }
+  },
+  "site_version_number": 9
 }
