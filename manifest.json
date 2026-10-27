@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "source": "https://www.ivrpano.com/p/2b89e1f8b87d40ad",
+  "source_policy": "official-source-only",
+  "verified_3d_mesh_available": false,
+  "units": "metres",
+  "notes": "此仓库故意不提供自行仿造的校园建筑。只能载入有授权的官方全景或由这些影像验证重建的模型。",
+  "scenes": []
+}
