@@ -73,3 +73,19 @@ python3 -m http.server 8080
 此运行环境无法从指定 `ivrpano.com` 网页拿到页面文件或官方模型；没有提供原始扫描数据、逐机位图像、位姿和深度。因此**不可能在此交付整校精确扫描三维模型**。本交付是可以立即运行和继续接入数据的独立程序，不是已经完成的全校游戏。
 
 安全原则：不枚举未授权隐藏端点、不突破 401/403/登录权限、不公开传播未许可的学校全景版权素材。
+
+## 可运行的摄影测量预处理脚本（云主机环境）
+
+项目已经包含实际的 **Cube 六面图转球面全景** Python 算法和调用 OpenSfM 进行稀疏三维重建的脚本，分别位于：
+
+- `scripts/cube_to_pano.py`：把一个机位的六张正方形面图转换成一张 equirectangular 360°全景图。需要 NumPy 和 Pillow；面图顺序必须与官方图片方向核实。它只是投影拼接，**不是深度恢复**。
+- `scripts/cloud_photogrammetry.sh`：在**已安装 OpenSfM** 的云环境使用真实不同机位的球面全景进行特征匹配、轨迹重建、导出稀疏点云；如果位姿/重叠度不足会失败，不将失败冒充扫描完成。
+
+请在授权之后提供拥有正确面序的 `scene_001/px.jpg` 等六张原始图，以及其他机位照片。调用：
+
+```bash
+python scripts/cube_to_pano.py /authorized/scene_001 /authorized/opensfm_dataset/images/scene_001.jpg
+bash scripts/cloud_photogrammetry.sh /authorized/opensfm_dataset
+```
+
+真正可走动的建筑模型仍需要多视角稠密重建、网格化、尺度验收、碰撞和导航优化。此脚本不会尝试进入未授权的学校内部服务。
