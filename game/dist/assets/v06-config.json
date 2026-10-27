@@ -1,0 +1,59 @@
+{
+  "version": "0.6",
+  "engine": "PlayCanvas 2.23.3",
+  "floorHeightMeters": 3,
+  "scale": "METRES; OSM XY and documented/estimated floors, not a survey certificate",
+  "renderer": {
+    "priority": [
+      "webgpu",
+      "webgl2"
+    ],
+    "minimumRenderScale": 1.25,
+    "maximumRenderScale": 1.5,
+    "actualSupersampling": "Fixed drawing-buffer resolution; independent of devicePixelRatio"
+  },
+  "shadows": {
+    "mapSize": 2048,
+    "cascades": 2,
+    "filter": "PCF5",
+    "pcssOptional": true
+  },
+  "antialias": {
+    "type": "TAA",
+    "sharpness": 0.22,
+    "history": "neighborhood clamp, motion-adaptive blend, camera-cut/resize resets, character and water reactive regions"
+  },
+  "environment": {
+    "hdrSky": "self-authored analytical HDR",
+    "ibl": true,
+    "volumetricFogOptional": true
+  },
+  "water": {
+    "physicalModes": [
+      "wading",
+      "swimming"
+    ],
+    "buoyancyAndDrag": true,
+    "depth": "ESTIMATED_NOT_MEASURED",
+    "refraction": true,
+    "localHdrCubemaps": true,
+    "reflectionRefresh": "nearby only; suspended under frame-time pressure"
+  },
+  "pbr": {
+    "authoredSourceSize": 4096,
+    "embeddedRuntimeSize": 1024,
+    "optionalRuntimeSize": 2048,
+    "gpuCompression": "NOT_IMPLEMENTED; PNG file compression and mipmaps only",
+    "transferCompression": "LOSSLESS_WEBP_DETAIL_NORMAL; embedded GLB maps remain PNG"
+  },
+  "ao": {
+    "baked": "Actual 2048px Cycles AO, 16 samples, plus 4096px source static-shadow atlas",
+    "ssaoScale": 0.5
+  },
+  "streaming": {
+    "zones": 20,
+    "nearDetails": 190,
+    "unloadDetails": 250,
+    "coarseMappedBodiesRemainVisible": true
+  }
+}

@@ -11,6 +11,7 @@
     "build": "esbuild game.js --bundle --minify --format=esm --target=es2022 --legal-comments=inline --outfile=dist/game.js",
     "check:physics": "node physics-check.mjs",
     "check:performance": "node --test performance-check.mjs",
-    "check:movement": "node --test movement-check.mjs"
+    "check:movement": "node --test movement-check.mjs water-check.mjs",
+    "check:interactions": "node interactions-check.mjs"
   }
 }

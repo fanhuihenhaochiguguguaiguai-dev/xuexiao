@@ -1,0 +1,495 @@
+{
+  "passed": true,
+  "context": "Actual Chromium software WebGL2; not Android or hardware WebGPU performance",
+  "sourceHashes": {
+    "game/dist/assets/campus.glb": "8eb276576a93623e58741f77651bd140b047f95207259413a1e0bcf4b1e06406",
+    "game/dist/assets/character.glb": "c9f8d3301c7d419227977be969398a76550c8a1684d87c2eb2ca4956aead7031",
+    "game/dist/assets/v06-config.json": "5abe0fd6a572990d8c218e460e9e55eb3ae6e4fb69fccddd79f567f417d9b078",
+    "game/dist/assets/v06/stone-basecolor-2048.webp": "b693415d8429eb31807661064ecaef38bc98a4ca12cdb274a9ce1ef66ae4d491",
+    "game/dist/assets/v06/stone-normal-2048.webp": "5ccf499e8771de2308123693372c8b9a2da37c527b00cc2eda683048f3c2b2b6",
+    "game/dist/assets/world.json": "17f1facea48dfc1684dd809908ea4575324e1892169dc36c7c88e8a2efe09a30",
+    "game/dist/assets/zones.json": "c66091a088889768cc36b1b758417def78a0642587cd78ec67085cbfc4c97ebd",
+    "game/dist/assets/zones/b01.glb": "5cdd5a0db9001efd1a4cc6f3dc885858bd8dd2a5cad585d45e410740437dafc9",
+    "game/dist/assets/zones/b02.glb": "58c33c97fc2b07c2351dc30c94036aebd9cff2b5b0a891e94fe25abe0a608167",
+    "game/dist/assets/zones/b03.glb": "3fbcb1bf758b5f10d2058f0498a9c3a77d4fe470059d45568879c392b0878320",
+    "game/dist/assets/zones/b04.glb": "bdaf1b52ffd63a7cc6e0e53560a6b2a872691cdf00c62c080f51b00758ff7f12",
+    "game/dist/assets/zones/b05.glb": "d014eff3ef4458df09ec56a1d06b683e0b29fb5998b933cde27ef99aa59e1dee",
+    "game/dist/assets/zones/b06.glb": "459ac682b8deabce3c3f499f292de4f8b153ac22027734847d9a5efc16a1aa2a",
+    "game/dist/assets/zones/b07.glb": "2aa67afb373e10857eef23e047dbdb4ce4c5b5052b53986acf82df424ea8c45c",
+    "game/dist/assets/zones/b08.glb": "db37df6683e71292bfc6c300c4c46e158b0c3375cfdc9fc3bf02b73a00043d1d",
+    "game/dist/assets/zones/b09.glb": "05657ff57e84ea8f441d3218ce7e0a9182cdeb7e068658cc181480d85a97d94b",
+    "game/dist/assets/zones/b10.glb": "de6697fe3a19583cad2797ef03766b5f710702c674a10c1193fc4b9774bed676",
+    "game/dist/assets/zones/b11.glb": "c452d0e4fe2b3b2d6303d97434bb867cc42b379c4001ecef11c66a0cf14ac94d",
+    "game/dist/assets/zones/b12.glb": "b014a717ec917268aa758e2f1312e9466001e131ed693a9591c8833f8b151bce",
+    "game/dist/assets/zones/b13.glb": "17bd20b468f93b0ead3372084b5af1b9cbea14a025ed8281c9270bd27eba9991",
+    "game/dist/assets/zones/b14.glb": "3e6d8f59eba34daba37b433e6e88fbb75391a74635d87961d09c5b631bd8ffea",
+    "game/dist/assets/zones/b15.glb": "d70cbf593f71d0704ce8ae184c0f860ef099c0a037ead9a04a9610e855378065",
+    "game/dist/assets/zones/b16.glb": "1f8e6645714f8c1fe67c08a9dffe1ac2dc57109531ec3294bf0c11227b521466",
+    "game/dist/assets/zones/b17.glb": "d4eb022853edbbbbf5047371f708b3c9a9ada1beda6e13a20766f1cd26581a8d",
+    "game/dist/assets/zones/b18.glb": "34e251362acb95f42da870c2a0ca3ee2c45a3470b7045e84662a491eb38c1fb9",
+    "game/dist/assets/zones/b19.glb": "418f01b261ef58d76e36ab704e4f067edee07170995fe163cf7aedd045b84c96",
+    "game/dist/assets/zones/b20.glb": "94f40b838631b4ebdca1d348ca781e5507d6b9ad790179f73a404de18c1530ce",
+    "game/dist/game.js": "c6e8ea780eed0ea74e90dd9f976e3ad90a45c51168a79cd5e087c18fbce52011",
+    "game/game.js": "f20dfb9d0b200d1911094e71d0c156e318d37e4d878db1895392cdd80319d88b",
+    "game/render-quality.js": "1e616d6ff71c383d447c78b52408533004c782fba55c1f57bb5551c1d56c2cf6",
+    "game/simulation.js": "e7b341779e8f39782726b3625502c4b3669c5319d3c5f48064d3c12b398a9c7a",
+    "game/streaming.js": "ead1f97206469671386f1aabb57eb9894d886e3b38b9eb1a035ac134eff7a984",
+    "game/texture-quality.js": "baa5e43242ab9043508868609619fdadd6a78d0fdc3c41357c4c4100a5c4fa24",
+    "game/water.js": "1ca6f6b487f10945172615aeac1a7bdcac2a68c32e750496a4d1c56438237ae3"
+  },
+  "settings": {
+    "quality": "low",
+    "renderScale": 1.25,
+    "actualCanvas": [
+      1144,
+      515
+    ],
+    "viewport": [
+      915,
+      412
+    ],
+    "shadowMapSize": 2048,
+    "localShadows": true,
+    "effects": {
+      "ssao": false,
+      "bloom": false,
+      "pcss": false,
+      "fog": false,
+      "active": true
+    },
+    "config": {
+      "version": "0.6",
+      "engine": "PlayCanvas 2.23.3",
+      "floorHeightMeters": 3,
+      "scale": "METRES; OSM XY and documented/estimated floors, not a survey certificate",
+      "renderer": {
+        "priority": [
+          "webgpu",
+          "webgl2"
+        ],
+        "minimumRenderScale": 1.25,
+        "maximumRenderScale": 1.5,
+        "actualSupersampling": "Fixed drawing-buffer resolution; independent of devicePixelRatio"
+      },
+      "shadows": {
+        "mapSize": 2048,
+        "cascades": 2,
+        "filter": "PCF5",
+        "pcssOptional": true
+      },
+      "antialias": {
+        "type": "TAA",
+        "sharpness": 0.22,
+        "history": "neighborhood clamp, motion-adaptive blend, camera-cut/resize resets, character and water reactive regions"
+      },
+      "environment": {
+        "hdrSky": "self-authored analytical HDR",
+        "ibl": true,
+        "volumetricFogOptional": true
+      },
+      "water": {
+        "physicalModes": [
+          "wading",
+          "swimming"
+        ],
+        "buoyancyAndDrag": true,
+        "depth": "ESTIMATED_NOT_MEASURED",
+        "refraction": true,
+        "localHdrCubemaps": true,
+        "reflectionRefresh": "nearby only; suspended under frame-time pressure"
+      },
+      "pbr": {
+        "authoredSourceSize": 4096,
+        "embeddedRuntimeSize": 1024,
+        "optionalRuntimeSize": 2048,
+        "gpuCompression": "NOT_IMPLEMENTED; PNG file compression and mipmaps only",
+        "transferCompression": "LOSSLESS_WEBP_DETAIL_NORMAL; embedded GLB maps remain PNG"
+      },
+      "ao": {
+        "baked": "Actual 2048px Cycles AO, 16 samples, plus 4096px source static-shadow atlas",
+        "ssaoScale": 0.5
+      },
+      "streaming": {
+        "zones": 20,
+        "nearDetails": 190,
+        "unloadDetails": 250,
+        "coarseMappedBodiesRemainVisible": true
+      }
+    },
+    "features": {
+      "taa": true,
+      "reactiveCharacterAndWater": true,
+      "historyResets": 2,
+      "currentHistoryReset": false,
+      "sharpness": 0.22,
+      "hdr": true,
+      "ssaoScale": 0.5,
+      "colorGrading": true,
+      "volumetricFog": false,
+      "shadowMapSize": 2048,
+      "cascades": 2,
+      "shadowType": 4
+    },
+    "environment": {
+      "hdr": true,
+      "format": "RGBA16F",
+      "maximumRadiance": 11.481604937987225,
+      "ibl": true,
+      "atlasSize": 128,
+      "source": "SELF_AUTHORED_ANALYTIC_SKY_NOT_A_PHOTO_OF_THE_SCHOOL",
+      "publicHdriAttempt": "Poly Haven API returned 403; no retry or bypass"
+    },
+    "streaming": {
+      "zones": 20,
+      "loaded": [
+        10,
+        12,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "loading": 0,
+      "failed": [],
+      "disposed": 0,
+      "coarseFallbackAlwaysVisible": true,
+      "position": {
+        "x": 31.999998092651367,
+        "y": 0.1850985503196716,
+        "z": 78
+      }
+    },
+    "textures": {
+      "limit": 1024,
+      "trackedTextures": 66,
+      "resizes": 10,
+      "detailStatus": "loaded",
+      "unsupportedSources": 0,
+      "transferCompression": "LOSSLESS_WEBP",
+      "gpuBlockCompression": false
+    }
+  },
+  "actualScale": 1.2502732240437158,
+  "highResolutionSettings": {
+    "quality": "balanced",
+    "renderScale": 1.5,
+    "actualCanvas": [
+      1373,
+      618
+    ],
+    "viewport": [
+      915,
+      412
+    ],
+    "shadowMapSize": 2048,
+    "localShadows": true,
+    "effects": {
+      "ssao": false,
+      "bloom": false,
+      "pcss": false,
+      "fog": false,
+      "active": true
+    },
+    "config": {
+      "version": "0.6",
+      "engine": "PlayCanvas 2.23.3",
+      "floorHeightMeters": 3,
+      "scale": "METRES; OSM XY and documented/estimated floors, not a survey certificate",
+      "renderer": {
+        "priority": [
+          "webgpu",
+          "webgl2"
+        ],
+        "minimumRenderScale": 1.25,
+        "maximumRenderScale": 1.5,
+        "actualSupersampling": "Fixed drawing-buffer resolution; independent of devicePixelRatio"
+      },
+      "shadows": {
+        "mapSize": 2048,
+        "cascades": 2,
+        "filter": "PCF5",
+        "pcssOptional": true
+      },
+      "antialias": {
+        "type": "TAA",
+        "sharpness": 0.22,
+        "history": "neighborhood clamp, motion-adaptive blend, camera-cut/resize resets, character and water reactive regions"
+      },
+      "environment": {
+        "hdrSky": "self-authored analytical HDR",
+        "ibl": true,
+        "volumetricFogOptional": true
+      },
+      "water": {
+        "physicalModes": [
+          "wading",
+          "swimming"
+        ],
+        "buoyancyAndDrag": true,
+        "depth": "ESTIMATED_NOT_MEASURED",
+        "refraction": true,
+        "localHdrCubemaps": true,
+        "reflectionRefresh": "nearby only; suspended under frame-time pressure"
+      },
+      "pbr": {
+        "authoredSourceSize": 4096,
+        "embeddedRuntimeSize": 1024,
+        "optionalRuntimeSize": 2048,
+        "gpuCompression": "NOT_IMPLEMENTED; PNG file compression and mipmaps only",
+        "transferCompression": "LOSSLESS_WEBP_DETAIL_NORMAL; embedded GLB maps remain PNG"
+      },
+      "ao": {
+        "baked": "Actual 2048px Cycles AO, 16 samples, plus 4096px source static-shadow atlas",
+        "ssaoScale": 0.5
+      },
+      "streaming": {
+        "zones": 20,
+        "nearDetails": 190,
+        "unloadDetails": 250,
+        "coarseMappedBodiesRemainVisible": true
+      }
+    },
+    "features": {
+      "taa": true,
+      "reactiveCharacterAndWater": true,
+      "historyResets": 3,
+      "currentHistoryReset": true,
+      "sharpness": 0.22,
+      "hdr": true,
+      "ssaoScale": 0.5,
+      "colorGrading": true,
+      "volumetricFog": false,
+      "shadowMapSize": 2048,
+      "cascades": 2,
+      "shadowType": 4
+    },
+    "environment": {
+      "hdr": true,
+      "format": "RGBA16F",
+      "maximumRadiance": 11.481604937987225,
+      "ibl": true,
+      "atlasSize": 128,
+      "source": "SELF_AUTHORED_ANALYTIC_SKY_NOT_A_PHOTO_OF_THE_SCHOOL",
+      "publicHdriAttempt": "Poly Haven API returned 403; no retry or bypass"
+    },
+    "streaming": {
+      "zones": 20,
+      "loaded": [
+        10,
+        12,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "loading": 0,
+      "failed": [],
+      "disposed": 0,
+      "coarseFallbackAlwaysVisible": true,
+      "position": {
+        "x": 31.999998092651367,
+        "y": 0.1850985503196716,
+        "z": 78
+      }
+    },
+    "textures": {
+      "limit": 2048,
+      "trackedTextures": 66,
+      "resizes": 20,
+      "detailStatus": "loaded",
+      "unsupportedSources": 0,
+      "transferCompression": "LOSSLESS_WEBP",
+      "gpuBlockCompression": false
+    }
+  },
+  "floating": {
+    "feet": {
+      "x": -126.4427719116211,
+      "y": -0.39740703344345096,
+      "z": -22.284143447875977
+    },
+    "water": {
+      "zone": "Garden_pond_north",
+      "depth": 1.3,
+      "surface": 0.217,
+      "bottom": -1.083,
+      "bankDistance": 7.0985712561052265,
+      "mode": "swimming",
+      "depthStatus": "ESTIMATED_NOT_MEASURED"
+    },
+    "animation": "Tread"
+  },
+  "swim": {
+    "water": {
+      "zone": "Garden_pond_north",
+      "depth": 1.3,
+      "surface": 0.217,
+      "bottom": -1.083,
+      "bankDistance": 7.652608451031289,
+      "mode": "swimming",
+      "depthStatus": "ESTIMATED_NOT_MEASURED"
+    },
+    "animation": "Swim"
+  },
+  "water": {
+    "surfaces": 6,
+    "time": 134.83929999999702,
+    "normalOffset": [
+      0.2135536999999732,
+      0.5393571999999881
+    ],
+    "capturedFaces": 12,
+    "captureSucceeded": true,
+    "initialCaptureTimedOut": false,
+    "depthMappedPonds": 3,
+    "depthSource": "ESTIMATED_SHORE_DISTANCE_NOT_SURVEYED",
+    "shoreFoam": true,
+    "refraction": true,
+    "hdrCubemap": true,
+    "dynamicCapturedFaces": 1,
+    "localReflectionBudgetPaused": true,
+    "contactRipples": 6,
+    "reflection": "hdr_local_scene_cubemaps_2x128_budgeted_refresh"
+  },
+  "optional": {
+    "quality": "low",
+    "renderScale": 1.25,
+    "actualCanvas": [
+      1144,
+      515
+    ],
+    "viewport": [
+      915,
+      412
+    ],
+    "shadowMapSize": 2048,
+    "localShadows": true,
+    "effects": {
+      "ssao": true,
+      "bloom": true,
+      "pcss": true,
+      "fog": true,
+      "active": true
+    },
+    "config": {
+      "version": "0.6",
+      "engine": "PlayCanvas 2.23.3",
+      "floorHeightMeters": 3,
+      "scale": "METRES; OSM XY and documented/estimated floors, not a survey certificate",
+      "renderer": {
+        "priority": [
+          "webgpu",
+          "webgl2"
+        ],
+        "minimumRenderScale": 1.25,
+        "maximumRenderScale": 1.5,
+        "actualSupersampling": "Fixed drawing-buffer resolution; independent of devicePixelRatio"
+      },
+      "shadows": {
+        "mapSize": 2048,
+        "cascades": 2,
+        "filter": "PCF5",
+        "pcssOptional": true
+      },
+      "antialias": {
+        "type": "TAA",
+        "sharpness": 0.22,
+        "history": "neighborhood clamp, motion-adaptive blend, camera-cut/resize resets, character and water reactive regions"
+      },
+      "environment": {
+        "hdrSky": "self-authored analytical HDR",
+        "ibl": true,
+        "volumetricFogOptional": true
+      },
+      "water": {
+        "physicalModes": [
+          "wading",
+          "swimming"
+        ],
+        "buoyancyAndDrag": true,
+        "depth": "ESTIMATED_NOT_MEASURED",
+        "refraction": true,
+        "localHdrCubemaps": true,
+        "reflectionRefresh": "nearby only; suspended under frame-time pressure"
+      },
+      "pbr": {
+        "authoredSourceSize": 4096,
+        "embeddedRuntimeSize": 1024,
+        "optionalRuntimeSize": 2048,
+        "gpuCompression": "NOT_IMPLEMENTED; PNG file compression and mipmaps only",
+        "transferCompression": "LOSSLESS_WEBP_DETAIL_NORMAL; embedded GLB maps remain PNG"
+      },
+      "ao": {
+        "baked": "Actual 2048px Cycles AO, 16 samples, plus 4096px source static-shadow atlas",
+        "ssaoScale": 0.5
+      },
+      "streaming": {
+        "zones": 20,
+        "nearDetails": 190,
+        "unloadDetails": 250,
+        "coarseMappedBodiesRemainVisible": true
+      }
+    },
+    "features": {
+      "taa": true,
+      "reactiveCharacterAndWater": true,
+      "historyResets": 16,
+      "currentHistoryReset": false,
+      "sharpness": 0.22,
+      "hdr": true,
+      "ssaoScale": 0.5,
+      "colorGrading": true,
+      "volumetricFog": true,
+      "shadowMapSize": 2048,
+      "cascades": 2,
+      "shadowType": 6
+    },
+    "environment": {
+      "hdr": true,
+      "format": "RGBA16F",
+      "maximumRadiance": 11.481604937987225,
+      "ibl": true,
+      "atlasSize": 128,
+      "source": "SELF_AUTHORED_ANALYTIC_SKY_NOT_A_PHOTO_OF_THE_SCHOOL",
+      "publicHdriAttempt": "Poly Haven API returned 403; no retry or bypass"
+    },
+    "streaming": {
+      "zones": 20,
+      "loaded": [
+        10,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "loading": 0,
+      "failed": [],
+      "disposed": 3,
+      "coarseFallbackAlwaysVisible": true,
+      "position": {
+        "x": 31.999998092651367,
+        "y": 0.1850985503196716,
+        "z": 78
+      }
+    },
+    "textures": {
+      "limit": 1024,
+      "trackedTextures": 69,
+      "resizes": 30,
+      "detailStatus": "loaded",
+      "unsupportedSources": 0,
+      "transferCompression": "LOSSLESS_WEBP",
+      "gpuBlockCompression": false
+    }
+  },
+  "errors": [],
+  "consoleErrors": []
+}

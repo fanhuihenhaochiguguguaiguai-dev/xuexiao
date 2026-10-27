@@ -1,5 +1,5 @@
 // Frame timing measures the browser's rendered cadence, not isolated GPU time.
-export const BUILD_ID='campus-v05-20261026-1';
+export const BUILD_ID='campus-v06-20261026-1';
 export const TARGET_FPS=30;
 export function percentile(values,q){
  if(!values.length)return null;

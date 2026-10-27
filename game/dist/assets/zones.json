@@ -1,0 +1,227 @@
+{
+  "version": "0.6",
+  "zones": [
+    {
+      "id": 1,
+      "url": "/assets/zones/b01.glb",
+      "coarse_nodes": [
+        "B01_tower"
+      ],
+      "x": 12.403370036189518,
+      "z": -370.3187517810261,
+      "load_distance_m": 190,
+      "unload_distance_m": 250
+    },
+    {
+      "id": 2,
+      "url": "/assets/zones/b02.glb",
+      "coarse_nodes": [
+        "B02_tower"
+      ],
+      "x": 45.75238625736782,
+      "z": -315.2774636460852,
+      "load_distance_m": 190,
+      "unload_distance_m": 250
+    },
+    {
+      "id": 3,
+      "url": "/assets/zones/b03.glb",
+      "coarse_nodes": [
+        "B03_tower"
+      ],
+      "x": -58.91212258465755,
+      "z": -324.2409289255646,
+      "load_distance_m": 190,
+      "unload_distance_m": 250
+    },
+    {
+      "id": 4,
+      "url": "/assets/zones/b04.glb",
+      "coarse_nodes": [
+        "B04_tower"
+      ],
+      "x": -11.355896798685821,
+      "z": -262.93176176151644,
+      "load_distance_m": 190,
+      "unload_distance_m": 250
+    },
+    {
+      "id": 5,
+      "url": "/assets/zones/b05.glb",
+      "coarse_nodes": [
+        "B05_dorm"
+      ],
+      "x": 63.34306529307805,
+      "z": -217.03804733471944,
+      "load_distance_m": 190,
+      "unload_distance_m": 250
+    },
+    {
+      "id": 6,
+      "url": "/assets/zones/b06.glb",
+      "coarse_nodes": [
+        "B06_dorm"
+      ],
+      "x": 89.90221934482508,
+      "z": -180.39736448501853,
+      "load_distance_m": 190,
+      "unload_distance_m": 250
+    },
+    {
+      "id": 7,
+      "url": "/assets/zones/b07.glb",
+      "coarse_nodes": [
+        "B07_dorm"
+      ],
+      "x": 109.5363184655388,
+      "z": -142.28175436700212,
+      "load_distance_m": 190,
+      "unload_distance_m": 250
+    },
+    {
+      "id": 8,
+      "url": "/assets/zones/b08.glb",
+      "coarse_nodes": [
+        "B08_dorm"
+      ],
+      "x": 133.34276150461608,
+      "z": -102.94421623703346,
+      "load_distance_m": 190,
+      "unload_distance_m": 250
+    },
+    {
+      "id": 9,
+      "url": "/assets/zones/b09.glb",
+      "coarse_nodes": [
+        "B09_dorm"
+      ],
+      "x": 156.4204011824382,
+      "z": -67.51933973366681,
+      "load_distance_m": 190,
+      "unload_distance_m": 250
+    },
+    {
+      "id": 10,
+      "url": "/assets/zones/b10.glb",
+      "coarse_nodes": [
+        "B10_dorm"
+      ],
+      "x": 185.6427404609722,
+      "z": -31.303173902268778,
+      "load_distance_m": 190,
+      "unload_distance_m": 250
+    },
+    {
+      "id": 11,
+      "url": "/assets/zones/b11.glb",
+      "coarse_nodes": [
+        "B11_dorm"
+      ],
+      "x": 209.2021524124369,
+      "z": 7.422719171779081,
+      "load_distance_m": 190,
+      "unload_distance_m": 250
+    },
+    {
+      "id": 12,
+      "url": "/assets/zones/b12.glb",
+      "coarse_nodes": [
+        "B12_arcade"
+      ],
+      "x": 61.79651016846128,
+      "z": -66.60200435391975,
+      "load_distance_m": 190,
+      "unload_distance_m": 250
+    },
+    {
+      "id": 13,
+      "url": "/assets/zones/b13.glb",
+      "coarse_nodes": [
+        "B13_library",
+        "B13_library_plinth"
+      ],
+      "x": -25.051592063754956,
+      "z": -1.3111244825701152,
+      "load_distance_m": 190,
+      "unload_distance_m": 250
+    },
+    {
+      "id": 14,
+      "url": "/assets/zones/b14.glb",
+      "coarse_nodes": [
+        "B14_admin",
+        "B14_admin_1"
+      ],
+      "x": 81.89439146594718,
+      "z": 158.4433275580132,
+      "load_distance_m": 190,
+      "unload_distance_m": 250
+    },
+    {
+      "id": 15,
+      "url": "/assets/zones/b15.glb",
+      "coarse_nodes": [
+        "B15_teaching"
+      ],
+      "x": -162.92147126457579,
+      "z": 29.67052149182285,
+      "load_distance_m": 190,
+      "unload_distance_m": 250
+    },
+    {
+      "id": 16,
+      "url": "/assets/zones/b16.glb",
+      "coarse_nodes": [
+        "B16_teaching"
+      ],
+      "x": -136.6958786887476,
+      "z": 71.33337535771086,
+      "load_distance_m": 190,
+      "unload_distance_m": 250
+    },
+    {
+      "id": 17,
+      "url": "/assets/zones/b17.glb",
+      "coarse_nodes": [
+        "B17_teaching"
+      ],
+      "x": -105.81122577595987,
+      "z": 109.10664411060031,
+      "load_distance_m": 190,
+      "unload_distance_m": 250
+    },
+    {
+      "id": 18,
+      "url": "/assets/zones/b18.glb",
+      "coarse_nodes": [
+        "B18_teaching"
+      ],
+      "x": -74.56349301440746,
+      "z": 150.95702560497844,
+      "load_distance_m": 190,
+      "unload_distance_m": 250
+    },
+    {
+      "id": 19,
+      "url": "/assets/zones/b19.glb",
+      "coarse_nodes": [
+        "B19_teaching"
+      ],
+      "x": -49.266740105368925,
+      "z": 185.4004269442967,
+      "load_distance_m": 190,
+      "unload_distance_m": 250
+    },
+    {
+      "id": 20,
+      "url": "/assets/zones/b20.glb",
+      "coarse_nodes": [
+        "B20_grandstand"
+      ],
+      "x": -291.76047294785496,
+      "z": -38.0219857454539,
+      "load_distance_m": 190,
+      "unload_distance_m": 250
+    }
+  ]
+}

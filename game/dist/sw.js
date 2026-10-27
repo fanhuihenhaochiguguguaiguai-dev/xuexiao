@@ -1,5 +1,5 @@
-const CACHE='henan-campus-v05-hd-1';
-const SHELL=['/','/style.css','/game.js','/pwa.js','/manifest.webmanifest','/assets/app-icon-192.png','/assets/app-icon-512.png','/assets/campus.glb','/assets/character.glb','/assets/world.json','/assets/benchmark-route.json','/assets/v05-config.json','/assets/v05/lighting-water.json','/assets/engine/glslang.js','/assets/engine/glslang.wasm','/assets/engine/twgsl.js','/assets/engine/twgsl.wasm'];
+const CACHE='henan-campus-v06-uhd-1';
+const SHELL=['/','/style.css','/game.js','/pwa.js','/manifest.webmanifest','/assets/app-icon-192.png','/assets/app-icon-512.png','/assets/campus.glb','/assets/character.glb','/assets/world.json','/assets/benchmark-route.json','/assets/v06-config.json','/assets/zones.json','/assets/v06/stone-normal-2048.webp','/assets/v06/stone-basecolor-2048.webp','/assets/v05/lighting-water.json','/assets/engine/glslang.js','/assets/engine/glslang.wasm','/assets/engine/twgsl.js','/assets/engine/twgsl.wasm'];
 async function safeResponse(request,response){
  if(!response.ok||response.redirected||response.type==='opaque'||/no-store/i.test(response.headers.get('cache-control')||''))return false;
  const url=new URL(request.url||request,self.location.origin);
@@ -10,7 +10,7 @@ self.addEventListener('install',event=>{event.waitUntil((async()=>{const cache=a
 self.addEventListener('activate',event=>{event.waitUntil((async()=>{await Promise.all((await caches.keys()).filter(k=>k.startsWith('henan-campus-')&&k!==CACHE).map(k=>caches.delete(k)));await self.clients.claim();})());});
 self.addEventListener('fetch',event=>{
  const req=event.request,url=new URL(req.url);
- if(req.method!=='GET'||url.origin!==self.location.origin||(!SHELL.includes(url.pathname)&&req.mode!=='navigate'))return;
+ if(req.method!=='GET'||url.origin!==self.location.origin||(!SHELL.includes(url.pathname)&&!/^\/assets\/zones\/b\d\d\.glb$/.test(url.pathname)&&req.mode!=='navigate'))return;
  event.respondWith((async()=>{const cache=await caches.open(CACHE),key=req.mode==='navigate'?'/':url.pathname;
   try{const response=await fetch(req);if(await safeResponse(new Request(key,{credentials:'same-origin'}),response))await cache.put(key,response.clone());return response;}
   catch(error){const saved=await cache.match(key);if(saved)return saved;throw error;}

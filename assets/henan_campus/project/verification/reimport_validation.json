@@ -1,7 +1,31 @@
 {
   "baseline": {
-    "mesh_objects": 135,
+    "mesh_objects": 144,
     "building_bounds": {
+      "13": {
+        "min": [
+          -81.16748046875,
+          -57.951637268066406,
+          0.1599999964237213
+        ],
+        "max": [
+          33.66168975830078,
+          56.67770004272461,
+          30.65167236328125
+        ]
+      },
+      "20": {
+        "min": [
+          -335.43377685546875,
+          -21.747472763061523,
+          0.0
+        ],
+        "max": [
+          -248.0960235595703,
+          97.80419158935547,
+          6.799999713897705
+        ]
+      },
       "1": {
         "min": [
           -13.469447135925293,
@@ -146,18 +170,6 @@
           10.179999351501465
         ]
       },
-      "13": {
-        "min": [
-          -81.16748046875,
-          -57.951637268066406,
-          0.1599999964237213
-        ],
-        "max": [
-          33.66168975830078,
-          56.67770004272461,
-          27.388721466064453
-        ]
-      },
       "14": {
         "min": [
           3.2760567665100098,
@@ -229,22 +241,10 @@
           -145.60092163085938,
           20.15999984741211
         ]
-      },
-      "20": {
-        "min": [
-          -335.4283447265625,
-          -21.706754684448242,
-          0.1599999964237213
-        ],
-        "max": [
-          -248.0968780517578,
-          97.76343536376953,
-          10.399999618530273
-        ]
       }
     },
     "temporary_uv_seam_weld_tolerance_m": 0.0001,
-    "triangles": 77966,
+    "triangles": 106217,
     "invalid_coordinate_objects": [],
     "building_geometry_checks": [
       {
@@ -323,7 +323,7 @@
         "object": "B13_library",
         "building_index": 13,
         "non_manifold_edges_after_seam_weld": 0,
-        "volume_m3": 121201.61254063633
+        "volume_m3": 136351.81013867992
       },
       {
         "object": "B14_admin",
@@ -371,7 +371,7 @@
         "object": "B20_grandstand",
         "building_index": 20,
         "non_manifold_edges_after_seam_weld": 0,
-        "volume_m3": 4636.346747739205
+        "volume_m3": 2647.8201679659455
       }
     ],
     "images": [
@@ -383,7 +383,7 @@
           256
         ],
         "packed": true,
-        "path": "//../../../assets/henan_campus/project/assets/admin_facade.png"
+        "path": "//../../assets/henan_campus/project/assets/admin_facade.png"
       },
       {
         "name": "arcade_facade.png",
@@ -393,7 +393,7 @@
           256
         ],
         "packed": true,
-        "path": "//../../../assets/henan_campus/project/assets/arcade_facade.png"
+        "path": "//../../assets/henan_campus/project/assets/arcade_facade.png"
       },
       {
         "name": "court.png",
@@ -403,7 +403,7 @@
           768
         ],
         "packed": true,
-        "path": "//../../../assets/henan_campus/project/assets/court.png"
+        "path": "//../../assets/henan_campus/project/assets/court.png"
       },
       {
         "name": "dorm_facade.png",
@@ -413,7 +413,7 @@
           256
         ],
         "packed": true,
-        "path": "//../../../assets/henan_campus/project/assets/dorm_facade.png"
+        "path": "//../../assets/henan_campus/project/assets/dorm_facade.png"
       },
       {
         "name": "facade-cell-ao.png",
@@ -456,24 +456,14 @@
         "path": "/workspace/repositories/xuexiao/.campus-cache/v05/final/assets/Garden_pond_south_1-depth-color.png"
       },
       {
-        "name": "grandstand_facade.png",
-        "has_pixels": true,
-        "size": [
-          1024,
-          256
-        ],
-        "packed": true,
-        "path": "//../../../assets/henan_campus/project/assets/grandstand_facade.png"
-      },
-      {
-        "name": "ground-occlusion.png",
+        "name": "ground-occlusion-v06.png",
         "has_pixels": true,
         "size": [
           2048,
           2048
         ],
         "packed": true,
-        "path": "/workspace/repositories/xuexiao/.campus-cache/v05/final/assets/ground-occlusion.png"
+        "path": "/workspace/repositories/xuexiao/.campus-cache/v06/assets/ground-occlusion-v06.png"
       },
       {
         "name": "library_paving.png",
@@ -536,6 +526,116 @@
         "path": "/workspace/henan_campus/project/assets/library_stone.png"
       },
       {
+        "name": "stone-basecolor-1024.png",
+        "has_pixels": true,
+        "size": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "path": "/workspace/repositories/xuexiao/.campus-cache/v06/assets/stone-basecolor-1024.png"
+      },
+      {
+        "name": "stone-normal-1024.png",
+        "has_pixels": true,
+        "size": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "path": "/workspace/repositories/xuexiao/.campus-cache/v06/assets/stone-normal-1024.png"
+      },
+      {
+        "name": "stone-normal-1024.png.001",
+        "has_pixels": true,
+        "size": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "path": "/workspace/repositories/xuexiao/.campus-cache/v06/assets/stone-normal-1024.png"
+      },
+      {
+        "name": "stone-normal-1024.png.002",
+        "has_pixels": true,
+        "size": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "path": "/workspace/repositories/xuexiao/.campus-cache/v06/assets/stone-normal-1024.png"
+      },
+      {
+        "name": "stone-normal-1024.png.003",
+        "has_pixels": true,
+        "size": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "path": "/workspace/repositories/xuexiao/.campus-cache/v06/assets/stone-normal-1024.png"
+      },
+      {
+        "name": "stone-normal-1024.png.004",
+        "has_pixels": true,
+        "size": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "path": "/workspace/repositories/xuexiao/.campus-cache/v06/assets/stone-normal-1024.png"
+      },
+      {
+        "name": "stone-roughness-1024.png",
+        "has_pixels": true,
+        "size": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "path": "/workspace/repositories/xuexiao/.campus-cache/v06/assets/stone-roughness-1024.png"
+      },
+      {
+        "name": "stone-roughness-1024.png.001",
+        "has_pixels": true,
+        "size": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "path": "/workspace/repositories/xuexiao/.campus-cache/v06/assets/stone-roughness-1024.png"
+      },
+      {
+        "name": "stone-roughness-1024.png.002",
+        "has_pixels": true,
+        "size": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "path": "/workspace/repositories/xuexiao/.campus-cache/v06/assets/stone-roughness-1024.png"
+      },
+      {
+        "name": "stone-roughness-1024.png.003",
+        "has_pixels": true,
+        "size": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "path": "/workspace/repositories/xuexiao/.campus-cache/v06/assets/stone-roughness-1024.png"
+      },
+      {
+        "name": "stone-roughness-1024.png.004",
+        "has_pixels": true,
+        "size": [
+          1024,
+          1024
+        ],
+        "packed": true,
+        "path": "/workspace/repositories/xuexiao/.campus-cache/v06/assets/stone-roughness-1024.png"
+      },
+      {
         "name": "tower_facade.png",
         "has_pixels": true,
         "size": [
@@ -543,7 +643,7 @@
           256
         ],
         "packed": true,
-        "path": "//../../../assets/henan_campus/project/assets/tower_facade.png"
+        "path": "//../../assets/henan_campus/project/assets/tower_facade.png"
       }
     ],
     "all_images_loaded": true,
@@ -551,8 +651,32 @@
   },
   "formats": {
     "glb": {
-      "mesh_objects": 135,
+      "mesh_objects": 144,
       "building_bounds": {
+        "13": {
+          "min": [
+            -81.16748046875,
+            -57.951637268066406,
+            0.1599999964237213
+          ],
+          "max": [
+            33.66168975830078,
+            56.67770004272461,
+            30.65167236328125
+          ]
+        },
+        "20": {
+          "min": [
+            -335.43377685546875,
+            -21.747472763061523,
+            0.0
+          ],
+          "max": [
+            -248.0960235595703,
+            97.80419158935547,
+            6.799999713897705
+          ]
+        },
         "1": {
           "min": [
             -13.469447135925293,
@@ -697,18 +821,6 @@
             10.179999351501465
           ]
         },
-        "13": {
-          "min": [
-            -81.16748046875,
-            -57.951637268066406,
-            0.1599999964237213
-          ],
-          "max": [
-            33.66168975830078,
-            56.67770004272461,
-            27.388721466064453
-          ]
-        },
         "14": {
           "min": [
             3.2760567665100098,
@@ -780,22 +892,10 @@
             -145.60092163085938,
             20.15999984741211
           ]
-        },
-        "20": {
-          "min": [
-            -335.4283447265625,
-            -21.706754684448242,
-            0.1599999964237213
-          ],
-          "max": [
-            -248.0968780517578,
-            97.76343536376953,
-            10.399999618530273
-          ]
         }
       },
       "temporary_uv_seam_weld_tolerance_m": 0.0001,
-      "triangles": 77966,
+      "triangles": 106217,
       "invalid_coordinate_objects": [],
       "building_geometry_checks": [
         {
@@ -874,7 +974,7 @@
           "object": "B13_library",
           "building_index": 13,
           "non_manifold_edges_after_seam_weld": 0,
-          "volume_m3": 121201.61254063633
+          "volume_m3": 136351.81013867992
         },
         {
           "object": "B14_admin",
@@ -922,7 +1022,7 @@
           "object": "B20_grandstand",
           "building_index": 20,
           "non_manifold_edges_after_seam_weld": 0,
-          "volume_m3": 4636.346747739198
+          "volume_m3": 2647.820167965989
         }
       ],
       "images": [
@@ -1007,17 +1107,7 @@
           "path": ""
         },
         {
-          "name": "grandstand_facade",
-          "has_pixels": true,
-          "size": [
-            1024,
-            256
-          ],
-          "packed": true,
-          "path": ""
-        },
-        {
-          "name": "ground-occlusion",
+          "name": "ground-occlusion-v06",
           "has_pixels": true,
           "size": [
             2048,
@@ -1037,11 +1127,31 @@
           "path": ""
         },
         {
-          "name": "library_stone",
+          "name": "stone-basecolor-1024",
           "has_pixels": true,
           "size": [
-            512,
-            512
+            1024,
+            1024
+          ],
+          "packed": true,
+          "path": ""
+        },
+        {
+          "name": "stone-normal-1024",
+          "has_pixels": true,
+          "size": [
+            1024,
+            1024
+          ],
+          "packed": true,
+          "path": ""
+        },
+        {
+          "name": "stone-roughness-1024",
+          "has_pixels": true,
+          "size": [
+            1024,
+            1024
           ],
           "packed": true,
           "path": ""
@@ -1063,7 +1173,7 @@
       "passed": true
     },
     "fbx": {
-      "mesh_objects": 135,
+      "mesh_objects": 144,
       "building_bounds": {
         "1": {
           "min": [
@@ -1218,7 +1328,7 @@
           "max": [
             33.66168975830078,
             56.67770004272461,
-            27.388721466064453
+            30.65167236328125
           ]
         },
         "14": {
@@ -1295,19 +1405,19 @@
         },
         "20": {
           "min": [
-            -335.4283447265625,
-            -21.706777572631836,
-            0.1599999964237213
+            -335.43377685546875,
+            -21.747495651245117,
+            0.0
           ],
           "max": [
-            -248.0968780517578,
-            97.7634048461914,
-            10.399999618530273
+            -248.0960235595703,
+            97.80416107177734,
+            6.799999713897705
           ]
         }
       },
       "temporary_uv_seam_weld_tolerance_m": 0.0001,
-      "triangles": 77966,
+      "triangles": 106217,
       "invalid_coordinate_objects": [],
       "building_geometry_checks": [
         {
@@ -1386,7 +1496,7 @@
           "object": "B13_library",
           "building_index": 13,
           "non_manifold_edges_after_seam_weld": 0,
-          "volume_m3": 121201.61254063633
+          "volume_m3": 136351.81013867992
         },
         {
           "object": "B14_admin",
@@ -1434,7 +1544,7 @@
           "object": "B20_grandstand",
           "building_index": 20,
           "non_manifold_edges_after_seam_weld": 0,
-          "volume_m3": 4636.346747739205
+          "volume_m3": 2647.8201679659455
         }
       ],
       "images": [
@@ -1509,16 +1619,6 @@
           "path": "/workspace/repositories/xuexiao/assets/henan_campus/project/assets/Garden_pond_south_1-depth-color.png"
         },
         {
-          "name": "grandstand_facade.png",
-          "has_pixels": true,
-          "size": [
-            1024,
-            256
-          ],
-          "packed": true,
-          "path": "/workspace/repositories/xuexiao/assets/henan_campus/project/assets/grandstand_facade.png"
-        },
-        {
           "name": "library_paving.png.002",
           "has_pixels": true,
           "size": [
@@ -1529,14 +1629,34 @@
           "path": "/workspace/repositories/xuexiao/assets/henan_campus/project/assets/library_paving.png"
         },
         {
-          "name": "library_stone.png.002",
+          "name": "stone-basecolor-1024.png",
           "has_pixels": true,
           "size": [
-            512,
-            512
+            1024,
+            1024
           ],
           "packed": true,
-          "path": "/workspace/repositories/xuexiao/assets/henan_campus/project/assets/library_stone.png"
+          "path": "/workspace/repositories/xuexiao/assets/henan_campus/project/assets/v06/stone-basecolor-1024.png"
+        },
+        {
+          "name": "stone-normal-1024.png.002",
+          "has_pixels": true,
+          "size": [
+            1024,
+            1024
+          ],
+          "packed": true,
+          "path": "/workspace/repositories/xuexiao/assets/henan_campus/project/assets/v06/stone-normal-1024.png"
+        },
+        {
+          "name": "stone-roughness-1024.png.002",
+          "has_pixels": true,
+          "size": [
+            1024,
+            1024
+          ],
+          "packed": true,
+          "path": "/workspace/repositories/xuexiao/assets/henan_campus/project/assets/v06/stone-roughness-1024.png"
         },
         {
           "name": "tower_facade.png",

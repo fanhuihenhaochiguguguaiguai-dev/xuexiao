@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "height_m": 1.7011123970150948,
+  "original_mesh_and_rig_reused": true,
+  "preserved_clips": [
+    "Idle",
+    "Walk",
+    "Run",
+    "Jump"
+  ],
+  "added_clips": [
+    "Swim",
+    "Tread"
+  ],
+  "shading": "New ribbed cloth normal, denim roughness, hair/skin roughness",
+  "likeness_status": "REFERENCE_GUIDED_APPROXIMATION_NOT_PHOTO_REAL_SCAN"
+}

@@ -1,7 +1,7 @@
 import R from '@dimforge/rapier3d-compat';
 import {createSimulation} from './simulation.js';
 import fs from 'node:fs';
-await R.init();const data=JSON.parse(fs.readFileSync(new URL('./dist/assets/world.json',import.meta.url)));
+await R.init();const data=JSON.parse(fs.readFileSync(process.env.CAMPUS_WORLD_PATH||new URL('./dist/assets/world.json',import.meta.url)));
 const sim=createSimulation(R,data),results={};
 function advance(n,x=0,z=0,run=false,jump=false){for(let i=0;i<n;i++)sim.step(x,z,1/60,run,jump&&i===0);}
 function settle(p=data.spawn){sim.reset(p);advance(120);return sim.state();}

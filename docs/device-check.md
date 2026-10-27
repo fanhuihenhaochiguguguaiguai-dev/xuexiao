@@ -26,4 +26,4 @@
 
 45秒测试用于发现明显兼容性及帧率问题，不覆盖持续发热、耗电、长时间稳定性、建筑真实性或所有触控操作。手机实体设备的运行结果仍需由手机实际打开网页产生，AI不能从云端直接读取用户手机GPU。
 
-v0.5重新运行了完整流程：Chromium软件WebGL2约0.9–1.1 FPS，未达标；这是当前云端无硬件GPU的软件渲染结果，不能推断用户安卓手机帧率。另做软件WebGPU实验：适配器可初始化，离屏红色清屏回读正确，但该云环境的WebGPU画布截图为空；没有把“初始化成功”写成视觉通过。详情见 `reports/browser-device-check.json`、`reports/webgpu-canary.json` 和 `reports/webgpu-render-validation.json`。
+v0.6完整检测流程已验证，包含自适应贴图预算恢复。两核云端软件WebGL2每阶段约0.48–0.54 FPS，采样帧数不足，性能未达标；不能推断安卓手机帧率。另做软件WebGPU实验：适配器可初始化，离屏红色清屏回读正确，但该云环境的WebGPU画布截图为空；没有把“初始化成功”写成视觉通过。详情见 `reports/browser-device-check.json`、`reports/webgpu-canary.json` 和 `reports/webgpu-render-validation.json`。
