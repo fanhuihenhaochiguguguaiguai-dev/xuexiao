@@ -36,6 +36,13 @@
       "game"
     ],
     [
+      "npm",
+      "run",
+      "check:quality",
+      "--prefix",
+      "game"
+    ],
+    [
       "python",
       "-m",
       "automation.pipeline",

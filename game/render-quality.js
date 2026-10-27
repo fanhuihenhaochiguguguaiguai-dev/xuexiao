@@ -1,4 +1,5 @@
 import * as pc from 'playcanvas';
+import {qualityProfile} from './quality-policy.js';
 // Extend the MIT-licensed PlayCanvas 2.23.3 resolve with bounded history and
 // reactive regions. The locked engine remains unmodified.
 import taaGLSL from './node_modules/playcanvas/build/playcanvas/src/scene/shader-lib/glsl/chunks/render-pass/frag/taaResolve.js';
@@ -64,11 +65,12 @@ export function createRenderQuality(app,camera,sun,waterZones){
  frame.grading.enabled=true;frame.grading.saturation=1.02;frame.grading.contrast=1.015;frame.grading.brightness=1;
  for(let i=0;i<3;i++)scope.resolve('campusWater'+i).setValue(waterZones[i]?.bounds||[1e6,1e6,1e6,1e6]);
  function resetHistory(){resetFrames=3;resets++;previousRect=null;}
- function configure(effects){
+ function configure(effects,profile=qualityProfile('balanced')){
+  frame.rendering.sceneColorMap=profile.refraction;
   frame.enabled=true;frame.ssao.type=effects.ssao?pc.SSAOTYPE_COMBINE:pc.SSAOTYPE_NONE;frame.ssao.samples=12;frame.ssao.scale=.5;frame.ssao.radius=8;frame.ssao.power=1.2;frame.ssao.intensity=.18;
   frame.bloom.intensity=effects.bloom?.025:0;frame.bloom.threshold=1.1;frame.bloom.blurLevel=4;
   frame.volumetricFog.enabled=!!effects.fog;frame.volumetricFog.light=sun.light;frame.volumetricFog.steps=8;frame.volumetricFog.scale=.25;frame.volumetricFog.density=.001;frame.volumetricFog.maxDistance=240;frame.volumetricFog.heightFalloff=.07;frame.volumetricFog.intensity=.35;
-  sun.light.shadowType=effects.pcss?pc.SHADOW_PCSS_32F:pc.SHADOW_PCF5;sun.light.shadowSamples=16;sun.light.penumbraSize=1;sun.light.numCascades=2;sun.light.cascadeDistribution=.75;sun.light.shadowResolution=2048;resetHistory();frame.update();
+  sun.light.shadowType=effects.pcss?pc.SHADOW_PCSS_32F:(profile.pcf===5?pc.SHADOW_PCF5:pc.SHADOW_PCF3);sun.light.shadowSamples=16;sun.light.penumbraSize=1;sun.light.numCascades=profile.cascades;sun.light.cascadeDistribution=.75;sun.light.shadowResolution=profile.shadowSize;resetHistory();frame.update();
  }
  function patch(){
   const pass=frame.renderPassCamera?.taaPass;if(!pass||patchedPass===pass)return;

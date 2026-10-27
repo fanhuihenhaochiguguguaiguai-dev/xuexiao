@@ -8,6 +8,7 @@ import {BUILD_ID} from './performance-core.js';
 import {createHdrEnvironment,createRenderQuality} from './render-quality.js';
 import {createZoneStreaming} from './streaming.js';
 import {createTextureQuality} from './texture-quality.js';
+import {normalizeQuality,qualityProfile,defaultEffects,reducedScale} from './quality-policy.js';
 
 const $=id=>document.getElementById(id),canvas=$('game');
 const params=new URLSearchParams(location.search),qa=params.has('qa');
@@ -18,12 +19,12 @@ window.addEventListener('unhandledrejection',e=>meta.errors.push(String(e.reason
 function progress(n,text){$('progress').style.width=n+'%';$('load-message').textContent=text;}
 const input={x:0,y:0,run:false,jump:false},keys=new Set();let active=false,simulation,worldData,character,app,camera,sun;
 let cameraYaw=.55,cameraPitch=.06,cameraZoom=4.8,heading=-2.59,animName='Idle',verticalFrames=0,characterPitch=0;
-let quality=params.get('quality')||'balanced';
+let quality=normalizeQuality(params.get('quality'));
 let toastTimer,nearby=null,mapArrows=[],accumulator=0,position,smoothedCamera=new pc.Vec3(),cameraInitial=true,blob;
-let renderScale=1.25,fpsWindow=performance.now(),fpsFrames=0,water,qaView=null,v05Config,renderQuality,streaming,hdrEnvironment,textureQuality,smoothedSpeed=0,startupReflections=true;
-const effects={ssao:quality!=='low',bloom:quality!=='low',pcss:false,fog:false};
+let renderScale=qualityProfile(quality).scale,fpsWindow=performance.now(),fpsFrames=0,water,qaView=null,v05Config,renderQuality,streaming,hdrEnvironment,textureQuality,smoothedSpeed=0,startupReflections=true,renderClock=0,readyAt=Infinity,slowWindows=0;
+const effects=defaultEffects(quality);
 const diagnostics=createDiagnostics({meta,toast,
- context:()=>({version:'0.6',quality,renderScale,viewport:[innerWidth,innerHeight],canvas:app?[app.graphicsDevice.width,app.graphicsDevice.height]:null,devicePixelRatio,shadows:!!sun?.light.castShadows,shadowMapSize:2048,effects:{...effects},speedMultiplier:simulation?.state().speedMultiplier,antiAlias:renderQuality?.state()}),
+ context:()=>({version:'0.7',quality,renderScale,viewport:[innerWidth,innerHeight],canvas:app?[app.graphicsDevice.width,app.graphicsDevice.height]:null,devicePixelRatio,shadows:!!sun?.light.castShadows,shadowMapSize:sun?.light.shadowResolution,effects:{...effects},speedMultiplier:simulation?.state().speedMultiplier,antiAlias:renderQuality?.state()}),
  onStart:()=>{
   const saved={quality,renderScale,effects:{...effects},cameraYaw,cameraPitch,cameraZoom,heading,feet:{...simulation.state().feet},active,boot:$('boot').hidden,hud:$('hud').hidden};
   keys.clear();input.x=input.y=0;input.jump=false;$('stick').style.transform='';quality='low';Object.assign(effects,{ssao:false,bloom:false,pcss:false,fog:false});changeQuality();applyEffects();
@@ -46,15 +47,16 @@ const paused=()=>!active||diagnostics.running||!!document.querySelector('dialog[
 function toast(text){$('toast').hidden=false;$('toast').textContent=text;clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('toast').hidden=true,2600);}
 function loadContainer(url){return new Promise((resolve,reject)=>app.assets.loadFromUrl(url,'container',(err,asset)=>err?reject(new Error(String(err))):resolve(asset)));}
 function changeQuality(notify=false){
- const standard=quality==='low';renderScale=standard?1.25:1.5;
+ const profile=qualityProfile(quality);renderScale=profile.scale;slowWindows=0;
  textureQuality?.setScale(renderScale);
+ streaming?.setProfile(profile);
  if(sun)sun.light.castShadows=!startupReflections;resize();
- $('quality').title=standard?'当前：高清':'当前：超清';$('quality-preset').value=quality;
- meta.quality=quality;meta.renderScale=renderScale;if(notify)toast(standard?'已切换到标准清晰画质':'已切换到高清画质');
+ $('quality').title='当前：'+profile.label;$('quality-preset').value=quality;
+ meta.quality=quality;meta.renderScale=renderScale;meta.renderBudget=profile;if(notify)toast('已切换到'+profile.label+'画质');
 }
 function applyEffects(){
  if(!app||!camera||startupReflections)return;
- try{renderQuality??=createRenderQuality(app,camera,sun,worldData.waterZones);renderQuality.configure(effects);water?.setRefraction(true);meta.effects={...effects,active:true};}
+ try{const profile=qualityProfile(quality);renderQuality??=createRenderQuality(app,camera,sun,worldData.waterZones);renderQuality.configure(effects,profile);water?.setRefraction(profile.refraction);meta.effects={...effects,active:true};}
  catch(e){meta.effects={...effects,active:false,error:String(e)};meta.errors.push('画面管线：'+String(e));throw e;}
  for(const name of ['ssao','bloom','pcss','fog'])if($('effect-'+name))$('effect-'+name).checked=effects[name];
 }
@@ -84,7 +86,7 @@ function bindControls(){
  $('start').onclick=async()=>{if(!meta.ready)return;active=true;meta.started=true;$('boot').hidden=true;$('hud').hidden=false;if(matchMedia('(pointer:coarse)').matches&&!qa)await enterLandscape();toast('左侧移动，右侧滑动看向四周');if(!qa)diagnostics.afterStart();};
  $('reset').onclick=()=>reset();$('info').onclick=()=>openDialog('info-dialog');$('map-toggle').onclick=()=>openDialog('map-dialog');
  $('quality').onclick=()=>openDialog('settings-dialog');
- $('quality-preset').onchange=e=>{quality=e.target.value;changeQuality(true);};
+ $('quality-preset').onchange=e=>{quality=normalizeQuality(e.target.value);Object.assign(effects,defaultEffects(quality));changeQuality(true);applyEffects();};
  $('speed-multiplier').onchange=e=>{simulation.setSpeedMultiplier(Number(e.target.value));toast(e.target.value==='5'?'快速漫游：原速度5倍':'已切换到标准速度');};
  $('effect-ssao').onchange=e=>{effects.ssao=e.target.checked;applyEffects();};$('effect-bloom').onchange=e=>{effects.bloom=e.target.checked;applyEffects();};
  $('effect-pcss').onchange=e=>{effects.pcss=e.target.checked;applyEffects();};$('effect-fog').onchange=e=>{effects.fog=e.target.checked;applyEffects();};
@@ -122,10 +124,17 @@ function bindControls(){
 }
 function update(dt){
  meta.frames++;
- fpsFrames++;const now=performance.now();
+ const now=performance.now(),profile=qualityProfile(quality);
+ if(!startupReflections){
+  const targetFps=matchMedia('(pointer:coarse)').matches?profile.targetFps:60;
+  renderClock+=dt;if(renderClock>=1/targetFps-.0005){renderClock=Math.max(0,renderClock-1/targetFps);renderClock=Math.min(renderClock,1/targetFps);app.renderNextFrame=!document.hidden;}
+ }
  if(now-fpsWindow>3500){
   const fps=fpsFrames*1000/(now-fpsWindow);meta.observedFps=fps;
-  if(!diagnostics.running&&fps<23&&renderScale>1.25){renderScale=1.25;textureQuality?.setScale(renderScale);resize();}
+  if(active&&!paused()&&!document.hidden&&now-readyAt>12000&&!diagnostics.running){
+   slowWindows=fps<24?slowWindows+1:0;
+   if(slowWindows>=2&&renderScale>profile.minScale){renderScale=reducedScale(renderScale,quality);textureQuality?.setScale(renderScale);resize();slowWindows=0;toast('已略降分辨率，减轻手机负担');}
+  }else slowWindows=0;
   meta.renderScale=renderScale;fpsFrames=0;fpsWindow=now;
  }
  let x=0,y=0,run=false;
@@ -162,7 +171,7 @@ function update(dt){
  const smoothDistance=smoothedCamera.distance(target),safeSmooth=simulation.cameraDistance(target,smoothedCamera);
  if(safeSmooth<smoothDistance)smoothedCamera.lerp(target,smoothedCamera,safeSmooth/Math.max(smoothDistance,.001));
  camera.setPosition(smoothedCamera);camera.lookAt(target);
- water?.update(dt,camera.getPosition(),!diagnostics.running,state.water?{...state.water,position:p}:null);diagnostics.pose();streaming?.update(dt,p);
+ water?.update(dt,camera.getPosition(),!diagnostics.running&&profile.dynamicReflections,state.water?{...state.water,position:p}:null);diagnostics.pose();streaming?.update(dt,p);
  if(qaView&&!diagnostics.running){camera.setPosition(...qaView.eye);camera.lookAt(...qaView.look);}
  renderQuality?.update(p);meta.renderFeatures=renderQuality?.state();meta.streaming=streaming?.state();meta.waterPhysics=state.water;
  if(meta.frames%10===0){
@@ -181,7 +190,7 @@ async function main(){
   glslangUrl:'/assets/engine/glslang.js',twgslUrl:'/assets/engine/twgsl.js'};
  if(params.get('renderer')==='webgl2')gpuOptions.deviceTypes=[pc.DEVICETYPE_WEBGL2];
  const [device,world,benchmarkRoute,renderConfig,waterMetadata,zoneManifest]=await Promise.all([pc.createGraphicsDevice(canvas,gpuOptions),fetch('/assets/world.json').then(r=>{if(!r.ok)throw Error('校园配置读取失败');return r.json();}),fetch('/assets/benchmark-route.json').then(r=>{if(!r.ok)throw Error('设备检测路线读取失败');return r.json();}),fetch('/assets/v06-config.json').then(r=>r.json()),fetch('/assets/v05/lighting-water.json').then(r=>r.json()),fetch('/assets/zones.json').then(r=>r.json()),RAPIER.init()]);
- v05Config=renderConfig;meta.version='0.6';meta.renderConfig=renderConfig;meta.effects={...effects,active:false};
+ v05Config=renderConfig;meta.version='0.7';meta.renderConfig=renderConfig;meta.effects={...effects,active:false};
  worldData=world;simulation=createSimulation(RAPIER,worldData);meta.colliderCount=world.colliders.length;meta.actualRenderer=device.deviceType;
  device.wgpu?.addEventListener('uncapturederror',e=>diagnostics.graphicsFailure('WebGPU: '+String(e.error?.message||e.error).slice(0,350)));
  app=new pc.Application(canvas,{graphicsDevice:device});
@@ -202,7 +211,7 @@ async function main(){
  }
  water=enhanceWater(app,campus,camera,waterMetadata);meta.water={surfaces:water.surfaces,reflection:water.reflection};
  textureQuality=createTextureQuality(app);textureQuality.apply(campus);
- streaming=createZoneStreaming(app,campus,zoneManifest,loadContainer,entity=>textureQuality.apply(entity),entity=>textureQuality.release(entity));progress(51,'正在载入附近楼群与入口细节…');await streaming.initial(worldData.spawn);
+ streaming=createZoneStreaming(app,campus,zoneManifest,loadContainer,entity=>textureQuality.apply(entity),entity=>textureQuality.release(entity),qualityProfile(quality));progress(51,'正在载入附近楼群与入口细节…');await streaming.initial(worldData.spawn);
  character=characterAsset.resource.instantiateRenderEntity();character.name='Reference_character';app.root.addChild(character);
  textureQuality.apply(character);
  // A cheap contact shadow keeps the character grounded on mobile low quality.
@@ -228,8 +237,9 @@ async function main(){
  }
  app.batcher.generate([batch.id]);
  createMap();bindControls();changeQuality();
- app.on('update',update);app.start();
+ app.on('update',update);app.on('postrender',()=>fpsFrames++);app.start();
  progress(92,'正在准备湖面与校园远景…');await water.ready;startupReflections=false;sun.light.castShadows=true;applyEffects();meta.water={...meta.water,...water.state()};
+ app.autoRender=false;readyAt=performance.now();fpsWindow=readyAt;fpsFrames=0;
  meta.ready=true;progress(100,'校园与人物已就绪');$('start').disabled=false;$('start').innerHTML='开始探索 <span>→</span>';
  diagnostics.attach(app,benchmarkRoute);
  if(qa)window.__campusTest={

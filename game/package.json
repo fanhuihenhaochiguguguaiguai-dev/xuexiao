@@ -12,6 +12,7 @@
     "check:physics": "node physics-check.mjs",
     "check:performance": "node --test performance-check.mjs",
     "check:movement": "node --test movement-check.mjs water-check.mjs",
-    "check:interactions": "node interactions-check.mjs"
+    "check:interactions": "node interactions-check.mjs",
+    "check:quality": "node --test quality-check.mjs"
   }
 }

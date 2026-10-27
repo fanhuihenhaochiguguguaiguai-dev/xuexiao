@@ -27,5 +27,5 @@ export function createTextureQuality(app){
   if(error){detailStatus='unavailable; embedded PBR retained';return;}if(isColor){albedo=asset.resource;albedo.srgb=true;}else{detail=asset.resource;detail.srgb=false;}loaded++;detailStatus=loaded===2?'loaded':'partial';for(const root of roots)if(!root._destroying)apply(root);
  });
  else detailStatus='offline; embedded PBR retained';
- return {apply,release(root){roots.delete(root);textures.clear();for(const live of roots)if(!live._destroying)apply(live);},setScale(scale){limit=scale>=1.49?2048:1024;for(const root of roots)if(!root._destroying)apply(root);},state:()=>({limit,trackedTextures:textures.size,resizes:changed,detailStatus,unsupportedSources:skipped,transferCompression:'LOSSLESS_WEBP',gpuBlockCompression:false})};
+ return {apply,release(root){roots.delete(root);textures.clear();for(const live of roots)if(!live._destroying)apply(live);},setScale(scale){limit=scale>=1.24?2048:1024;for(const root of roots)if(!root._destroying)apply(root);},state:()=>({limit,trackedTextures:textures.size,resizes:changed,detailStatus,unsupportedSources:skipped,transferCompression:'LOSSLESS_WEBP',gpuBlockCompression:false})};
 }

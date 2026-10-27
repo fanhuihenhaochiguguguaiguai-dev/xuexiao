@@ -159,7 +159,11 @@
         "lock": "game/package-lock.json",
         "diagnostics": "game/diagnostics.js",
         "performance_core": "game/performance-core.js",
-        "water": "game/water.js"
+        "water": "game/water.js",
+        "quality_policy": "game/quality-policy.js",
+        "render_quality": "game/render-quality.js",
+        "streaming": "game/streaming.js",
+        "texture_quality": "game/texture-quality.js"
       },
       "outputs": [
         "game.js"
