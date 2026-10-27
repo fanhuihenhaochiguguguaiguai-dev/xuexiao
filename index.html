@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+  <meta name="theme-color" content="#0a1723">
+  <title>河南经贸 · 官方扫描源校园漫游（独立工程）</title>
+  <link rel="stylesheet" href="./style.css">
+  <script type="importmap">
+  {"imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/"
+  }}
+  </script>
+</head>
+<body>
+  <div id="viewport" aria-label="三维校园漫游画面"></div>
+  <header id="top">
+    <div class="brand"><span class="logo">经</span><div><strong>河南经贸 · 数字校园</strong><small>官方扫描源 · 独立实验工程</small></div></div>
+    <button id="helpButton" class="iconbtn" aria-label="查看说明">?</button>
+  </header>
+  <div id="status" role="status">初始化中...</div>
+  <aside id="side">
+    <div class="boxhead"><strong>官方场景</strong><span id="sceneTotal">0 / 0</span></div>
+    <div id="sceneList" class="list"></div>
+    <div class="detail">
+      <div class="smallcap">当前场景</div>
+      <strong id="sceneName">尚未导入官方数据</strong>
+      <p id="sceneNotes">当前显示的网格仅为操作测试区，不属于学校建筑。</p>
+    </div>
+    <div class="buttons">
+      <button id="manifestButton">载入清单</button>
+      <button id="assetsButton">载入官方素材</button>
+    </div>
+    <input id="manifestInput" type="file" accept=".json,application/json" hidden>
+    <input id="assetsInput" type="file" multiple hidden>
+    <div class="smallcap" id="dataState">未导入官方场景</div>
+  </aside>
+  <div id="footpanel"><span id="modeTag">操作测试区 · 非校园模型</span><span id="coordinates">X 0.0 · Z 0.0</span><button id="nextScene" disabled>下一实景点 →</button></div>
+  <div id="joystick" aria-label="移动摇杆"><div id="stick"></div></div>
+  <div id="rightHint">右侧拖动镜头</div>
+  <div id="bottomRight"><button id="resetCamera">重置镜头</button><button id="toggleSide">场景目录</button></div>
+  <section id="modal" class="hidden" role="dialog" aria-modal="true">
+    <div class="dialog"><button id="closeHelp" class="x" aria-label="关闭">×</button>
+      <h2>关于这个独立工程</h2>
+      <p>这个工程不使用此前自行建造的校园 GLB/Blend/地图，不会把测试地面或演示人物冒充学校的真实三维扫描数据。</p>
+      <p><b>已可体验：</b>手机虚拟摇杆、第三人称人物行走、拖动镜头、场景列表、载入官方全景图片，以及导入真实扫描 GLB/GLTF 模型。</p>
+      <p><b>尚缺：</b>获授权的校园原始扫描网格，或经过多机位摄影测量并验证的三维结果。现有 54 个全景机位不能自动等于全校真实网格。</p>
+      <p>请先运行 <code>scripts/validate_official_data.py</code> 核验数据清单；详细格式见 README。</p>
+      <a href="https://www.ivrpano.com/p/2b89e1f8b87d40ad" target="_blank" rel="noopener noreferrer">打开参考的学校 VR 页面</a>
+    </div>
+  </section>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
