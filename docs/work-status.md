@@ -1,6 +1,6 @@
 # 当前工作状态：v0.7
 
-唯一正式仓库为 xuexiao，正式模型仍为 assets/henan_campus/project/HenanCampus.blend；沿用原公开 Site。每阶段同步、验证、提交推送，当前云环境的 watcher 持续保存已验证提交。线上部署状态以 reports/web-deployment.json 为准。
+唯一正式仓库为 xuexiao，正式模型仍为 assets/henan_campus/project/HenanCampus.blend；v0.7已成功发布至原公开 Site，匿名文件哈希核对见 reports/public-sharing.json。每阶段同步、验证、提交推送，当前云环境的 watcher 持续保存已验证提交。线上部署状态以 reports/web-deployment.json 为准。
 
 ## 本轮完成
 
