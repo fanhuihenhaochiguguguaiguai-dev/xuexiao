@@ -1,0 +1,32 @@
+{
+  "campus": {
+    "passed": true,
+    "sha256": "2cb441ca7ed90cf0189dbdd2cc9390c0871a1d2f0e560059f7c89c07a8159130",
+    "triangles": 108101,
+    "vertices": 156586,
+    "position_extent_m": [
+      722.0218811035156,
+      73.44300055503845,
+      749.9226379394531
+    ],
+    "embedded_images": 14,
+    "animations": [],
+    "scope": "Geometry, buffers, finiteness and embedded texture signatures; not a likeness, survey, render or full glTF schema certification."
+  },
+  "base": {
+    "passed": true,
+    "sha256": "8136ffbdeaa44b91d9861abac6a178453ad3312d34a0293e9c1a66f2bc4305b4",
+    "triangles": 72915,
+    "vertices": 89203,
+    "position_extent_m": [
+      722.0218811035156,
+      71.44300055503845,
+      749.9226379394531
+    ],
+    "embedded_images": 14,
+    "animations": [],
+    "scope": "Geometry, buffers, finiteness and embedded texture signatures; not a likeness, survey, render or full glTF schema certification."
+  },
+  "status": "GEOMETRY_NAVIGATION_REIMPORT_PASSED_BROWSER_QA_PENDING",
+  "source_sha256": "3660afa5209b98ffb1d5c363bf86deedcbfad44b4b59ade4fa15917373844344"
+}

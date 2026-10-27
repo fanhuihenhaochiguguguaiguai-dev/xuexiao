@@ -1,22 +1,26 @@
 {
-  "version": "0.6",
+  "version": "0.7",
   "engine": "PlayCanvas 2.23.3",
-  "floorHeightMeters": 3,
+  "floorHeightMeters": 3.9,
   "scale": "METRES; OSM XY and documented/estimated floors, not a survey certificate",
   "renderer": {
     "priority": [
       "webgpu",
       "webgl2"
     ],
-    "minimumRenderScale": 1.25,
+    "minimumRenderScale": 0.75,
     "maximumRenderScale": 1.5,
-    "actualSupersampling": "Fixed drawing-buffer resolution; independent of devicePixelRatio"
+    "actualSupersampling": "Fixed drawing-buffer resolution; independent of devicePixelRatio",
+    "defaultRenderScale": 1,
+    "profileSource": "game/quality-policy.js",
+    "phoneFrameCapTarget": 30
   },
   "shadows": {
-    "mapSize": 2048,
-    "cascades": 2,
-    "filter": "PCF5",
-    "pcssOptional": true
+    "mapSize": 1024,
+    "cascades": 1,
+    "filter": "PCF3",
+    "pcssOptional": true,
+    "highQuality": "2048 / 2 cascades / PCF5"
   },
   "antialias": {
     "type": "TAA",
@@ -35,9 +39,9 @@
     ],
     "buoyancyAndDrag": true,
     "depth": "ESTIMATED_NOT_MEASURED",
-    "refraction": true,
+    "refraction": "HIGH_AND_ULTRA_ONLY",
     "localHdrCubemaps": true,
-    "reflectionRefresh": "nearby only; suspended under frame-time pressure"
+    "reflectionRefresh": "HIGH_AND_ULTRA_ONLY; nearby and budgeted"
   },
   "pbr": {
     "authoredSourceSize": 4096,
@@ -47,13 +51,14 @@
     "transferCompression": "LOSSLESS_WEBP_DETAIL_NORMAL; embedded GLB maps remain PNG"
   },
   "ao": {
-    "baked": "Actual 2048px Cycles AO, 16 samples, plus 4096px source static-shadow atlas",
+    "baked": "Existing actual 2048px Cycles 6m near-field AO retained; static directional shadows reprojected for v0.7 height. New local facade details are not a full GI bake.",
     "ssaoScale": 0.5
   },
   "streaming": {
     "zones": 20,
-    "nearDetails": 190,
-    "unloadDetails": 250,
-    "coarseMappedBodiesRemainVisible": true
+    "nearDetails": 140,
+    "unloadDetails": 195,
+    "coarseMappedBodiesRemainVisible": true,
+    "defaultMaximumResidentZones": 6
   }
 }

@@ -6,8 +6,9 @@
     "visual_refinement": "PENDING_RELIABLE_FACADE_PROFILE",
     "bulk_action": "REUSE_AND_VALIDATE",
     "raw_photogrammetry_input_qualified": false,
-    "floor_height_m": 3,
-    "height_source": "USER_RULE_NOT_SURVEY"
+    "floor_height_m": 3.9,
+    "height_source": "USER_RULE_NOT_SURVEY",
+    "floor_rule_applied": true
   },
   {
     "building_id": 2,
@@ -16,8 +17,9 @@
     "visual_refinement": "PENDING_RELIABLE_FACADE_PROFILE",
     "bulk_action": "REUSE_AND_VALIDATE",
     "raw_photogrammetry_input_qualified": false,
-    "floor_height_m": 3,
-    "height_source": "USER_RULE_NOT_SURVEY"
+    "floor_height_m": 3.9,
+    "height_source": "USER_RULE_NOT_SURVEY",
+    "floor_rule_applied": true
   },
   {
     "building_id": 3,
@@ -26,8 +28,9 @@
     "visual_refinement": "PENDING_RELIABLE_FACADE_PROFILE",
     "bulk_action": "REUSE_AND_VALIDATE",
     "raw_photogrammetry_input_qualified": false,
-    "floor_height_m": 3,
-    "height_source": "USER_RULE_NOT_SURVEY"
+    "floor_height_m": 3.9,
+    "height_source": "USER_RULE_NOT_SURVEY",
+    "floor_rule_applied": true
   },
   {
     "building_id": 4,
@@ -36,8 +39,9 @@
     "visual_refinement": "PENDING_RELIABLE_FACADE_PROFILE",
     "bulk_action": "REUSE_AND_VALIDATE",
     "raw_photogrammetry_input_qualified": false,
-    "floor_height_m": 3,
-    "height_source": "USER_RULE_NOT_SURVEY"
+    "floor_height_m": 3.9,
+    "height_source": "USER_RULE_NOT_SURVEY",
+    "floor_rule_applied": true
   },
   {
     "building_id": 5,
@@ -46,8 +50,9 @@
     "visual_refinement": "PENDING_RELIABLE_FACADE_PROFILE",
     "bulk_action": "REUSE_AND_VALIDATE",
     "raw_photogrammetry_input_qualified": false,
-    "floor_height_m": 3,
-    "height_source": "USER_RULE_NOT_SURVEY"
+    "floor_height_m": 3.9,
+    "height_source": "USER_RULE_NOT_SURVEY",
+    "floor_rule_applied": true
   },
   {
     "building_id": 6,
@@ -56,8 +61,9 @@
     "visual_refinement": "PENDING_RELIABLE_FACADE_PROFILE",
     "bulk_action": "REUSE_AND_VALIDATE",
     "raw_photogrammetry_input_qualified": false,
-    "floor_height_m": 3,
-    "height_source": "USER_RULE_NOT_SURVEY"
+    "floor_height_m": 3.9,
+    "height_source": "USER_RULE_NOT_SURVEY",
+    "floor_rule_applied": true
   },
   {
     "building_id": 7,
@@ -66,8 +72,9 @@
     "visual_refinement": "PENDING_RELIABLE_FACADE_PROFILE",
     "bulk_action": "REUSE_AND_VALIDATE",
     "raw_photogrammetry_input_qualified": false,
-    "floor_height_m": 3,
-    "height_source": "USER_RULE_NOT_SURVEY"
+    "floor_height_m": 3.9,
+    "height_source": "USER_RULE_NOT_SURVEY",
+    "floor_rule_applied": true
   },
   {
     "building_id": 8,
@@ -76,8 +83,9 @@
     "visual_refinement": "PENDING_RELIABLE_FACADE_PROFILE",
     "bulk_action": "REUSE_AND_VALIDATE",
     "raw_photogrammetry_input_qualified": false,
-    "floor_height_m": 3,
-    "height_source": "USER_RULE_NOT_SURVEY"
+    "floor_height_m": 3.9,
+    "height_source": "USER_RULE_NOT_SURVEY",
+    "floor_rule_applied": true
   },
   {
     "building_id": 9,
@@ -86,8 +94,9 @@
     "visual_refinement": "PENDING_RELIABLE_FACADE_PROFILE",
     "bulk_action": "REUSE_AND_VALIDATE",
     "raw_photogrammetry_input_qualified": false,
-    "floor_height_m": 3,
-    "height_source": "USER_RULE_NOT_SURVEY"
+    "floor_height_m": 3.9,
+    "height_source": "USER_RULE_NOT_SURVEY",
+    "floor_rule_applied": true
   },
   {
     "building_id": 10,
@@ -96,8 +105,9 @@
     "visual_refinement": "PENDING_RELIABLE_FACADE_PROFILE",
     "bulk_action": "REUSE_AND_VALIDATE",
     "raw_photogrammetry_input_qualified": false,
-    "floor_height_m": 3,
-    "height_source": "USER_RULE_NOT_SURVEY"
+    "floor_height_m": 3.9,
+    "height_source": "USER_RULE_NOT_SURVEY",
+    "floor_rule_applied": true
   },
   {
     "building_id": 11,
@@ -106,8 +116,9 @@
     "visual_refinement": "PENDING_RELIABLE_FACADE_PROFILE",
     "bulk_action": "REUSE_AND_VALIDATE",
     "raw_photogrammetry_input_qualified": false,
-    "floor_height_m": 3,
-    "height_source": "USER_RULE_NOT_SURVEY"
+    "floor_height_m": 3.9,
+    "height_source": "USER_RULE_NOT_SURVEY",
+    "floor_rule_applied": true
   },
   {
     "building_id": 12,
@@ -116,8 +127,9 @@
     "visual_refinement": "PENDING_RELIABLE_FACADE_PROFILE",
     "bulk_action": "REUSE_AND_VALIDATE",
     "raw_photogrammetry_input_qualified": false,
-    "floor_height_m": 3,
-    "height_source": "USER_RULE_NOT_SURVEY"
+    "floor_height_m": 3.9,
+    "height_source": "USER_RULE_NOT_SURVEY",
+    "floor_rule_applied": true
   },
   {
     "building_id": 13,
@@ -126,8 +138,9 @@
     "visual_refinement": "PHOTO_GUIDED_LOCAL_REFINEMENT",
     "bulk_action": "REUSE_AND_VALIDATE",
     "raw_photogrammetry_input_qualified": false,
-    "floor_height_m": 3,
-    "height_source": "USER_RULE_NOT_SURVEY"
+    "floor_height_m": 3.9,
+    "height_source": "USER_RULE_NOT_SURVEY",
+    "floor_rule_applied": true
   },
   {
     "building_id": 14,
@@ -136,8 +149,9 @@
     "visual_refinement": "PENDING_RELIABLE_FACADE_PROFILE",
     "bulk_action": "REUSE_AND_VALIDATE",
     "raw_photogrammetry_input_qualified": false,
-    "floor_height_m": 3,
-    "height_source": "USER_RULE_NOT_SURVEY"
+    "floor_height_m": 3.9,
+    "height_source": "USER_RULE_NOT_SURVEY",
+    "floor_rule_applied": true
   },
   {
     "building_id": 15,
@@ -146,8 +160,9 @@
     "visual_refinement": "PARAMETRIC_PHOTO_TYPE_APPROXIMATION_NOT_EXACT_BUILDING_MATCH",
     "bulk_action": "REUSE_AND_VALIDATE",
     "raw_photogrammetry_input_qualified": false,
-    "floor_height_m": 3,
-    "height_source": "USER_RULE_NOT_SURVEY"
+    "floor_height_m": 3.9,
+    "height_source": "USER_RULE_NOT_SURVEY",
+    "floor_rule_applied": true
   },
   {
     "building_id": 16,
@@ -156,8 +171,9 @@
     "visual_refinement": "PARAMETRIC_PHOTO_TYPE_APPROXIMATION_NOT_EXACT_BUILDING_MATCH",
     "bulk_action": "REUSE_AND_VALIDATE",
     "raw_photogrammetry_input_qualified": false,
-    "floor_height_m": 3,
-    "height_source": "USER_RULE_NOT_SURVEY"
+    "floor_height_m": 3.9,
+    "height_source": "USER_RULE_NOT_SURVEY",
+    "floor_rule_applied": true
   },
   {
     "building_id": 17,
@@ -166,8 +182,9 @@
     "visual_refinement": "PARAMETRIC_PHOTO_TYPE_APPROXIMATION_NOT_EXACT_BUILDING_MATCH",
     "bulk_action": "REUSE_AND_VALIDATE",
     "raw_photogrammetry_input_qualified": false,
-    "floor_height_m": 3,
-    "height_source": "USER_RULE_NOT_SURVEY"
+    "floor_height_m": 3.9,
+    "height_source": "USER_RULE_NOT_SURVEY",
+    "floor_rule_applied": true
   },
   {
     "building_id": 18,
@@ -176,8 +193,9 @@
     "visual_refinement": "PARAMETRIC_PHOTO_TYPE_APPROXIMATION_NOT_EXACT_BUILDING_MATCH",
     "bulk_action": "REUSE_AND_VALIDATE",
     "raw_photogrammetry_input_qualified": false,
-    "floor_height_m": 3,
-    "height_source": "USER_RULE_NOT_SURVEY"
+    "floor_height_m": 3.9,
+    "height_source": "USER_RULE_NOT_SURVEY",
+    "floor_rule_applied": true
   },
   {
     "building_id": 19,
@@ -186,8 +204,9 @@
     "visual_refinement": "PARAMETRIC_PHOTO_TYPE_APPROXIMATION_NOT_EXACT_BUILDING_MATCH",
     "bulk_action": "REUSE_AND_VALIDATE",
     "raw_photogrammetry_input_qualified": false,
-    "floor_height_m": 3,
-    "height_source": "USER_RULE_NOT_SURVEY"
+    "floor_height_m": 3.9,
+    "height_source": "USER_RULE_NOT_SURVEY",
+    "floor_rule_applied": true
   },
   {
     "building_id": 20,
@@ -197,6 +216,8 @@
     "bulk_action": "REUSE_AND_VALIDATE",
     "raw_photogrammetry_input_qualified": false,
     "floor_height_m": 3,
-    "height_source": "USER_RULE_NOT_SURVEY"
+    "height_source": "USER_RULE_NOT_SURVEY",
+    "floor_rule_applied": false,
+    "structure_type": "TIERED_STAND_NOT_REGULAR_STOREYS"
   }
 ]

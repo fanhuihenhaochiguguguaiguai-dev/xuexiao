@@ -1,0 +1,219 @@
+{
+  "version": "0.7",
+  "floor_height_m": 3.9,
+  "source_xy_retained": true,
+  "footprint_accuracy": "OSM_NOT_SURVEYED",
+  "selected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "buildings": [
+    {
+      "id": 1,
+      "body_height_m": 70.20000061392784,
+      "floor_count": 18,
+      "floor_height_m": 3.9,
+      "rule_applied": true,
+      "closed": true,
+      "volume_m3": 54780.68800378484
+    },
+    {
+      "id": 2,
+      "body_height_m": 70.20000061392784,
+      "floor_count": 18,
+      "floor_height_m": 3.9,
+      "rule_applied": true,
+      "closed": true,
+      "volume_m3": 54781.83034356426
+    },
+    {
+      "id": 3,
+      "body_height_m": 70.20000061392784,
+      "floor_count": 18,
+      "floor_height_m": 3.9,
+      "rule_applied": true,
+      "closed": true,
+      "volume_m3": 66909.24911987479
+    },
+    {
+      "id": 4,
+      "body_height_m": 70.20000061392784,
+      "floor_count": 18,
+      "floor_height_m": 3.9,
+      "rule_applied": true,
+      "closed": true,
+      "volume_m3": 84047.28226838743
+    },
+    {
+      "id": 5,
+      "body_height_m": 23.39999946951866,
+      "floor_count": 6,
+      "floor_height_m": 3.9,
+      "rule_applied": true,
+      "closed": true,
+      "volume_m3": 56820.90344800901
+    },
+    {
+      "id": 6,
+      "body_height_m": 23.39999946951866,
+      "floor_count": 6,
+      "floor_height_m": 3.9,
+      "rule_applied": true,
+      "closed": true,
+      "volume_m3": 56827.024484747744
+    },
+    {
+      "id": 7,
+      "body_height_m": 23.39999946951866,
+      "floor_count": 6,
+      "floor_height_m": 3.9,
+      "rule_applied": true,
+      "closed": true,
+      "volume_m3": 56818.07724493573
+    },
+    {
+      "id": 8,
+      "body_height_m": 23.39999946951866,
+      "floor_count": 6,
+      "floor_height_m": 3.9,
+      "rule_applied": true,
+      "closed": true,
+      "volume_m3": 56823.4968448446
+    },
+    {
+      "id": 9,
+      "body_height_m": 23.39999946951866,
+      "floor_count": 6,
+      "floor_height_m": 3.9,
+      "rule_applied": true,
+      "closed": true,
+      "volume_m3": 56820.03843993583
+    },
+    {
+      "id": 10,
+      "body_height_m": 23.39999946951866,
+      "floor_count": 6,
+      "floor_height_m": 3.9,
+      "rule_applied": true,
+      "closed": true,
+      "volume_m3": 52537.423618572
+    },
+    {
+      "id": 11,
+      "body_height_m": 23.39999946951866,
+      "floor_count": 6,
+      "floor_height_m": 3.9,
+      "rule_applied": true,
+      "closed": true,
+      "volume_m3": 52536.61550067764
+    },
+    {
+      "id": 12,
+      "body_height_m": 11.699999660253525,
+      "floor_count": 3,
+      "floor_height_m": 3.9,
+      "rule_applied": true,
+      "closed": true,
+      "volume_m3": 63271.43655960389
+    },
+    {
+      "id": 13,
+      "body_height_m": 35.09999752044678,
+      "floor_count": 9,
+      "floor_height_m": 3.9,
+      "rule_applied": true,
+      "closed": true,
+      "volume_m3": 177257.3469193287
+    },
+    {
+      "id": 14,
+      "body_height_m": 19.499999850988388,
+      "floor_count": 5,
+      "floor_height_m": 3.9,
+      "rule_applied": true,
+      "closed": true,
+      "volume_m3": 33121.73446983377
+    },
+    {
+      "id": 15,
+      "body_height_m": 23.39999946951866,
+      "floor_count": 6,
+      "floor_height_m": 3.9,
+      "rule_applied": true,
+      "closed": true,
+      "volume_m3": 57797.55727267772
+    },
+    {
+      "id": 16,
+      "body_height_m": 23.39999946951866,
+      "floor_count": 6,
+      "floor_height_m": 3.9,
+      "rule_applied": true,
+      "closed": true,
+      "volume_m3": 57818.52951936097
+    },
+    {
+      "id": 17,
+      "body_height_m": 23.39999946951866,
+      "floor_count": 6,
+      "floor_height_m": 3.9,
+      "rule_applied": true,
+      "closed": true,
+      "volume_m3": 57810.3531313018
+    },
+    {
+      "id": 18,
+      "body_height_m": 23.39999946951866,
+      "floor_count": 6,
+      "floor_height_m": 3.9,
+      "rule_applied": true,
+      "closed": true,
+      "volume_m3": 57798.315229470994
+    },
+    {
+      "id": 19,
+      "body_height_m": 23.39999946951866,
+      "floor_count": 6,
+      "floor_height_m": 3.9,
+      "rule_applied": true,
+      "closed": true,
+      "volume_m3": 57810.821834593706
+    },
+    {
+      "id": 20,
+      "body_height_m": 3.000000089406967,
+      "floor_count": 1,
+      "floor_height_m": 3,
+      "rule_applied": false,
+      "closed": true,
+      "volume_m3": 2647.8201679659455
+    }
+  ],
+  "previous_triangles": 106217,
+  "library_reference_changes": [
+    "warm stone window returns and ledges",
+    "two shallow stone planters and low-poly shrubs",
+    "two slim stair handrails",
+    "entrance door height retained at 2.1m"
+  ],
+  "triangles": 108101,
+  "triangle_increase_ratio": 0.017737273694418132,
+  "passed": true
+}

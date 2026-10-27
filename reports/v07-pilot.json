@@ -1,0 +1,218 @@
+{
+  "version": "0.7-pilot",
+  "floor_height_m": 3.9,
+  "source_xy_retained": true,
+  "footprint_accuracy": "OSM_NOT_SURVEYED",
+  "selected": [
+    13
+  ],
+  "buildings": [
+    {
+      "id": 1,
+      "body_height_m": 53.99999985098839,
+      "floor_count": 18,
+      "floor_height_m": 3,
+      "rule_applied": false,
+      "closed": true,
+      "volume_m3": 42138.99028733791
+    },
+    {
+      "id": 2,
+      "body_height_m": 53.99999985098839,
+      "floor_count": 18,
+      "floor_height_m": 3,
+      "rule_applied": false,
+      "closed": true,
+      "volume_m3": 42139.869010235074
+    },
+    {
+      "id": 3,
+      "body_height_m": 53.99999985098839,
+      "floor_count": 18,
+      "floor_height_m": 3,
+      "rule_applied": false,
+      "closed": true,
+      "volume_m3": 51468.65257699351
+    },
+    {
+      "id": 4,
+      "body_height_m": 53.99999985098839,
+      "floor_count": 18,
+      "floor_height_m": 3,
+      "rule_applied": false,
+      "closed": true,
+      "volume_m3": 64651.75484725622
+    },
+    {
+      "id": 5,
+      "body_height_m": 17.999999850988388,
+      "floor_count": 6,
+      "floor_height_m": 3,
+      "rule_applied": false,
+      "closed": true,
+      "volume_m3": 43708.38789673811
+    },
+    {
+      "id": 6,
+      "body_height_m": 17.999999850988388,
+      "floor_count": 6,
+      "floor_height_m": 3,
+      "rule_applied": false,
+      "closed": true,
+      "volume_m3": 43713.09638660488
+    },
+    {
+      "id": 7,
+      "body_height_m": 17.999999850988388,
+      "floor_count": 6,
+      "floor_height_m": 3,
+      "rule_applied": false,
+      "closed": true,
+      "volume_m3": 43706.21389434277
+    },
+    {
+      "id": 8,
+      "body_height_m": 17.999999850988388,
+      "floor_count": 6,
+      "floor_height_m": 3,
+      "rule_applied": false,
+      "closed": true,
+      "volume_m3": 43710.38281740958
+    },
+    {
+      "id": 9,
+      "body_height_m": 17.999999850988388,
+      "floor_count": 6,
+      "floor_height_m": 3,
+      "rule_applied": false,
+      "closed": true,
+      "volume_m3": 43707.722505903024
+    },
+    {
+      "id": 10,
+      "body_height_m": 17.999999850988388,
+      "floor_count": 6,
+      "floor_height_m": 3,
+      "rule_applied": false,
+      "closed": true,
+      "volume_m3": 40413.40336513529
+    },
+    {
+      "id": 11,
+      "body_height_m": 17.999999850988388,
+      "floor_count": 6,
+      "floor_height_m": 3,
+      "rule_applied": false,
+      "closed": true,
+      "volume_m3": 40412.78173597688
+    },
+    {
+      "id": 12,
+      "body_height_m": 8.999999850988388,
+      "floor_count": 3,
+      "floor_height_m": 3,
+      "rule_applied": false,
+      "closed": true,
+      "volume_m3": 48670.33642254971
+    },
+    {
+      "id": 13,
+      "body_height_m": 35.09999752044678,
+      "floor_count": 9,
+      "floor_height_m": 3.9,
+      "rule_applied": true,
+      "closed": true,
+      "volume_m3": 177257.3469193287
+    },
+    {
+      "id": 14,
+      "body_height_m": 14.999999850988388,
+      "floor_count": 5,
+      "floor_height_m": 3,
+      "rule_applied": false,
+      "closed": true,
+      "volume_m3": 25478.257226078968
+    },
+    {
+      "id": 15,
+      "body_height_m": 17.999999850988388,
+      "floor_count": 6,
+      "floor_height_m": 3,
+      "rule_applied": false,
+      "closed": true,
+      "volume_m3": 44459.6600803723
+    },
+    {
+      "id": 16,
+      "body_height_m": 17.999999850988388,
+      "floor_count": 6,
+      "floor_height_m": 3,
+      "rule_applied": false,
+      "closed": true,
+      "volume_m3": 44475.79257805314
+    },
+    {
+      "id": 17,
+      "body_height_m": 17.999999850988388,
+      "floor_count": 6,
+      "floor_height_m": 3,
+      "rule_applied": false,
+      "closed": true,
+      "volume_m3": 44469.503048686325
+    },
+    {
+      "id": 18,
+      "body_height_m": 17.999999850988388,
+      "floor_count": 6,
+      "floor_height_m": 3,
+      "rule_applied": false,
+      "closed": true,
+      "volume_m3": 44460.243124067834
+    },
+    {
+      "id": 19,
+      "body_height_m": 17.999999850988388,
+      "floor_count": 6,
+      "floor_height_m": 3,
+      "rule_applied": false,
+      "closed": true,
+      "volume_m3": 44469.86358968526
+    },
+    {
+      "id": 20,
+      "body_height_m": 3.000000089406967,
+      "floor_count": 1,
+      "floor_height_m": 3,
+      "rule_applied": false,
+      "closed": true,
+      "volume_m3": 2647.8201679659455
+    }
+  ],
+  "previous_triangles": 106217,
+  "library_reference_changes": [
+    "warm stone window returns and ledges",
+    "two shallow stone planters and low-poly shrubs",
+    "two slim stair handrails",
+    "entrance door height retained at 2.1m"
+  ],
+  "triangles": 108101,
+  "triangle_increase_ratio": 0.017737273694418132,
+  "passed": true,
+  "geometry_gate": {
+    "passed": true,
+    "sha256": "865d3cbaa910817612a32de51ea593f2fecc4e776b14f6dee368f741d3099785",
+    "triangles": 108101,
+    "vertices": 156566,
+    "position_extent_m": [
+      722.0218811035156,
+      57.242999792099,
+      749.9226379394531
+    ],
+    "embedded_images": 14,
+    "animations": [],
+    "scope": "Geometry, buffers, finiteness and embedded texture signatures; not a likeness, survey, render or full glTF schema certification."
+  },
+  "navigation_passed": true,
+  "visual_reference_review": "Stone window returns, planter and handrail features present in actual CPU preview; likeness remains approximate, no survey or phone performance claim.",
+  "preview_sha256": "cacc74737c287be400d16e91822b1a5772db8902b31e000018641844057035fc"
+}

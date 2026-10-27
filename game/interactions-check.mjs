@@ -9,4 +9,12 @@ const p=data.landmarks.podium;sim.setFeet(p.approach[0],.8,p.approach[2]);advanc
 for(let i=0;i<210;i++){sim.step(...p.direction,1/120);peak=Math.max(peak,sim.state().feet.y);}assert(peak>.72);result.podium={peak,passed:true};
 const g=data.landmarks.grandstand;sim.setFeet(g.approach[0],.8,g.approach[2]);advance(180);peak=-Infinity;
 for(let i=0;i<900;i++){sim.step(...g.direction,1/120);peak=Math.max(peak,sim.state().feet.y);}assert(peak>3.05);result.grandstandAisle={peak,passed:true};
+if(data.landmarks.libraryEntrance){
+ const l=data.landmarks.libraryEntrance;sim.setFeet(...l.approach);advance(180);peak=-Infinity;
+ // Autostep reduces horizontal progress on each riser; allow the complete
+ // approach and ascent rather than assuming flat-ground travel time.
+ for(let i=0;i<650;i++){sim.step(...l.direction,1/120);peak=Math.max(peak,sim.state().feet.y);}
+ const s=sim.state();assert(peak>l.landing_top_m-.03);assert(s.feet.y>l.landing_top_m-.03);assert(s.feet.y<l.landing_top_m+.15);
+ result.libraryEntrance={peak,feet:s.feet,door_height_m:l.door_height_m,passed:true};
+}
 result.passed=true;fs.writeFileSync(process.env.CAMPUS_INTERACTIONS_REPORT||'qa/current_interactions_validation.json',JSON.stringify(result,null,2)+'\n');console.log(JSON.stringify(result,null,2));sim.world.free();

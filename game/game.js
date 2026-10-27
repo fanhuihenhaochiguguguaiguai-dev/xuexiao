@@ -81,7 +81,7 @@ function createMap(){
  for(const p of worldData.pois){const b=document.createElement('button');b.textContent=p.name;const s=document.createElement('span');s.textContent='切换出发点 →';b.appendChild(s);b.onclick=()=>{reset(p);$('map-dialog').close();};$('poi-list').appendChild(b);}
 }
 function openDialog(id){keys.clear();input.x=input.y=0;$('stick').style.transform='';$(id).showModal();}
-function showPlace(){if(!nearby)return;$('place-title').textContent=nearby.name;$('place-content').textContent=`模型索引 B${String(nearby.id).padStart(2,'0')}。主体高 ${nearby.height.toFixed(1)} 米（${nearby.floorCount}层×3米）；地图轮廓长约 ${nearby.lengthMeters.toFixed(1)} 米、宽约 ${nearby.widthMeters.toFixed(1)} 米。楼层数及平面尺寸尚未实测，屋顶构件另计，室内尚未开放。`;openDialog('place-dialog');}
+function showPlace(){if(!nearby)return;$('place-title').textContent=nearby.name;$('place-content').textContent=`模型索引 B${String(nearby.id).padStart(2,'0')}。主体高 ${nearby.height.toFixed(1)} 米（${nearby.id===20?"阶梯看台结构":`${nearby.floorCount}层×${nearby.floorHeightMeters??worldData.floorHeightMeters}米规则`}）；地图轮廓长约 ${nearby.lengthMeters.toFixed(1)} 米、宽约 ${nearby.widthMeters.toFixed(1)} 米。楼层数及平面尺寸尚未实测，屋顶构件另计，室内尚未开放。`;openDialog('place-dialog');}
 function bindControls(){
  $('start').onclick=async()=>{if(!meta.ready)return;active=true;meta.started=true;$('boot').hidden=true;$('hud').hidden=false;if(matchMedia('(pointer:coarse)').matches&&!qa)await enterLandscape();toast('左侧移动，右侧滑动看向四周');if(!qa)diagnostics.afterStart();};
  $('reset').onclick=()=>reset();$('info').onclick=()=>openDialog('info-dialog');$('map-toggle').onclick=()=>openDialog('map-dialog');

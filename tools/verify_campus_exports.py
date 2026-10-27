@@ -1,8 +1,10 @@
 """Re-import both deliverables and compare world-space building dimensions."""
 from pathlib import Path
-import bpy,bmesh,json,math,re
+import bpy,bmesh,json,math,re,sys,argparse
 from mathutils import Vector
-P=Path(__file__).resolve().parents[1]/'assets/henan_campus/project'
+parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--project',type=Path,default=Path(__file__).resolve().parents[1]/'assets/henan_campus/project');parser.add_argument('--report',type=Path)
+args=parser.parse_args(sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else [])
+P=args.project.resolve()
 def inspect():
  meshes=[o for o in bpy.context.scene.objects if o.type=='MESH']
  bounds={};invalid=[];checks=[]
@@ -47,7 +49,7 @@ for fmt in ['glb','fbx']:
  data['passed']=not deviations and len(data['building_bounds'])==20 and data['all_images_loaded'] and data['all_building_solids_closed'] and not data['invalid_coordinate_objects']
  result['formats'][fmt]=data
 result['passed']=all(x['passed'] for x in result['formats'].values())
-(P/'verification/reimport_validation.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
+report=args.report or P/'verification/reimport_validation.json';report.parent.mkdir(parents=True,exist_ok=True);report.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps({'passed':result['passed'],'formats':{k:{'passed':v['passed'],'meshes':v['mesh_objects'],'triangles':v['triangles'],'closed_buildings':v['all_building_solids_closed'],'images_loaded':v['all_images_loaded'],'bounds_deviations':v['bounds_deviations_over_1mm']} for k,v in result['formats'].items()}},ensure_ascii=False),flush=True)
 
 if not result["passed"]:raise RuntimeError("Model roundtrip validation failed")
