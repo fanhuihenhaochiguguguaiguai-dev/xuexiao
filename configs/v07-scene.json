@@ -1,5 +1,6 @@
 {
   "version": "0.7",
+  "baseline_commit": "84a0d767127deb84fd740c78bed3045d11aee73b",
   "floor_height_m": 3.9,
   "height_source": "USER_RULE_NOT_SURVEY",
   "xy_policy": "PRESERVE_EXISTING_FOOTPRINTS_AND_POSITIONS",

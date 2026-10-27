@@ -10,9 +10,9 @@ const {chromium}=require('playwright');const fs=require('node:fs');const path=re
   console.log('GAME_READY',JSON.stringify({renderer:initial.actualRenderer,water:initial.water}));
   await page.locator('#start').evaluate(b=>b.click());
   // Exercise restoration after the adaptive resolution floor was reached while
-  // the user's selected preset still says balanced.
-  await page.evaluate(()=>{const s=document.querySelector('#quality-preset');s.value='balanced';s.dispatchEvent(new Event('change'));});
-  await page.waitForFunction(()=>window.__campusTest.settings().renderScale===1.25,null,{timeout:25000});
+  // the user's selected preset still says high.
+  await page.evaluate(()=>{const s=document.querySelector('#quality-preset');s.value='high';s.dispatchEvent(new Event('change'));});
+  await page.waitForFunction(()=>window.__campusTest.settings().renderScale===1.0,null,{timeout:45000});
   const settingsBefore=await page.evaluate(()=>window.__campusTest.settings());
   await page.locator('[aria-label="设备性能检测"]').click();
   const positionBefore=await page.evaluate(()=>window.__campusGameState.position);

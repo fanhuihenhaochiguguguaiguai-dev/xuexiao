@@ -244,7 +244,7 @@
       }
     },
     "temporary_uv_seam_weld_tolerance_m": 0.0001,
-    "triangles": 108101,
+    "triangles": 108317,
     "invalid_coordinate_objects": [],
     "building_geometry_checks": [
       {
@@ -895,7 +895,7 @@
         }
       },
       "temporary_uv_seam_weld_tolerance_m": 0.0001,
-      "triangles": 108101,
+      "triangles": 108317,
       "invalid_coordinate_objects": [],
       "building_geometry_checks": [
         {
@@ -1417,7 +1417,7 @@
         }
       },
       "temporary_uv_seam_weld_tolerance_m": 0.0001,
-      "triangles": 108101,
+      "triangles": 108317,
       "invalid_coordinate_objects": [],
       "building_geometry_checks": [
         {

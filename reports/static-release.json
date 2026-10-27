@@ -1,0 +1,11 @@
+{
+  "build": "campus-v07-20261027-1",
+  "content_fingerprint": "13a2e73c63072abdacb44808bba9dce6fa1dd6d07b66b01daba218f6b54c0aa9",
+  "zip_sha256": "b0271006b672444dda53c73ebcef25cd8f00f81926f36e06bda2d046ff9b27c2",
+  "zip_bytes": 22046786,
+  "runtime_files": 57,
+  "original_reference_photos_included": false,
+  "browser_all_requests_same_origin": true,
+  "china_network_verified": false,
+  "deployment_status": "READY_FOR_AUTHORIZED_HTTPS_HOST_NOT_DEPLOYED_IN_CHINA"
+}

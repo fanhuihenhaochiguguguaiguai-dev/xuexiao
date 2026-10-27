@@ -147,7 +147,7 @@
     {
       "path": "world.json",
       "bytes": 661076,
-      "sha256": "97ac8900005e4db9681f267c799716697c1729b3264fae89dd20e44bc7b79297"
+      "sha256": "9f83c8d79babda0b6be47e9a26370303ea6af39435877c2d1a806b491a2b7899"
     },
     {
       "path": "zones/b01.glb",
@@ -211,8 +211,8 @@
     },
     {
       "path": "zones/b13.glb",
-      "bytes": 1754964,
-      "sha256": "9d4029c83dcd5b8aa3c35cd9f9dee026c5be6cd0b83d15ad76cdbb9fccd72ca7"
+      "bytes": 1770084,
+      "sha256": "e5d7ef7a938285e094d86b34328848dda1dd1de88c051b614a5e5e092920f32e"
     },
     {
       "path": "zones/b14.glb",

@@ -6,8 +6,17 @@ def sha(path):return hashlib.sha256(path.read_bytes()).hexdigest()
 def package(output):
     dist=ROOT/'game/dist';browser=json.loads((ROOT/'reports/v07-browser.json').read_text())
     assert browser['passed'] and browser['allRequestsSameOrigin']
-    assert all(sha(ROOT/p)==h for p,h in browser['sourceHashes'].items()),'Browser acceptance is stale'
-    paths=sorted(p for p in dist.rglob('*') if p.is_file());fingerprint=hashlib.sha256(''.join(str(p.relative_to(dist))+sha(p) for p in paths).encode()).hexdigest()
+    accepted=browser['sourceHashes']
+    if not all(sha(ROOT/p)==h for p,h in accepted.items()):
+        followup=json.loads((ROOT/'reports/v07-visual-revalidation.json').read_text())
+        assert followup['passed'] and followup['baseSourceHashes']==accepted
+        assert followup['geometryAndRoundtripPassed'] and followup['navigationPassed']
+        assert set(followup['changedInputs']) <= {'game/dist/assets/world.json','game/dist/assets/zones/b13.glb','game/dist/assets/campus.glb'}
+        accepted=followup['sourceHashes']
+    assert all(sha(ROOT/p)==h for p,h in accepted.items()),'Browser acceptance is stale'
+    manifest=json.loads((dist/'assets/asset-manifest.json').read_text())
+    assert all(sha(dist/'assets'/f['path'])==f['sha256'] for f in manifest['files']),'Asset manifest is stale'
+    paths=sorted(p for p in dist.rglob('*') if p.is_file());docs=[ROOT/'docs/china-hosting.md',ROOT/'docs/static-host-nginx.conf'];fingerprint=hashlib.sha256((''.join(str(p.relative_to(dist))+sha(p) for p in paths)+''.join(sha(p) for p in docs)).encode()).hexdigest()
     report_path=ROOT/'reports/static-release.json';old=json.loads(report_path.read_text()) if report_path.exists() else {}
     if old.get('content_fingerprint')==fingerprint and output.exists() and sha(output)==old.get('zip_sha256'):
         print(json.dumps({'status':'CACHED','files':len(paths),'sha256':old['zip_sha256']}));return

@@ -1,5 +1,5 @@
 """Stage incremental metric changes from one immutable v0.6 baseline."""
-import argparse, copy, hashlib, json, shutil, math
+import argparse, copy, hashlib, json, shutil, math, subprocess
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFilter, ImageChops
 from shapely.geometry import Polygon, Point
@@ -14,12 +14,18 @@ P=ROOT/'assets/henan_campus/project'
 def prepare(campaign):
     OUT.mkdir(parents=True,exist_ok=True)
     baseline=OUT/'baseline';baseline.mkdir(exist_ok=True)
+    cfg=json.loads((ROOT/'configs/v07-scene.json').read_text())
+    # A fresh cloud checkout already contains v0.7. Recover the exact historic
+    # source through Git, rather than treating a processed mesh as raw input.
+    commit=cfg['baseline_commit']
+    if subprocess.run(['git','cat-file','-e',commit],cwd=ROOT,capture_output=True).returncode:
+        subprocess.run(['git','fetch','origin',commit],cwd=ROOT,check=True)
     for src,name in [(P/'HenanCampus.blend','HenanCampus.blend'),(P/'scene_specification.json','scene_specification.json'),(ROOT/'game/dist/assets/world.json','world.json'),(ROOT/'game/dist/assets/zones.json','zones.json')]:
         dest=baseline/name
         if not dest.exists():
-            if name=='scene_specification.json':assert json.loads(src.read_text())['version']=='0.6'
-            shutil.copy2(src,dest)
-    cfg=json.loads((ROOT/'configs/v07-scene.json').read_text())
+            data=subprocess.run(['git','show',commit+':'+str(src.relative_to(ROOT))],cwd=ROOT,check=True,capture_output=True).stdout
+            if name=='scene_specification.json':assert json.loads(data)['version']=='0.6'
+            dest.write_bytes(data)
     old=json.loads((baseline/'scene_specification.json').read_text());assert old['version']=='0.6'
     spec=copy.deepcopy(old);ids={'pilot':[13],'small':[13,5,15],'all':list(range(1,20))}[campaign]
     policy={};new_floor=cfg['floor_height_m']

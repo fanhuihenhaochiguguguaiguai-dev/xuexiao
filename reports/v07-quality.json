@@ -1,0 +1,212 @@
+{
+  "version": "0.7",
+  "overall": "PARTIAL_ACCEPTANCE_PHONE_HARDWARE_LIKENESS_AND_CHINA_HOSTING_PENDING",
+  "baseline_commit": "84a0d767127deb84fd740c78bed3045d11aee73b",
+  "baseline_inputs_verified_against_git": {
+    "assets/henan_campus/project/HenanCampus.blend": "e5619e5bf89a7b68fd61635eccc5421e7f6b117729109c05730ac40efb41cc90",
+    "assets/henan_campus/project/scene_specification.json": "b04d534d77c7534851f2717bc96065bde26d1da2e60b39dd090b59060fa14786",
+    "game/dist/assets/world.json": "17f1facea48dfc1684dd809908ea4575324e1892169dc36c7c88e8a2efe09a30",
+    "game/dist/assets/zones.json": "c66091a088889768cc36b1b758417def78a0642587cd78ec67085cbfc4c97ebd"
+  },
+  "correctness": {
+    "changed_storeys": 19,
+    "floor_rule_m": 3.9,
+    "regular_body_heights_passed": true,
+    "glb_fbx_roundtrip_passed": true,
+    "navigation_passed": true,
+    "world_sha256": "9f83c8d79babda0b6be47e9a26370303ea6af39435877c2d1a806b491a2b7899",
+    "source_glb_sha256": "0720fa78aff3f3f127aa58fc3599f51dc5caadf032467ec2a03f5da03a011603"
+  },
+  "finesse": {
+    "reference_archive": "reports/uploaded-photos-v07.json",
+    "photos": 13,
+    "confirmed_building": 13,
+    "curved_relief_visual_correction": "reports/v07-visual-revalidation.json",
+    "unlocated_photos_not_assigned_invented_coordinates": true,
+    "photoreal_school_match": false
+  },
+  "cost": {
+    "previous_triangles": 106217,
+    "triangles": 108317,
+    "increase_ratio": 0.019770846474669757,
+    "default_pixel_work_ratio": 0.4444444444444444,
+    "configured_shadow_map_area_ratio": 0.25,
+    "default_runtime_proof": {
+      "quality": "balanced",
+      "renderScale": 1,
+      "actualCanvas": [
+        915,
+        412
+      ],
+      "viewport": [
+        915,
+        412
+      ],
+      "shadowMapSize": 1024,
+      "localShadows": true,
+      "effects": {
+        "ssao": false,
+        "bloom": false,
+        "pcss": false,
+        "fog": false,
+        "active": true
+      },
+      "config": {
+        "version": "0.7",
+        "engine": "PlayCanvas 2.23.3",
+        "floorHeightMeters": 3.9,
+        "scale": "METRES; OSM XY and documented/estimated floors, not a survey certificate",
+        "renderer": {
+          "priority": [
+            "webgpu",
+            "webgl2"
+          ],
+          "minimumRenderScale": 0.75,
+          "maximumRenderScale": 1.5,
+          "actualSupersampling": "Fixed drawing-buffer resolution; independent of devicePixelRatio",
+          "defaultRenderScale": 1,
+          "profileSource": "game/quality-policy.js",
+          "phoneFrameCapTarget": 30
+        },
+        "shadows": {
+          "mapSize": 1024,
+          "cascades": 1,
+          "filter": "PCF3",
+          "pcssOptional": true,
+          "highQuality": "2048 / 2 cascades / PCF5"
+        },
+        "antialias": {
+          "type": "TAA",
+          "sharpness": 0.22,
+          "history": "neighborhood clamp, motion-adaptive blend, camera-cut/resize resets, character and water reactive regions"
+        },
+        "environment": {
+          "hdrSky": "self-authored analytical HDR",
+          "ibl": true,
+          "volumetricFogOptional": true
+        },
+        "water": {
+          "physicalModes": [
+            "wading",
+            "swimming"
+          ],
+          "buoyancyAndDrag": true,
+          "depth": "ESTIMATED_NOT_MEASURED",
+          "refraction": "HIGH_AND_ULTRA_ONLY",
+          "localHdrCubemaps": true,
+          "reflectionRefresh": "HIGH_AND_ULTRA_ONLY; nearby and budgeted"
+        },
+        "pbr": {
+          "authoredSourceSize": 4096,
+          "embeddedRuntimeSize": 1024,
+          "optionalRuntimeSize": 2048,
+          "gpuCompression": "NOT_IMPLEMENTED; PNG file compression and mipmaps only",
+          "transferCompression": "LOSSLESS_WEBP_DETAIL_NORMAL; embedded GLB maps remain PNG"
+        },
+        "ao": {
+          "baked": "Existing actual 2048px Cycles 6m near-field AO retained; static directional shadows reprojected for v0.7 height. New local facade details are not a full GI bake.",
+          "ssaoScale": 0.5
+        },
+        "streaming": {
+          "zones": 20,
+          "nearDetails": 140,
+          "unloadDetails": 195,
+          "coarseMappedBodiesRemainVisible": true,
+          "defaultMaximumResidentZones": 6
+        }
+      },
+      "features": {
+        "taa": true,
+        "reactiveCharacterAndWater": true,
+        "historyResets": 2,
+        "currentHistoryReset": false,
+        "sharpness": 0.22,
+        "hdr": true,
+        "ssaoScale": 0.5,
+        "colorGrading": true,
+        "volumetricFog": false,
+        "shadowMapSize": 1024,
+        "cascades": 1,
+        "shadowType": 0
+      },
+      "environment": {
+        "hdr": true,
+        "format": "RGBA16F",
+        "maximumRadiance": 11.481604937987225,
+        "ibl": true,
+        "atlasSize": 128,
+        "source": "SELF_AUTHORED_ANALYTIC_SKY_NOT_A_PHOTO_OF_THE_SCHOOL",
+        "publicHdriAttempt": "Poly Haven API returned 403; no retry or bypass"
+      },
+      "streaming": {
+        "zones": 20,
+        "loaded": [
+          13,
+          14,
+          18,
+          19
+        ],
+        "loading": 0,
+        "failed": [],
+        "disposed": 0,
+        "maxZones": 6,
+        "loadDistance": 140,
+        "coarseFallbackAlwaysVisible": true,
+        "position": {
+          "x": 31.999998092651367,
+          "y": 0.1850985503196716,
+          "z": 78
+        }
+      },
+      "textures": {
+        "limit": 1024,
+        "trackedTextures": 52,
+        "resizes": 10,
+        "detailStatus": "loaded",
+        "unsupportedSources": 0,
+        "transferCompression": "LOSSLESS_WEBP",
+        "gpuBlockCompression": false
+      }
+    },
+    "hardware_android_performance_verified": false
+  },
+  "browser": {
+    "full": "reports/v07-browser.json",
+    "incremental": "reports/v07-visual-revalidation.json",
+    "runtime_js_unchanged_since_full_acceptance": true,
+    "all_requests_same_origin": true
+  },
+  "remaining": [
+    "Most buildings lack verified photo-to-map identity; surveyed XY/height not established",
+    "Pavilion location unresolved; interiors and additional structures incomplete",
+    "Physical Android FPS, hardware WebGPU, thermal and battery testing",
+    "Domestic authorized HTTPS hosting and Mainland network validation; Baidu indexing"
+  ],
+  "failure_classes": [
+    {
+      "class": "BASELINE_RELATIVE_TEXTURE_PATH",
+      "resolution": "Reuse packed images; resolve known unembedded sources before packing",
+      "retry": "ONE_TARGETED_FIX"
+    },
+    {
+      "class": "OPTIONAL_DENOISER_NOT_AVAILABLE",
+      "resolution": "CPU reference render at 32 samples with denoising disabled",
+      "retry": "ONE_TARGETED_FIX"
+    },
+    {
+      "class": "STAIR_TEST_TRAVEL_WINDOW_TOO_SHORT",
+      "resolution": "Trace actual ascent; allow full approach plus climbing while retaining exact landing threshold",
+      "retry": "ONE_TARGETED_FIX"
+    },
+    {
+      "class": "CURVED_FACADE_STRAIGHT_PRIMITIVES",
+      "resolution": "Split construction at footprint segment boundaries; reimport/navigation and actual visual check",
+      "retry": "LOCAL_GEOMETRY_ONLY"
+    },
+    {
+      "class": "HOSTING_AUTHORIZATION_MISSING",
+      "resolution": "Portable HTTPS static ZIP prepared; Pages HTTP403 not retried or bypassed",
+      "status": "BLOCKED"
+    }
+  ]
+}

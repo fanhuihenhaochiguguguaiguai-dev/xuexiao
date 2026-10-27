@@ -1,9 +1,9 @@
 {
   "campus": {
     "passed": true,
-    "sha256": "2cb441ca7ed90cf0189dbdd2cc9390c0871a1d2f0e560059f7c89c07a8159130",
-    "triangles": 108101,
-    "vertices": 156586,
+    "sha256": "0720fa78aff3f3f127aa58fc3599f51dc5caadf032467ec2a03f5da03a011603",
+    "triangles": 108317,
+    "vertices": 157018,
     "position_extent_m": [
       722.0218811035156,
       73.44300055503845,
@@ -27,6 +27,7 @@
     "animations": [],
     "scope": "Geometry, buffers, finiteness and embedded texture signatures; not a likeness, survey, render or full glTF schema certification."
   },
-  "status": "GEOMETRY_NAVIGATION_REIMPORT_PASSED_BROWSER_QA_PENDING",
-  "source_sha256": "3660afa5209b98ffb1d5c363bf86deedcbfad44b4b59ade4fa15917373844344"
+  "status": "GEOMETRY_NAVIGATION_REIMPORT_AND_SCOPED_BROWSER_PASSED_HARDWARE_PENDING",
+  "source_sha256": "243eb6aa382f452dad4fa668d318ad6c6224b1a16b433210f756025d64cb7015",
+  "browser": "reports/v07-visual-revalidation.json"
 }
