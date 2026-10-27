@@ -1,8 +1,8 @@
 {
-  "id": "appgdep_6ae00076c6088191a7317e2a1ac42a7b",
+  "id": "appgdep_6ae00547d6a08191ac9ae95ea0abd685",
   "project_id": "appgprj_6adf2bcc8968819199bf5229a57b9972",
   "title": "河南经贸3D校园探索",
-  "version_id": "appgprj_6adf2bcc8968819199bf5229a57b9972~appgver_576c7c035e7c8191b20b32983e422be3",
+  "version_id": "appgprj_6adf2bcc8968819199bf5229a57b9972~appgver_0ed6f98374c08191af9ab1cf406b3b34",
   "type": "publish",
   "status": "succeeded",
   "url": "https://henan-jingmao-campus-play.earthyaspen11.chatgpt.site",
@@ -11,18 +11,19 @@
   "provider_deployment_id": "site---6adf2bcc8968819199bf5229a57b9972",
   "failure_message": null,
   "env_set_revision": 0,
-  "updated_at": "2026-10-27T01:38:30.812099+00:00",
+  "updated_at": "2026-10-27T01:58:49.882432+00:00",
   "version": "0.6",
   "build_id": "campus-v06-20261026-1",
-  "source_commit": "156bd032f52b0c51d54553e79f0e2a9d2d46e743",
-  "canonical_source_commit": "fb0a99c840e6362ef3940121ce54a5f79560e582",
-  "archive_sha256": "e29ccdcdb27dfaeb5dba2f5b23c11e743c94aad7c5a8370ce4edb1d3afd7f3c8",
+  "source_commit": "9a9efd164d8270a24f2f939c5b122c5cb21e85c6",
+  "canonical_source_commit": "3d69b8d932ddc8e2f43c218b76998e95b0d3062a",
+  "archive_sha256": "c406771c324f5f23fdac536f2a89737c3c266a45f80a971725e3c1246f68ed39",
   "audience": "PUBLIC",
   "verification": {
     "native_deployment": "SUCCEEDED",
     "local_renderer": "Chromium software WebGL2; actual graphics and interaction checks passed",
     "incremental_current_build": "reports/v06-incremental-validation.json",
-    "hardware_android_webgpu": "NOT_VERIFIED"
+    "hardware_android_webgpu": "NOT_VERIFIED",
+    "anonymous_public_access": "reports/public-sharing.json"
   },
   "access_policy": {
     "access_mode": "public",

@@ -1,0 +1,65 @@
+{
+  "checked_at": "2026-10-27T01:59:19.959041+00:00",
+  "url": "https://henan-jingmao-campus-play.earthyaspen11.chatgpt.site",
+  "audience": "PUBLIC",
+  "anonymous_request": true,
+  "cookies": false,
+  "authorization_headers": false,
+  "scope": "Anonymous HTTP delivery of the game page, program, scene configuration and GLB headers; prior gameplay validation retained; Android GPU performance not retested.",
+  "checks": [
+    {
+      "path": "/",
+      "status": 200,
+      "final_url": "https://henan-jingmao-campus-play.earthyaspen11.chatgpt.site/",
+      "content_type": "text/html",
+      "bytes": 9605,
+      "sha256": "51ec778665a0bb41c1199abb0de9d6bbc4dd0b8a879df439a18a966963951d4a",
+      "matches_deployed_source": true,
+      "stale_account_requirement_absent": true,
+      "passed": true
+    },
+    {
+      "path": "/game.js",
+      "status": 200,
+      "final_url": "https://henan-jingmao-campus-play.earthyaspen11.chatgpt.site/game.js",
+      "content_type": "text/javascript",
+      "bytes": 6626403,
+      "sha256": "550f81fa6271d0bc3b7117c4e2ea5b3bdfa9f40419cf285bba95c3040120af5f",
+      "matches_deployed_source": true,
+      "passed": true
+    },
+    {
+      "path": "/assets/world.json",
+      "status": 200,
+      "final_url": "https://henan-jingmao-campus-play.earthyaspen11.chatgpt.site/assets/world.json",
+      "content_type": "application/json",
+      "bytes": 636771,
+      "sha256": "17f1facea48dfc1684dd809908ea4575324e1892169dc36c7c88e8a2efe09a30",
+      "matches_deployed_source": true,
+      "passed": true
+    },
+    {
+      "path": "/assets/campus.glb",
+      "status": 200,
+      "final_url": "https://henan-jingmao-campus-play.earthyaspen11.chatgpt.site/assets/campus.glb",
+      "content_type": "application/octet-stream",
+      "magic": "glTF",
+      "version": 2,
+      "declared_bytes": 5634996,
+      "local_bytes": 5634996,
+      "passed": true
+    },
+    {
+      "path": "/assets/character.glb",
+      "status": 200,
+      "final_url": "https://henan-jingmao-campus-play.earthyaspen11.chatgpt.site/assets/character.glb",
+      "content_type": "application/octet-stream",
+      "magic": "glTF",
+      "version": 2,
+      "declared_bytes": 1715344,
+      "local_bytes": 1715344,
+      "passed": true
+    }
+  ],
+  "passed": true
+}
